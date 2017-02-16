@@ -1,0 +1,63 @@
+<html>
+	<head>
+	<script>
+	
+	function goto(url){
+		location.href=url;
+	}
+	</script>
+	<style>
+	.branchitem{
+		display: inline-block;
+		float:left;
+		width:25%;
+		text-align:center;
+		font-size:2em;
+		height:100%;
+	}
+	.branchitem:hover{
+		cursor:pointer;	
+	}
+	.color1{
+		background-color:#c4d6a0;
+		color:#50632a;
+	}
+	.color2{
+		background-color:#ffd965;
+		color:#7f6000;
+	}
+	.color3{
+		background-color:#d8948e;
+		color:#662a25;
+	}
+	.color4{
+		background-color:#999999;
+		color:#ecfdff;
+	}
+	.maintext{
+		position:fixed;
+		top:400px;
+		font-size:8em;
+		text-align:center;
+		left: 50%;
+		margin-left: -500px;
+		width:1000px;
+	}
+	.body{
+		text-align:center;
+	}
+	</style>
+	</head>
+	<body>
+		<div class="branchlink">
+						<div class="branchitem color1" onclick="goto('eco.html')">ÖKO</div>
+						<div class="branchitem color2" onclick="goto('food.html')">NYAMI</div>
+						<div class="branchitem color3" onclick="goto('gift.html')">AJÁNDÉK</div>
+						<div class="branchitem color4" onclick="goto('graph.html')">GRAFIKA</div>
+		</div>
+		<div class="maintext">
+			STÚDIO<font color="red">68</font>
+			<br><b><font size="5em;">TESZT OLDAL</font></b>
+		</div>
+	</body>
+</html>
