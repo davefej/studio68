@@ -1,5 +1,5 @@
 html { 
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4) ), url('/studio68/img/city.jpg') no-repeat center center fixed; 
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4) ), url('../img/city.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
