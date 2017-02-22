@@ -7,36 +7,42 @@ function init() {
         $('.nav_element').animate({
             color: "#000000"
         }, 800);
+        event.preventDefault()
     });
     
     $(".side_nav_element_1").click(function (){
         $('html, body').animate({
             scrollTop: $("#main").offset().top
         }, 800);
+        event.preventDefault()
     });
     
     $(".side_nav_element_2").click(function (){
         $('html, body').animate({
             scrollTop: $("#departments").offset().top
         }, 800);
+        event.preventDefault()
     });
     
     $(".side_nav_element_3").click(function (){
         $('html, body').animate({
             scrollTop: $("#timeline").offset().top
         }, 800);
+        event.preventDefault()
     });
     
     $(".side_nav_element_4").click(function (){
         $('html, body').animate({
             scrollTop: $("#team").offset().top
         }, 800);
+        event.preventDefault()
     });
     
     $(".side_nav_element_5").click(function (){
         $('html, body').animate({
             scrollTop: $("#contact").offset().top
         }, 800);
+        event.preventDefault()
     });
     
     window.addEventListener('scroll', function(e) {
