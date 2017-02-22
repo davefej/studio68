@@ -1,8 +1,17 @@
+html { 
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4) ), url('../img/city.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 body{
 	margin:0 auto;
-	background-color: white;
-	color:gray;
-	
+
+    color:white;
+    background-color: rgba(0,0,0,0);
+
 }
 
 
@@ -29,6 +38,7 @@ header{
 
 
 #htitle{
+    
 	display:none;
 }
 
@@ -64,6 +74,17 @@ header{
     font-family: "Oswald", sans-serif;       
     font-weight: 400;
 }
+
+
+=======
+.haeder2{
+	z-index: 200;
+
+	width: 100%;
+	height:130px;	
+    z-index: 9;
+}
+
 
 .shadow{
 	box-shadow: 0px 0px 10px 3px #000000;
@@ -167,6 +188,7 @@ header{
 	font-family: "Roboto Mono",Roboto,sans-serif;
 }
 
+
 .pointer{
 	color:gray;
 	text-decoration:none;
@@ -183,4 +205,85 @@ header{
 	float:right;
 	width:300px;
 	color:white;	
+}
+
+.branchitem{
+    display: inline-block;
+    float:left;
+    width:25%;
+    text-align:center;
+    font-size:2em;
+    height:100%;
+}
+.branchitem:hover{
+    cursor:pointer;	
+}
+.maintext{
+    font-family: 'Lobster', cursive;
+    position:fixed;
+    top:30%;
+    font-size:8em;
+    text-align:center;
+    left: 50%;
+    margin-left: -500px;
+    width:1000px;
+}
+.motto{
+    font-size:48;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.navbar.navbar-default {
+    width:100%;
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-align: center;
+}
+
+ul>li{
+    float: none;
+    display: inline-block;
+}
+
+.down_navigator{
+    position: relative;
+    top: 70%;
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    width: 100%;
+}
+
+.glyphicon {
+    font-size: 35px;
+
 }
