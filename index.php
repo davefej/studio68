@@ -1,7 +1,8 @@
 <?php
 $index = true;
+$header2 = false;
 $color1 = "white"; 
-$color2 = "#00838F";
+$color2 = "rgba(200, 54, 54, 0.3)";
 $title = "SZERVUSZ!";
 $slogen ="ÜDVÖZÖLJÜK A STUDIO68 TESZT OLDALÁN :)";
 require 'common/header.php';
