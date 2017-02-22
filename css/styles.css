@@ -1,3 +1,4 @@
+/*FIXED ELEMENTS*/
 body{
 	margin:0 auto;
 
@@ -6,12 +7,116 @@ body{
 
 }
 
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    float: none;
+    width: 100%;
+    color: white;
+}
+
+a.nav_element{
+    display: block;
+    color: white;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 14px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    font-size: 16px;
+}
+
+a.nav_element:hover{
+    display: block;
+    color: white;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 14px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+a.nav_element:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: #ffffff;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+a.nav_element:hover:before{
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.shadow{
+	box-shadow: 0px 0px 10px 3px #000000;
+}
+
+.navbar.navbar-default {
+    width:100%;
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-align: center;
+}
+
+ul>li{
+    float: none;
+    display: inline-block;
+}
+
+ul.nav a:hover { color: rgba(0,0,0,0); }
+
+.side_nav{
+    height:100%;
+    width:3%;
+    top:40%;
+    left: 95%;
+    position: fixed;
+}
+
+.side_nav_element{
+    color:white;
+}
+
+a.side_nav_element:hover{
+    color:white;
+}
+
+.glyphicon.glyphicon-one-fine-dot:before {
+    content: "\25cf";
+    font-size: 2.5em;
+}
+
 /*MAIN SEGMENT*/
 .main_segment{
     height: 100%;
     width: 100%;
     
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4) ), url('../img/city.jpg') no-repeat center center fixed; 
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1) ), url('../img/city.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -27,23 +132,36 @@ body{
     font-family: 'Lobster', cursive;
     font-size:8em;
     text-align:center;
-    padding-top:15%;
+    padding-top:20%;
     padding-left: 10%;
     padding-right:10%;
-    padding-bottom: 8%;
     width:100%;
 }
 
 .down_navigator{
     position: relative;
     text-align: center;
-    margin: 0 auto;
+    margin: 10% auto;
     float: none;
     width: 100%;
+    color: white;
 }
 
-.glyphicon {
+.glyphicon-chevron-down {
+    color:white;
     font-size: 35px;
+}
+
+/*DEPARTMENTS SEGMENT*/
+.departments_segment{
+    height: 100%;
+    width: 100%;
+    
+    background: linear-gradient( rgba(255, 255, 255, 1), rgba(255, 231, 231, 0.8) ) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /*TIMELINE SEGMENT*/
@@ -51,59 +169,39 @@ body{
     height: 100%;
     width: 100%;
     
-    background: linear-gradient( rgba(255, 255, 255, 1), rgba(255, 231, 231, 0.8) ) no-repeat center center fixed; 
+    background: linear-gradient( rgba(255, 255, 255, 1), rgba(255, 231, 231, 0.8) ) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-.shadow{
-	box-shadow: 0px 0px 10px 3px #000000;
-}
-
-
-
 .motto{
     font-size:48;
 }
 
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
+/*TEAM SEGMENT*/
+.team_segment{
+    height: 100%;
     width: 100%;
-    color: white;
+    
+    background: linear-gradient( rgba(255, 255, 255, 1), rgba(255, 231, 231, 0.8) ) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-}
-
-.active {
-    background-color: #4CAF50;
-}
-
-.navbar.navbar-default {
-    width:100%;
-    background-color: rgba(0,0,0,0);
-    border: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    text-align: center;
-}
-
-ul>li{
-    float: none;
-    display: inline-block;
+/*CONTACT SEGMENT*/
+.contact_segment{
+    height: 100%;
+    width: 100%;
+    
+    background: linear-gradient( rgba(255, 255, 255, 1), rgba(255, 231, 231, 0.8) ) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /*HEADER*/

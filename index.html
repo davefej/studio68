@@ -7,21 +7,32 @@
         <meta charset="UTF-8">
 	</head>
 	<body>
-        <div class="main_segment container-fluid">
-            <nav class="navbar navbar-default">
+        <div class="main_segment container-fluid" id="main">
+            <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
                 <div class="container-fluid">
-                    <div class="navbar-header">
+                    <div class="navbar-header" >
                         <ul>
-                            <li><a href="#">S68</a></li>
-                            <li><a href="#">Öko</a></li>
-                            <li><a href="#">Édesség</a></li>
-                            <li><a href="#">Ajándék</a></li>
-                            <li><a href="#">Grafika</a></li>
-                            <li><a href="#">Egyedi</a></li>
+                            <li><a href="#" class="nav_element">S68</a></li>
+                            <li><a href="#" class="nav_element">Öko</a></li>
+                            <li><a href="#" class="nav_element">Édesség</a></li>
+                            <li><a href="#" class="nav_element">Ajándék</a></li>
+                            <li><a href="#" class="nav_element">Grafika</a></li>
+                            <li><a href="#" class="nav_element">Egyedi</a></li>
+                            <li><a href="#" class="nav_element">Webshop</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
+            
+            <div>
+                <ul class="side_nav">
+                    <li><a href="#main" class="side_nav_element side_nav_element_1"><span class="glyphicon glyphicon-one-fine-dot"></span> </a></li>
+                    <li><a href="#departments" class=" side_nav_element side_nav_element_2"><span class="glyphicon glyphicon-one-fine-dot"></span> </a></li>
+                    <li><a href="#timeline" class="side_nav_element side_nav_element_3"><span class="glyphicon glyphicon-one-fine-dot"></span> </a></li>
+                    <li><a href="#team" class=" side_nav_element side_nav_element_4"><span class="glyphicon glyphicon-one-fine-dot"></span> </a></li>
+                    <li><a href="#contact" class=" side_nav_element side_nav_element_5"><span class="glyphicon glyphicon-one-fine-dot"></span> </a></li>
+                </ul>
+            </div>
             
             <div class="title-block">
                 <div class="maintext">
@@ -35,14 +46,42 @@
             </div>
         </div>
         
-        <div class="timeline_segment container-fluid" id="timeline">
-            
+        <div class="departments_segment container-fluid" id="departments">
+            <div class="title-block">
+                <div class="maintext" style="color:000000">
+                    Departments
+                </div>
+            </div>
         </div>
         
+        <div class="timeline_segment container-fluid" id="timeline">
+            <div class="title-block">
+                <div class="maintext" style="color:000000">
+                    Timeline
+                </div>
+            </div>
+        </div>
+        
+        <div class="team_segment container-fluid" id="team">
+            <div class="title-block">
+                <div class="maintext" style="color:000000">
+                    Team
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact_segment container-fluid" id="contact">
+            <div class="title-block">
+                <div class="maintext" style="color:000000">
+                    Contact
+                </div>
+            </div>
+        </div>
         <!-- Bootstrap core JavaScript
 	    ================================================== -->
 	    <!-- Placed at the end of the document so the pages load faster -->
         <script src="../studio68/js/jquery1.12.4.js"></script>
+        <script src="../studio68/js/jquery-ui.min.js"></script>
 	    <script src="../studio68/bootstrap/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/animations.js"></script>
 	</body>
