@@ -26,16 +26,16 @@ body{
 .maintext{
     font-family: 'Muli', sans-serif;
     font-weight: 300;
-    font-size:8vw;
+    font-size:12vh;
     text-align:center;
-    padding-top:10%;
+    padding-top:100px;
     padding-left: 10%;
     padding-right:10%;
     width:100%;
 }
 
 .motto{
-    font-size:5vw;
+    font-size:5vh;
 }
 
 .down_navigator{
@@ -47,7 +47,7 @@ body{
 
 .glyphicon-chevron-down {
     color:white;
-    font-size: 5vw;
+    font-size: 8vh;
 }
 
 /*DEPARTMENTS SEGMENT*/
@@ -55,14 +55,14 @@ body{
     height: 40%;
     width: 100%;
     padding: 10%;
-    color: #777777;
+    color: white;
     text-align: center;
-    
-    background: linear-gradient( rgba(255, 255, 255, 1), rgba(255, 231, 231, 0.8) ) no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    float: none;
+    background-color: black;
+}
+
+.departments_segment>.container{
+    width:100%;
 }
 
 /*TIMELINE SEGMENT*/
