@@ -1,5 +1,5 @@
 function init() {
-    $('.main_segment').vegas({
+    $('.main_segment, .quote').vegas({
         delay: 7000,
         timer: false,
         shuffle: true,
@@ -105,7 +105,7 @@ function init() {
             $('.glyphicon.glyphicon-one-fine-dot.active').removeClass('active');
             $('#4').addClass('active');
         }
-        else if(distanceY > 3*window_height + window_height/2 && distanceY < 4*window_height + window_height/2 ){
+        else if(distanceY > 3*window_height + window_height/2){
             $('span.glyphicon.glyphicon-one-fine-dot').css("color", "white");
             
             $('.glyphicon.glyphicon-one-fine-dot.active').removeClass('active');
