@@ -61,18 +61,18 @@ function init() {
     
     window.addEventListener('scroll', function(e) {
     var distanceY = window.pageYOffset || document.documentElement.scrollTop;
-    var window_height = document.getElementById("main").clientHeight - document.getElementById("navbar").clientHeight;     
+    var window_height = document.getElementById("main").offsetHeight - document.getElementById("navbar").offsetHeight;     
         if (distanceY < window_height){
             $('.nav_element').css("color", "white");
             $('head').append('<style>a.nav_element:before{background-color: white}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) )no-repeat fixed;}</style>');
         }
         else if (distanceY > window_height && distanceY < 3*window_height){
             $('.nav_element').css("color", "black");
-            $('head').append('<style>a.nav_element:before{background-color: black;}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) )no-repeat fixed;}</style>');
+            $('head').append('<style>a.nav_element:before{background-color: black;}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) )no-repeat fixed;border-bottom: rgba(0, 0, 0, 0.1) 1px solid;}</style>');
         }
         else if(distanceY > 3*window_height && distanceY < 4*window_height ){
            $('.nav_element').css("color", "white");
-            $('head').append('<style>a.nav_element:before{background-color: white}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) )no-repeat fixed;</style>');
+            $('head').append('<style>a.nav_element:before{background-color: white}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) )no-repeat fixed;border-bottom: rgba(255, 255, 255, 0.1) 1px solid;}</style>');
         }
         else if(distanceY > 4*window_height){
             $('.nav_element').css("color", "white");
