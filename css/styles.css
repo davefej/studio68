@@ -61,21 +61,6 @@ body{
     font-size: 8vh;
 }
 
-/*DEPARTMENTS SEGMENT*/
-.departments_segment{
-    height: 40%;
-    width: 100%;
-    padding: 10%;
-    color: white;
-    text-align: center;
-    float: none;
-    background-color: black;
-}
-
-.departments_segment>.container{
-    width:100%;
-}
-
 /*TIMELINE SEGMENT*/
 .timeline_segment{
     height: 100%;
@@ -150,3 +135,12 @@ header{
 	float: left;
 }
 
+@media only screen and (max-width: 1076px){
+    .timeline_segment{ height:1500px; }
+}
+
+@media only screen and (max-width: 800px){
+    .timeline_segment{ height:2000px; }
+    
+    .maintext2{ font-size: 6.2vw; }
+}

@@ -1,5 +1,5 @@
 function init() {
-    $('.main_segment, .quote').vegas({
+    $('.main_segment').vegas({
         delay: 7000,
         timer: false,
         shuffle: true,
@@ -57,52 +57,56 @@ function init() {
     window.addEventListener('scroll', function(e) {
         var distanceY = window.pageYOffset || document.documentElement.scrollTop;
         var nav_heigth = document.getElementById("navbar").offsetHeight;
-        var main_height = document.getElementById("main").clientHeight - nav_heigth;
-        var department_height = document.getElementById("departments").clientHeight - nav_heigth;
-        //Nincs benne a nav magassága, hogy szorzásnál ne tolódjon el.
-        var window_height = document.getElementById("main").clientHeight + document.getElementById("departments").clientHeight; 
-    
+        var main_height = document.getElementById("main").clientHeight;
+        var department_height = document.getElementById("departments").clientHeight + main_height;
+        var timeline_height = document.getElementById("timeline").clientHeight + department_height;
+        var team_height = document.getElementById("team").clientHeight + timeline_height;
+        var contact_height = document.getElementById("contact").clientHeight + team_height;
+        var window_height = window.screen.height;
         
-        if (distanceY < window_height - nav_heigth){
+        if (distanceY < department_height - nav_heigth){
             $('.nav_element').css("color", "white");
-            $('head').append('<style>a.nav_element:before{background-color: white}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;}</style>');
+            $('head').append('<style>.navbar-default .navbar-nav>li>a:before{background-color: white}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;}</style>');
         }
-        else if (distanceY > window_height - nav_heigth && distanceY < 2 * window_height - nav_heigth){
+        else if (distanceY > department_height - nav_heigth && distanceY < timeline_height - nav_heigth){
             $('.nav_element').css("color", "black");
-            $('head').append('<style>a.nav_element:before{background-color: black;}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) )no-repeat fixed;border-bottom: rgba(0, 0, 0, 0.1) 1px solid;}</style>');
+            $('head').append('<style>.navbar-default .navbar-nav>li>a:before{background-color: black;}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) )no-repeat fixed;border-bottom: rgba(0, 0, 0, 0.1) 1px solid;}</style>');
         }
-        else if(distanceY > 2 * window_height - nav_heigth && distanceY < 3 * window_height - nav_heigth ){
+        else if(distanceY > timeline_height - nav_heigth && distanceY < team_height - nav_heigth ){
            $('.nav_element').css("color", "white");
-            $('head').append('<style>a.nav_element:before{background-color: white}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;border-bottom: rgba(255, 255, 255, 0.1) 1px solid;}</style>');
+            $('head').append('<style>.navbar-default .navbar-nav>li>a:before{background-color: white}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;border-bottom: rgba(255, 255, 255, 0.1) 1px solid;}</style>');
         }
-        else if(distanceY > 3 * window_height - nav_heigth){
+        else if(distanceY > team_height - nav_heigth){
             $('.nav_element').css("color", "white");
-            $('head').append('<style>a.nav_element:before{background-color: white}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;}</style>');
+            $('head').append('<style>.navbar-default .navbar-nav>li>a:before{background-color: white}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;}</style>');
         }
         
-        if (distanceY < window_height/2){
+        if (distanceY < department_height - window_height/2){
             $('span.glyphicon.glyphicon-one-fine-dot').css("color", "white");
         }
-        else if (distanceY > window_height/2){
+        else if (distanceY > department_height - window_height/2){
             $('span.glyphicon.glyphicon-one-fine-dot').css("color", "black");
         }
         
-        if(distanceY < window_height/2){
+        if(distanceY < department_height - window_height/2){
             $('.glyphicon.glyphicon-one-fine-dot.active').removeClass('active');
             $('#1').addClass('active');
         }
         
-        else if(distanceY > window_height/2 && distanceY < window_height + window_height/2 ){
+        else if(distanceY > department_height - window_height/2 && distanceY < timeline_height - window_height/2 ){
+            $('span.glyphicon.glyphicon-one-fine-dot').css("color", "black");
+            
             $('.glyphicon.glyphicon-one-fine-dot.active').removeClass('active');
             $('#2').addClass('active');
         }
-        else if(distanceY > window_height + window_height/2 && distanceY < 2*window_height + window_height/2 ){
+        else if(distanceY > timeline_height - window_height/2 && distanceY < team_height - window_height/2 ){
             $('span.glyphicon.glyphicon-one-fine-dot').css("color", "white");
             
             $('.glyphicon.glyphicon-one-fine-dot.active').removeClass('active');
             $('#3').addClass('active');
         }
-        else if(distanceY > 2*window_height + window_height/2 && distanceY < 3*window_height + window_height/2 ){
+        else if(distanceY > team_height - window_height/2 && distanceY < contact_height - window_height/2 ){
+            $('span.glyphicon.glyphicon-one-fine-dot').css("color", "black");
             
             $('.glyphicon.glyphicon-one-fine-dot.active').removeClass('active');
             $('#4').addClass('active');
@@ -112,3 +116,105 @@ function init() {
 }
 
 window.onload = init();
+
+$(document).ready(function () {
+    var window_width = window.screen.availWidth;
+    if(window_width > 1076){
+        $("#eco").hover(function () {
+            $("head").append('<style>#eco{width:50%;}</style>');
+            $("head").append('<style>#food{width:10%;}</style>');
+            $("head").append('<style>#gifts{width:10%;}</style>');
+            $("head").append('<style>#fan{width:10%;}</style>');
+            $("head").append('<style>#printing{width:10%;}</style>');
+            $("head").append('<style>#custom{width:10%;}</style>');
+        });
+        $("#eco").mouseleave(function () {
+            $("head").append('<style>#custom{width:16.6%;}</style>');
+            $("head").append('<style>#eco{width:16.6%;}</style>');
+            $("head").append('<style>#food{width:16.6%;}</style>');
+            $("head").append('<style>#gifts{width:16.6%;}</style>');
+            $("head").append('<style>#fan{width:16.6%;}</style>');
+            $("head").append('<style>#printing{width:16.6%;}</style>');
+        });
+        $("#food").hover(function () {
+            $("head").append('<style>#food{width:50%;}</style>');
+            $("head").append('<style>#eco{width:10%;}</style>');
+            $("head").append('<style>#gifts{width:10%;}</style>');
+            $("head").append('<style>#fan{width:10%;}</style>');
+            $("head").append('<style>#printing{width:10%;}</style>');
+            $("head").append('<style>#custom{width:10%;}</style>');
+        });
+        $("#food").mouseleave(function () {
+            $("head").append('<style>#custom{width:16.6%;}</style>');
+            $("head").append('<style>#eco{width:16.6%;}</style>');
+            $("head").append('<style>#food{width:16.6%;}</style>');
+            $("head").append('<style>#gifts{width:16.6%;}</style>');
+            $("head").append('<style>#fan{width:16.6%;}</style>');
+            $("head").append('<style>#printing{width:16.6%;}</style>');
+        });
+        $("#gifts").hover(function () {
+            $("head").append('<style>#gifts{width:50%;}</style>');
+            $("head").append('<style>#food{width:10%;}</style>');
+            $("head").append('<style>#eco{width:10%;}</style>');
+            $("head").append('<style>#fan{width:10%;}</style>');
+            $("head").append('<style>#printing{width:10%;}</style>');
+            $("head").append('<style>#custom{width:10%;}</style>');
+        });
+        $("#gifts").mouseleave(function () {
+            $("head").append('<style>#custom{width:16.6%;}</style>');
+            $("head").append('<style>#eco{width:16.6%;}</style>');
+            $("head").append('<style>#food{width:16.6%;}</style>');
+            $("head").append('<style>#gifts{width:16.6%;}</style>');
+            $("head").append('<style>#fan{width:16.6%;}</style>');
+            $("head").append('<style>#printing{width:16.6%;}</style>');
+        });
+        $("#fan").hover(function () {
+            $("head").append('<style>#fan{width:50%;}</style>');
+            $("head").append('<style>#food{width:10%;}</style>');
+            $("head").append('<style>#gifts{width:10%;}</style>');
+            $("head").append('<style>#eco{width:10%;}</style>');
+            $("head").append('<style>#printing{width:10%;}</style>');
+            $("head").append('<style>#custom{width:10%;}</style>');
+        });
+        $("#fan").mouseleave(function () {
+            $("head").append('<style>#custom{width:16.6%;}</style>');
+            $("head").append('<style>#eco{width:16.6%;}</style>');
+            $("head").append('<style>#food{width:16.6%;}</style>');
+            $("head").append('<style>#gifts{width:16.6%;}</style>');
+            $("head").append('<style>#fan{width:16.6%;}</style>');
+            $("head").append('<style>#printing{width:16.6%;}</style>');
+        });
+        $("#printing").hover(function () {
+            $("head").append('<style>#printing{width:50%;}</style>');
+            $("head").append('<style>#food{width:10%;}</style>');
+            $("head").append('<style>#gifts{width:10%;}</style>');
+            $("head").append('<style>#fan{width:10%;}</style>');
+            $("head").append('<style>#eco{width:10%;}</style>');
+            $("head").append('<style>#custom{width:10%;}</style>');
+        });
+        $("#printing").mouseleave(function () {
+            $("head").append('<style>#custom{width:16.6%;}</style>');
+            $("head").append('<style>#eco{width:16.6%;}</style>');
+            $("head").append('<style>#food{width:16.6%;}</style>');
+            $("head").append('<style>#gifts{width:16.6%;}</style>');
+            $("head").append('<style>#fan{width:16.6%;}</style>');
+            $("head").append('<style>#printing{width:16.6%;}</style>');
+        });
+        $("#custom").hover(function () {
+            $("head").append('<style>#custom{width:50%;}</style>');
+            $("head").append('<style>#eco{width:10%;}</style>');
+            $("head").append('<style>#food{width:10%;}</style>');
+            $("head").append('<style>#gifts{width:10%;}</style>');
+            $("head").append('<style>#fan{width:10%;}</style>');
+            $("head").append('<style>#printing{width:10%;}</style>');
+        });
+        $("#custom").mouseleave(function () {
+            $("head").append('<style>#custom{width:16.6%;}</style>');
+            $("head").append('<style>#eco{width:16.6%;}</style>');
+            $("head").append('<style>#food{width:16.6%;}</style>');
+            $("head").append('<style>#gifts{width:16.6%;}</style>');
+            $("head").append('<style>#fan{width:16.6%;}</style>');
+            $("head").append('<style>#printing{width:16.6%;}</style>');
+        });
+    }
+});
