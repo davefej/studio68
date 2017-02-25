@@ -139,6 +139,10 @@ textarea.form-control{
 
 }
 
+@media only screen and (max-height: 780px){
+    .contact_segment{ height: 1300px; }
+}
+
 @media only screen and (max-width: 991px){
     .contact_segment{ height:1400px; }
     

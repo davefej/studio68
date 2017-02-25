@@ -65,7 +65,7 @@ function init() {
         
         if (distanceY < window_height - nav_heigth){
             $('.nav_element').css("color", "white");
-            $('head').append('<style>a.nav_element:before{background-color: white}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) )no-repeat fixed;}</style>');
+            $('head').append('<style>a.nav_element:before{background-color: white}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;}</style>');
         }
         else if (distanceY > window_height - nav_heigth && distanceY < 2 * window_height - nav_heigth){
             $('.nav_element').css("color", "black");
@@ -73,11 +73,11 @@ function init() {
         }
         else if(distanceY > 2 * window_height - nav_heigth && distanceY < 3 * window_height - nav_heigth ){
            $('.nav_element').css("color", "white");
-            $('head').append('<style>a.nav_element:before{background-color: white}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) )no-repeat fixed;border-bottom: rgba(255, 255, 255, 0.1) 1px solid;}</style>');
+            $('head').append('<style>a.nav_element:before{background-color: white}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;border-bottom: rgba(255, 255, 255, 0.1) 1px solid;}</style>');
         }
         else if(distanceY > 3 * window_height - nav_heigth){
             $('.nav_element').css("color", "white");
-            $('head').append('<style>a.nav_element:before{background-color: white}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) )no-repeat fixed;}</style>');
+            $('head').append('<style>a.nav_element:before{background-color: white}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;}</style>');
         }
         
         if (distanceY < window_height/2){
