@@ -1,4 +1,6 @@
 function init() {
+    $('#main-nav').addClass('active');
+    
     $('.main_segment').vegas({
         delay: 7000,
         timer: false,
@@ -7,10 +9,9 @@ function init() {
         firstTransitionDuration: 5000,
         transitionDuration: 2000,
         slides: [
-            { src: "/studio68/img/city.jpg" },
-            { src: "/studio68/img/flat.jpg" },
-            { src: "/studio68/img/snow.jpg" },
-            { src: "/studio68/img/sunset.jpg" }
+            { src: "img/airpod.jpg" },
+            { src: "img/airpod2.jpg"},
+            { src: "img/bw_person.jpg"}
         ],
         
         overlay: 'js/overlays/02.png'
@@ -18,40 +19,12 @@ function init() {
     
     $("#down_navigator_button").click(function () {
         $('html, body').animate({
-            scrollTop: $("#departments").offset().top
+            scrollTop: $("#timeline").offset().top
         }, 800);
         
         $('.nav_element').animate({
             color: "#000000"
         }, 800);
-    });
-    
-    $("#side_nav_element_1").click(function (){
-        $('html, body').animate({
-            scrollTop: $("#main").offset().top
-        }, 800);
-        event.preventDefault();
-    });
-    
-    $("#side_nav_element_2").click(function (){
-        $('html, body').animate({
-            scrollTop: $("#timeline").offset().top
-        }, 800);
-        event.preventDefault();
-    });
-    
-    $("#side_nav_element_3").click(function (){
-        $('html, body').animate({
-            scrollTop: $("#team").offset().top
-        }, 800);
-        event.preventDefault();
-    });
-    
-    $("#side_nav_element_4").click(function (){
-        $('html, body').animate({
-            scrollTop: $("#contact").offset().top
-        }, 800);
-        event.preventDefault();
     });
     
     window.addEventListener('scroll', function(e) {
@@ -62,6 +35,7 @@ function init() {
         var timeline_height = document.getElementById("timeline").clientHeight + department_height;
         var team_height = document.getElementById("team").clientHeight + timeline_height;
         var contact_height = document.getElementById("contact").clientHeight + team_height;
+        var quote_height = document.getElementById("quote").clientHeight;
         var window_height = window.screen.height;
         
         if (distanceY < department_height - nav_heigth){
@@ -81,35 +55,30 @@ function init() {
             $('head').append('<style>.navbar-default .navbar-nav>li>a:before{background-color: white}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;}</style>');
         }
         
-        if (distanceY < department_height - window_height/2){
-            $('span.glyphicon.glyphicon-one-fine-dot').css("color", "white");
-        }
-        else if (distanceY > department_height - window_height/2){
-            $('span.glyphicon.glyphicon-one-fine-dot').css("color", "black");
-        }
-        
         if(distanceY < department_height - window_height/2){
-            $('.glyphicon.glyphicon-one-fine-dot.active').removeClass('active');
-            $('#1').addClass('active');
+            $('#contact-nav').removeClass('active');
+            $('#team-nav').removeClass('active');
+            $('#timeline-nav').removeClass('active');
+            $('#main-nav').addClass('active');
         }
         
         else if(distanceY > department_height - window_height/2 && distanceY < timeline_height - window_height/2 ){
-            $('span.glyphicon.glyphicon-one-fine-dot').css("color", "black");
-            
-            $('.glyphicon.glyphicon-one-fine-dot.active').removeClass('active');
-            $('#2').addClass('active');
+            $('#contact-nav').removeClass('active');
+            $('#team-nav').removeClass('active');
+            $('#main-nav').removeClass('active');
+            $('#timeline-nav').addClass('active');
         }
-        else if(distanceY > timeline_height - window_height/2 && distanceY < team_height - window_height/2 ){
-            $('span.glyphicon.glyphicon-one-fine-dot').css("color", "white");
-            
-            $('.glyphicon.glyphicon-one-fine-dot.active').removeClass('active');
-            $('#3').addClass('active');
+        else if(distanceY > timeline_height - window_height/2 && distanceY < team_height  + quote_height - window_height/2 ){
+            $('#contact-nav').removeClass('active');
+            $('#timeline-nav').removeClass('active');
+            $('#main-nav').removeClass('active');
+            $('#team-nav').addClass('active');
         }
-        else if(distanceY > team_height - window_height/2 && distanceY < contact_height - window_height/2 ){
-            $('span.glyphicon.glyphicon-one-fine-dot').css("color", "black");
-            
-            $('.glyphicon.glyphicon-one-fine-dot.active').removeClass('active');
-            $('#4').addClass('active');
+        else if(distanceY > team_height  + quote_height - window_height/2 && distanceY < contact_height - window_height/2 ){
+            $('#timeline-nav').removeClass('active');
+            $('#team-nav').removeClass('active');
+            $('#main-nav').removeClass('active');
+            $('#contact-nav').addClass('active');
         }
         
      });
@@ -121,12 +90,12 @@ $(document).ready(function () {
     var window_width = window.screen.availWidth;
     if(window_width > 1076){
         $("#eco").hover(function () {
-            $("head").append('<style>#eco{width:50%;}</style>');
-            $("head").append('<style>#food{width:10%;}</style>');
-            $("head").append('<style>#gifts{width:10%;}</style>');
-            $("head").append('<style>#fan{width:10%;}</style>');
-            $("head").append('<style>#printing{width:10%;}</style>');
-            $("head").append('<style>#custom{width:10%;}</style>');
+            $("head").append('<style>#eco{width:70%;}</style>');
+            $("head").append('<style>#food{width:6%;}</style>');
+            $("head").append('<style>#gifts{width:6%;}</style>');
+            $("head").append('<style>#fan{width:6%;}</style>');
+            $("head").append('<style>#printing{width:6%;}</style>');
+            $("head").append('<style>#custom{width:6%;}</style>');
         });
         $("#eco").mouseleave(function () {
             $("head").append('<style>#custom{width:16.6%;}</style>');
@@ -137,12 +106,12 @@ $(document).ready(function () {
             $("head").append('<style>#printing{width:16.6%;}</style>');
         });
         $("#food").hover(function () {
-            $("head").append('<style>#food{width:50%;}</style>');
-            $("head").append('<style>#eco{width:10%;}</style>');
-            $("head").append('<style>#gifts{width:10%;}</style>');
-            $("head").append('<style>#fan{width:10%;}</style>');
-            $("head").append('<style>#printing{width:10%;}</style>');
-            $("head").append('<style>#custom{width:10%;}</style>');
+            $("head").append('<style>#food{width:70%;}</style>');
+            $("head").append('<style>#eco{width:6%;}</style>');
+            $("head").append('<style>#gifts{width:6%;}</style>');
+            $("head").append('<style>#fan{width:6%;}</style>');
+            $("head").append('<style>#printing{width:6%;}</style>');
+            $("head").append('<style>#custom{width:6%;}</style>');
         });
         $("#food").mouseleave(function () {
             $("head").append('<style>#custom{width:16.6%;}</style>');
@@ -153,12 +122,12 @@ $(document).ready(function () {
             $("head").append('<style>#printing{width:16.6%;}</style>');
         });
         $("#gifts").hover(function () {
-            $("head").append('<style>#gifts{width:50%;}</style>');
-            $("head").append('<style>#food{width:10%;}</style>');
-            $("head").append('<style>#eco{width:10%;}</style>');
-            $("head").append('<style>#fan{width:10%;}</style>');
-            $("head").append('<style>#printing{width:10%;}</style>');
-            $("head").append('<style>#custom{width:10%;}</style>');
+            $("head").append('<style>#gifts{width:70%;}</style>');
+            $("head").append('<style>#food{width:6%;}</style>');
+            $("head").append('<style>#eco{width:6%;}</style>');
+            $("head").append('<style>#fan{width:6%;}</style>');
+            $("head").append('<style>#printing{width:6%;}</style>');
+            $("head").append('<style>#custom{width:6%;}</style>');
         });
         $("#gifts").mouseleave(function () {
             $("head").append('<style>#custom{width:16.6%;}</style>');
@@ -169,12 +138,12 @@ $(document).ready(function () {
             $("head").append('<style>#printing{width:16.6%;}</style>');
         });
         $("#fan").hover(function () {
-            $("head").append('<style>#fan{width:50%;}</style>');
-            $("head").append('<style>#food{width:10%;}</style>');
-            $("head").append('<style>#gifts{width:10%;}</style>');
-            $("head").append('<style>#eco{width:10%;}</style>');
-            $("head").append('<style>#printing{width:10%;}</style>');
-            $("head").append('<style>#custom{width:10%;}</style>');
+            $("head").append('<style>#fan{width:70%;}</style>');
+            $("head").append('<style>#food{width:6%;}</style>');
+            $("head").append('<style>#gifts{width:6%;}</style>');
+            $("head").append('<style>#eco{width:6%;}</style>');
+            $("head").append('<style>#printing{width:6%;}</style>');
+            $("head").append('<style>#custom{width:6%;}</style>');
         });
         $("#fan").mouseleave(function () {
             $("head").append('<style>#custom{width:16.6%;}</style>');
@@ -185,12 +154,12 @@ $(document).ready(function () {
             $("head").append('<style>#printing{width:16.6%;}</style>');
         });
         $("#printing").hover(function () {
-            $("head").append('<style>#printing{width:50%;}</style>');
-            $("head").append('<style>#food{width:10%;}</style>');
-            $("head").append('<style>#gifts{width:10%;}</style>');
-            $("head").append('<style>#fan{width:10%;}</style>');
-            $("head").append('<style>#eco{width:10%;}</style>');
-            $("head").append('<style>#custom{width:10%;}</style>');
+            $("head").append('<style>#printing{width:70%;}</style>');
+            $("head").append('<style>#food{width:6%;}</style>');
+            $("head").append('<style>#gifts{width:6%;}</style>');
+            $("head").append('<style>#fan{width:6%;}</style>');
+            $("head").append('<style>#eco{width:6%;}</style>');
+            $("head").append('<style>#custom{width:6%;}</style>');
         });
         $("#printing").mouseleave(function () {
             $("head").append('<style>#custom{width:16.6%;}</style>');
@@ -201,12 +170,12 @@ $(document).ready(function () {
             $("head").append('<style>#printing{width:16.6%;}</style>');
         });
         $("#custom").hover(function () {
-            $("head").append('<style>#custom{width:50%;}</style>');
-            $("head").append('<style>#eco{width:10%;}</style>');
-            $("head").append('<style>#food{width:10%;}</style>');
-            $("head").append('<style>#gifts{width:10%;}</style>');
-            $("head").append('<style>#fan{width:10%;}</style>');
-            $("head").append('<style>#printing{width:10%;}</style>');
+            $("head").append('<style>#custom{width:70%;}</style>');
+            $("head").append('<style>#food{width:6%;}</style>');
+            $("head").append('<style>#gifts{width:6%;}</style>');
+            $("head").append('<style>#fan{width:6%;}</style>');
+            $("head").append('<style>#printing{width:6%;}</style>');
+            $("head").append('<style>#eco{width:6%;}</style>');
         });
         $("#custom").mouseleave(function () {
             $("head").append('<style>#custom{width:16.6%;}</style>');
@@ -217,4 +186,25 @@ $(document).ready(function () {
             $("head").append('<style>#printing{width:16.6%;}</style>');
         });
     }
+});
+
+$(document).ready(function(){
+    $('.awesome-tooltip').tooltip({
+        placement: 'left'
+    }); 
+    
+    $('#dot-nav li').click(function(){
+      
+        var id = $(this).find('a').attr("href"),
+          position,
+          element,
+          padding = 0;
+      
+        element = $(id);
+        position = ($(element).offset()||0).top - padding;
+      
+        $('html, body').animate({scrollTop:position}, 'slow');
+      
+        return false;
+    });
 });

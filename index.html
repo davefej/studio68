@@ -1,7 +1,7 @@
 <html>
 	<head>
         
-        <link href="https://fonts.googleapis.com/css?family=Muli:300,400|Raleway:300|Source+Code+Pro" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli:300|Raleway:300,900|Source+Code+Pro|Lora:400i" rel="stylesheet">
         <link href="../studio68/bootstrap/css/bootstrap.min.css" rel="stylesheet">
        
         <link rel="stylesheet" href="css/contact-style.css">
@@ -33,11 +33,12 @@
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li><a href="#" class="nav_element">S68</a></li>
+                            <li><a href="#" class="nav_element">Stúdió<font color="#f44336">68</font></a></li>
                             <li><a href="#" class="nav_element">Öko</a></li>
                             <li><a href="#" class="nav_element">Édesség</a></li>
                             <li><a href="#" class="nav_element">Ajándék</a></li>
-                            <li><a href="#" class="nav_element">Grafika</a></li>
+                            <li><a href="#" class="nav_element">Szurkolói</a></li>
+                            <li><a href="#" class="nav_element">Nyomda</a></li>
                             <li><a href="#" class="nav_element">Egyedi</a></li>
                             <li><a href="#" class="nav_element">Webshop</a></li>
                         </ul>
@@ -45,32 +46,21 @@
                 </div>
             </nav>
             
-            <div>
-                <ul class="side_nav side_nav2">
-                 <!--
-                   	<li><a href="#" class="side_nav_element active" id="side_nav_element_1"><span class="glyphicon glyphicon-one-fine-dot active" id="1"></span> </a></li>
-                    <li><a href="#" class=" side_nav_element" id="side_nav_element_2"><span class="glyphicon glyphicon-one-fine-dot" id="2"></span> </a></li>
-                    <li><a href="#" class="side_nav_element" id="side_nav_element_3"><span class="glyphicon glyphicon-one-fine-dot" id="3"></span> </a></li>
-                    <li><a href="#" class=" side_nav_element" id="side_nav_element_4"><span class="glyphicon glyphicon-one-fine-dot" id="4"></span> </a></li>
-                     -->                 
-                   
-                    <li><a href="#" class="side_nav_element active" id="side_nav_element_1"><img class="navcircleimg" src="img/home.png"/></a></li>                    
-                    <li><a href="#" class="side_nav_element" id="side_nav_element_2"><img class="navcircleimg" src="img/timeline.png"/> </a></li>
-                    <li><a href="#" class=" side_nav_element" id="side_nav_element_3"><img class="navcircleimg" src="img/team.png"/></a></li>
-                    <li><a href="#" class=" side_nav_element" id="side_nav_element_4"><img class="navcircleimg" src="img/contact.png"/></a></li>
-                    
-
-                </ul>
+            <div class="container">
+                <div data-spy="affix" id="dot-nav">
+                    <ul>
+                      <li class="awesome-tooltip" title="Kezdőoldal" id="main-nav"><a href="main"></a></li>
+                      <li class="awesome-tooltip" title="Cégünkről" id="timeline-nav"><a href="#timeline"></a></li>
+                      <li class="awesome-tooltip" title="Csapat" id="team-nav"><a href="#team"></a></li>
+                      <li class="awesome-tooltip" title="Kapcsolat" id="contact-nav"><a href="#contact"></a></li>
+                    </ul>
+                </div>
             </div>
             
-            <div class=".col-xs-12 title-block">
+            <div class="title-block">
                 <div class="maintext">
-                    Stúdió<font color="#f44336">68</font>
-                    <br><span class="motto">mások örömére...</span>
-                </div>
-	
-                <div class="down_navigator">
-                    <a href="#" id="down_navigator_button"><span class="glyphicon glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+                    <span class="title">Reklámajándék</span><br>
+                    <span class="motto">Mások Örömére</span>
                 </div>
             </div>
         </div>
@@ -80,22 +70,22 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-2 department " id="eco">
-                        ECO
+                        Öko
                     </div>
                     <div class="col-xs-12 col-md-2 department" id="food">
-                        FOOD
+                        Édesség
                     </div>
                     <div class="col-xs-12 col-md-2 department" id="gifts">
-                        GIFTS
+                        Ajándék
                     </div>
                     <div class="col-xs-12 col-md-2 department" id="fan">
-                        FAN
+                        Szurkolói
                     </div>
                     <div class="col-xs-12 col-md-2 department" id="printing">
-                        PRINTING
+                        Nyomda
                     </div>
                     <div class="col-xs-12 col-md-2 department" id="custom">
-                        CUSTOM
+                        Egyedi
                     </div>
                 </div>
             </div>
@@ -104,7 +94,7 @@
         <!--TIMELINE SEGMENT-->
         <div class="timeline_segment container-fluid" id="timeline">
             <div class="title-block">
-                <div class="maintext2" style="color:000000">
+                <div class="summary-block" style="color:000000">
                     <b>Egy név - ami kötelez, több üzletág - ami összehoz.<br/></b>
                     Ajándéktárgy? Textil? Emblémázás? ÖKO termékek? Páratlan promóciós finomságok?
                     Grafikai tervezés? Nyomda? Saját, dolgozói vagy partner Web shop? Merchandise termékek?
@@ -118,8 +108,8 @@
         </div>
         
         <!--QUOTES-->
-        <div class="quote">
-            
+        <div class="quote" id="quote">
+            "Idézet"
         </div>
         
         <!--TEAM SEGMENT-->
@@ -289,5 +279,6 @@
 	    <script src="../studio68/bootstrap/js/bootstrap.min.js"></script>
         <script src="js/vegas.js"></script>
         <script type="text/javascript" src="js/animations.js"></script>
+    
 	</body>
 </html>

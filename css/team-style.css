@@ -15,7 +15,6 @@
 
 .teamname{
 	font-family: 'Muli', sans-serif;
-	
 	font-size: 30px;	
 }
 
@@ -28,6 +27,7 @@
 }
 
 .teamsegmenttitle{
+    font-family: 'Muli', sans-serif;
 	text-align:center;
 	color:white;
 	margin-top:100px;
@@ -36,5 +36,5 @@
 }
 
 @media only screen and (max-width: 991px){
-    .team_segment{ height: 1800px;}
+    .team_segment{ height: 1900px;}
 }

@@ -85,49 +85,51 @@ button.navbar-toggle collapsed button.navbar-toggle:hover{
 
 /*SIDE NAVIGATION*/
 
-.side_nav{
-    padding-left:2; 
-    width: 25;
-    top:40%;
-    right: 15px;
-    position: fixed;
+#dot-nav{    
+	right: 10px;
+	top: 50%;
+	margin-top: -50px;
+	height: 100px;
+	z-index: 999;
 }
 
-span.glyphicon.glyphicon-one-fine-dot{
-    color: white;
-    font-size: 20;
-    margin-top: 14;
-    margin-bottom: 14;
+#dot-nav ul {
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+#dot-nav li {
+	position: relative;
+	background-color: white;
+	border-radius: 15px 15px 15px 15px;
+	cursor: pointer;
+	padding: 5px;
+	height: 15px;
+	margin: 15px 15px 0px 0px;
+	width: 15px;
+	vertical-align:bottom;
+}
+#dot-nav li.active, #dot-nav li:hover {
+	background-color: #f44336;
 }
 
-span.glyphicon.glyphicon-one-fine-dot:hover{
-    transform: scale(1.3);
-    -webkit-transform: scale(1.3);
+#dot-nav a {
+	outline: 0;
+	vertical-align:top;
+	margin: 0px 0px 0px 25px;
+	position: relative;
+	top:-5px;
 }
-
-span.glyphicon.glyphicon-one-fine-dot:before {
-    content: "\25cf";
-    height:auto;
+.awesome-tooltip + .tooltip > .tooltip-inner {
+    background-color: #f44336; 
+    color: white; 
+    border: 1px solid #f44336; 
 }
-
-span.glyphicon.glyphicon-one-fine-dot.active{
-     transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-}
-
-/*SIDEBAR WITH IMGs*/
-.navcircleimg{
-	z-index:9999;
-	width:40px;
-	padding-top:20px;
-    padding-bottom: 20px;
-}
-.navcircleimg:hover{
-	width:60px;
-}
-
-.side_nav2 {
-	z-index: 9999;
-	right: 20px;
-    width: 70px;
+.awesome-tooltip + .tooltip.left > .tooltip-arrow{
+    top:50%;
+    right:0;
+    margin-top:-5px;
+    border-top:5px solid transparent;
+    border-bottom:5px solid transparent;
+    border-left:5px solid #f44336;
 }
