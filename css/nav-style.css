@@ -72,7 +72,32 @@ button.navbar-toggle collapsed button.navbar-toggle:hover{
      -webkit-box-shadow: none;
      box-shadow: none;
      background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;
- }
+}
+
+
+.navbar.navbar-eco {
+     background: linear-gradient( rgba(56, 142, 60,0.9), rgba(0, 0, 0, 0) )no-repeat fixed;
+}
+.navbar.navbar-sweet {
+     background: linear-gradient( rgba(112, 79, 67, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;
+}
+.navbar.navbar-gift {
+     background: linear-gradient( rgba(161, 18, 18, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;
+}
+.navbar.navbar-fan {
+     background: linear-gradient( rgba(230, 145, 0, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;
+}
+.navbar.navbar-printing {
+     background: linear-gradient( rgba(129, 128, 126, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;
+}
+.navbar.navbar-reference {
+     background: linear-gradient( rgba(60, 76, 170, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;
+}
+.navbar.navbar-home {
+     background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;
+}
+
+
  
 .navbar .navbar-nav {
     display: inline-block;

@@ -15,6 +15,7 @@
 .department{
     height: 100%;
     padding-top:100px;
+     cursor:pointer;
 }
 
 #eco{
@@ -24,6 +25,7 @@
 
 #eco:hover{
     background-color: #a1d332;
+    background-color: rgb(48, 130, 55);
 }
 
 #food{
@@ -33,6 +35,7 @@
 
 #food:hover{
     background-color: #3d2704;
+     background-color:rgb(112, 79, 67);
 }
 
 #gifts{
@@ -42,6 +45,7 @@
 
 #gifts:hover{
     background-color: #e00901;
+    background-color:rgb(138, 15, 15);
 }
 
 #fan{
@@ -51,6 +55,7 @@
 
 #fan:hover{
     background-color: #dcad63;
+     background-color:rgb(204, 129, 0);
 }
 
 #printing{
@@ -60,6 +65,7 @@
 
 #printing:hover{
     background-color: #8d8c8a;
+     background-color:rgb(116, 115, 114);
 }
 
 #custom{
@@ -69,6 +75,7 @@
 
 #custom:hover{
     background-color: #62151c;
+     background-color:rgb(53, 68, 151);
 }
 
 @media only screen and (max-width: 1076px){

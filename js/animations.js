@@ -39,20 +39,28 @@ function init() {
         var window_height = window.screen.height;
         
         if (distanceY < department_height - nav_heigth){
-            $('.nav_element').css("color", "white");
-            $('head').append('<style>.navbar-default .navbar-nav>li>a:before{background-color: white}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;}</style>');
+        	if(window.location.href.indexOf("index.html") > -1){
+	            $('.nav_element').css("color", "white");
+	            $('head').append('<style>.navbar-default .navbar-nav>li>a:before{background-color: white}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;}</style>');
+        	}
         }
         else if (distanceY > department_height - nav_heigth && distanceY < timeline_height - nav_heigth){
-            $('.nav_element').css("color", "black");
-            $('head').append('<style>.navbar-default .navbar-nav>li>a:before{background-color: black;}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) )no-repeat fixed;border-bottom: rgba(0, 0, 0, 0.1) 1px solid;}</style>');
+        	if(window.location.href.indexOf("index.html") > -1){
+        		$('.nav_element').css("color", "black");
+        		$('head').append('<style>.navbar-default .navbar-nav>li>a:before{background-color: black;}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) )no-repeat fixed;border-bottom: rgba(0, 0, 0, 0.1) 1px solid;}</style>');
+        	}
         }
         else if(distanceY > timeline_height - nav_heigth && distanceY < team_height - nav_heigth ){
-           $('.nav_element').css("color", "white");
-            $('head').append('<style>.navbar-default .navbar-nav>li>a:before{background-color: white}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;border-bottom: rgba(255, 255, 255, 0.1) 1px solid;}</style>');
+        	if(window.location.href.indexOf("index.html") > -1){
+        		$('.nav_element').css("color", "white");
+        		$('head').append('<style>.navbar-default .navbar-nav>li>a:before{background-color: white}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;border-bottom: rgba(255, 255, 255, 0.1) 1px solid;}</style>');
+        	}
         }
         else if(distanceY > team_height - nav_heigth){
-            $('.nav_element').css("color", "white");
-            $('head').append('<style>.navbar-default .navbar-nav>li>a:before{background-color: white}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;}</style>');
+        	if(window.location.href.indexOf("index.html") > -1){
+        		$('.nav_element').css("color", "white");
+            	$('head').append('<style>.navbar-default .navbar-nav>li>a:before{background-color: white}.navbar.navbar-default{background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;}</style>');
+        	}
         }
         
         if(distanceY < department_height - window_height/2){
