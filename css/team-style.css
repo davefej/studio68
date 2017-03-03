@@ -23,6 +23,12 @@
 	font-size: 18px;
 }
 
+.teammail{
+	font-size: 15px;
+	text-decoration:none;
+	color:white;
+}
+
 .leftalign{
 	text-align:left;
 }

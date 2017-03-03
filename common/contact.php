@@ -13,8 +13,8 @@
                         <div class="well well-address">
                             <div class="address">
                                 <div class="contact_us">Elérhetőségek</div>
-                                1119<br>Budapest<br>Boglárka utca 32.<br><br><a href="mailto:info@studio68.hu">info@studio68.hu</a><br>
-                                (06)-1-203 2420<br>(06)-1-205 3005<br>(06)-1-203 8800
+                                1119<br><b>Budapest</b><br>Boglárka utca 32.<br><br><a href="mailto:info@studio68.hu">info@studio68.hu</a><br>
+                                <br><a href="tel:+36-1-203-2420">(06)-1-203-2420</a><br>
                             </div>
                         </div>
                     </div>

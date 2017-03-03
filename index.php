@@ -58,7 +58,7 @@ require_once 'common/topsegment.php';
         <!--TEAM SEGMENT-->
         <div class="team_segment container-fluid" id="team">
             <div class="title-block">
-             <h1 class="teamsegmenttitle">Kik vagyunk mi?</h1>
+             <h1 class="teamsegmenttitle">A CSAPAT</h1>
                     
                 
                 <div class="container">
@@ -73,8 +73,9 @@ require_once 'common/topsegment.php';
                                 </tr>
                                 <tr>
                                     <td class="teamtd">
-                                        <span class="teamname">Droszt Denisa</span><br/> 
-                                        <span class="teamtitle">Promóciós Vezető</span>
+                                      <span class="teamname">Plicher Zoltán</span><br/>
+                                        <span class="teamtitle">ügyvezető igazgató</span><br/>
+                                         <a class="teammail" href="mailto:zoltan@studio68.hu">zoltan@studio68.hu</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -84,7 +85,7 @@ require_once 'common/topsegment.php';
                                 </tr>
                                 <tr>
                                     <td class="teamtd ">
-                                        <span >Egy két mondat amivel összegezem miért szeretek a stúdió68nál dolgozni dolgozni</span>
+                                        <span >Vallom, hogy a megalkuvást nem ismerő, alázatos hivatás gyakorlása, kimunkálja azt a bizalmat, amely reménységet és hitet adhat a jövő célkitűzéseihez.</span>
                                     </td>
                                 </tr>
                             </table>
@@ -100,6 +101,7 @@ require_once 'common/topsegment.php';
                                     <td class="teamtd">
                                         <span class="teamname">Lőrincz András</span><br/> 
                                         <span class="teamtitle">kereskedelmi igazgató</span>
+                                        <br/><a class="teammail" href="mailto:andras@studio68.hu">andras@studio68.hu</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -123,8 +125,8 @@ require_once 'common/topsegment.php';
                                 </tr>
                                 <tr>
                                     <td class="teamtd">
-                                        <span class="teamname">Plicher Zoltán</span><br/>
-                                        <span class="teamtitle">ügyvezető igazgató</span>
+                                       <span class="teamname">Droszt Denisa</span><br/> 
+                                        <span class="teamtitle">Promóciós Vezető</span>
                                     </td>
                                 </tr>
                                 <tr>
@@ -134,7 +136,7 @@ require_once 'common/topsegment.php';
                                 </tr>
                                 <tr>
                                     <td class="teamtd ">
-                                        <span >Nem ismerünk lehetetlent, csak a csodákra kell 1-2 percet várni.</span>
+                                        <span >.......</span>
                                     </td>
                                 </tr>
                             </table>
@@ -159,7 +161,7 @@ require_once 'common/topsegment.php';
                                 </tr>
                                 <tr>
                                     <td class="teamtd ">
-                                        <span >Egy két mondat amivel összegezem miért szeretek a stúdió68nál dolgozni dolgozni</span>
+                                        <span >A lehetőségeket nem csak megkapni kell, hanem tudni is kell velük élni!</span>
                                     </td>
                                 </tr>
                             </table>
@@ -212,7 +214,7 @@ require_once 'common/topsegment.php';
                                 </tr>
                                 <tr>
                                     <td class="teamtd ">
-                                        <span >Egy két mondat amivel összegezem miért szeretek a stúdió68nál dolgozni dolgozni</span>
+                                        <span >Kiemelten figyelek arra, hogy mindig, minden időben és épségben célba érjen!</span>
                                     </td>
                                 </tr>
                             </table>
