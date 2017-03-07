@@ -76,22 +76,22 @@ button.navbar-toggle collapsed button.navbar-toggle:hover{
 
 
 .navbar.navbar-eco {
-     background: linear-gradient( rgba(56, 142, 60,0.9), rgba(0, 0, 0, 0) )no-repeat fixed;
+     background: linear-gradient( rgba(48, 130, 55,0.9), rgba(0, 0, 0, 0) )no-repeat fixed;
 }
 .navbar.navbar-sweet {
-     background: linear-gradient( rgba(112, 79, 67, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;
+     background: linear-gradient( rgba(163, 107, 70, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;
 }
 .navbar.navbar-gift {
-     background: linear-gradient( rgba(161, 18, 18, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;
+     background: linear-gradient( rgba(244, 67, 54, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;
 }
 .navbar.navbar-fan {
-     background: linear-gradient( rgba(230, 145, 0, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;
+     background: linear-gradient( rgba(255, 175, 57, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;
 }
 .navbar.navbar-printing {
-     background: linear-gradient( rgba(129, 128, 126, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;
+     background: linear-gradient( rgba(83, 115, 114, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;
 }
 .navbar.navbar-reference {
-     background: linear-gradient( rgba(60, 76, 170, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;
+     background: linear-gradient( rgba(53, 68, 151, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;
 }
 .navbar.navbar-home {
      background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) )no-repeat fixed;

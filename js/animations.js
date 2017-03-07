@@ -65,6 +65,9 @@ function init() {
             $('#team-nav').removeClass('active');
             $('#timeline-nav').removeClass('active');
             $('#main-nav').addClass('active');
+            
+            $('#dot-nav li').css("background-color", 'white');
+            $('#dot-nav li.active').css("background-color", '#f44336');
         }
         
         else if(distanceY > department_height - window_height/2 && distanceY < timeline_height - window_height/2 ){
@@ -72,18 +75,28 @@ function init() {
             $('#team-nav').removeClass('active');
             $('#main-nav').removeClass('active');
             $('#timeline-nav').addClass('active');
+            
+            $('#dot-nav li').css("background-color", 'black');
+            $('#dot-nav li.active').css("background-color", '#f44336');
+            
         }
         else if(distanceY > timeline_height - window_height/2 && distanceY < team_height  + quote_height - window_height/2 ){
             $('#contact-nav').removeClass('active');
             $('#timeline-nav').removeClass('active');
             $('#main-nav').removeClass('active');
             $('#team-nav').addClass('active');
+            
+            $('#dot-nav li').css("background-color", 'white');
+            $('#dot-nav li.active').css("background-color", '#f44336');
         }
         else if(distanceY > team_height  + quote_height - window_height/2 && distanceY < contact_height - window_height/2 ){
             $('#timeline-nav').removeClass('active');
             $('#team-nav').removeClass('active');
             $('#main-nav').removeClass('active');
             $('#contact-nav').addClass('active');
+            
+            $('#dot-nav li').css("background-color", 'white');
+            $('#dot-nav li.active').css("background-color", 'black');
         }
         
      });

@@ -54,7 +54,7 @@ require_once 'common/topsegment.php';
 
 <!--TIMELINE SEGMENT-->
 <div class="timeline_segment container-fluid" id="timeline">
-	<div class="teamsegmenttitle">
+	<div class="timeline-segment-title">
         Vállalkozásunk
     </div>
     <div class="summary-block">

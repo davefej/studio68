@@ -2,7 +2,7 @@
     height: 100%;
     width: 100%;
     
-    background: #151515 no-repeat center center; 
+    background: #181819 no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -95,8 +95,6 @@
   padding: 0;
   text-align: center;
   cursor: pointer;
-    border-right-color: #f44336;
-    border-right-width: thin;
 }
 
 
