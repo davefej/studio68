@@ -30,7 +30,7 @@
 	<div class="container">
 		<div data-spy="affix" id="dot-nav">
 			<ul>
-			<li class="awesome-tooltip" title="Kezdőoldal" id="main-nav"><a href="main"></a></li>
+			<li class="awesome-tooltip" title="Kezdőoldal" id="main-nav"><a href="#main"></a></li>
 			<li class="awesome-tooltip" title="Cégünkről" id="timeline-nav"><a href="#timeline"></a></li>
 			<li class="awesome-tooltip" title="Csapat" id="team-nav"><a href="#team"></a></li>
 			<li class="awesome-tooltip" title="Kapcsolat" id="contact-nav"><a href="#contact"></a></li>
@@ -40,7 +40,7 @@
 		
 	<div class="title-block">
 		<div class="maintext">
-		<?php if(isset($page) && $page=="home"){ ?> <span class="title">Reklámajándék</span><br> <?php }?> 
+		<?php if(isset($page) && $page=="home"){ ?> <span class="title">Stúdió<font color="#f44336">68</font></span><br> <?php }?> 
 			<span class="motto"><?php echo $motto; ?></span>
 		</div>
 	</div>

@@ -15,8 +15,10 @@
         <script src="../studio68/js/jquery-ui.min.js"></script>
 	    <script src="../studio68/bootstrap/js/bootstrap.min.js"></script>
         <script src="js/vegas.js"></script>
-         <script src="js/functions.js"></script>
+        <script src="js/functions.js"></script>
         <script type="text/javascript" src="js/animations.js"></script>
+        <script src="js/sly.min.js"></script>
+        <script type="text/javascript" src="js/team-js.js"></script>
     
 	</body>
 </html>

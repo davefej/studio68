@@ -66,11 +66,12 @@ body{
     height: 100%;
     width: 100%;
     
-    background: linear-gradient( rgba(200, 100, 100, 1), rgba(175, 150, 150, 1) ) no-repeat center center; 
+    background: linear-gradient( rgba(244, 67, 54, 1),rgba(244, 67, 54, 1),rgba(244, 67, 54, 1), rgba(21, 21, 21, 1) ) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    color:white;
 }
 
 .summary-block{
@@ -85,22 +86,8 @@ body{
 }
 
 
-/*TEAM SEGMENT*/
-.team_segment{
-    height: 100%;
-    width: 100%;
-    
-    background: #151515 no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow-y:scroll;
-}
+/*TEAM SEGMENT IS IN team.css*/
 
-.team_segment::-webkit-scrollbar {
-  display: none;
-}
 
 /*QUOTE*/
 .quote{

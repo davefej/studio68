@@ -9,12 +9,9 @@ function init() {
         firstTransitionDuration: 5000,
         transitionDuration: 2000,
         slides: [
-            { src: "img/airpod.jpg" },
-            { src: "img/airpod2.jpg"},
-            { src: "img/bw_person.jpg"}
-        ],
-        
-        overlay: 'js/overlays/02.png'
+            { src: "img/sydney.jpg" },
+            { src: "img/underground.jpg"}
+        ]
     });
     
     $("#down_navigator_button").click(function () {
@@ -98,7 +95,7 @@ $(document).ready(function () {
     var window_width = window.screen.availWidth;
     if(window_width > 1076){
         $("#eco").hover(function () {
-            $("head").append('<style>#eco{width:70%;}</style>');
+            $("head").append('<style>#eco{width:69%;}</style>');
             $("head").append('<style>#food{width:6%;}</style>');
             $("head").append('<style>#gifts{width:6%;}</style>');
             $("head").append('<style>#fan{width:6%;}</style>');
@@ -114,7 +111,7 @@ $(document).ready(function () {
             $("head").append('<style>#printing{width:16.6%;}</style>');
         });
         $("#food").hover(function () {
-            $("head").append('<style>#food{width:70%;}</style>');
+            $("head").append('<style>#food{width:69%;}</style>');
             $("head").append('<style>#eco{width:6%;}</style>');
             $("head").append('<style>#gifts{width:6%;}</style>');
             $("head").append('<style>#fan{width:6%;}</style>');
@@ -130,7 +127,7 @@ $(document).ready(function () {
             $("head").append('<style>#printing{width:16.6%;}</style>');
         });
         $("#gifts").hover(function () {
-            $("head").append('<style>#gifts{width:70%;}</style>');
+            $("head").append('<style>#gifts{width:69%;}</style>');
             $("head").append('<style>#food{width:6%;}</style>');
             $("head").append('<style>#eco{width:6%;}</style>');
             $("head").append('<style>#fan{width:6%;}</style>');
@@ -146,7 +143,7 @@ $(document).ready(function () {
             $("head").append('<style>#printing{width:16.6%;}</style>');
         });
         $("#fan").hover(function () {
-            $("head").append('<style>#fan{width:70%;}</style>');
+            $("head").append('<style>#fan{width:69%;}</style>');
             $("head").append('<style>#food{width:6%;}</style>');
             $("head").append('<style>#gifts{width:6%;}</style>');
             $("head").append('<style>#eco{width:6%;}</style>');
@@ -162,7 +159,7 @@ $(document).ready(function () {
             $("head").append('<style>#printing{width:16.6%;}</style>');
         });
         $("#printing").hover(function () {
-            $("head").append('<style>#printing{width:70%;}</style>');
+            $("head").append('<style>#printing{width:69%;}</style>');
             $("head").append('<style>#food{width:6%;}</style>');
             $("head").append('<style>#gifts{width:6%;}</style>');
             $("head").append('<style>#fan{width:6%;}</style>');
@@ -178,7 +175,7 @@ $(document).ready(function () {
             $("head").append('<style>#printing{width:16.6%;}</style>');
         });
         $("#custom").hover(function () {
-            $("head").append('<style>#custom{width:70%;}</style>');
+            $("head").append('<style>#custom{width:69%;}</style>');
             $("head").append('<style>#food{width:6%;}</style>');
             $("head").append('<style>#gifts{width:6%;}</style>');
             $("head").append('<style>#fan{width:6%;}</style>');
