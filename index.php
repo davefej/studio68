@@ -11,7 +11,7 @@ require_once 'common/topsegment.php';
 <div class="departments_segment container-fluid" id="departments">
 	<div class="container">
 		<div class="row">
-			<div onclick="goto('eco.php')" class="col-xs-12 col-md-2 department " id="eco">
+			<div onclick="goto('eco/eco.php')" class="col-xs-12 col-md-2 department " id="eco">
                 Öko
                 <div class="eco-opened">
                     Környezettudatos Reklámajándék
@@ -85,7 +85,7 @@ require_once 'common/topsegment.php';
               <div class="mousearea"></div>
             </div>
           </div>
-
+            
           <div class="frame" id="crazy">
             <ul class="clearfix">
                 <li>

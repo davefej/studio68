@@ -14,7 +14,7 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li><a href="index.php" class="nav_element">STÚDIÓ<font color="#f44336">68</font></a></li>
-					<li><a href="eco.php" class="nav_element">ÖKO</a></li>
+					<li><a href="eco/eco.php" class="nav_element">ÖKO</a></li>
 					<li><a href="sweet.php" class="nav_element">ÉDESSÉG</a></li>
 					<li><a href="gift.php" class="nav_element">AJÁNDÉK</a></li>
 					<li><a href="fan.php" class="nav_element">SZURKOLÓI</a></li>
@@ -32,7 +32,7 @@
 			<ul>
 			<li class="awesome-tooltip" title="Kezdőoldal" id="main-nav"><a href="#main"></a></li>
 			<li class="awesome-tooltip" title="Cégünkről" id="timeline-nav"><a href="#timeline"></a></li>
-			<li class="awesome-tooltip" title="Csapat" id="team-nav"><a href="#team"></a></li>
+            <li class="awesome-tooltip" title="Csapat" id="team-nav"><a href="#team"></a></li>
 			<li class="awesome-tooltip" title="Kapcsolat" id="contact-nav"><a href="#contact"></a></li>
 			</ul>
 		</div>
