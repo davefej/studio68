@@ -14,43 +14,57 @@ require_once 'common/topsegment.php';
 			<div onclick="goto('eco/eco.php')" class="col-xs-12 col-md-2 department " id="eco">
                 Öko
                 <div class="eco-opened">
-                    Környezettudatos Reklámajándék
+                    <br>
+                    Portfóliónkhoz kattintson
+                    <hr style="width: 20%;">
                 </div>
 			</div>
 			<div onclick="goto('sweet.php')" class="col-xs-12 col-md-2 department" id="food">
                 Édesség
                 <div class="food-opened">
-                    A páratlan finomságok tárháza
+                    <br>
+                    Portfóliónkhoz kattintson
+                    <hr style="width: 20%;">
                 </div>
 			</div>
 			<div onclick="goto('gift.php')" class="col-xs-12 col-md-2 department" id="gifts">
                 Ajándék
                 <div class="gifts-opened">
-                    Ügyfeleink örömére
+                    <br>
+                    Portfóliónkhoz kattintson
+                    <hr style="width: 20%;">
                 </div>
 			</div>
 			<div onclick="goto('fan.php')" class="col-xs-12 col-md-2 department" id="fan">
                 Szurkolói
                 <div class="fan-opened">
-                    Hallasd a hangod!
-                    Szurkolói ajándék
+                    <br>
+                    Portfóliónkhoz kattintson
+                    <hr style="width: 20%;">
                 </div>
 			</div>
 			<div onclick="goto('printing.php')" class="col-xs-12 col-md-2 department" id="printing">
                 Nyomda
                 <div class="printing-opened">
-                    Partnereink örömére
+                    <br>
+                    Portfóliónkhoz kattintson
+                    <hr style="width: 20%;">
                 </div>
 			</div>
-			<div onclick="goto('reference.php')" class="col-xs-12 col-md-2 department" id="custom">
-                Referenciák
+            <div onclick="goto('reference.php')" class="col-xs-12 col-md-2 department" id="custom">
                 <div class="custom-opened">
-                    Az elmúlt évek művei
+                    
                 </div>
 			</div>
 		</div>
 	</div>
 </div>
+
+<!--LAKOSSÁGI WEBSHOP-->
+<div class="webshop_segment" id="webshop">
+    Van lakossági webshopunk is!
+</div>
+
 
 <!--TIMELINE SEGMENT-->
 <div class="timeline_segment container-fluid" id="timeline">
@@ -69,9 +83,18 @@ require_once 'common/topsegment.php';
     </div>
 </div>
 
-<!--QUOTES-->
-<div class="quote" id="quote">
-"Idézet"
+<!--COUNTER SEGENT-->
+<div class="counter_segment container-fluid" id="counters">
+    <div class="row">
+        <div class="half-block" style="border-right: thin solid #f44336">
+            ÜGYFELEINK SZÁMA
+            <div class="count first-count">0</div>
+        </div>
+        <div class="half-block">
+            TERMÉKEINK SZÁMA
+            <div class="count second-count">0</div>
+        </div>
+    </div>
 </div>
       
 <!--TEAM SEGMENT-->
@@ -86,7 +109,7 @@ require_once 'common/topsegment.php';
             </div>
           </div>
             
-          <div class="frame" id="crazy">
+          <div class="frame" id="cyclepages">
             <ul class="clearfix">
                 <li>
                     <table class="teamtable">
@@ -271,8 +294,7 @@ require_once 'common/topsegment.php';
           <ul class="pages"></ul>
         </div>
     </div>
-</div>
-                
+</div>      
         
 <?php 
 require_once 'common/contact.php';

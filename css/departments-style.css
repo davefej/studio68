@@ -23,6 +23,7 @@
 }
 
 #eco{
+    font-size: 1.2em;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
     padding-top:100px;
@@ -30,7 +31,7 @@
 }
 
 #eco:hover{
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
 #eco:hover .eco-opened{
@@ -43,6 +44,7 @@
 }
 
 #food{
+    font-size: 1.2em;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
     padding-top:100px;
@@ -50,7 +52,7 @@
 }
 
 #food:hover{
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
 #food:hover .food-opened{
@@ -62,6 +64,7 @@
 }
 
 #gifts{
+    font-size: 1.2em;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
     padding-top:100px;
@@ -69,7 +72,7 @@
 }
 
 #gifts:hover{
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
 #gifts:hover .gifts-opened{
@@ -81,6 +84,7 @@
 }
 
 #fan{
+    font-size: 1.2em;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
     padding-top:100px;
@@ -88,7 +92,7 @@
 }
 
 #fan:hover{
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
 #fan:hover .fan-opened{
@@ -100,6 +104,7 @@
 }
 
 #printing{
+    font-size: 1.2em;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
     padding-top:100px;
@@ -107,7 +112,7 @@
 }
 
 #printing:hover{
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
 #printing:hover .printing-opened{
@@ -119,6 +124,7 @@
 }
 
 #custom{
+    font-size: 1.2em;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
     padding-top:100px;
@@ -126,7 +132,7 @@
 }
 
 #custom:hover{
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
 #custom:hover .custom-opened{

@@ -5,6 +5,7 @@ body{
     background-image: url("../img/city.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 }
 
 /*MAIN SEGMENT*/
@@ -61,6 +62,23 @@ body{
     color: #f44336;
 }
 
+/*WEBSHOP*/
+.webshop_segment{
+    height: 50px;
+    width: 100%;
+    background-color: #EB302B;
+    color: white;/*#31508F;*/
+    font-size: 1.5vw;
+    text-align: center;
+    padding: 1vh;
+    
+    transition: background-color 0.7s ease;
+}
+
+.webshop_segment:hover{
+    background-color: #31508F;/*#ba231f;*/
+}
+
 /*TIMELINE SEGMENT*/
 .timeline_segment{
     height: 100%;
@@ -97,37 +115,24 @@ body{
 /*TEAM SEGMENT IS IN team.css*/
 
 
-/*QUOTE*/
-.quote{
+/*COUNTER*/
+.counter_segment{
     height: 300px;
     width:100%;
     text-align: center;
-    color: white;
-    padding-top: 100px;
-    font-size: 4vw;
-    font-family: 'Lora', serif;
-    font-style: italic;
-    background-color: rgba(0,0,0,0.5);
+    color: #f44336;
+    font-size: 3vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    background-color: rgba(0,0,0,0.75);
 }
 
+.count{
+    margin: 5px;
+}
 /*CONTACT IS IN contact-style.css*/
 
 /*FOOTER*/
-.footer{
-    height:30%;
-    background-color: #009688;
-}
-
-
-@media only screen and (max-width: 1076px){
-    .timeline_segment{ height:1500px; }
-}
-
-@media only screen and (max-width: 800px){
-    .timeline_segment{ height:2000px; }
-    
-    .maintext2{ font-size: 6.2vw; }
-}
 
 .eco_text{
 	font-family: 'Muli', sans-serif;
@@ -150,9 +155,6 @@ body{
     width:100%;
    
 }
-
-
-
 
 
 .eco-color {

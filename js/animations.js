@@ -29,10 +29,11 @@ function init() {
         var nav_heigth = document.getElementById("navbar").offsetHeight;
         var main_height = document.getElementById("main").clientHeight;
         var department_height = document.getElementById("departments").clientHeight + main_height;
-        var timeline_height = document.getElementById("timeline").clientHeight + department_height;
+        var webshop_height = department_height + document.getElementById("webshop").clientHeight;
+        var timeline_height = document.getElementById("timeline").clientHeight + webshop_height;
         var team_height = document.getElementById("team").clientHeight + timeline_height;
         var contact_height = document.getElementById("contact").clientHeight + team_height;
-        var quote_height = document.getElementById("quote").clientHeight;
+        var counter_height = document.getElementById("counters").clientHeight;
         var window_height = window.screen.height;
         
         if (distanceY < department_height - nav_heigth){
@@ -80,7 +81,7 @@ function init() {
             $('#dot-nav li.active').css("background-color", '#f44336');
             
         }
-        else if(distanceY > timeline_height - window_height/2 && distanceY < team_height  + quote_height - window_height/2 ){
+        else if(distanceY > timeline_height - window_height/2 && distanceY < team_height  + counter_height - window_height/2 ){
             $('#contact-nav').removeClass('active');
             $('#timeline-nav').removeClass('active');
             $('#main-nav').removeClass('active');
@@ -89,7 +90,7 @@ function init() {
             $('#dot-nav li').css("background-color", 'white');
             $('#dot-nav li.active').css("background-color", '#f44336');
         }
-        else if(distanceY > team_height  + quote_height - window_height/2 && distanceY < contact_height - window_height/2 ){
+        else if(distanceY > team_height  + counter_height - window_height/2 && distanceY < contact_height - window_height/2 ){
             $('#timeline-nav').removeClass('active');
             $('#team-nav').removeClass('active');
             $('#main-nav').removeClass('active');
@@ -104,7 +105,7 @@ function init() {
 
 window.onload = init();
 
-$(document).ready(function () {
+/*$(document).ready(function () {
     var window_width = window.screen.availWidth;
     if(window_width > 1076){
         $("#eco").hover(function () {
@@ -204,7 +205,7 @@ $(document).ready(function () {
             $("head").append('<style>#printing{width:16.6%;}</style>');
         });
     }
-});
+});*/
 
 $(document).ready(function(){
     $('.awesome-tooltip').tooltip({
@@ -226,3 +227,17 @@ $(document).ready(function(){
         return false;
     });
 });
+
+/*$(document).ready(function(){
+   var options = {
+      useEasing : true, 
+      useGrouping : true, 
+      separator : ',', 
+      decimal : '.', 
+      prefix : '', 
+      suffix : '' 
+    };
+    var demo = new CountUp("counter1", 0, 3497, 0, 2.5, options);
+    demo.start(); 
+});*/
+

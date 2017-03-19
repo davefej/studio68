@@ -167,7 +167,7 @@ jQuery(function($) {
 
       // Cycling
       cycleBy: 'items',
-      cycleInterval: 1000,
+      cycleInterval: 500,
       pauseOnHover: 1,
 
       // Buttons
@@ -212,18 +212,18 @@ jQuery(function($) {
       scrollBy: 1,
       pagesBar: $wrap.find('.pages'),
       activatePageOn: 'click',
-      speed: 300,
+      speed: 3200,
       elasticBounds: 1,
-      easing: 'easeOutExpo',
+      easing: 'linear',
       dragHandle: 1,
       dynamicHandle: 1,
       clickBar: 1,
 
       // Cycling
       cycleBy: 'pages',
-      cycleInterval: 1000,
+      cycleInterval: 3200,
       pauseOnHover: 1,
-      startPaused: 1,
+      startPaused: 0,
 
       // Buttons
       prevPage: $wrap.find('.prevPage'),
