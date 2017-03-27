@@ -130,7 +130,24 @@ body{
 .count{
     margin: 5px;
 }
-/*CONTACT IS IN contact-style.css*/
+
+/*REFERENCES*/
+.references_segment{
+    height: 100%;
+    background-color: white;
+}
+
+.references_segment>.container>.row{
+    margin-bottom: 20px;
+}
+
+img.logos{
+    filter: grayscale(100%);
+}
+
+img.logos:hover{
+    filter: grayscale(0%);
+}
 
 /*FOOTER*/
 

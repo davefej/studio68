@@ -38,9 +38,9 @@
                         winTop = $win.scrollTop(),
                         winBottom = winTop + $win.height();
 
-                    if (elemBottom < winTop) {
+                    if (elemBottom < winTop - document.getElementById("timeline").clientHeight) {
                         return false;
-                    } else if (elemTop > winBottom) {
+                    } else if (elemTop > winBottom - document.getElementById("timeline").clientHeight) {
                         return false;
                     } else {
                         return true;
@@ -96,7 +96,7 @@
                 $(".first-count").each(function (i, el) {
                     var el = $(el);
                     if (el.visible() && !el.hasClass('counting')) {
-                        var duration = el.data('remaining') || 3200;
+                        var duration = el.data('remaining') || 4000;
                         console.log('duration', duration);
                         countStuffUp(first, '.first-count', duration);
                     } else if (!el.visible() && el.hasClass('counting')) {
@@ -109,7 +109,7 @@
                 $(".second-count").each(function (i, el) {
                     var el = $(el);
                     if (el.visible() && !el.hasClass('counting')) {
-                        var duration = el.data('remaining') || 3000;
+                        var duration = el.data('remaining') || 4000;
                         countStuffUp(second, '.second-count', duration);
                     } else if (!el.visible() && el.hasClass('counting')) {
                         el.data('counter').stop(true);

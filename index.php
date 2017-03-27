@@ -308,6 +308,98 @@ Bár látszólag „csak” papírmunka és számok tengere, én mégis örömme
     </div>
 </div>      
         
+<!--REFERENCES SEGMENT-->
+<div class="references_segment container-fluid" id="references">
+    <div class="segment_title" style="color: #f44336; margin-bottom: 50px;">
+        Referenciák
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo1.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo2.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo3.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo4.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo5.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo6.jpg" alt="" width="50%">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo7.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo8.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo9.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo10.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo11.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo12.jpg" alt="" width="50%">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo13.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo14.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo15.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo16.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo17.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo18.jpg" alt="" width="50%">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo19.tif" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo20.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo21.gif" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo22.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo23.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo24.jpg" alt="" width="50%">
+            </div>
+        </div>
+    </div>
+</div>
+
 <?php 
 require_once 'common/contact.php';
 require_once 'common/footer.php';
