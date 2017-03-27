@@ -16,9 +16,19 @@ body{
     text-align: center;
 }
 
+.main_segment{
+    padding: 0;
+}
+
 .title-block{
     width:100%;
-    height:60%;
+    height:100%;
+    text-align: center;
+}
+
+.title-block2{
+    width:100%;
+    height:100%;
     text-align: center;
 }
 
@@ -72,11 +82,14 @@ body{
     text-align: center;
     padding: 1vh;
     
+    
+    
     transition: background-color 0.7s ease;
 }
 
 .webshop_segment:hover{
     background-color: #31508F;/*#ba231f;*/
+    cursor: pointer;
 }
 
 /*TIMELINE SEGMENT*/

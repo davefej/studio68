@@ -11,7 +11,13 @@
 		
 		<link rel="stylesheet" href="css/team-style.css?v=<?php echo $version;?>">
 		<link rel="stylesheet" href="css/departments-style.css?v=<?php echo $version;?>">
-		<link rel="stylesheet" href="css/styles.css?v=<?php echo $version;?>">
+        
+        <?php
+        if(isset($page) && $page == "home")
+            echo '<link rel="stylesheet" href="css/styles.css?v='.$version.'">';
+        else
+            echo '<link rel="stylesheet" href="css/sub-styles.css?v='.$version.'">';
+        ?>
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="UTF-8">

@@ -21,14 +21,20 @@
         else
             echo '<script type="text/javascript" src="js/animations.js"></script>';
         ?>
-        <script src="js/sly.min.js"></script>
-        <script type="text/javascript" src="js/team-js.js"></script>
+
+        <script src='js/sly.min.js'></script>
+        <script type='text/javascript' src='js/team-js.js'></script>
         
         <script>
             (function ($) {
 
                 $.fn.visible = function () {
 
+                    var main_height = document.getElementById('main').clientHeight;
+                    var department_height = document.getElementById('departments').clientHeight + main_height;
+                    var webshop_height = department_height + document.getElementById('webshop').clientHeight;
+                    var timeline_height = document.getElementById('timeline').clientHeight + webshop_height;
+                    
                     var $element = $(this).eq(0),
                         $win = $(window),
 
@@ -38,11 +44,12 @@
                         winTop = $win.scrollTop(),
                         winBottom = winTop + $win.height();
 
-                    if (elemBottom < winTop - document.getElementById("timeline").clientHeight) {
+                    if (elemBottom < winTop) {
                         return false;
-                    } else if (elemTop > winBottom - document.getElementById("timeline").clientHeight) {
-                        return false;
-                    } else {
+                    
+                    } else if (elemTop > winBottom) {
+                        return false;}
+                        else {
                         return true;
                     }        
                 };
@@ -51,7 +58,7 @@
 
             function padNum(num) {
                 if (num < 10) {
-                    return " " + num;
+                    return ' ' + num;
                 }
                 return num;
             }
@@ -93,7 +100,7 @@
                 }
 
                 // Output to div
-                $(".first-count").each(function (i, el) {
+                $('.first-count').each(function (i, el) {
                     var el = $(el);
                     if (el.visible() && !el.hasClass('counting')) {
                         var duration = el.data('remaining') || 4000;
@@ -106,7 +113,7 @@
                 });
 
                 // Output to div
-                $(".second-count").each(function (i, el) {
+                $('.second-count').each(function (i, el) {
                     var el = $(el);
                     if (el.visible() && !el.hasClass('counting')) {
                         var duration = el.data('remaining') || 4000;

@@ -37,11 +37,14 @@
 			</ul>
 		</div>
 	</div>
-		
-	<div class="title-block">
+    <?php
+    if(isset($page) && $page == "home"){
+    echo '<div class="title-block2">
 		<div class="maintext">
-		<?php if(isset($page) && $page=="home"){ ?> <span class="title">Stúdió<font color="#e00901">68</font></span><br> <?php }?> 
-			<span class="motto"><?php echo $motto; ?></span>
+        <span class="title">Stúdió<font color="#e00901">68</font></span><br>
+			<span class="motto">'.$motto.'</span>
 		</div>
-	</div>
+	</div>';
+    }
+    ?>
 </div>

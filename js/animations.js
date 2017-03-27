@@ -1,7 +1,7 @@
 function init() {
     $('#main-nav').addClass('active');
     
-    $('.main_segment').vegas({
+    $('.title-block2').vegas({
         delay: 7000,
         timer: false,
         shuffle: true,

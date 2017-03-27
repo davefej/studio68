@@ -1,7 +1,7 @@
 <?php
+$page="home";
 require_once 'common/header.php';
 $motto = "Mások Örömére";
-$page="home";
 require_once 'common/topsegment.php';
 ?>
 
@@ -52,8 +52,11 @@ require_once 'common/topsegment.php';
                 </div>
 			</div>
             <div onclick="goto('reference.php')" class="col-xs-12 col-md-2 department" id="custom">
+                Kapcsolat
                 <div class="custom-opened">
-                    
+                    <br>
+                    Írjon nekünk!
+                    <hr style="width: 20%;">
                 </div>
 			</div>
 		</div>
@@ -64,7 +67,6 @@ require_once 'common/topsegment.php';
 <div class="webshop_segment" id="webshop">
     Van lakossági webshopunk is!
 </div>
-
 
 <!--TIMELINE SEGMENT-->
 <div class="timeline_segment container-fluid" id="timeline">
@@ -385,7 +387,7 @@ Bár látszólag „csak” papírmunka és számok tengere, én mégis örömme
                 <img class="logos" src="img/logok/logo20.jpg" alt="" width="50%">
             </div>
             <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo21.gif" alt="" width="50%">
+                <img class="logos" src="img/logok/logo21.jpg" alt="" width="50%">
             </div>
             <div class="col-sm-4 col-sm-2">
                 <img class="logos" src="img/logok/logo22.jpg" alt="" width="50%">
@@ -397,10 +399,53 @@ Bár látszólag „csak” papírmunka és számok tengere, én mégis örömme
                 <img class="logos" src="img/logok/logo24.jpg" alt="" width="50%">
             </div>
         </div>
+        
+        <div class="row">
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo25.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo26.gif" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo27.bmp" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo28.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo29.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo30.jpg" alt="" width="50%">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo31.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo32.bmp" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo33.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo34.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo35.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo36.png" alt="" width="50%">
+            </div>
+        </div>
     </div>
 </div>
 
 <?php 
+$page="home";
 require_once 'common/contact.php';
 require_once 'common/footer.php';
 ?>
