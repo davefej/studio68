@@ -131,7 +131,7 @@ require_once 'common/topsegment.php';
                             </td>
                         </tr>
                         <tr>
-                            <td class="teamtd ">
+                            <td class="teamtd teamtext">
                                 <span >Vallom, hogy a megalkuvást nem ismerő, alázatos hivatás gyakorlása, kimunkálja azt a bizalmat, amely reménységet és hitet adhat a jövő célkitűzéseihez.</span>
                             </td>
                         </tr>
@@ -141,7 +141,7 @@ require_once 'common/topsegment.php';
                     <table class="teamtable">
                         <tr>
                             <td class="teamtd">
-                                <img class="teamimg" src="img/nobody.png"/>
+                                <img class="teamimg" src="img/andras_profil.png"/>
                             </td>
                         </tr>
                         <tr>
@@ -157,7 +157,7 @@ require_once 'common/topsegment.php';
                             </td>
                         </tr>
                         <tr>
-                            <td class="teamtd ">
+                            <td class="teamtd teamtext">
                                 <span >Először tedd meg amit kell, aztán tedd meg amit lehet, utána a lehetetlen is sikerülni fog!</span>
                             </td>
                         </tr>
@@ -167,13 +167,15 @@ require_once 'common/topsegment.php';
                     <table class="teamtable">
                         <tr>
                             <td class="teamtd">
-                                <img class="teamimg" src="img/nobody.png"/>
+                                <img class="teamimg" src="img/deni_profil.png"/>
                             </td>
                         </tr>
                         <tr>
                             <td class="teamtd">
                                <span class="teamname">Droszt Denisa</span><br/> 
                                 <span class="teamtitle">Promóciós Vezető</span>
+                                 <br/><a class="teammail" href="mailto:denisa@studio68.hu">denisa@studio68.hu</a>
+                                
                             </td>
                         </tr>
                         <tr>
@@ -182,8 +184,8 @@ require_once 'common/topsegment.php';
                             </td>
                         </tr>
                         <tr>
-                            <td class="teamtd ">
-                                <span >.......</span>
+                            <td class="teamtd teamtext">
+                                <span >A minőségre törekszem, és akkor is próbálok jó munkát végezni, ha éppen nincs szem előtt!</span>
                             </td>
                         </tr>
                     </table>
@@ -192,13 +194,15 @@ require_once 'common/topsegment.php';
                     <table class="teamtable">
                         <tr>
                             <td class="teamtd">
-                                <img class="teamimg" src="img/nobody.png"/>
+                                <img class="teamimg" src="img/reni_profil.png"/>
                             </td>
                         </tr>
                         <tr>
                             <td class="teamtd">
                                 <span class="teamname">Ádám Renáta</span><br/> 
                                 <span class="teamtitle">Promóciós Szakértő</span>
+                                <br/><a class="teammail" href="mailto:renata@studio68.hu">renata@studio68.hu</a>
+                                
                             </td>
                         </tr>
                         <tr>
@@ -207,7 +211,7 @@ require_once 'common/topsegment.php';
                             </td>
                         </tr>
                         <tr>
-                            <td class="teamtd ">
+                            <td class="teamtd teamtext">
                                 <span >A lehetőségeket nem csak megkapni kell, hanem tudni is kell velük élni!</span>
                             </td>
                         </tr>
@@ -217,13 +221,15 @@ require_once 'common/topsegment.php';
                     <table class="teamtable">
                         <tr>
                             <td class="teamtd">
-                                <img class="teamimg" src="img/nobody.png"/>
+                                <img class="teamimg" src="img/evi_profil.png"/>
                             </td>
                         </tr>
                         <tr>
                             <td class="teamtd">
                                 <span class="teamname">Szabó Éva</span><br/> 
                                 <span class="teamtitle">promóciós asszisztens</span>
+                                <br/><a class="teammail" href="mailto:eva@studio68.hu">eva@studio68.hu</a>
+                                
                             </td>
                         </tr>
                         <tr>
@@ -232,7 +238,7 @@ require_once 'common/topsegment.php';
                             </td>
                         </tr>
                         <tr>
-                            <td class="teamtd ">
+                            <td class="teamtd teamtext">
                                 <span >Egy két mondat amivel összegezem miért szeretek a stúdió68nál dolgozni dolgozni</span>
                             </td>
                         </tr>
@@ -249,6 +255,8 @@ require_once 'common/topsegment.php';
                             <td class="teamtd">
                                 <span class="teamname">Lutze Róbert</span><br/> 
                                 <span class="teamtitle">logisztikai vezető</span>
+                                <br/><a class="teammail" href="mailto:robert@studio68.hu">robert@studio68.hu</a>
+                                
                             </td>
                         </tr>
                         <tr>
@@ -257,7 +265,7 @@ require_once 'common/topsegment.php';
                             </td>
                         </tr>
                         <tr>
-                            <td class="teamtd ">
+                            <td class="teamtd teamtext">
                                 <span >Kiemelten figyelek arra, hogy mindig, minden időben és épségben célba érjen!</span>
                             </td>
                         </tr>
@@ -274,6 +282,8 @@ require_once 'common/topsegment.php';
                             <td class="teamtd">
                                 <span class="teamname">Csorba Magdolna</span><br/>
                                 <span class="teamtitle">pénzügy / könyvelés</span>
+                                <br/><a class="teammail" href="mailto:magdolna@studio68.hu">magdolna@studio68.hu</a>
+                                
                             </td>
                         </tr>
                         <tr>
@@ -282,8 +292,10 @@ require_once 'common/topsegment.php';
                             </td>
                         </tr>
                         <tr>
-                            <td class="teamtd ">
-                                <span >Egy két mondat amivel összegezem miért szeretek a stúdió68nál dolgozni dolgozni</span>
+                            <td class="teamtd teamtext">
+                                <span >Szeretem a munkám. Hivatásomnak tekintem.
+Bár látszólag „csak” papírmunka és számok tengere, én mégis örömmel végzem.
+Érzem, hogy számítanak rám, és ez kellő motivációt ad a mindennapokhoz.</span>
                             </td>
                         </tr>
                     </table>
