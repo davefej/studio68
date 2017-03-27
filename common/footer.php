@@ -11,18 +11,18 @@
         <!-- Bootstrap core JavaScript
 	    ================================================== -->
 	    <!-- Placed at the end of the document so the pages load faster -->
-        <script src="http://localhost/studio68/js/jquery1.12.4.js"></script>
-        <script src="http://localhost/studio68/js/jquery-ui.min.js"></script>
-	    <script src="http://localhost/studio68/bootstrap/js/bootstrap.min.js"></script>
-        <script src="http://localhost/studio68/js/vegas.js"></script>
-        <script src="http://localhost/studio68/js/functions.js"></script>
+        <script src="js/jquery1.12.4.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+	    <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/vegas.js"></script>
+        <script src="js/functions.js"></script>
         <?php if($page == "eco")
-            echo '<script type="text/javascript" src="http://localhost/studio68/js/animation-eco.js"></script>';
+            echo '<script type="text/javascript" src="js/animation-eco.js"></script>';
         else
-            echo '<script type="text/javascript" src="http://localhost/studio68/js/animations.js"></script>';
+            echo '<script type="text/javascript" src="js/animations.js"></script>';
         ?>
-        <script src="http://localhost/studio68/js/sly.min.js"></script>
-        <script type="text/javascript" src="http://localhost/studio68/js/team-js.js"></script>
+        <script src="js/sly.min.js"></script>
+        <script type="text/javascript" src="js/team-js.js"></script>
         
         <script>
             (function ($) {
