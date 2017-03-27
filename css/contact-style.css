@@ -3,7 +3,7 @@
     height: 100%;
     width: 100%;
     
-    background: #f44336 no-repeat center center; 
+    background: #e00901 no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -110,7 +110,7 @@ textarea.form-control{
 
 .form-control.submit{
     margin-top:5;
-    background-color: #f44336;
+    background-color: #e00901;
     padding: 5;
     color: white;
     border-width: 0 0 4 0;

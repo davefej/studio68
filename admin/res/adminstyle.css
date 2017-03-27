@@ -1,5 +1,6 @@
 .adminhadercontainer{
 	text-align:center;
+	background-color:rgba(243,18,50,0.5);
 }
 
 .hirleveldiv{
@@ -39,4 +40,25 @@ td{
 	width:80%;
 	text-align:center;
 	    margin: auto;
+}
+
+.adminheader{
+	font-size:1.5em;
+}
+
+.hirleveltigth{
+	 width: 48%;
+    float:right; /* add this */
+   
+}
+
+.hirlevelleft{
+	 width: 48%;
+    float:left; /* add this */
+   
+}
+
+.hirlevel2{
+	display:inline-block;
+	    width: 90%;
 }

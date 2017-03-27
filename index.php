@@ -86,7 +86,7 @@ require_once 'common/topsegment.php';
 <!--COUNTER SEGENT-->
 <div class="counter_segment container-fluid" id="counters">
     <div class="row">
-        <div class="half-block" style="border-right: thin solid #f44336">
+        <div class="half-block" style="border-right: thin solid #e00901">
             ÜGYFELEINK SZÁMA
             <div class="count first-count">0</div>
         </div>
@@ -173,8 +173,8 @@ require_once 'common/topsegment.php';
                         <tr>
                             <td class="teamtd">
                                <span class="teamname">Droszt Denisa</span><br/> 
-                                <span class="teamtitle">Promóciós Vezető</span>
-                                 <br/><a class="teammail" href="mailto:denisa@studio68.hu">denisa@studio68.hu</a>
+                                <span class="teamtitle">promóciós vezető</span>
+                                 <br/><a class="teammail" href="mailto:deni@studio68.hu">deni@studio68.hu</a>
                                 
                             </td>
                         </tr>
@@ -200,8 +200,8 @@ require_once 'common/topsegment.php';
                         <tr>
                             <td class="teamtd">
                                 <span class="teamname">Ádám Renáta</span><br/> 
-                                <span class="teamtitle">Promóciós Szakértő</span>
-                                <br/><a class="teammail" href="mailto:renata@studio68.hu">renata@studio68.hu</a>
+                                <span class="teamtitle">promóciós szakértő</span>
+                                <br/><a class="teammail" href="mailto:reni@studio68.hu">reni@studio68.hu</a>
                                 
                             </td>
                         </tr>
@@ -255,7 +255,7 @@ require_once 'common/topsegment.php';
                             <td class="teamtd">
                                 <span class="teamname">Lutze Róbert</span><br/> 
                                 <span class="teamtitle">logisztikai vezető</span>
-                                <br/><a class="teammail" href="mailto:robert@studio68.hu">robert@studio68.hu</a>
+                                <br/><a class="teammail" href="mailto:logisztika@studio68.hu">logisztika@studio68.hu</a>
                                 
                             </td>
                         </tr>
@@ -282,7 +282,7 @@ require_once 'common/topsegment.php';
                             <td class="teamtd">
                                 <span class="teamname">Csorba Magdolna</span><br/>
                                 <span class="teamtitle">pénzügy / könyvelés</span>
-                                <br/><a class="teammail" href="mailto:magdolna@studio68.hu">magdolna@studio68.hu</a>
+                                <br/><a class="teammail" href="mailto:magdi@studio68.hu">magdi@studio68.hu</a>
                                 
                             </td>
                         </tr>
@@ -310,7 +310,7 @@ Bár látszólag „csak” papírmunka és számok tengere, én mégis örömme
         
 <!--REFERENCES SEGMENT-->
 <div class="references_segment container-fluid" id="references">
-    <div class="segment_title" style="color: #f44336; margin-bottom: 50px;">
+    <div class="segment_title" style="color: #e00901; margin-bottom: 50px;">
         Referenciák
     </div>
     <div class="container">
@@ -379,7 +379,7 @@ Bár látszólag „csak” papírmunka és számok tengere, én mégis örömme
         
         <div class="row">
             <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo19.tif" alt="" width="50%">
+                <img class="logos" src="img/logok/logo19.png" alt="" width="50%">
             </div>
             <div class="col-sm-4 col-sm-2">
                 <img class="logos" src="img/logok/logo20.jpg" alt="" width="50%">

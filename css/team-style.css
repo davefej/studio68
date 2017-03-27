@@ -105,7 +105,7 @@
     margin-left: 100px;
     margin-right: 100px;
   height: 2px;
-  background: #f44336;
+  background: #e00901;
   line-height: 0;
 }
 
@@ -147,11 +147,11 @@
 }
 
 .pages li:hover {
-  background: #f44336;
+  background: #e00901;
 }
 
 .pages li.active {
-  background: #f44336;
+  background: #e00901;
 }
 
 

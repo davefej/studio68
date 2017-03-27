@@ -22,7 +22,7 @@ require_once 'common/topsegment.php';
 			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a href="index.php" class="nav_element">STÚDIÓ<font color="#f44336">68</font></a></li>
+					<li><a href="index.php" class="nav_element">STÚDIÓ<font color="#e00901">68</font></a></li>
 					<li><a href="eco.php" class="nav_element">ÖKO</a></li>
 					<li><a href="sweet.php" class="nav_element">ÉDESSÉG</a></li>
 					<li><a href="gift.php" class="nav_element">AJÁNDÉK</a></li>

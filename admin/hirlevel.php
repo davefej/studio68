@@ -1,7 +1,7 @@
 
 <?php 
 
-$msg = "";
+$msg = "frissítheted a címlistát";
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	
 	if ( isset($_FILES["csv"])) {
@@ -61,56 +61,62 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <div class="hirleveldiv">
 	<div class="hirleveltitle">
 	Hírlevél
+	
 	</div>
-	<span class='hirlevelh2'>Új Cím lista</span> 
-	<form action="hirlevel.php" method="POST" enctype="multipart/form-data">
-		Feltölteni csv formátumban lehet a címlistát <br/>
-	(excellből menthető így a táblázat (save as UTF-8 csv format) <br/>
-	Két oszlop elsőben a nevek másodikban a hozzá tartozó email címek...
+	Feltölteni csv formátumban lehet a címlistát <br/>
+		(excellből menthető így a táblázat (save as UTF-8 csv format) <br/>
+		Két oszlop elsőben a nevek másodikban a hozzá tartozó email címek...<br/>
+	<div class="hirlevel2">
+		<div class="hirlevelleft">
+		<span class='hirlevelh2'>Új Cím lista</span> 
+		<form action="hirlevel.php" method="POST" enctype="multipart/form-data">
+			
+			<table class="hirleveltable" align="center">
+			
+				<tr>
+					<td>Új Cím lista feltöltése (Név;email) formátumú csv file
+					</td>
+				</tr>
+				<tr>	
+					<td><input type="file" name="csv">
+		  				<br/><input type="submit" value="feltölt">
+		  			</td>
+				<tr>
+					<td><span class='hirleveluploadmsg'><?php echo $msg; ?></span></td>
+				</tr>	
+			</table>
+		</form>
+		
+		</div>
+		<div class="hirleveltigth">
+		<span class='hirlevelh2'>Jelenlegi címlista:</span> 
 		<table class="hirleveltable" align="center">
-		
 			<tr>
-				<td>Új Cím lista feltöltése (Név;email) formátumú csv file
-				</td>
+				<th>Név</th>
+				<th>E-mail</th>
 			</tr>
-			<tr>	
-				<td><input type="file" name="csv">
-	  				<input type="submit" value="feltölt">
-	  			</td>
-			<tr>
-				<td><span class='hirleveluploadmsg'><?php echo $msg; ?></span></td>
-			</tr>	
-		</table>
-	</form>
-		<br/>
-	
-	<span class='hirlevelh2'>Jelenlegi címlista:</span> 
-	<table class="hirleveltable" align="center">
-		<tr>
-			<th>Név</th>
-			<th>E-mail</th>
-		</tr>
-		
-		<?php 
-		
-		if ($file = fopen("res/cimlista.csv", "r")) {
-			while(!feof($file)) {
-				$line = fgets($file);
-				if($line != false){
-					$data = explode(";", $line);
-				
-					echo "<tr><td>".$data[0]."</td><td>".$data[1]."</td></tr>";
+			
+			<?php 
+			
+			if ($file = fopen("res/cimlista.csv", "r")) {
+				while(!feof($file)) {
+					$line = fgets($file);
+					if($line != false){
+						$data = explode(";", $line);
+					
+						echo "<tr><td>".$data[0]."</td><td>".$data[1]."</td></tr>";
+					}
 				}
+				fclose($file);
 			}
-			fclose($file);
-		}
-		
-		?>
-	</table>
-	
+			
+			?>
+		</table>
+		</div>
+	</div>
 	<br/>
 	<br/>
-	<span class='hirlevelh2'>Hírlevél küldése:</span> 
+	<span class='hirlevelh2'>Hírlevél szerkesztése:</span> 
 	
 	<div class="hirleveltextarea">
 	 <textarea >Kedves #nev#!

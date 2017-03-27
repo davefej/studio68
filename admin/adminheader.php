@@ -9,7 +9,7 @@
 	<body>
 		<div class="adminhadercontainer" >
 			<div class="adminheader">
-			<a href="hirlevel.php">Hírlevél</a>
+			<a href="hirlevel.php">HÍRLEVÉL</a>
 			<a href="eco.php" >ÖKO</a>
 			<a href="sweet.php" >ÉDESSÉG</a>
 			<a href="gift.php" >AJÁNDÉK</a>
