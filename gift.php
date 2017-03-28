@@ -47,6 +47,8 @@ $motto = "Ügyfeleink Örömére";
     
     <div class="gift-title">
         Ügyfeleink örömére...
+        
+        <hr style="width: 10%; border-color:#333;">
     </div>
     
     <div class="gift-intro">

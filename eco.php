@@ -47,6 +47,9 @@ $page="eco";
 
     <div class="eco-title">
         Környezetünk örömére...
+        
+        <hr style="width: 10%; border-color:#333;">
+        
     </div>
     
     <div class="eco-intro">

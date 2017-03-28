@@ -46,6 +46,7 @@ $motto = "Nassolásunk Örömére";
     
     <div class="sweet-title">
         Nassolásunk örömére...
+        <hr style="width: 10%; border-color:#333;">
     </div>
     
     <div class="sweet-intro">
