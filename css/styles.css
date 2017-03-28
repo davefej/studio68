@@ -110,7 +110,7 @@ body{
     font-weight: 300;
     font-size:4vh;
     text-align:center;
-    padding-top:100px;
+    padding-top:20px;
     padding-left: 10%;
     padding-right:10%;
     width:100%;
@@ -120,7 +120,7 @@ body{
     font-family: 'Muli', sans-serif;
 	text-align:center;
 	color:black;
-	margin-top:80px;
+	margin-top:60px;
 	margin-bottom:35px;
 	font-size: 60px;
 }
@@ -206,5 +206,8 @@ img.logos:hover{
     background-color:rgb(53, 68, 151);
 }
 
+.segmentoverflow{
+	overflow:hidden;
+}
 
 

@@ -311,7 +311,7 @@ Bár látszólag „csak” papírmunka és számok tengere, én mégis örömme
 </div>      
         
 <!--REFERENCES SEGMENT-->
-<div class="references_segment container-fluid" id="references">
+<div class="references_segment container-fluid segmentoverflow" id="references">
     <div class="segment_title" style="color: #e00901; margin-bottom: 50px;">
         Referenciák
     </div>
