@@ -52,8 +52,8 @@ button.navbar-toggle collapsed button.navbar-toggle:hover{
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
-    -webkit-transition: all 0.25s ease-in-out 0s;
-    transition: all 0.25s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
     background-color: white;
 }
 

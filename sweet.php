@@ -1,7 +1,8 @@
 <?php
+$page="sweet";
 require_once 'common/header.php';
 $motto = "Nassolásunk Örömére";
-$page="sweet";
+
 ?>
 
 <!--MAIN SEGMENT-->
@@ -43,6 +44,15 @@ $page="sweet";
 		</div>
 	</div>
     
+    <div class="sweet-title">
+        Nassolásunk örömére...
+    </div>
+    
+    <div class="sweet-intro">
+        Minőségi, belga alapanyagból készült táblás –és kocka csokik, bonbonok, egyedi kivitelezésű és megjelenésű csokoládék, cukorkák, rágógumik, ostyák, nápolyik, minden mi szem-szájnak ingere.
+        Partnerei pozitív visszajelzésére bizton számíthat, ami így kezdődik majd: Hmmmmm…
+    </div>
+    
     <div class="container">
         <div class="row">
             <div class="col-md-8">
@@ -83,8 +93,9 @@ $page="sweet";
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="well promo">
-                    
+                <div class="well promo" id="gallery">
+                    <div class="gallery-open">Tekintse meg termékeinket
+                    </div>
                 </div>
             </div>
         </div>
@@ -92,14 +103,6 @@ $page="sweet";
 </div>
 
 <!--DEPARTMENT SEGMENT-->
-<div class="departments_segment container-fluid sweet-color" id="departments">
-	<div class="container">
-		<div class="department_text">
-		Minőségi, belga alapanyagból készült táblás –és kocka csokik, bonbonok, egyedi kivitelezésű és megjelenésű csokoládék, cukorkák, rágógumik, ostyák, nápolyik, minden mi szem-szájnak ingere.
-Partnerei pozitív visszajelzésére bizton számíthat, ami így kezdődik majd: Hmmmmm…
-		</div>
-	</div>
-</div>
 
 <!--TIMELINE SEGMENT-->
 

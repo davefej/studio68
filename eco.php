@@ -3,12 +3,11 @@ $page="eco";
 require_once 'common/header.php';
 $motto = "Környezetünk Örömére";
 $page="eco";
-require_once 'common/topsegment.php';
+//require_once 'common/topsegment.php';
 ?>
 
 
 <!--MAIN SEGMENT-->
-<!--
 <div class="main_segment container-fluid" id="main">
 	<nav  class="navbar navbar-default navbar-fixed-top <?php echo "navbar-".$page;?>" id="navbar">
 		<div class="container-fluid">
@@ -45,80 +44,67 @@ require_once 'common/topsegment.php';
 			</ul>
 		</div>
 	</div>
-		
-	<div class="title-block">
-		<div class="maintext">
-			
-		</div>
-	</div>
+
+    <div class="eco-title">
+        Környezetünk örömére...
+    </div>
+    
+    <div class="eco-intro">
+        Környezettudatos termékeink nem pusztán divatból kerültek be kínálatunkba.
+        Valljuk, hogy természetünk drága kincs, melyet óvni kell, nemcsak beszélni róla.
+        Amennyiben Ön is elkötelezett a természetvédelem területén, itt a lehetőség, hogy együtt forradalmasíthassuk meg az öko tudatos gondolkodást.
+        Rendeljen promóciós céljaihoz zöld termékeket.
+        Itt minden újrahasznosított. Vagy vízzel működik. Illetve napelemmel. Esetleg dinamóval.
+        Görget. És…
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="well" id="energy">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="well" id="energy-describe">
+                            Zöld Energia
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="well" id="textil-describe">
+                            Öko Textil termékek
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="well" id="textil">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="well promo" id="eco-gifts">
+                    <div class="eco-gifts-open">Öko Ajándékok</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="well promo" id="gallery">
+                    <div class="gallery-open">Tekintse meg termékeinket
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
--->
 <!--DEPARTMENT SEGMENT-->
-<div class=" departments_segment container-fluid eco-color" id="eco-main">
-	<div class="container">
-		<div class="row">
-			<div onclick="goto('eco.php')" class="col-xs-12 col-md-2 department " id="eco">
-                Öko
-                <div class="eco-opened">
-                    Környezettudatos Reklámajándék
-                </div>
-			</div>
-			<div onclick="goto('sweet.php')" class="col-xs-12 col-md-2 department" id="eco">
-                Édesség
-                <div class="eco-opened">
-                    A páratlan finomságok tárháza
-                </div>
-			</div>
-			<div onclick="goto('gift.php')" class="col-xs-12 col-md-2 department" id="eco">
-                Ajándék
-                <div class="eco-opened">
-                    Ügyfeleink örömére
-                </div>
-			</div>
-			<div onclick="goto('fan.php')" class="col-xs-12 col-md-2 department" id="eco">
-                Szurkolói
-                <div class="eco-opened">
-                    Hallasd a hangod!
-                    Szurkolói ajándék
-                </div>
-			</div>
-			<div onclick="goto('printing.php')" class="col-xs-12 col-md-2 department" id="eco">
-                Nyomda
-                <div class="eco-opened">
-                    Partnereink örömére
-                </div>
-			</div>
-			<div onclick="goto('reference.php')" class="col-xs-12 col-md-2 department" id="eco">
-                Referenciák
-                <div class="eco-opened">
-                    Az elmúlt évek művei
-                </div>
-			</div>
-		</div>
-	</div>
-</div>
 
 <!--TIMELINE SEGMENT-->
-<div class="timeline_segment container-fluid" id="eco-bio">
-	<div class="title-block">
-        <div class="timeline-segment-title">
-            Környezetünk
-        </div>
-		<div class="summary-block" style="color:000000">
-			Környezettudatos termékeink nem pusztán divatból kerültek be kínálatunkba.
-            Valljuk, hogy természetünk drága kincs, melyet óvni kell, nemcsak beszélni róla.
-            Amennyiben Ön is elkötelezett a természetvédelem területén, itt a lehetőség, hogy együtt forradalmasíthassuk meg az öko tudatos gondolkodást.
-            Rendeljen promóciós céljaihoz zöld termékeket.
-            Itt minden újrahasznosított. Vagy vízzel működik. Illetve napelemmel. Esetleg dinamóval.
-            Görget. És…
-		</div>
-	</div>
-</div>
 
 <!--QUOTES-->
-<div class="quote" id="quote">
-    "Idézet"
-</div>
       
 <?php 
 $page="eco";

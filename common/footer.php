@@ -23,7 +23,7 @@
         ?>
 
         <script src='js/sly.min.js'></script>
-        <script type='text/javascript' src='js/team-js.js'></script>
+        <script src='js/team-js.js'></script>
         
         <script>
             (function ($) {

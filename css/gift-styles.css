@@ -1,0 +1,219 @@
+body{
+	margin:0 auto;
+    color:white;
+    background-image: url("../img/city.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+}
+
+/*MAIN SEGMENT*/
+.main_segment.container-fluid{
+    min-height: 100%;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    
+    padding:20;
+    padding-top: 100px;
+}
+
+.gift-intro{
+    height: 20%;
+    width: 100%;
+    color: #333;
+    text-align: center;
+}
+
+div.container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.well{
+    padding: 0;
+}
+
+#gift-webshop{
+    background-image: url("../img/ajandek3.jpg");
+    background-size: 100% 250%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    
+    position: relative
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+#gift-webshop:after{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#gift-webshop:hover {
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
+}
+
+#gift-webshop:hover::after {
+  opacity: 1;
+}
+
+#gift-webshop-describe{
+    height: 350px;
+    background-color: #777;
+    border-width: 0 5 0 0;
+    border-color: #e00901;
+    padding-top: 20%;
+}
+
+#custom-gift{
+    background-image: url("../img/ajandek1.jpg");
+    background-size: 75% 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+#custom-gift:after{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#custom-gift:hover {
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
+}
+
+#custom-gift:hover::after {
+  opacity: 1;
+}
+
+#custom-gift-describe{
+    height:350px;
+    background-color: #777;
+    border-width: 0 0 0 5;
+    border-color: #e00901;
+    padding-top: 10%;
+}
+
+#textile{
+    text-align: center;
+    background-image: url("../img/textile.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    -webkit-transition : -webkit-filter 300ms linear
+    transition: background-size 300ms ease-out;
+    -moz-transition: background-size 300ms ease-out;
+    -ms-transition: background-size 300ms ease-out;
+    -o-transition: background-size 300ms ease-out;
+    -webkit-transition: background-size 200ms ease-out;
+}
+
+.textile-open{
+    display: none;
+}
+
+#textile.well.promo:hover{
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    background-size: 102% 102%;
+    cursor: pointer;
+}
+
+#textile.well.promo:hover .textile-open{
+    padding-top: 12%;
+    display: block;
+}
+
+#people-webshop{
+    text-align: center;
+    background-image: url("../img/.jpg");
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+    color: #333;
+    
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    -webkit-transition : -webkit-filter 250ms linear;
+    transition: background-size 250ms ease-out;
+    -moz-transition: background-size 250ms ease-out;
+    -ms-transition: background-size 250ms ease-out;
+    -o-transition: background-size 250ms ease-out;
+    -webkit-transition: background-size 250ms ease-out;
+}
+
+.people-webshop-open{
+    display: none;
+}
+
+#people-webshop.well.promo:hover{
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    background-size: 102% 122%;
+    cursor: pointer;
+}
+
+#people-webshop.well.promo:hover .people-webshop-open{
+    padding-top: 12%;
+    display: block;
+}
+
+#gallery{
+    text-align: center;
+    background-image: url("../img/.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #333;
+    
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    -webkit-transition : -webkit-filter 250ms linear;
+    transition: background-size 250ms ease-out;
+    -moz-transition: background-size 250ms ease-out;
+    -ms-transition: background-size 250ms ease-out;
+    -o-transition: background-size 250ms ease-out;
+    -webkit-transition: background-size 250ms ease-out;
+}
+
+.gallery-open{
+    display: none;
+}
+
+#gallery.well.promo:hover{
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    background-size: 102% 102%;
+    cursor: pointer;
+}
+
+#gallery.well.promo:hover .gallery-open{
+    padding-top: 12%;
+    display: block;
+}
+
+.promo{
+    height:300px;
+}

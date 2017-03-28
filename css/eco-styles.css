@@ -1,0 +1,181 @@
+body{
+	margin:0 auto;
+    color:white;
+    background-image: url("../img/city.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+}
+
+.main_segment.container-fluid{
+    min-height: 100%;
+    width: 100%;
+    background-color: #dfd;
+    text-align: center;
+    
+    padding:20;
+    padding-top: 100px;
+}
+
+div.container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.eco-intro{
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    color: #333;
+}
+
+.well{
+    padding: 0;
+}
+
+#energy{
+    background-image: url("../img/eco2.jpg");
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    height: 620px;
+    
+    position: relative
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+#energy:after{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#energy:hover {
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
+}
+
+#energy:hover::after {
+  opacity: 1;
+}
+
+#energy-describe{
+    height: 300px;
+    background-color: #FFF;
+    color: #333;
+    border-width: 0 5 0 0;
+    border-color: #3A3;
+    padding-top: 20%;
+}
+
+#textil{
+    background-image: url("../img/eco1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 620px;
+    
+    position: relative
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+#textil:after{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#textil:hover {
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
+}
+
+#textil:hover::after {
+  opacity: 1;
+}
+
+#textil-describe{
+    height:300px;
+    background-color: #FFF;
+    color: #333;
+    border-width: 0 0 0 5;
+    border-color: #3A3;
+    padding-top: 10%;
+}
+
+#eco-gifts{
+    text-align: center;
+    background-image: url("../img/eco5.jpg");
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    -webkit-transition : -webkit-filter 250ms linear
+    transition: background-size 250ms ease-out;
+    -moz-transition: background-size 250ms ease-out;
+    -ms-transition: background-size 250ms ease-out;
+    -o-transition: background-size 250ms ease-out;
+    -webkit-transition: background-size 200ms ease-out;
+}
+
+.eco-gifts-open{
+    display: none;
+}
+
+#eco-gifts.well.promo:hover{
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    background-size: 102% 132%;
+}
+
+#eco-gifts.well.promo:hover .eco-gifts-open{
+    padding-top: 12%;
+    display: block;
+}
+
+#gallery{
+    text-align: center;
+    background-image: url("../img/eco4.jpg");
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    -webkit-transition : -webkit-filter 250ms linear;
+    transition: background-size 250ms ease-out;
+    -moz-transition: background-size 250ms ease-out;
+    -ms-transition: background-size 250ms ease-out;
+    -o-transition: background-size 250ms ease-out;
+    -webkit-transition: background-size 250ms ease-out;
+}
+
+.gallery-open{
+    display: none;
+}
+
+#gallery.well.promo:hover{
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    background-size: 102% 122%;
+}
+
+#gallery.well.promo:hover .gallery-open{
+    padding-top: 12%;
+    display: block;
+}
+
+.promo{
+    height:300px;
+}

@@ -9,8 +9,23 @@ function init() {
         firstTransitionDuration: 5000,
         transitionDuration: 2000,
         slides: [
-            { src: "img/sydney.jpg" },
-            { src: "img/underground.jpg"}
+            { src: "img/main1.jpg" },
+            { src: "img/main2.jpg"},
+            { src: "img/main3.jpg"}
+        ]
+    });
+    
+    $('.fan-block').vegas({
+        delay: 7000,
+        timer: false,
+        shuffle: true,
+        firstTransition: 'fade',
+        firstTransitionDuration: 5000,
+        transitionDuration: 2000,
+        slides: [
+            { src: "img/fan1.jpeg" },
+            { src: "img/fan2.jpg"},
+            { src: "img/fan3.jpg"}
         ]
     });
     

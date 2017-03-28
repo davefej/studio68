@@ -212,7 +212,7 @@ jQuery(function($) {
       scrollBy: 1,
       pagesBar: $wrap.find('.pages'),
       activatePageOn: 'click',
-      speed: 3200,
+      speed: 4000,
       elasticBounds: 1,
       easing: 'linear',
       dragHandle: 1,
@@ -221,7 +221,7 @@ jQuery(function($) {
 
       // Cycling
       cycleBy: 'pages',
-      cycleInterval: 3200,
+      cycleInterval: 4000,
       pauseOnHover: 1,
       startPaused: 0,
 

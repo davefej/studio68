@@ -51,7 +51,7 @@ require_once 'common/topsegment.php';
                     <hr style="width: 20%;">
                 </div>
 			</div>
-            <div onclick="goto('reference.php')" class="col-xs-12 col-md-2 department" id="custom">
+            <div onclick="goto('#contact')" class="col-xs-12 col-md-2 department" id="custom">
                 Kapcsolat
                 <div class="custom-opened">
                     <br>
