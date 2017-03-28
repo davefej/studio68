@@ -16,6 +16,7 @@
 	    <script src="bootstrap/js/bootstrap.min.js"></script>
         <script src="js/vegas.js"></script>
         <script src="js/functions.js"></script>
+        <script src="js/bootbox.js"></script>
         <?php if($page == "home")
             echo '<script type="text/javascript" src="js/animations.js"></script>';
         ?>

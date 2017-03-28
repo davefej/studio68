@@ -10,6 +10,8 @@
 		<link rel="stylesheet" href="css/nav-style.css?v=<?php echo $version;?>">
 		<link rel="stylesheet" href="css/team-style.css?v=<?php echo $version;?>">
 		<link rel="stylesheet" href="css/departments-style.css?v=<?php echo $version;?>">
+		<link rel="stylesheet" href="css/bootbox.css?v=<?php echo $version;?>">
+		
         
         <?php
         if(isset($page) && $page == "home")

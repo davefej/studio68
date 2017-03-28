@@ -54,9 +54,9 @@ $page="eco";
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <div class="well" id="energy">
+                <div onclick="opengreenEnergy()" class="well" id="energy">
                     <div class="energy-open">
-                        <b>Zöld Energia</b>
+                        <b >Zöld Energia</b>
                     </div>
                 </div>
             </div>
@@ -99,12 +99,16 @@ $page="eco";
         </div>
     </div>
 </div>
+
+
 <!--DEPARTMENT SEGMENT-->
 
 <!--TIMELINE SEGMENT-->
 
 <!--QUOTES-->
       
+      
+     <script src="js/eco.js"></script>
 <?php 
 $page="eco";
 require_once 'common/contact.php';
