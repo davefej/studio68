@@ -31,18 +31,6 @@ $motto = "Nassolásunk Örömére";
 			</div>
 		</div>
 	</nav>
-		
-	<div class="container">
-		<div data-spy="affix" id="dot-nav">
-			<ul>
-			<li class="awesome-tooltip" title="Kezdőoldal" id="main-nav"><a href="#main"></a></li>
-			<li class="awesome-tooltip" title="Cégünkről" id="timeline-nav"><a href="#timeline"></a></li>
-            <li class="awesome-tooltip" title="Csapat" id="team-nav"><a href="#team"></a></li>
-            <li class="awesome-tooltip" title="Referenciák" id="reference-nav"><a href="#references"></a></li>
-			<li class="awesome-tooltip" title="Kapcsolat" id="contact-nav"><a href="#contact"></a></li>
-			</ul>
-		</div>
-	</div>
     
     <div class="sweet-title">
         Nassolásunk örömére...
@@ -60,42 +48,48 @@ $motto = "Nassolásunk Örömére";
                 <div class="row">
                     <div class="col-md-6">
                         <div class="well" id="chocolate">
+                            <div class="chocolate-open">
+                                <b>Csokoládék</b>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="well" id="chocolate-describe">
-                            Csokoládék
+                        <div class="well describe" id="chocolate-describe">
+                            Lorem ipsum dolor sit amet, lobortis ligula tellus. Eget at volutpat, in orci leo gravida wisi. Quam parturient feugiat in mauris, rhoncus montes pretium viverra volutpat, justo mauris metus sit, ad neque in eu at in donec, nullam tristique at et morbi. Eget convallis magna nibh quis, mi dapibus, rhoncus in viverra egestas aut turpis.
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="well" id="lollypop-describe">
-                            Promóciós édességek
+                        <div class="well describe" id="lollypop-describe">
+                            Lorem ipsum dolor sit amet, lobortis ligula tellus. Eget at volutpat, in orci leo gravida wisi. Quam parturient feugiat in mauris, rhoncus montes pretium viverra volutpat, justo mauris metus sit, ad neque in eu at in donec, nullam tristique at et morbi. Eget convallis magna nibh quis, mi dapibus, rhoncus in viverra egestas aut turpis.
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="well" id="lollypop">
+                    <div class="lollypop-open">
+                        <b>Promóciós édességek</b>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-4">
                 <div class="well promo" id="bonbon">
-                    <div class="bonbon-open">Nassolni valók</div>
+                    <div class="bonbon-open"><b>Nassolni valók</b></div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="well promo" id="custom-describe">
-                    <div class="custom-desc-open">Egyedi készítésű édességek
+                    <div class="custom-desc-open"><b>Egyedi készítésű édességek</b>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="well promo" id="gallery">
-                    <div class="gallery-open">Tekintse meg termékeinket
+                    <div class="gallery-open"><b>Tekintse meg termékeinket</b>
                     </div>
                 </div>
             </div>

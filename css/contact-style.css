@@ -8,8 +8,8 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-right: 40;
-    padding-left: 40;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 .segment_title{

@@ -32,18 +32,6 @@ $motto = "Ügyfeleink Örömére";
 			</div>
 		</div>
 	</nav>
-		
-	<div class="container">
-		<div data-spy="affix" id="dot-nav">
-			<ul>
-			<li class="awesome-tooltip" title="Kezdőoldal" id="main-nav"><a href="#main"></a></li>
-			<li class="awesome-tooltip" title="Cégünkről" id="timeline-nav"><a href="#timeline"></a></li>
-            <li class="awesome-tooltip" title="Csapat" id="team-nav"><a href="#team"></a></li>
-            <li class="awesome-tooltip" title="Referenciák" id="reference-nav"><a href="#references"></a></li>
-			<li class="awesome-tooltip" title="Kapcsolat" id="contact-nav"><a href="#contact"></a></li>
-			</ul>
-		</div>
-	</div>
     
     <div class="gift-title">
         Ügyfeleink örömére...
@@ -59,23 +47,29 @@ $motto = "Ügyfeleink Örömére";
         <div class="row">
             <div class="col-md-8">
                 <div class="well" id="gift-webshop">
+                    <div class="gift-webshop-open">
+                        <b>Webshop</b>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="well" id="gift-webshop-describe">
-                    Webshop
+                <div class="well describe" id="gift-webshop-describe">
+                    Lorem ipsum dolor sit amet, lobortis ligula tellus. Eget at volutpat, in orci leo gravida wisi. Quam parturient feugiat in mauris, rhoncus montes pretium viverra volutpat, justo mauris metus sit, ad neque in eu at in donec, nullam tristique at et morbi. Eget convallis magna nibh quis, mi dapibus, rhoncus in viverra egestas aut turpis.
                 </div>
             </div>
         </div>
         
         <div class="row">
             <div class="col-md-4">
-                <div class="well" id="custom-gift-describe">
-                    Egyedi gyártású ajándékok
+                <div class="well describe" id="custom-gift-describe">
+                    Lorem ipsum dolor sit amet, lobortis ligula tellus. Eget at volutpat, in orci leo gravida wisi. Quam parturient feugiat in mauris, rhoncus montes pretium viverra volutpat, justo mauris metus sit, ad neque in eu at in donec, nullam tristique at et morbi. Eget convallis magna nibh quis, mi dapibus, rhoncus in viverra egestas aut turpis.
                 </div>
             </div>
             <div class="col-md-8">
                 <div class="well" id="custom-gift">
+                    <div class="custom-gift-open">
+                        <b>Egyedi gyártású ajándékok</b>
+                    </div>
                 </div>
             </div>
         </div>
@@ -83,19 +77,20 @@ $motto = "Ügyfeleink Örömére";
         <div class="row">
             <div class="col-md-4">
                 <div class="well promo" id="textile">
-                    <div class="textile-open">Textilek &amp; Munkaruhák</div>
+                    <div class="textile-open"><b>Textilek &amp; Munkaruhák</b>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="well promo" id="people-webshop">
                     <div class="people-webshop-open">
-                        Lakossági webshopunk
+                        <b>Lakossági webshopunk</b>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="well promo" id="gallery">
-                    <div class="gallery-open">Tekintse meg termékeinket
+                    <div class="gallery-open"><b>Tekintse meg termékeinket</b>
                     </div>
                 </div>
             </div>

@@ -14,8 +14,7 @@ body{
     background-color: #fff;
     text-align: center;
     
-    padding:20;
-    padding-top: 100px;
+    padding:100px;
 }
 
 .sweet-title{
@@ -36,7 +35,7 @@ body{
     text-align: center;
     color: #777;
     font-size: 3vh;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 div.container{
@@ -53,6 +52,7 @@ div.container{
     background-image: url("../img/chocolate.jpg");
     background-size: 150% 100%;
     background-repeat: no-repeat;
+    background-position: center;
     height: 300px;
     
     position: relative
@@ -81,18 +81,37 @@ div.container{
   opacity: 1;
 }
 
+.chocolate-open{
+    margin-top: 18%;
+    font-family: Muli, 'sans-serif';
+    font-size: 4vh;
+    display: none;
+}
+
+#chocolate:hover .chocolate-open{
+    display: block;
+}
+
+.well.describe{
+    min-height: 300px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    padding-top: 15px;
+    font-family: Raleway, 'sans-serif';
+    font-size: 2vh;
+}
+
 #chocolate-describe{
-    height: 300px;
-    background-color: #777;
-    border-width: 0 5 0 0;
+    border-width: 1 5 1 1;
     border-color: #A52;
-    padding-top: 20%;
 }
 
 #lollypop{
     background-image: url("../img/lollypops.jpg");
     background-size: 150% 100%;
     background-repeat: no-repeat;
+    background-position: center;
     height: 620px;
     
     position: relative
@@ -121,12 +140,20 @@ div.container{
   opacity: 1;
 }
 
+.lollypop-open{
+    margin-top: 40%;
+    font-family: Muli, 'sans-serif';
+    font-size: 4vh;
+    display: none;
+}
+
+#lollypop:hover .lollypop-open{
+    display: block;
+}
+
 #lollypop-describe{
-    height:300px;
-    background-color: #777;
-    border-width: 0 0 0 5;
+    border-width: 1 1 1 5;
     border-color: #A52;
-    padding-top: 10%;
 }
 
 #bonbon{
@@ -134,24 +161,41 @@ div.container{
     background-image: url("../img/bonbon.jpg");
     background-size: 100% 120%;
     background-repeat: no-repeat;
+    background-position: center;
+    
     -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
     filter: grayscale(0%);
-    -webkit-transition : -webkit-filter 250ms linear
-    transition: background-size 250ms ease-out;
-    -moz-transition: background-size 250ms ease-out;
-    -ms-transition: background-size 250ms ease-out;
-    -o-transition: background-size 250ms ease-out;
-    -webkit-transition: background-size 200ms ease-out;
+    
+    position: relative
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
 }
 
 .bonbon-open{
     display: none;
 }
 
-#bonbon.well.promo:hover{
+#bonbon:after{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#bonbon:hover {
+    transform: scale(1.02, 1.02);
     -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
     filter: grayscale(100%);
-    background-size: 102% 122%;
+    cursor: pointer;
+}
+
+#bonbon:hover::after {
+  opacity: 1;
 }
 
 #bonbon.well.promo:hover .bonbon-open{
@@ -164,24 +208,41 @@ div.container{
     background-image: url("../img/flatchocolate.jpg");
     background-size: 100% 120%;
     background-repeat: no-repeat;
+    background-position: center;
+    
     -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
     filter: grayscale(0%);
-    -webkit-transition : -webkit-filter 250ms linear;
-    transition: background-size 250ms ease-out;
-    -moz-transition: background-size 250ms ease-out;
-    -ms-transition: background-size 250ms ease-out;
-    -o-transition: background-size 250ms ease-out;
-    -webkit-transition: background-size 250ms ease-out;
+    
+    position: relative
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+#custom-describe:after{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#custom-describe:hover {
+    transform: scale(1.02, 1.02);
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+#custom-describe:hover::after {
+  opacity: 1;
 }
 
 .custom-desc-open{
     display: none;
-}
-
-#custom-describe.well.promo:hover{
-    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-    filter: grayscale(100%);
-    background-size: 102% 122%;
 }
 
 #custom-describe.well.promo:hover .custom-desc-open{
@@ -194,24 +255,41 @@ div.container{
     background-image: url("../img/sweets.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    background-position: center;
+    
     -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
     filter: grayscale(0%);
-    -webkit-transition : -webkit-filter 250ms linear;
-    transition: background-size 250ms ease-out;
-    -moz-transition: background-size 250ms ease-out;
-    -ms-transition: background-size 250ms ease-out;
-    -o-transition: background-size 250ms ease-out;
-    -webkit-transition: background-size 250ms ease-out;
+    
+    position: relative
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+#gallery:after{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#gallery:hover {
+    transform: scale(1.02, 1.02);
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+#gallery:hover::after {
+  opacity: 1;
 }
 
 .gallery-open{
     display: none;
-}
-
-#gallery.well.promo:hover{
-    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-    filter: grayscale(100%);
-    background-size: 102% 102%;
 }
 
 #gallery.well.promo:hover .gallery-open{
@@ -221,4 +299,8 @@ div.container{
 
 .promo{
     height:300px;
+    padding-top: 8%;
+    font-family: Muli, 'sans-serif';
+    font-size: 4vh;
+    cursor: pointer;
 }

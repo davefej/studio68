@@ -7,6 +7,8 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 .teamtable{

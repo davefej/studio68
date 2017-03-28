@@ -14,8 +14,7 @@ body{
     background-color: #fff;
     text-align: center;
     
-    padding:20;
-    padding-top: 100px;
+    padding:100px;
 }
 
 .gift-title{
@@ -47,6 +46,17 @@ div.container{
 
 .well{
     padding: 0;
+}
+
+.well.describe{
+    min-height: 300px;
+    background-color: #777;
+    border-width: 0 5 0 0;
+    border-color: #A52;
+    padding: 10px;
+    padding-top: 15px;
+    font-family: Raleway, 'sans-serif';
+    font-size: 2vh;
 }
 
 #gift-webshop{
@@ -82,12 +92,23 @@ div.container{
   opacity: 1;
 }
 
+.gift-webshop-open{
+    margin-top: 10%;
+    font-family: Muli, 'sans-serif';
+    font-size: 4vh;
+    display: none;
+}
+
+#gift-webshop:hover .gift-webshop-open{
+    display: block;
+}
+
 #gift-webshop-describe{
     height: 350px;
-    background-color: #777;
-    border-width: 0 5 0 0;
+    background-color: white;
+    color: black;
+    border-width: 1 5 1 1;
     border-color: #e00901;
-    padding-top: 20%;
 }
 
 #custom-gift{
@@ -123,12 +144,23 @@ div.container{
   opacity: 1;
 }
 
+.custom-gift-open{
+    margin-top: 10%;
+    font-family: Muli, 'sans-serif';
+    font-size: 4vh;
+    display: none;
+}
+
+#custom-gift:hover .custom-gift-open{
+    display: block;
+}
+
 #custom-gift-describe{
     height:350px;
-    background-color: #777;
-    border-width: 0 0 0 5;
+    background-color: white;
+    color: black;
+    border-width: 1 1 1 5;
     border-color: #e00901;
-    padding-top: 10%;
 }
 
 #textile{
@@ -138,26 +170,40 @@ div.container{
     background-repeat: no-repeat;
     -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
     filter: grayscale(0%);
-    -webkit-transition : -webkit-filter 300ms linear
-    transition: background-size 300ms ease-out;
-    -moz-transition: background-size 300ms ease-out;
-    -ms-transition: background-size 300ms ease-out;
-    -o-transition: background-size 300ms ease-out;
-    -webkit-transition: background-size 200ms ease-out;
+    
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+#textile:after{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#textile:hover {
+    transform: scale(1.02, 1.02);
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+#textil:hover::after {
+  opacity: 1;
 }
 
 .textile-open{
     display: none;
 }
 
-#textile.well.promo:hover{
-    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-    filter: grayscale(100%);
-    background-size: 102% 102%;
-    cursor: pointer;
-}
-
-#textile.well.promo:hover .textile-open{
+#textile:hover .textile-open{
     padding-top: 12%;
     display: block;
 }
@@ -171,23 +217,37 @@ div.container{
     
     -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
     filter: grayscale(0%);
-    -webkit-transition : -webkit-filter 250ms linear;
-    transition: background-size 250ms ease-out;
-    -moz-transition: background-size 250ms ease-out;
-    -ms-transition: background-size 250ms ease-out;
-    -o-transition: background-size 250ms ease-out;
-    -webkit-transition: background-size 250ms ease-out;
+    
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+#people-webshop:after{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
 }
 
 .people-webshop-open{
     display: none;
 }
 
-#people-webshop.well.promo:hover{
+#people-webshop:hover {
+    transform: scale(1.02, 1.02);
     -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
     filter: grayscale(100%);
-    background-size: 102% 122%;
     cursor: pointer;
+}
+
+#people-webshop:hover::after {
+  opacity: 1;
 }
 
 #people-webshop.well.promo:hover .people-webshop-open{
@@ -204,23 +264,37 @@ div.container{
     
     -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
     filter: grayscale(0%);
-    -webkit-transition : -webkit-filter 250ms linear;
-    transition: background-size 250ms ease-out;
-    -moz-transition: background-size 250ms ease-out;
-    -ms-transition: background-size 250ms ease-out;
-    -o-transition: background-size 250ms ease-out;
-    -webkit-transition: background-size 250ms ease-out;
+    
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+#gallery:after{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#gallery:hover {
+    transform: scale(1.02, 1.02);
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+#gallery:hover::after {
+  opacity: 1;
 }
 
 .gallery-open{
     display: none;
-}
-
-#gallery.well.promo:hover{
-    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-    filter: grayscale(100%);
-    background-size: 102% 102%;
-    cursor: pointer;
 }
 
 #gallery.well.promo:hover .gallery-open{
@@ -230,4 +304,8 @@ div.container{
 
 .promo{
     height:300px;
+    padding-top: 8%;
+    font-family: Muli, 'sans-serif';
+    font-size: 4vh;
+    cursor: pointer;
 }

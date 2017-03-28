@@ -34,16 +34,6 @@ $page="eco";
 			</div>
 		</div>
 	</nav>
-		
-	<div class="container">
-		<div data-spy="affix" id="dot-nav">
-			<ul>
-			<li class="awesome-tooltip" title="Termékek" id="main-nav"><a href="#main"></a></li>
-			<li class="awesome-tooltip" title="Környezetünkről" id="timeline-nav"><a href="#timeline"></a></li>
-			<li class="awesome-tooltip" title="Kapcsolat" id="contact-nav"><a href="#contact"></a></li>
-			</ul>
-		</div>
-	</div>
 
     <div class="eco-title">
         Környezetünk örömére...
@@ -65,38 +55,44 @@ $page="eco";
         <div class="row">
             <div class="col-md-4">
                 <div class="well" id="energy">
+                    <div class="energy-open">
+                        <b>Zöld Energia</b>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="well" id="energy-describe">
-                            Zöld Energia
+                        <div class="well describe" id="energy-describe">
+                            Lorem ipsum dolor sit amet, lobortis ligula tellus. Eget at volutpat, in orci leo gravida wisi. Quam parturient feugiat in mauris, rhoncus montes pretium viverra volutpat, justo mauris metus sit, ad neque in eu at in donec, nullam tristique at et morbi. Eget convallis magna nibh quis, mi dapibus, rhoncus in viverra egestas aut turpis.
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="well" id="textil-describe">
-                            Öko Textil termékek
+                        <div class="well describe" id="textil-describe">
+                            Lorem ipsum dolor sit amet, lobortis ligula tellus. Eget at volutpat, in orci leo gravida wisi. Quam parturient feugiat in mauris, rhoncus montes pretium viverra volutpat, justo mauris metus sit, ad neque in eu at in donec, nullam tristique at et morbi. Eget convallis magna nibh quis, mi dapibus, rhoncus in viverra egestas aut turpis.
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="well" id="textil">
+                    <div class="textil-open">
+                        <b>Öko Textil termékek</b>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6">
                 <div class="well promo" id="eco-gifts">
-                    <div class="eco-gifts-open">Öko Ajándékok</div>
+                    <div class="eco-gifts-open"><b>Öko Ajándékok</b></div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="well promo" id="gallery">
-                    <div class="gallery-open">Tekintse meg termékeinket
+                    <div class="gallery-open"><b>Tekintse meg termékeinket</b>
                     </div>
                 </div>
             </div>

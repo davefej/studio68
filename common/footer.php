@@ -16,9 +16,7 @@
 	    <script src="bootstrap/js/bootstrap.min.js"></script>
         <script src="js/vegas.js"></script>
         <script src="js/functions.js"></script>
-        <?php if($page == "eco")
-            echo '<script type="text/javascript" src="js/animation-eco.js"></script>';
-        else
+        <?php if($page == "home")
             echo '<script type="text/javascript" src="js/animations.js"></script>';
         ?>
 
