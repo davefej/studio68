@@ -214,7 +214,7 @@ require_once 'common/topsegment.php';
                         </tr>
                         <tr>
                             <td class="teamtd teamtext">
-                                <span >A lehetőségeket nem csak megkapni kell, hanem tudni is kell velük élni!</span>
+                                <span >A lehetőségeket nem csak megkapni kell, hanem élni is tudni kell velük!</span>
                             </td>
                         </tr>
                     </table>
@@ -241,7 +241,7 @@ require_once 'common/topsegment.php';
                         </tr>
                         <tr>
                             <td class="teamtd teamtext">
-                                <span >Egy két mondat amivel összegezem miért szeretek a stúdió68nál dolgozni dolgozni</span>
+                                <span >Semmi sem fontosabb a szenvedélynél. Nem számít, mit csinálsz az életedben, azt szenvedéllyel tedd!</span>
                             </td>
                         </tr>
                     </table>
@@ -250,7 +250,7 @@ require_once 'common/topsegment.php';
                     <table class="teamtable">
                         <tr>
                             <td class="teamtd">
-                                <img class="teamimg" src="img/nobody.png"/>
+                                <img class="teamimg" src="img/robi_profil.png"/>
                             </td>
                         </tr>
                         <tr>
