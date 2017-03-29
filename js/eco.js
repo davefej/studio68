@@ -1,5 +1,6 @@
 function opengreenEnergy(){
 	bootbox.alert(
+			"<div class='bbheader'>Energiatakarékos termékek</div>" +
 			"<div class='bbcontainer'>" +
 			"<table class='prodtable'>" +
 				"<tr>" +
@@ -87,6 +88,7 @@ function opengreenEnergy(){
 					"</td>" +
 				"</tr>" +
 			"</table>" +
+			"<br/>"+
 			"</div>"
 	)
 }
