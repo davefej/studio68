@@ -4,6 +4,7 @@
 		
 		<link rel="stylesheet" href="res/bootstrap.css">
 		<link rel="stylesheet" href="res/adminstyle.css?v=<?php echo rand();?>">
+		<link rel="stylesheet" href="../css/bootbox.css?v=<?php echo rand();?>">
 		<title>Stúdió68 Kft. Admin</title>
 	</head>
 	<body>
@@ -15,7 +16,5 @@
 			<a href="gift.php" >AJÁNDÉK</a>
 			<a href="fan.php" >SZURKOLÓI</a>
 			<a href="printing.php" >NYOMDA</a>
-			<a href="#contact" >KAPCSOLAT</a>
-			<a href="#" >WEBSHOP</a>
 			</div>
 		</div>

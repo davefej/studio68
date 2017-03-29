@@ -54,7 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	  ]
 	 });</script>
 
-<?php require_once'adminheader.php';?>
+<?php require_once'common/adminheader.php';?>
 
 
 
@@ -135,4 +135,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	<br/>
 
 
-<?php require_once'adminfooter.php';?>
+<?php require_once'common/adminfooter.php';?>

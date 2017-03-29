@@ -62,3 +62,27 @@ td{
 	display:inline-block;
 	    width: 90%;
 }
+
+.produpload{
+	margin-top:40px;
+}
+
+.prodlist{
+	margin-top:40px;
+	margin:auto;
+}
+
+.imguploadresp{	
+	font-size:1.5em;
+	color:red;
+	float:right;
+	
+}
+
+.prodlist{
+	width:90%;
+}
+
+.editprodbutton{
+	background-color:red;
+}
