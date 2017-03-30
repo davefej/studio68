@@ -5,12 +5,17 @@ $data = getJSON($upoadtype);
 if(isset($_GET['admin']) && $_GET['admin'] == true){
 	$admin=true;
 	$currpath =  "../res/".$upoadtype."/";
+	
+	
 }else{
 	$admin=false;
 	$currpath =  "res/".$upoadtype."/";
 }
 
 ?>
+<?php if($admin){?>
+<button class="changebutton" onclick="imgchage('<?php  echo $upoadtype ?>')">Kép Csere</button>
+<?php } ?>
 	<div class='bbheader'><?php  echo $upoadtype ?></div>
 	<div class='bbcontainer'>
 		<table class='prodtable'>
@@ -24,7 +29,8 @@ if(isset($_GET['admin']) && $_GET['admin'] == true){
 				<div class='proditem'>
 				<?php if($admin){?>
 					<button class="editprodbutton" onclick="deleteprodbutton('<?php echo $jsonintem['name'];?>','<?php echo $upoadtype;?>')">Töröl</button>
-			<?php }?>
+					<input type="checkbox" class="changecb" id="<?php echo $jsonintem['name'];?>" />
+				<?php }?>
 					<div class='prodtitle'><?php echo $jsonintem['txt']; ?> </div>
 					<img class='prodimgbg' src='<?php echo $currpath.$jsonintem['name']; ?>'></img>
 				</div>

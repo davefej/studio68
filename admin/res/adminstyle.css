@@ -86,3 +86,9 @@ td{
 .editprodbutton{
 	background-color:red;
 }
+
+.changebutton{
+	margin:auto;
+	margin-left:100px;
+	display:inline-block;
+}
