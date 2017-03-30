@@ -20,7 +20,7 @@
 					<li><a href="fan.php" class="nav_element">SZURKOLÓI</a></li>
 					<li><a href="printing.php" class="nav_element">NYOMDA</a></li>
 					<li><a href="#contact" class="nav_element">KAPCSOLAT</a></li>
-					<li><a href="#" class="nav_element">WEBSHOP</a></li>
+					<li><a href="http://giftworld.yourpromotionalshop.com/home.mvc" class="nav_element">WEBSHOP</a></li>
 				</ul>
 			</div>
 		</div>

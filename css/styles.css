@@ -2,8 +2,9 @@
 body{
 	margin:0 auto;
     color:white;
-    background-image: url("../img/city.jpg");
+    background-image: url("../img/main1.JPG");
     background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed;
     
 }
@@ -12,7 +13,7 @@ body{
 .main_segment.container-fluid{
     height: 70%;
     width: 100%;
-    background-color: #fff;
+    background-color: #181819;
     text-align: center;
 }
 

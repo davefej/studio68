@@ -1,7 +1,7 @@
 body{
 	margin:0 auto;
     color:white;
-    background-image: url("../img/city.jpg");
+    background-color: #181819;
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 0;
@@ -51,7 +51,7 @@ div.container{
 
 #energy{
     background-image: url("../img/eco2.jpg");
-    background-size: 200% 100%;
+    background-position: center;
     background-repeat: no-repeat;
     height: 620px;
     
@@ -103,6 +103,7 @@ div.container{
 #textil{
     background-image: url("../img/eco1.jpg");
     background-size: 100% 100%;
+    background-position: center;
     background-repeat: no-repeat;
     height: 620px;
     
@@ -155,7 +156,7 @@ div.container{
 #eco-gifts{
     text-align: center;
     background-image: url("../img/eco5.jpg");
-    background-size: 100% 130%;
+    background-position: center;
     background-repeat: no-repeat;
     -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
     filter: grayscale(0%);
@@ -201,7 +202,7 @@ div.container{
 #gallery{
     text-align: center;
     background-image: url("../img/eco4.jpg");
-    background-size: 100% 120%;
+    background-position: center;
     background-repeat: no-repeat;
     -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
     filter: grayscale(0%);

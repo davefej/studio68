@@ -30,56 +30,77 @@ $motto = "Szurkolóink Örömére";
 			</div>
 		</div>
 	</nav>
-		
-	<div class="container">
-		<div data-spy="affix" id="dot-nav">
-			<ul>
-			<li class="awesome-tooltip" title="Kezdőoldal" id="main-nav"><a href="#main"></a></li>
-			<li class="awesome-tooltip" title="Cégünkről" id="timeline-nav"><a href="#timeline"></a></li>
-            <li class="awesome-tooltip" title="Csapat" id="team-nav"><a href="#team"></a></li>
-            <li class="awesome-tooltip" title="Referenciák" id="reference-nav"><a href="#references"></a></li>
-			<li class="awesome-tooltip" title="Kapcsolat" id="contact-nav"><a href="#contact"></a></li>
-			</ul>
-		</div>
-	</div>
-    
-    <div class="fan-block">
-		<div class="maintext">
-        <span class="title">Stúdió<font color="#e00901">68</font></span><br>
-			<span class="motto">Szurkolóink Örömére...</span>
-		</div>
-	</div>
-</div>
 
-<!--DEPARTMENT SEGMENT-->
-<div class="departments_segment container-fluid fan-color" id="departments">
-	<div class="container">
-		<div class="department_text">
-		Célunk, hogy a hazai sportszakmai szervezetekkel közösen, tudatosítsuk a merchandise fogalmát Magyarországon.
+    <div class="gift-title">
+        Szurkolóink örömére…
+        <hr style="width: 10%; border-color:#333;">
+    </div>
+    
+    <div class="gift-intro">
+        Célunk, hogy a hazai sportszakmai szervezetekkel közösen, tudatosítsuk a merchandise fogalmát Magyarországon.
         Feladataink közé tartoznak jelenleg: Shop ellátás, szurkolói termékek gyártása, Clubok, Egyesületek portfóliójának bővítése.
         Részt vettünk több hazai rendezésű Európa –ill. Világbajnokságon, mint promóciós partner, akár kitelepüléssel együtt.
         Felkészülten várjuk jelentkezését, valósítsuk meg együtt sport promóciós terveit.
-		</div>
-        
+    </div>
+    
+    <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <div class="well promo" style="background-color: #e00901;">
+            <div class="col-md-8">
+                <div class="well" id="gift-webshop">
+                    <div class="gift-webshop-open">
+                        <b>Kategória</b>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="well promo" style="background-color: white;">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="well promo" style="background-color: green;">
+                <div class="well describe" id="gift-webshop-describe">
+                    Lorem ipsum dolor sit amet, lobortis ligula tellus. Eget at volutpat, in orci leo gravida wisi. Quam parturient feugiat in mauris, rhoncus montes pretium viverra volutpat, justo mauris metus sit, ad neque in eu at in donec, nullam tristique at et morbi. Eget convallis magna nibh quis, mi dapibus, rhoncus in viverra egestas aut turpis.
                 </div>
             </div>
         </div>
-	</div>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <div class="well describe" id="custom-gift-describe">
+                    Lorem ipsum dolor sit amet, lobortis ligula tellus. Eget at volutpat, in orci leo gravida wisi. Quam parturient feugiat in mauris, rhoncus montes pretium viverra volutpat, justo mauris metus sit, ad neque in eu at in donec, nullam tristique at et morbi. Eget convallis magna nibh quis, mi dapibus, rhoncus in viverra egestas aut turpis.
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="well" id="custom-gift">
+                    <div class="custom-gift-open">
+                        <b>Kategória</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <div class="well promo" id="textile">
+                    <div class="textile-open"><b>Kategória</b>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="well promo" id="people-webshop">
+                    <div class="people-webshop-open">
+                        <b>Kategória</b>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="well promo" id="gallery">
+                    <div class="gallery-open"><b>Kategória</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
 </div>
         
 <?php 
+$page = "fan";
 require_once 'common/contact.php';
 require_once 'common/footer.php';
 ?>

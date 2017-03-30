@@ -1,7 +1,7 @@
 body{
 	margin:0 auto;
     color:white;
-    background-image: url("../img/city.jpg");
+    background-color: #181819;
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 0;
@@ -61,7 +61,7 @@ div.container{
 
 #gift-webshop{
     background-image: url("../img/ajandek3.jpg");
-    background-size: 100% 250%;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     height: 350px;
@@ -113,7 +113,7 @@ div.container{
 
 #custom-gift{
     background-image: url("../img/ajandek1.jpg");
-    background-size: 75% 200%;
+    background-size: 75%;
     background-position: center;
     background-repeat: no-repeat;
     height: 350px;
@@ -166,7 +166,8 @@ div.container{
 #textile{
     text-align: center;
     background-image: url("../img/textile.jpg");
-    background-size: 100% 100%;
+    background-size: 200%;
+    background-position: center;
     background-repeat: no-repeat;
     -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
     filter: grayscale(0%);

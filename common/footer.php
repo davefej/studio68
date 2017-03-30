@@ -17,7 +17,7 @@
         <script src="js/vegas.js"></script>
         <script src="js/functions.js"></script>
         <script src="js/bootbox.js"></script>
-        <?php if($page == "home")
+        <?php if($page == "home" || $page == "printing")
             echo '<script type="text/javascript" src="js/animations.js"></script>';
         ?>
 
