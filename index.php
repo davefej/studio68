@@ -117,7 +117,7 @@ require_once 'common/topsegment.php';
                     <table class="teamtable">
                         <tr>
                             <td class="teamtd">
-                                <img class="teamimg" src="img/nobody.png"/>
+                                <img class="teamimg" src="img/zoli_profil.png"/>
                             </td>
                         </tr>
                         <tr>
@@ -277,7 +277,7 @@ require_once 'common/topsegment.php';
                     <table class="teamtable">
                         <tr>
                             <td class="teamtd">
-                                <img class="teamimg" src="img/nobody.png"/>
+                                <img class="teamimg" src="img/magdi_profil.png"/>
                             </td>
                         </tr>
                         <tr>
