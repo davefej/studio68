@@ -9,6 +9,7 @@ function init() {
         firstTransitionDuration: 5000,
         transitionDuration: 2000,
         slides: [
+        	//{src: "img/studiobg.jpg" }
         ]
     });
     

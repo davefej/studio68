@@ -31,8 +31,8 @@
 			<ul>
 			<li class="awesome-tooltip" title="Kezdőoldal" id="main-nav"><a href="#main"></a></li>
 			<li class="awesome-tooltip" title="Cégünkről" id="timeline-nav"><a href="#timeline"></a></li>
-            <li class="awesome-tooltip" title="Csapat" id="team-nav"><a href="#team"></a></li>
-            <li class="awesome-tooltip" title="Referenciák" id="reference-nav"><a href="#references"></a></li>
+			<li class="awesome-tooltip" title="Referenciák" id="reference-nav"><a href="#references"></a></li>
+            <li class="awesome-tooltip" title="Csapat" id="team-nav"><a href="#team"></a></li>          
 			<li class="awesome-tooltip" title="Kapcsolat" id="contact-nav"><a href="#contact"></a></li>
 			</ul>
 		</div>

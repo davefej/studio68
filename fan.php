@@ -3,6 +3,7 @@ $page="fan";
 require_once 'common/header.php';
 $motto = "Szurkolóink Örömére";
 //require_once 'common/topsegment.php';
+
 ?>
 
 <div class="main_segment container-fluid" id="main">
@@ -48,7 +49,7 @@ $motto = "Szurkolóink Örömére";
             <div class="col-md-8">
                 <div class="well" id="gift-webshop">
                     <div class="gift-webshop-open">
-                        <b>Kategória</b>
+                        <b>Ajándék tárgyak</b>
                     </div>
                 </div>
             </div>
@@ -68,7 +69,7 @@ $motto = "Szurkolóink Örömére";
             <div class="col-md-8">
                 <div class="well" id="custom-gift">
                     <div class="custom-gift-open">
-                        <b>Kategória</b>
+                        <b>Textilek</b>
                     </div>
                 </div>
             </div>
@@ -77,20 +78,20 @@ $motto = "Szurkolóink Örömére";
         <div class="row">
             <div class="col-md-4">
                 <div class="well promo" id="textile">
-                    <div class="textile-open"><b>Kategória</b>
+                    <div class="textile-open"><b>Szurkolói kellékek</b>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="well promo" id="people-webshop">
                     <div class="people-webshop-open">
-                        <b>Kategória</b>
+                        <b>egyedi gyártások</b>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="well promo" id="gallery">
-                    <div class="gallery-open"><b>Kategória</b>
+                    <div class="gallery-open"><b>serlegek, kupák</b>
                     </div>
                 </div>
             </div>
