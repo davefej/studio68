@@ -103,7 +103,75 @@ require_once 'common/topsegment.php';
 <div class="team_segment container-fluid" id="team">
     <div class="title-block">
      <h1 class="teamsegmenttitle">Csapat</h1>
-
+     <ul id="scroller">
+			<li>
+				<img class="teamimg" src="img/zoli_profil.png" width="250" height="250">
+				  <div class="teamitemdiv">
+					 <span class="teamname">Plicher Zoltán</span><br/>
+	                 <span class="teamtitle">ügyvezető igazgató</span><br/>
+	                 <a class="teammail" href="mailto:zoltan@studio68.hu">zoltan@studio68.hu</a>
+                     <br/><br/><span class="teamtext">Vallom, hogy a megalkuvást nem ismerő, alázatos hivatás gyakorlása, kimunkálja azt a bizalmat, amely reménységet és hitet adhat a jövő célkitűzéseihez.</span>
+                    
+                 </div>
+			</li>
+			<li>
+				<img class="teamimg" src="img/andras_profil.png" width="250" height="250">
+				<div class="teamitemdiv">
+                   <span class="teamname">Lőrincz András</span><br/> 
+                   <span class="teamtitle">kereskedelmi igazgató</span> <br/>
+                   <a class="teammail" href="mailto:andras@studio68.hu">andras@studio68.hu</a>
+                    <br/><br/><span class="teamtext">Először tedd meg amit kell, aztán tedd meg amit lehet, utána a lehetetlen is sikerülni fog!</span>                 </div>
+			</li>
+			<li>
+				<img class="teamimg" src="img/magdi_profil.png" width="250" height="250">
+				<div class="teamitemdiv">
+					 <span class="teamname">Csorba Magdolna</span><br/>
+                     <span class="teamtitle">pénzügy / könyvelés</span>
+                    <br/><a class="teammail" href="mailto:magdi@studio68.hu">magdi@studio68.hu</a>
+                    <br/><br/><span class="teamtext">Szeretem a munkám. Hivatásomnak tekintem.
+						Bár látszólag „csak” papírmunka és számok tengere, én mégis örömmel végzem.
+						Érzem, hogy számítanak rám, és ez kellő motivációt ad a mindennapokhoz.</span>                 
+			</div>
+			</li>
+			<li>
+				<img class="teamimg" src="img/deni_profil.png" width="250" height="250">
+				<div class="teamitemdiv">
+					 <span class="teamname">Droszt Denisa</span><br/> 
+                     <span class="teamtitle">promóciós vezető</span>
+                     <br/><a class="teammail" href="mailto:deni@studio68.hu">deni@studio68.hu</a>
+                     <br/><br/><span class="teamtext">A minőségre törekszem, és akkor is próbálok jó munkát végezni, ha éppen nincs szem előtt!</span>
+                </div>
+			</li>
+			<li>
+				<img class="teamimg" src="img/evi_profil.png" width="250" height="250">
+				<div class="teamitemdiv">
+					 <span class="teamname">Szabó Éva</span><br/> 
+                     <span class="teamtitle">promóciós asszisztens</span>
+                     <br/><a class="teammail" href="mailto:eva@studio68.hu">eva@studio68.hu</a>
+                     <br/><br/><span class="teamtext" >Semmi sem fontosabb a szenvedélynél. Nem számít, mit csinálsz az életedben, azt szenvedéllyel tedd!</span>                                
+                 </div>
+			</li>
+			<li>
+				<img class="teamimg" src="img/robi_profil.png" width="250" height="250">
+				<div class="teamitemdiv">
+					 <span class="teamname">Lutze Róbert</span><br/> 
+                     <span class="teamtitle">logisztikai vezető</span>
+                     <br/><a class="teammail" href="mailto:logisztika@studio68.hu">logisztika@studio68.hu</a> 
+                     <br/><br/><span class="teamtext">Kiemelten figyelek arra, hogy mindig, minden időben és épségben célba érjen!</span>     
+                 </div>
+			</li>
+			
+			<li>
+				<img class="teamimg" src="img/reni_profil.png" width="250" height="250">
+				<div class="teamitemdiv">
+					  <span class="teamname">Ádám Renáta</span><br/> 
+                      <span class="teamtitle">promóciós szakértő</span>
+                      <br/><a class="teammail" href="mailto:reni@studio68.hu">reni@studio68.hu</a>
+                      <br/><br/><span class="teamtext" >A lehetőségeket nem csak megkapni kell, hanem élni is tudni kell velük!</span>
+                </div>
+			</li>
+	</ul>
+<!-- 
        <div class="wrap">
           <div class="scrollbar">
             <div class="handle">
@@ -112,6 +180,7 @@ require_once 'common/topsegment.php';
           </div>
             
           <div class="frame" id="cyclepages">
+          
             <ul class="clearfix">
                 <li>
                     <table class="teamtable">
@@ -302,11 +371,13 @@ Bár látszólag „csak” papírmunka és számok tengere, én mégis örömme
                         </tr>
                     </table>
                 </li>
-            </ul>
+                
+            </ul> 
           </div>
-
+			
           <ul class="pages"></ul>
         </div>
+        -->
     </div>
 </div>      
         
@@ -444,8 +515,19 @@ Bár látszólag „csak” papírmunka és számok tengere, én mégis örömme
     </div>
 </div>
 
+
 <?php 
 $page="home";
 require_once 'common/contact.php';
 require_once 'common/footer.php';
 ?>
+<script type="text/javascript">
+(function($) {
+	$(function() {
+		$("#scroller").simplyScroll();
+	});
+})(jQuery);
+</script>
+<script type="text/javascript" src="js/jquery.simplyscroll.js"></script>
+<link rel="stylesheet" href="css/jquery.simplyscroll.css" media="all" type="text/css">
+<link rel="stylesheet" href="css/team-style.css?v=<?php echo $version;?>">

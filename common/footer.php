@@ -21,8 +21,11 @@
             echo '<script type="text/javascript" src="js/animations.js"></script>';
         ?>
 
+
+        <!-- 
         <script src='js/sly.min.js'></script>
         <script src='js/team-js.js'></script>
+         -->
         
         <script>
             (function ($) {
