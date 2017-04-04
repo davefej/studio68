@@ -18,7 +18,7 @@
         <script src="js/functions.js"></script>
         <script src="js/bootbox.js"></script>
         <?php if($page == "home" || $page == "printing")
-            echo '<script type="text/javascript" src="js/animations.js"></script>';
+            echo '<script src="js/animations.js"></script>';
         ?>
 
 

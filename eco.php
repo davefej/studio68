@@ -27,7 +27,6 @@ $page="eco";
 					<li><a href="gift.php" class="nav_element">AJÁNDÉK</a></li>
 					<li><a href="fan.php" class="nav_element">SZURKOLÓI</a></li>
 					<li><a href="printing.php" class="nav_element">NYOMDA</a></li>
-					<li><a href="reference.php" class="nav_element">REFERENCIÁK</a></li>
 					<li><a href="#contact" class="nav_element">KAPCSOLAT</a></li>
 					<li><a href="#" class="nav_element">WEBSHOP</a></li>
 				</ul>
