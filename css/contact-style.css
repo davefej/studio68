@@ -1,6 +1,6 @@
 /*CONTACT SEGMENT*/
 .contact_segment{
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     
     background: #e00901 no-repeat center center; 
@@ -25,7 +25,7 @@
 
 .map-frame{
     width:100%;
-    pointer-events: none;
+    height: 350px;
     margin-bottom: 2%;
 }
 

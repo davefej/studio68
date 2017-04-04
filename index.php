@@ -12,7 +12,7 @@ require_once 'common/topsegment.php';
 	<div class="container">
 		<div class="row">
 			<div onclick="goto('eco.php')" class="col-xs-12 col-md-2 department " id="eco">
-                Öko
+                <b>Öko</b>
                 <div class="eco-opened">
                     <br>
                     Portfóliónkhoz kattintson
@@ -20,7 +20,7 @@ require_once 'common/topsegment.php';
                 </div>
 			</div>
 			<div onclick="goto('sweet.php')" class="col-xs-12 col-md-2 department" id="food">
-                Édesség
+                <b>Édesség</b>
                 <div class="food-opened">
                     <br>
                     Portfóliónkhoz kattintson
@@ -28,7 +28,7 @@ require_once 'common/topsegment.php';
                 </div>
 			</div>
 			<div onclick="goto('gift.php')" class="col-xs-12 col-md-2 department" id="gifts">
-                Ajándék
+                <b>Ajándék</b>
                 <div class="gifts-opened">
                     <br>
                     Portfóliónkhoz kattintson
@@ -36,7 +36,7 @@ require_once 'common/topsegment.php';
                 </div>
 			</div>
 			<div onclick="goto('fan.php')" class="col-xs-12 col-md-2 department" id="fan">
-                Szurkolói
+                <b>Szurkolói</b>
                 <div class="fan-opened">
                     <br>
                     Portfóliónkhoz kattintson
@@ -44,7 +44,7 @@ require_once 'common/topsegment.php';
                 </div>
 			</div>
 			<div onclick="goto('printing.php')" class="col-xs-12 col-md-2 department" id="printing">
-                Nyomda
+                <b>Nyomda</b>
                 <div class="printing-opened">
                     <br>
                     Portfóliónkhoz kattintson
@@ -52,7 +52,7 @@ require_once 'common/topsegment.php';
                 </div>
 			</div>
             <div onclick="goto('#contact')" class="col-xs-12 col-md-2 department" id="custom">
-                Kapcsolat
+                <b>Kapcsolat</b>
                 <div class="custom-opened">
                     <br>
                     Írjon nekünk!
@@ -544,7 +544,7 @@ Bár látszólag „csak” papírmunka és számok tengere, én mégis örömme
                 <img class="logos" src="img/logok/logo45.jpg" alt="" width="50%">
             </div>
             <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo46.jpg" alt="" width="50%">
+                <img class="logos" src="img/logok/logo60.jpg" alt="" width="50%">
             </div>
             <div class="col-sm-4 col-sm-2">
                 <img class="logos" src="img/logok/logo47.jpg" alt="" width="50%">
@@ -578,7 +578,7 @@ Bár látszólag „csak” papírmunka és számok tengere, én mégis örömme
                 <img class="logos" src="img/logok/logo55.jpg" alt="" width="50%">
             </div>
             <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo56.jpg" alt="" width="50%">
+            	<img class="logos" src="img/logok/logo56.jpg" alt="" width="50%">
             </div>
             <div class="col-sm-4 col-sm-2">
                 <img class="logos" src="img/logok/logo57.jpg" alt="" width="50%">
@@ -588,9 +588,6 @@ Bár látszólag „csak” papírmunka és számok tengere, én mégis örömme
             </div>
             <div class="col-sm-4 col-sm-2">
                 <img class="logos" src="img/logok/logo59.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo60.jpg" alt="" width="50%">
             </div>
         </div>
         

@@ -4,8 +4,8 @@
                 Kapcsolat
             </div>
             
-            <div class="map-frame">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2697.5739137529085!2d19.028752315635987!3d47.459244606138704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dd96a6bed849%3A0xbbb5ca301e05f89d!2zU3TDumRpw7MgNjggUmVrbMOhbWFqw6FuZMOpayBLZnQu!5e0!3m2!1shu!2shu!4v1487862785311" width="100%" height="30%" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div class="map-frame" id="map-frame">
+                
             </div>
             
             <div class="container contact-container">

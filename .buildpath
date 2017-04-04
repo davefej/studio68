@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buildpath>
-	<buildpathentry kind="src" path=""/>
+	<buildpathentry including=".DS_Store|.buildpath|.gitignore|.project|.settings/|admin/|bootstrap/|common/|css/|eco.php|fan.php|gift.php|img/|index.php|js/|printing.php|res/|sweet.php" kind="src" path=""/>
 	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
 </buildpath>

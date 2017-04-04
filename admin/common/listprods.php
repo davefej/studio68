@@ -1,22 +1,22 @@
 <?php 
 require_once 'adminhelper.php';
-$upoadtype = $_GET["type"];
-$data = getJSON($upoadtype);
+$uploadtype = $_GET["type"];
+$data = getJSON($uploadtype);
 if(isset($_GET['admin']) && $_GET['admin'] == true){
 	$admin=true;
-	$currpath =  "../res/".$upoadtype."/";
+	$currpath =  "../res/".$uploadtype."/";
 	
 	
 }else{
 	$admin=false;
-	$currpath =  "res/".$upoadtype."/";
+	$currpath =  "res/".$uploadtype."/";
 }
 
 ?>
 <?php if($admin){?>
-<button class="changebutton" onclick="imgchage('<?php  echo $upoadtype ?>')">Kép Csere</button>
+<button class="changebutton" onclick="imgchage('<?php  echo $uploadtype ?>')">Kép Csere</button>
 <?php } ?>
-	<div class='bbheader'><?php  echo $upoadtype ?></div>
+	<div class='bbheader'><?php  echo $uploadtype ?></div>
 	<div class='bbcontainer'>
 		<table class='prodtable'>
 		<?php 
@@ -28,7 +28,7 @@ if(isset($_GET['admin']) && $_GET['admin'] == true){
 			<td class='prodtd'>
 				<div class='proditem'>
 				<?php if($admin){?>
-					<button class="editprodbutton" onclick="deleteprodbutton('<?php echo $jsonintem['name'];?>','<?php echo $upoadtype;?>')">Töröl</button>
+					<button class="editprodbutton" onclick="deleteprodbutton('<?php echo $jsonintem['name'];?>','<?php echo $uploadtype;?>')">Töröl</button>
 					<input type="checkbox" class="changecb" id="<?php echo $jsonintem['name'];?>" />
 				<?php }?>
 					<div class='prodtitle'><?php echo $jsonintem['txt']; ?> </div>

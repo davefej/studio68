@@ -17,15 +17,12 @@
         <script src="js/vegas.js"></script>
         <script src="js/functions.js"></script>
         <script src="js/bootbox.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgpGS138e-2Fd5AMMV8TdA5JoKbmxx9zw&callback=initMap"
+  async defer></script>
         <?php if($page == "home" || $page == "printing")
             echo '<script src="js/animations.js"></script>';
         ?>
 
-
-        <!-- 
-        <script src='js/sly.min.js'></script>
-        <script src='js/team-js.js'></script>
-         -->
         
         <script>
             (function ($) {
