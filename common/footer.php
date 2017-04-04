@@ -1,4 +1,4 @@
- 		<!--FOOTER-->
+	<!--FOOTER-->
         <div class="footer container-fluid" id="footer">
             <div class="sk-folding-cube">
               <div class="sk-cube1 sk-cube"></div>
@@ -7,22 +7,22 @@
               <div class="sk-cube3 sk-cube"></div>
             </div>
             <div class="sign">©David&amp;David<br>2017</div>
-        </div>
+        </div> 
         <!-- Bootstrap core JavaScript
 	    ================================================== -->
 	    <!-- Placed at the end of the document so the pages load faster -->
         <script src="js/jquery1.12.4.js"></script>
         <script src="js/jquery-ui.min.js"></script>
-	    <script src="bootstrap/js/bootstrap.min.js"></script>
+	    <script src="bootstrap/js/bootstrap.min.js"></script>     
         <script src="js/vegas.js"></script>
+         <?php if($page == "home" || $page == "printing")
+            echo '<script src="js/animations.js"></script>';
+        ?>   
         <script src="js/functions.js"></script>
         <script src="js/bootbox.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgpGS138e-2Fd5AMMV8TdA5JoKbmxx9zw&callback=initMap"
   async defer></script>
-        <?php if($page == "home" || $page == "printing")
-            echo '<script src="js/animations.js"></script>';
-        ?>
-
+       
         
         <script>
             (function ($) {

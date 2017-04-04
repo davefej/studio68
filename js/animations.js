@@ -97,6 +97,17 @@ function init() {
             
         }
         else if(distanceY > timeline_height - window_height/2 && distanceY < team_height  + counter_height - window_height/2 ){
+        	 $('#contact-nav').removeClass('active');
+             $('#timeline-nav').removeClass('active');
+             $('#main-nav').removeClass('active');
+             $('#team-nav').removeClass('active');
+             $('#reference-nav').addClass('active');
+            
+            $('#dot-nav li').css("background-color", 'black');
+            $('#dot-nav li.active').css("background-color", '#e00901');
+        }
+        else if(distanceY > team_height  + counter_height - window_height/2 && distanceY < references_height - window_height/2 ){
+            
             $('#contact-nav').removeClass('active');
             $('#timeline-nav').removeClass('active');
             $('#main-nav').removeClass('active');
@@ -104,16 +115,6 @@ function init() {
             $('#team-nav').addClass('active');
             
             $('#dot-nav li').css("background-color", 'white');
-            $('#dot-nav li.active').css("background-color", '#e00901');
-        }
-        else if(distanceY > team_height  + counter_height - window_height/2 && distanceY < references_height - window_height/2 ){
-            $('#contact-nav').removeClass('active');
-            $('#timeline-nav').removeClass('active');
-            $('#main-nav').removeClass('active');
-            $('#team-nav').removeClass('active');
-            $('#reference-nav').addClass('active');
-            
-            $('#dot-nav li').css("background-color", 'black');
             $('#dot-nav li.active').css("background-color", '#e00901');
         }
         else if(distanceY > references_height - window_height/2 && distanceY < contact_height - window_height/2 ){
