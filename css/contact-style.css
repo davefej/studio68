@@ -156,7 +156,7 @@ textarea.form-control{
 }
 
 @media only screen and (max-height: 780px){
-    .contact_segment{ height: 1300px; }
+    .contact_segment{ min-height: 1000px; }
 }
 
 @media only screen and (max-width: 991px){
