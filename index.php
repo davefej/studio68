@@ -594,6 +594,7 @@ Bár látszólag „csak” papírmunka és számok tengere, én mégis örömme
     </div>
 </div>
 
+
 <?php 
 $page="home";
 require_once 'common/contact.php';

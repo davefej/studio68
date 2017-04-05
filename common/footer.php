@@ -1,4 +1,4 @@
- 		<!--FOOTER-->
+	<!--FOOTER-->
         <div class="footer container-fluid" id="footer">
             <div class="sk-folding-cube">
               <div class="sk-cube1 sk-cube"></div>
@@ -7,7 +7,7 @@
               <div class="sk-cube3 sk-cube"></div>
             </div>
             <div class="sign">©David&amp;David<br>2017</div>
-        </div>
+        </div> 
         <!-- Bootstrap core JavaScript
 	    ================================================== -->
 	    <!-- Placed at the end of the document so the pages load faster -->
@@ -21,7 +21,6 @@
             echo '<script src="js/vegas.js"></script>';
             echo '<script src="js/animations.js"></script>';
         ?>
-
         
         <script>
             (function ($) {
