@@ -14,12 +14,11 @@
         <script src="js/jquery1.12.4.js"></script>
         <script src="js/jquery-ui.min.js"></script>
 	    <script src="bootstrap/js/bootstrap.min.js"></script>
-        <script src="js/vegas.js"></script>
         <script src="js/functions.js"></script>
         <script src="js/bootbox.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgpGS138e-2Fd5AMMV8TdA5JoKbmxx9zw&callback=initMap"
-  async defer></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgpGS138e-2Fd5AMMV8TdA5JoKbmxx9zw&callback=initMap"></script>
         <?php if($page == "home" || $page == "printing")
+            echo '<script src="js/vegas.js"></script>';
             echo '<script src="js/animations.js"></script>';
         ?>
 

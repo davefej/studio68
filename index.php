@@ -99,6 +99,218 @@ require_once 'common/topsegment.php';
     </div>
 </div>
       
+<!--REFERENCES SEGMENT-->
+<div class="references_segment container-fluid segmentoverflow" id="references">
+    <div class="segment_title" style="color: #e00901; margin-bottom: 50px;">
+        Referenciák
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo1.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo2.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo3.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo4.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo5.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo6.jpg" alt="" width="50%">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo7.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo8.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo9.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo10.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo11.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo12.jpg" alt="" width="50%">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo13.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo14.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo15.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo16.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo17.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo18.jpg" alt="" width="50%">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo19.png" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo20.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo21.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo22.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo23.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo24.jpg" alt="" width="50%">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo25.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo26.gif" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo27.bmp" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo28.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo29.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo30.jpg" alt="" width="50%">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo31.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo32.bmp" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo33.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo34.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo35.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo36.png" alt="" width="50%">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo37.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo38.png" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo39.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo40.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo41.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo42.jpg" alt="" width="50%">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo43.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo44.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo45.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo60.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo47.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo48.jpg" alt="" width="50%">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo49.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo50.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo51.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo52.gif" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo53.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo54.jpg" alt="" width="50%">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo55.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+            	<img class="logos" src="img/logok/logo56.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo57.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo58.jpg" alt="" width="50%">
+            </div>
+            <div class="col-sm-4 col-sm-2">
+                <img class="logos" src="img/logok/logo59.jpg" alt="" width="50%">
+            </div>
+        </div>
+        
+    </div>
+</div>
+
 <!--TEAM SEGMENT-->
 <div class="team_segment container-fluid" id="team">
     <div class="title-block">
@@ -380,220 +592,7 @@ Bár látszólag „csak” papírmunka és számok tengere, én mégis örömme
         </div>
         -->
     </div>
-</div>      
-        
-<!--REFERENCES SEGMENT-->
-<div class="references_segment container-fluid segmentoverflow" id="references">
-    <div class="segment_title" style="color: #e00901; margin-bottom: 50px;">
-        Referenciák
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo1.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo2.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo3.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo4.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo5.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo6.jpg" alt="" width="50%">
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo7.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo8.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo9.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo10.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo11.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo12.jpg" alt="" width="50%">
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo13.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo14.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo15.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo16.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo17.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo18.jpg" alt="" width="50%">
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo19.png" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo20.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo21.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo22.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo23.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo24.jpg" alt="" width="50%">
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo25.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo26.gif" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo27.bmp" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo28.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo29.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo30.jpg" alt="" width="50%">
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo31.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo32.bmp" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo33.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo34.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo35.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo36.png" alt="" width="50%">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo37.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo38.png" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo39.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo40.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo41.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo42.jpg" alt="" width="50%">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo43.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo44.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo45.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo60.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo47.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo48.jpg" alt="" width="50%">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo49.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo50.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo51.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo52.gif" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo53.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo54.jpg" alt="" width="50%">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo55.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-            	<img class="logos" src="img/logok/logo56.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo57.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo58.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo59.jpg" alt="" width="50%">
-            </div>
-        </div>
-        
-    </div>
 </div>
-
 
 <?php 
 $page="home";

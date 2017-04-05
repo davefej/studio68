@@ -101,14 +101,3 @@
     height:30%;
     background-color: #181819;
 }
-
-
-@media only screen and (max-width: 1076px){
-    .timeline_segment{ height:1500px; }
-}
-
-@media only screen and (max-width: 800px){
-    .timeline_segment{ height:2000px; }
-    
-    .maintext2{ font-size: 6.2vw; }
-}

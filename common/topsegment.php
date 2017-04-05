@@ -37,13 +37,13 @@
 			</ul>
 		</div>
 	</div>
+    
+    <div class="navhider">
+        
+    </div>
     <?php
     if(isset($page) && $page == "home"){
     echo '<div class="title-block2">
-		<div class="maintext">
-        <span class="title">Stúdió<font color="#e00901">68</font></span><br>
-			<span class="motto">'.$motto.'</span>
-		</div>
 	</div>';
     }
     ?>
