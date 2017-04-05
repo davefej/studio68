@@ -8,7 +8,7 @@ require_once 'common/topsegment.php';
 
 
 <!--DEPARTMENT SEGMENT-->
-<div class="departments_segment container-fluid" id="departments">
+<div class="departments_segment container-fluid " id="departments">
 	<div class="container">
 		<div class="row">
 			<div onclick="goto('eco.php')" class="col-xs-12 col-md-2 department " id="eco">
@@ -69,7 +69,7 @@ require_once 'common/topsegment.php';
 </div>
 
 <!--TIMELINE SEGMENT-->
-<div class="timeline_segment container-fluid" id="timeline">
+<div class="timeline_segment container-fluid segmentoverflow" id="timeline">
 	<div class="timeline-segment-title">
         Vállalkozásunk
     </div>
@@ -419,7 +419,7 @@ require_once 'common/topsegment.php';
 
 
 <!--TEAM SEGMENT-->
-<div class="team_segment container-fluid" id="team">
+<div class="team_segment container-fluid segmentoverflow" id="team">
     <div class="title-block">
      <h1 class="teamsegmenttitle">Csapat</h1>
      <ul id="scroller">
