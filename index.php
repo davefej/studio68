@@ -98,13 +98,118 @@ require_once 'common/topsegment.php';
         </div>
     </div>
 </div>
+
       
 <!--REFERENCES SEGMENT-->
 <div class="references_segment container-fluid segmentoverflow" id="references">
     <div class="segment_title" style="color: #e00901; margin-bottom: 50px;">
         Referenciák
     </div>
+    <div class="title-block3">
+     <ul id="scroller2">
+     	<li>
+     		<div  class="refli">
+			<img class="refimg" src="img/logok/logo1.jpg" >
+			</div>
+			<div  class="refli">
+			<img class="refimg" src="img/logok/logo2.jpg" >
+			</div>
+			<div  class="refli">
+			<img class="refimg" src="img/logok/logo3.jpg" >
+			</div>
+			<div  class="refli">
+			<img class="refimg" src="img/logok/logo4.jpg" >
+			</div>
+     	</li>
+     	<li>
+     		<div  class="refli">
+			<img class="refimg" src="img/logok/logo5.jpg" >
+			</div>
+			<div  class="refli">
+			<img class="refimg" src="img/logok/logo6.jpg" >
+			</div>
+			<div  class="refli">
+			<img class="refimg" src="img/logok/logo7.jpg" >
+			</div>
+			<div  class="refli">
+			<img class="refimg" src="img/logok/logo8.jpg" >
+			</div>
+     	</li>
+     	<li>
+     		<div  class="refli">
+			<img class="refimg" src="img/logok/logo9.jpg" >
+			</div>
+			<div  class="refli">
+			<img class="refimg" src="img/logok/logo10.jpg" >
+			</div>
+			<div  class="refli">
+			<img class="refimg" src="img/logok/logo11.jpg" >
+			</div>
+			<div  class="refli">
+			<img class="refimg" src="img/logok/logo12.jpg" >
+			</div>
+     	</li>
+     	<li>
+     		<div  class="refli">
+			<img class="refimg" src="img/logok/logo13.jpg" >
+			</div>
+			<div  class="refli">
+			<img class="refimg" src="img/logok/logo14.jpg" >
+			</div>
+			<div  class="refli">
+			<img class="refimg" src="img/logok/logo15.jpg" >
+			</div>
+			<div  class="refli">
+			<img class="refimg" src="img/logok/logo16.jpg" >
+			</div>
+     	</li>
+     	<li>
+     		<div  class="refli">
+			<img class="refimg" src="img/logok/logo17.jpg">
+			</div>
+			<div  class="refli">
+			<img class="refimg" src="img/logok/logo18.jpg">
+			</div>
+			<div  class="refli">
+			<img class="refimg" src="img/logok/logo19.png">
+			</div>
+			<div  class="refli">
+			<img class="refimg" src="img/logok/logo20.jpg">
+			</div>
+     	</li>
+     	<li>
+     		<div  class="refli">
+			<img class="refimg" src="img/logok/logo21.jpg">
+			</div>
+			<div  class="refli">
+			<img class="refimg" src="img/logok/logo22.jpg">
+			</div>
+			<div  class="refli">
+			<img class="refimg" src="img/logok/logo23.jpg">
+			</div>
+			<div  class="refli">
+			<img class="refimg" src="img/logok/logo24.jpg">
+			</div>
+     	</li>
+     	<li>
+     		<div  class="refli">
+			<img class="refimg" src="img/logok/logo25.jpg">
+			</div>
+			<div  class="refli">
+			<img class="refimg" src="img/logok/logo26.gif">
+			</div>
+			<div  class="refli">
+			<img class="refimg" src="img/logok/logo27.bmp">
+			</div>
+			<div  class="refli">
+			<img class="refimg" src="img/logok/logo28.jpg">
+			</div>
+     	</li>
+     </ul>
+    </div>
+    <!-- 
     <div class="container">
+    
         <div class="row">
             <div class="col-sm-4 col-sm-2">
                 <img class="logos" src="img/logok/logo1.jpg" alt="" width="50%">
@@ -306,10 +411,12 @@ require_once 'common/topsegment.php';
             <div class="col-sm-4 col-sm-2">
                 <img class="logos" src="img/logok/logo59.jpg" alt="" width="50%">
             </div>
-        </div>
-        
+        </div>    
     </div>
+     -->
 </div>
+
+
 
 <!--TEAM SEGMENT-->
 <div class="team_segment container-fluid" id="team">
@@ -606,7 +713,21 @@ require_once 'common/footer.php';
 		$("#scroller").simplyScroll();
 	});
 })(jQuery);
+
+(function($) {
+	$(function() {
+		$("#scroller2").simplyScroll({
+			auto:true,
+			pauseOnHover:true,
+			reference_stop:true,
+			supportsTouch:false
+			});
+	});
+})(jQuery);
+
 </script>
 <script type="text/javascript" src="js/jquery.simplyscroll.js"></script>
 <link rel="stylesheet" href="css/jquery.simplyscroll.css" media="all" type="text/css">
+<link rel="stylesheet" href="css/reference-styles.css?v=<?php echo $version;?>">
 <link rel="stylesheet" href="css/team-style.css?v=<?php echo $version;?>">
+

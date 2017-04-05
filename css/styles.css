@@ -157,23 +157,7 @@ body{
     margin: 5px;
 }
 
-/*REFERENCES*/
-.references_segment{
-    min-height: 100%;
-    background-color: white;
-}
 
-.references_segment>.container>.row{
-    margin-bottom: 20px;
-}
-
-img.logos{
-    filter: grayscale(100%);
-}
-
-img.logos:hover{
-    filter: grayscale(0%);
-}
 
 /*FOOTER*/
 
