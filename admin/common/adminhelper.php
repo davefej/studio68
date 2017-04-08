@@ -31,12 +31,13 @@ function getJSON($type){
 	return $ret;
 }
 
-function addElement($type,$text,$imgname,$status){
+function addElement($type,$text,$desc,$imgname,$status){
 	$data = readJSON($type);
 	$newimg = array();
 	$newimg['name'] = $imgname;
 	$newimg['txt'] = $text;
 	$newimg['status'] = $status;
+	$newimg['desc'] = $desc;
 	$newimg['time'] = date("Y-m-d H:i:s");
 	$newimg['order'] = maxOrder($data);
 	array_push($data,$newimg);

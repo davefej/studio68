@@ -21,7 +21,12 @@ if(isset($_GET['admin']) && $_GET['admin'] == true){
 		<table class='prodtable'>
 		<?php 
 		$i=0;
-		foreach ($data as $jsonintem) { ?> 
+		foreach ($data as $jsonintem) { 
+			if(!isset($jsonintem['desc'])){
+				$jsonintem['desc'] = "";
+			}
+			
+			?> 
 			<?php if(($i % 4) == 0){ ?>		
 				<tr>
 			<?php } ?>
@@ -33,6 +38,7 @@ if(isset($_GET['admin']) && $_GET['admin'] == true){
 				<?php }?>
 					<div class='prodtitle'><?php echo $jsonintem['txt']; ?> </div>
 					<img class='prodimgbg' src='<?php echo $currpath.$jsonintem['name']; ?>'></img>
+					<div class='proddesc'><?php echo $jsonintem['desc']; ?> </div>
 				</div>
 			</td>
 			<?php if(($i % 4) == 3){ ?>		

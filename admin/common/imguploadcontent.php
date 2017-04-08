@@ -15,6 +15,13 @@
 		  			<td><input type="text" name="name" placeholder="Név">
 		  				<br/>
 		  			</td>
+		  		</tr>
+		  		<tr>	
+					
+		  			<td colspan="2">
+		  				<input type="text" name="desc" placeholder="Leírás">		  			
+		  			</td>
+		  		</tr>
 				<tr>
 					<td colspan="2">
 					<input type="hidden" name="type" value=<?php echo '"'.$upoadtype.'"';?>>
