@@ -273,11 +273,18 @@ $.simplyScroll.fn.extend({
 			}
 			
 			if (this.isAuto && this.o.pauseOnHover && (!this.supportsTouch || this.o.reference_stop)) {
-				this.$clip.bind(this.events.start,this.funcMovePause).bind(this.events.end,this.funcMoveResume);
+				//this.$clip.bind(this.events.start,this.funcMovePause).bind(this.events.end,this.funcMoveResume);
 				var mypause = this.funcMovePause;
 				var myresume = this.funcMoveResume;
 				if(this.o.reference_stop){
 					$("#scroller2").hover(function(){
+						mypause(); //Stop the animation when mouse in
+						},
+						function(){
+							myresume(); //Start the animation when mouse out
+						});
+				}else{
+					$("#scroller").hover(function(){
 						mypause(); //Stop the animation when mouse in
 						},
 						function(){
