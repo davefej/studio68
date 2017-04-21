@@ -14,7 +14,6 @@
 		  echo '<link rel="stylesheet" href="css/departments-style.css?v= '.$version.'">'
         ?>
 		<link rel="stylesheet" href="css/bootbox.css?v=<?php echo $version;?>">
-		
         
         <?php
         if(isset($page) && $page == "home")

@@ -1,0 +1,303 @@
+body{
+	margin:0 auto;
+    color:white;
+    padding: 0;
+    background-color: #181819;
+}
+
+/*MAIN SEGMENT*/
+.main_segment.container-fluid{
+    min-height: 100%;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    
+    padding-top: 55px;
+}
+
+.sweet-title{
+    width:100%;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 5vh;
+    color: #333;
+    text-align: center;
+}
+
+.sweet-intro{
+    min-height: 20%;
+    margin: 0;
+    float: none;
+    text-align: center;
+    color: #777;
+    font-size: 3vh;
+    margin-bottom: 40px;
+}
+
+div.container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.well{
+    padding: 0;
+}
+
+#chocolate{
+    background-image: url("../img/chocolate.jpg");
+    background-size: 140%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+#chocolate:after{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#chocolate:hover {
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
+}
+
+#chocolate:hover::after {
+  opacity: 1;
+}
+
+.chocolate-open{
+    margin-top: 18%;
+    font-family: Muli, 'sans-serif';
+    font-size: 4vh;
+    
+}
+
+#chocolate:hover .chocolate-open{
+    display: block;
+}
+
+.well.describe{
+    min-height: 300px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    padding-top: 15px;
+    font-family: Raleway, 'sans-serif';
+    font-size: 2vh;
+}
+
+#chocolate-describe{
+    border-width: 1 1 5 1;
+    border-color: #A52;
+}
+
+#lollypop{
+    background-image: url("../img/lollypops.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 620px;
+    
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+#lollypop:after{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#lollypop:hover {
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
+}
+
+#lollypop:hover::after {
+  opacity: 1;
+}
+
+.lollypop-open{
+    margin-top: 40%;
+    font-family: Muli, 'sans-serif';
+    font-size: 4vh;
+    
+}
+
+#lollypop:hover .lollypop-open{
+    display: block;
+}
+
+#lollypop-describe{
+    border-width: 1 1 5 1;
+    border-color: #A52;
+}
+
+#bonbon{
+    text-align: center;
+    background-image: url("../img/bonbon.jpg");
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+#bonbon:after{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#bonbon:hover {
+    transform: scale(1.02, 1.02);
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+#bonbon:hover::after {
+  opacity: 1;
+}
+
+.bonbon-open{
+    padding-top: 2em;
+}
+
+#bonbon.well.promo:hover .bonbon-open{
+    display: block;
+}
+
+#custom-describe{
+    text-align: center;
+    background-image: url("../img/flatchocolate.jpg");
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+#custom-describe:after{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#custom-describe:hover {
+    transform: scale(1.02, 1.02);
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+#custom-describe:hover::after {
+  opacity: 1;
+}
+
+#custom-describe.well.promo:hover .custom-desc-open{
+    display: block;
+}
+
+.custom-desc-open{
+    padding-top: 2em;
+}
+
+#gallery{
+    text-align: center;
+    background-image: url("../img/sweets.jpg");
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+#gallery:after{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#gallery:hover {
+    transform: scale(1.02, 1.02);
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+#gallery:hover::after {
+  opacity: 1;
+}
+
+#gallery.well.promo:hover .gallery-open{
+    display: block;
+}
+
+.gallery-open{
+    padding-top: 2em;
+}
+
+.promo{
+    height:300px;
+    padding-top: 2em;
+    font-family: Muli, 'sans-serif';
+    font-size: 4vh;
+    cursor: pointer;
+}

@@ -1,0 +1,82 @@
+.departments_segment{
+    width: 100%;
+    color: white;
+    text-align: center;
+    float: none;
+    background-color:rgb(53, 68, 151);
+}
+
+.departments_segment>.container{
+    width:100%;
+    padding:0;
+}
+
+.department{
+    height: 100%;
+    cursor:pointer;
+}
+
+/*ECO*/
+#eco{
+    height: 200px;
+    font-size: 1.4em;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    padding-top:40px;
+    background-color: rgb(48, 130, 55);
+}
+
+/*FOOD*/
+#food{
+    height: 200px;
+    font-size: 1.4em;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    padding-top:40px;
+    background-color:rgb(163, 107, 70);
+}
+
+/*GIFTS*/
+#gifts{
+    height: 200px;
+    font-size: 1.4em;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    padding-top:40px;
+    background-color: rgb(244, 67, 54);
+}
+
+/*FAN*/
+#fan{
+    height: 200px;
+    font-size: 1.4em;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    padding-top:40px;
+    background-color: rgb(255, 175, 57);
+}
+
+/*PRINT*/
+#printing{
+    height: 200px;
+    font-size: 1.4em;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    padding-top:40px;
+    background-color:rgb(83, 115, 114);
+}
+
+/*CUSTOM*/
+#custom{
+    height: 200px;
+    font-size: 1.4em;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    padding-top:40px;
+    background-color:rgb(53, 68, 151);
+}
+
+.desc{
+    font-family: 'Lora', serif;
+    font-style: italic;
+}

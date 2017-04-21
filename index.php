@@ -319,213 +319,6 @@ require_once 'common/topsegment.php';
      	</li>
      </ul>
     </div>
-    <!-- 
-    <div class="container">
-    
-        <div class="row">
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo1.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo2.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo3.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo4.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo5.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo6.jpg" alt="" width="50%">
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo7.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo8.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo9.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo10.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo11.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo12.jpg" alt="" width="50%">
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo13.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo14.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo15.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo16.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo17.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo18.jpg" alt="" width="50%">
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo19.png" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo20.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo21.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo22.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo23.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo24.jpg" alt="" width="50%">
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo25.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo26.gif" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo27.bmp" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo28.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo29.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo30.jpg" alt="" width="50%">
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo31.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo32.bmp" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo33.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo34.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo35.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo36.png" alt="" width="50%">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo37.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo38.png" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo39.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo40.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo41.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo42.jpg" alt="" width="50%">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo43.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo44.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo45.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo60.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo47.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo48.jpg" alt="" width="50%">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo49.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo50.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo51.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo52.gif" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo53.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo54.jpg" alt="" width="50%">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo55.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-            	<img class="logos" src="img/logok/logo56.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo57.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo58.jpg" alt="" width="50%">
-            </div>
-            <div class="col-sm-4 col-sm-2">
-                <img class="logos" src="img/logok/logo59.jpg" alt="" width="50%">
-            </div>
-        </div>    
-    </div>
-     -->
 </div>
 
 
@@ -554,23 +347,21 @@ require_once 'common/topsegment.php';
                     <br/><br/><span class="teamtext">Először tedd meg amit kell, aztán tedd meg amit lehet, utána a lehetetlen is sikerülni fog!</span>                 </div>
 			</li>
 			<li>
-				<img class="teamimg" src="img/magdi_profil.png" width="250" height="250">
-				<div class="teamitemdiv">
-					 <span class="teamname">Csorba Magdolna</span><br/>
-                     <span class="teamtitle">pénzügy / könyvelés</span>
-                    <br/><a class="teammail" href="mailto:magdi@studio68.hu">magdi@studio68.hu</a>
-                    <br/><br/><span class="teamtext">Szeretem a munkám. Hivatásomnak tekintem.
-						Bár látszólag „csak” papírmunka és számok tengere, én mégis örömmel végzem.
-						Érzem, hogy számítanak rám, és ez kellő motivációt ad a mindennapokhoz.</span>                 
-			</div>
-			</li>
-			<li>
 				<img class="teamimg" src="img/deni_profil.png" width="250" height="250">
 				<div class="teamitemdiv">
 					 <span class="teamname">Droszt Denisa</span><br/> 
                      <span class="teamtitle">promóciós vezető</span>
                      <br/><a class="teammail" href="mailto:deni@studio68.hu">deni@studio68.hu</a>
                      <br/><br/><span class="teamtext">A minőségre törekszem, és akkor is próbálok jó munkát végezni, ha éppen nincs szem előtt!</span>
+                </div>
+			</li>
+            <li>
+				<img class="teamimg" src="img/reni_profil.png" width="250" height="250">
+				<div class="teamitemdiv">
+					  <span class="teamname">Ádám Renáta</span><br/> 
+                      <span class="teamtitle">promóciós szakértő</span>
+                      <br/><a class="teammail" href="mailto:reni@studio68.hu">reni@studio68.hu</a>
+                      <br/><br/><span class="teamtext" >A lehetőségeket nem csak megkapni kell, hanem élni is tudni kell velük!</span>
                 </div>
 			</li>
 			<li>
@@ -591,15 +382,16 @@ require_once 'common/topsegment.php';
                      <br/><br/><span class="teamtext">Kiemelten figyelek arra, hogy mindig, minden időben és épségben célba érjen!</span>     
                  </div>
 			</li>
-			
 			<li>
-				<img class="teamimg" src="img/reni_profil.png" width="250" height="250">
+				<img class="teamimg" src="img/magdi_profil.png" width="250" height="250">
 				<div class="teamitemdiv">
-					  <span class="teamname">Ádám Renáta</span><br/> 
-                      <span class="teamtitle">promóciós szakértő</span>
-                      <br/><a class="teammail" href="mailto:reni@studio68.hu">reni@studio68.hu</a>
-                      <br/><br/><span class="teamtext" >A lehetőségeket nem csak megkapni kell, hanem élni is tudni kell velük!</span>
-                </div>
+					 <span class="teamname">Csorba Magdolna</span><br/>
+                     <span class="teamtitle">pénzügy / könyvelés</span>
+                    <br/><a class="teammail" href="mailto:magdi@studio68.hu">magdi@studio68.hu</a>
+                    <br/><br/><span class="teamtext">Szeretem a munkám. Hivatásomnak tekintem.
+						Bár látszólag „csak” papírmunka és számok tengere, én mégis örömmel végzem.
+						Érzem, hogy számítanak rám, és ez kellő motivációt ad a mindennapokhoz.</span>                 
+			</div>
 			</li>
 	</ul>
 <!-- 
