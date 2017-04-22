@@ -1,3 +1,20 @@
+<?php
+$useragent=$_SERVER['HTTP_USER_AGENT'];
+if( preg_match("/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i", $_SERVER["HTTP_USER_AGENT"])){
+	$_SESSION['mobile'] = true;
+	$mobile = true;
+	if($_SERVER[HTTP_HOST] == "localhost"){
+		header('Location: '."http://$_SERVER[HTTP_HOST]"."/studio68/mobile".str_replace("/studio68", "", $_SERVER[REQUEST_URI]));
+	}else{
+		header('Location: '."http://$_SERVER[HTTP_HOST]"."/mobile".$_SERVER[REQUEST_URI]);
+	}
+	
+	exit();
+}else{
+	$_SESSION['mobile'] = false;
+}
+?>
+
 <html>
 	<head>
 	
