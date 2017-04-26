@@ -43,23 +43,29 @@
         </div>
         
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="well promo" id="textile">
                     <div class="textile-open"><b>Textilek &amp; Munkaruhák</b>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="well promo" id="people-webshop">
                     <div class="people-webshop-open">
                         <b>Lakossági webshopunk</b>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="well promo" id="gallery">
-                    <div class="gallery-open"><b>Tekintse meg termékeinket</b>
-                    </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="well describe" id="textile-describe">
+                    Lorem ipsum dolor sit amet, lobortis ligula tellus. Eget at volutpat, in orci leo gravida wisi. Quam parturient feugiat in mauris, rhoncus montes pretium viverra volutpat, justo mauris metus sit, ad neque in eu at in donec, nullam tristique at et morbi. Eget convallis magna nibh quis, mi dapibus, rhoncus in viverra egestas aut turpis.
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="well describe" id="people-webshop-describe">
+                    Lorem ipsum dolor sit amet, lobortis ligula tellus. Eget at volutpat, in orci leo gravida wisi. Quam parturient feugiat in mauris, rhoncus montes pretium viverra volutpat, justo mauris metus sit, ad neque in eu at in donec, nullam tristique at et morbi. Eget convallis magna nibh quis, mi dapibus, rhoncus in viverra egestas aut turpis.
                 </div>
             </div>
         </div>

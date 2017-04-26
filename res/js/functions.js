@@ -2,6 +2,12 @@ function goto(url){
 	window.location = url;
 }
 
+$(document).ready(function () {
+    if($(".well-contact").height() > $(".well-address").height())
+        $(".well-address").height($(".well-contact").height());
+    else
+        $(".well-contact").height($(".well-address").height())
+});
 
 window.initMap = function() {
   // Styles a map in night mode.

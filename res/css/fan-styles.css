@@ -96,7 +96,7 @@ div.container{
     margin-top: 10%;
     font-family: Muli, 'sans-serif';
     font-size: 4vh;
-    display: none;
+    padding-top: 2em;
 }
 
 #gift-webshop:hover .gift-webshop-open{
@@ -148,7 +148,7 @@ div.container{
     margin-top: 10%;
     font-family: Muli, 'sans-serif';
     font-size: 4vh;
-    display: none;
+    padding-top: 2em;
 }
 
 #custom-gift:hover .custom-gift-open{
@@ -201,11 +201,11 @@ div.container{
 }
 
 .textile-open{
-    display: none;
+    padding-top: 2em;
 }
 
 #textile:hover .textile-open{
-    padding-top: 12%;
+    padding-top: 2em;
     display: block;
 }
 
@@ -237,7 +237,7 @@ div.container{
 }
 
 .people-webshop-open{
-    display: none;
+    padding-top: 2em;
 }
 
 #people-webshop:hover {
@@ -252,7 +252,7 @@ div.container{
 }
 
 #people-webshop.well.promo:hover .people-webshop-open{
-    padding-top: 12%;
+    padding-top: 2em;
     display: block;
 }
 
@@ -295,11 +295,11 @@ div.container{
 }
 
 .gallery-open{
-    display: none;
+    padding-top: 2em;
 }
 
 #gallery.well.promo:hover .gallery-open{
-    padding-top: 12%;
+    padding-top: 2em;
     display: block;
 }
 

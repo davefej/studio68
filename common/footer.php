@@ -9,24 +9,22 @@
             <div class="sign">©David&amp;David<br>2017</div>
         </div> 
         <!-- Bootstrap core JavaScript
-	    ================================================== -->
-	    <!-- Placed at the end of the document so the pages load faster -->
-        <script src="res/js/jquery1.12.4.js"></script>
-        <script src="res/js/jquery-ui.min.js"></script>
-	    <script src="res/bootstrap/js/bootstrap.min.js"></script>
-       
-        <?php 
-        if($mobile == false && $page == "home"){
-        	echo '<script src="res/js/vegas.js"></script>';
-        	echo '<script src="res/js/animations.js"></script>';
-        }  
+	     Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery1.12.4.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+	    <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/functions.js"></script>
+        <script src="js/bootbox.js"></script>
+        <?php if($page == "home" || $page == "printing")
+            echo '<script src="js/vegas.js"></script>';
+            echo '<script src="js/animations.js"></script>';
         ?>
-
-        <script src="res/js/functions.js"></script>
-        <script src="res/js/bootbox.js"></script>
-
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgpGS138e-2Fd5AMMV8TdA5JoKbmxx9zw&callback=initMap"></script>
-       
+        <?php if($page == "home" || $page == "printing")
+            echo '<script src="js/vegas.js"></script>';
+            echo '<script src="js/animations.js"></script>';
+        ?>
+        
         <script>
             (function ($) {
 

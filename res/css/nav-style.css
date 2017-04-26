@@ -68,6 +68,10 @@ button.navbar-toggle collapsed button.navbar-toggle:active{
     transform: scaleX(1);
 }
 
+.navbar-nav>li>a:focus{
+    color: white;
+}
+
 .shadow{
 	box-shadow: 0px 0px 10px 3px #000000;
 }

@@ -20,9 +20,9 @@ function init() {
         firstTransition: 'fade',
         transitionDuration: 2000,
         slides: [
-            { src: "img/printing1.jpg" },
-            { src: "img/printing2.jpg"},
-            { src: "img/printing3.jpg"}
+            { src: "res/img/printing1.jpg" },
+            { src: "res/img/printing2.jpg"},
+            { src: "res/img/printing3.jpg"}
         ],
         animation: 'kenburns'
     });

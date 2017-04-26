@@ -1,9 +1,11 @@
-
 <!--MAIN SEGMENT-->
 <div class="main_segment container-fluid" id="main">
+
     <div class="eco-title">
-        Környezetünk örömére...
+        Partnereink örömére...
+        
         <hr style="width: 10%; border-color:#333;">
+        
     </div>
     
     <div class="eco-intro">
@@ -25,42 +27,36 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="well describe" id="energy-describe">
-                            Lorem ipsum dolor sit amet, lobortis ligula tellus. Eget at volutpat, in orci leo gravida wisi. Quam parturient feugiat in mauris, rhoncus montes pretium viverra volutpat, justo mauris metus sit, ad neque in eu at in donec, nullam tristique at et morbi. Eget convallis magna nibh quis, mi dapibus, rhoncus in viverra egestas aut turpis.
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="well describe" id="textil-describe">
-                            Lorem ipsum dolor sit amet, lobortis ligula tellus. Eget at volutpat, in orci leo gravida wisi. Quam parturient feugiat in mauris, rhoncus montes pretium viverra volutpat, justo mauris metus sit, ad neque in eu at in donec, nullam tristique at et morbi. Eget convallis magna nibh quis, mi dapibus, rhoncus in viverra egestas aut turpis.
-                        </div>
+                <div class="well" id="textil">
+                    <div class="textil-open">
+                        <b>Újrahasznosított Termékek</b>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="well" id="textil">
-                    <div class="textil-open">
-                        <b>Öko Textil termékek</b>
+                <div class="well" id="ideas">
+                    <div class="ideas-open">
+                        <b>Környezetbarát Ötletek</b>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
-                <div class="well promo" id="eco-gifts">
-                    <div class="eco-gifts-open"><b>Öko Ajándékok</b></div>
+            <div class="col-md-4">
+                <div class="well describe" id="energy-describe">
+                    Lorem ipsum dolor sit amet, lobortis ligula tellus. Eget at volutpat, in orci leo gravida wisi. Quam parturient feugiat in mauris, rhoncus montes pretium viverra volutpat, justo mauris metus sit, ad neque in eu at in donec, nullam tristique at et morbi. Eget convallis magna nibh quis, mi dapibus, rhoncus in viverra egestas aut turpis.
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="well promo" id="gallery">
-                    <div class="gallery-open"><b>Tekintse meg termékeinket</b>
-                    </div>
+            <div class="col-md-4">
+                <div class="well describe" id="textil-describe">
+                    Lorem ipsum dolor sit amet, lobortis ligula tellus. Eget at volutpat, in orci leo gravida wisi. Quam parturient feugiat in mauris, rhoncus montes pretium viverra volutpat, justo mauris metus sit, ad neque in eu at in donec, nullam tristique at et morbi. Eget convallis magna nibh quis, mi dapibus, rhoncus in viverra egestas aut turpis.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="well describe" id="textil-describe">
+                    Lorem ipsum dolor sit amet, lobortis ligula tellus. Eget at volutpat, in orci leo gravida wisi. Quam parturient feugiat in mauris, rhoncus montes pretium viverra volutpat, justo mauris metus sit, ad neque in eu at in donec, nullam tristique at et morbi. Eget convallis magna nibh quis, mi dapibus, rhoncus in viverra egestas aut turpis.
                 </div>
             </div>
         </div>
     </div>
 </div>
-
