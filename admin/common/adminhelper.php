@@ -1,7 +1,7 @@
 <?php 
 function readJSON($type){
 	$jsonstr = "";
-	if ($file = fopen("../../res/".$type.".json", "r")) {
+	if ($file = fopen("../../dinamic/".$type.".json", "r")) {
 		while(!feof($file)) {
 			$line = fgets($file);
 			$jsonstr .= $line."\n";
@@ -45,7 +45,7 @@ function addElement($type,$text,$desc,$imgname,$status){
 }
 
 function writeJSON($data,$type){
-	$myfile = fopen("../../res/".$type.".json", "w");
+	$myfile = fopen("../../dinamic/".$type.".json", "w");
 	fwrite($myfile, json_encode($data));
 	fclose($myfile);
 }

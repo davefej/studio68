@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 
 
-<script src="//cloud.tinymce.com/stable/tinymce.min.js"></script>
+  <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
 <script src="res/jquery1.12.4.js"></script>
 <script src="res/bootstrap.js"></script>
 <script src="res/bootbox.js"></script>

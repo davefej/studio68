@@ -4,7 +4,7 @@
 		
 		<link rel="stylesheet" href="res/bootstrap.css">
 		<link rel="stylesheet" href="res/adminstyle.css?v=<?php echo rand();?>">
-		<link rel="stylesheet" href="../css/bootbox.css?v=<?php echo rand();?>">
+		<link rel="stylesheet" href="../res/css/bootbox.css?v=<?php echo rand();?>">
 		<title>Stúdió68 Kft. Admin</title>
 	</head>
 	<body>

@@ -4,19 +4,19 @@ $uploadtype = $_GET["type"];
 $data = getJSON($uploadtype);
 if(isset($_GET['admin']) && $_GET['admin'] == true){
 	$admin=true;
-	$currpath =  "../res/".$uploadtype."/";
+	$currpath =  "../dinamic/".$uploadtype."/";
 	
 	
 }else{
 	$admin=false;
-	$currpath =  "res/".$uploadtype."/";
+	$currpath =  "dinamic/".$uploadtype."/";
 }
 
 ?>
 <?php if($admin){?>
 <button class="changebutton" onclick="imgchage('<?php  echo $uploadtype ?>')">Kép Csere</button>
 <?php } ?>
-	<div class='bbheader'><?php  echo $uploadtype ?></div>
+	<div class='bbheader'><?php  echo "Zöld Energia" ?></div>
 	<div class='bbcontainer'>
 		<table class='prodtable'>
 		<?php 
@@ -31,12 +31,14 @@ if(isset($_GET['admin']) && $_GET['admin'] == true){
 				<tr>
 			<?php } ?>
 			<td class='prodtd'>
+			
+			<div class='prodtitle'><?php echo $jsonintem['txt']; ?> </div>
 				<div class='proditem'>
 				<?php if($admin){?>
 					<button class="editprodbutton" onclick="deleteprodbutton('<?php echo $jsonintem['name'];?>','<?php echo $uploadtype;?>')">Töröl</button>
 					<input type="checkbox" class="changecb" id="<?php echo $jsonintem['name'];?>" />
 				<?php }?>
-					<div class='prodtitle'><?php echo $jsonintem['txt']; ?> </div>
+					
 					<img class='prodimgbg' src='<?php echo $currpath.$jsonintem['name']; ?>'></img>
 					<div class='proddesc'><?php echo $jsonintem['desc']; ?> </div>
 				</div>

@@ -53,7 +53,7 @@ if($hiba){
 $id = md5(uniqid());
 
 $fname = $id.".".$mime;
-$path = "../../res/".$_POST['type']."/" . $fname;
+$path = "../../dinamic/".$_POST['type']."/" . $fname;
 move_uploaded_file($_FILES["img"]["tmp_name"],$path );
 $msg =  "OK";
 addElement($_POST['type'],$_POST['name'],$_POST['desc'],$fname,"1");
