@@ -8,4 +8,3 @@ require_once 'content/common/contact.php';
 require_once 'content/common/footer.php';
 ?>
 
-<script src="res/js/eco.js"></script>

@@ -28,44 +28,21 @@ if(isset($_GET['admin']) && $_GET['admin'] == true){
 			}
 			
 			?> 
-			<?php if(($i % 4) == 0){ ?>		
-				<tr>
-			<?php } ?>
+			<tr>
 			<td class='prodtd'>
 			<div class="prodtddiv">
-			<div class='prodtitle'><?php echo $jsonintem['txt']; ?> </div>
-				<div class='proditem'>
-				<?php if($admin){?>
-					<button class="editprodbutton" onclick="deleteprodbutton('<?php echo $jsonintem['name'];?>','<?php echo $uploadtype;?>')">Töröl</button>
-					<input type="checkbox" class="changecb" id="<?php echo $jsonintem['name'];?>" />
-				<?php }?>
-					
-					<img class='prodimgbg' src='<?php echo $currpath.$jsonintem['name']; ?>'></img>					
-				</div>
+				<div class='prodtitle'><?php echo $jsonintem['txt']; ?> </div>
+					<div class='proditem'>
+						<img class='prodimgbg' src='<?php echo $currpath.$jsonintem['name']; ?>'></img>					
+					</div>
 				<div class='proddesc'><?php echo $jsonintem['desc']; ?> </div>
-				</div>
+			</div>
 			</td>
-			<?php if(($i % 4) == 3){ ?>		
-				</tr>
-			<?php 
-				}
-				$i++;
-			} 
+			
+			</tr>
+			 
 
-			$num = count($data);
-			$num = $num % 4;
-			if($num <= 3){
-				while($num <= 3){
-					?>
-					<td class='prodtd'>
-						
-					</td>
-					<?php 
-					$num = $num+1;
-				}
-				?>
-				</tr>
-				<?php 
+		<?php 
 			}
 		?>
 		</table>

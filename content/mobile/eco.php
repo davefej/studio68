@@ -45,7 +45,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <div onclick="opengreenEnergy()" class="well" id="energy">
+                <div onclick="openprodlist('eco1')" class="well" id="energy">
                     <div class="energy-open">
                         <b >Zöld Energia</b>
                     </div>
@@ -60,7 +60,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                <div class="well" id="textil">
+                <div onclick="openprodlist('eco2')" class="well" id="textil">
                     <div class="textil-open">
                         <b>Öko Textil termékek</b>
                     </div>
@@ -76,7 +76,7 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <div class="well promo" id="eco-gifts">
+                <div onclick="openprodlist('eco3')" class="well promo" id="eco-gifts">
                     <div class="eco-gifts-open"><b>Öko Ajándékok</b></div>
                 </div>
             </div>

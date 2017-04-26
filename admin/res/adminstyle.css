@@ -92,3 +92,13 @@ td{
 	margin-left:100px;
 	display:inline-block;
 }
+
+.editor_top{
+	text-align:center;
+	margin:auto;
+	margin-top:10px;
+}
+.editorcontainer{
+	width:100%;
+	text-align:center;
+}

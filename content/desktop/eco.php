@@ -20,21 +20,21 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <div onclick="opengreenEnergy()" class="well" id="energy">
+                <div onclick="openprodlist('eco1')" class="well" id="energy">
                     <div class="energy-open">
                         <b >Zöld Energia</b>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="well" id="textil">
+                <div onclick="openprodlist('eco2')" class="well" id="textil">
                     <div class="textil-open">
                         <b>Újrahasznosított Termékek</b>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="well" id="ideas">
+                <div onclick="openprodlist('eco3')" class="well" id="ideas">
                     <div class="ideas-open">
                         <b>Környezetbarát Ötletek</b>
                     </div>

@@ -34,3 +34,21 @@ function imgchage(type){
 		alert("Két képet válasszon ki a checkboxxal jelenleg "+list.length+" van kiválasztva")
 	}
 }
+
+function loadProdList(){
+	quest = window.location.href.indexOf("?");
+	if(quest > -1){
+		str = window.location.href.substring(0,quest);
+	}else{
+		str = window.location.href;
+	}	
+	type = $("#editorselect").val()
+	if(type == ""){
+		window.location.href = str;
+		return
+	}else if( window.location.toString().indexOf(type) > -1){
+		return;
+	}
+
+	window.location.href = str+"?type="+$("#editorselect").val();
+}

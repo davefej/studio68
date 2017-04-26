@@ -1,15 +1,20 @@
 <?php 
 function readJSON($type){
 	$jsonstr = "";
-	if ($file = fopen("../../dinamic/".$type.".json", "r")) {
-		while(!feof($file)) {
-			$line = fgets($file);
-			$jsonstr .= $line."\n";
+	if(file_exists("../../dinamic/".$type.".json")){
+		if ($file = fopen("../../dinamic/".$type.".json", "r")) {
+			while(!feof($file)) {
+				$line = fgets($file);
+				$jsonstr .= $line."\n";
+			}
+			fclose($file);
+		}else{
+			$jsonstr = "[]";
 		}
-		fclose($file);
 	}else{
 		$jsonstr = "[]";
 	}
+	
 	$json = json_decode($jsonstr,3);
 	return $json;
 }
@@ -107,5 +112,58 @@ function changeOrder($type,$name1,$name2){
 		return false;
 	}
 }
+
+
+function getCategoories($cat){
+
+	switch($cat){
+		case "eco1":
+			return "Zöld Energia";
+			break;
+		case "eco2":
+			return "Újrahasznosított Termékek";
+			break;
+		case "eco3":
+			return "Környezetbarát Ötletek";
+			break;
+		case "sweet1":
+			return "Nassolni valók";
+			break;
+		case "sweet2":
+			return "Promóciós Édességek";
+			break;
+		case "sweet3":
+			return "Cukorkák, nyalókák";
+			break;
+		case "gift1":
+			return "Webshop termékek";
+			break;
+		case "gift2":
+			return "Egyedi gyártások";
+			break;
+		case "gift3":
+			return "Textilek & Munkaruhák";
+			break;
+		case "gift4":
+			return "Lakossági Webshop";
+			break;
+		case "fan1":
+			return "Szurkolói kellékek";
+			break;
+		case "fan2":
+			return "Egyedi gyártások";
+			break;
+		case "fan3":
+			return "Textilek";
+			break;
+		case "fan4":
+			return "Serlegek, kupák";
+			break;
+		default:
+			return "";
+			break;
+	}
+}
+
 
 ?>

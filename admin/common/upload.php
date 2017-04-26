@@ -13,10 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 		}else{
 			if(isset($_POST["name"]) && isset($_POST["type"]) && $_POST['desc']){
-				if($_POST["type"] != "eco" && $_POST["type"] != "sweet" && $_POST["type"] != "gift"
-						&& $_POST["type"] != "fan" && $_POST["type"] != "printing"){
-					$msg =  "TÍPOS JOGOSULTSÁG HIBA";
-				}else{
+				
 					
 					$check = getimagesize($_FILES["img"]["tmp_name"]);
 					if($check !== false) {
@@ -31,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 						$msg =  "NEM KÉP LETT CSATOLVA";
 					}
 				
-				}
+				
 				
 			
 			}else{
@@ -53,11 +50,14 @@ if($hiba){
 $id = md5(uniqid());
 
 $fname = $id.".".$mime;
+if (!file_exists("../../dinamic/".$_POST['type'])) {
+	mkdir("../../dinamic/".$_POST['type']);
+}
 $path = "../../dinamic/".$_POST['type']."/" . $fname;
 move_uploaded_file($_FILES["img"]["tmp_name"],$path );
 $msg =  "OK";
 addElement($_POST['type'],$_POST['name'],$_POST['desc'],$fname,"1");
-header("Location: ../".$_POST['type'].".php?success=true");
+header("Location: ../editor.php?type=".$_POST['type']."&success=true");
 
 
 function imagefrommime($mime){

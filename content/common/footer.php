@@ -14,7 +14,7 @@
         <script src="res/js/jquery1.12.4.js"></script>
         <script src="res/js/jquery-ui.min.js"></script>
 	    <script src="res/bootstrap/js/bootstrap.min.js"></script>
-       
+        <script src="res/js/prodlist.js"></script>
         <?php 
         if($mobile == false && $page == "home"){
         	echo '<script src="res/js/vegas.js"></script>';
@@ -127,5 +127,15 @@
                 });
             });
         </script>
+        
+        
+        <?php 
+       if($mobile){
+       	echo "<script>var usemobileview = true;</script>";
+       }else{
+       	echo "<script>var usemobileview = false;</script>";
+       }
+        
+        ?>
 	</body>
 </html>

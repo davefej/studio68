@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="col-md-8">
-                <div class="well" id="custom-gift">
+                <div onclick="openprodlist('fan3')" class="well" id="custom-gift">
                     <div class="custom-gift-open">
                         <b>Textilek</b>
                     </div>
@@ -44,20 +44,20 @@
         
         <div class="row">
             <div class="col-md-4">
-                <div class="well promo" id="textile">
+                <div  onclick="openprodlist('fan1')" class="well promo" id="textile">
                     <div class="textile-open"><b>Szurkolói kellékek</b>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="well promo" id="people-webshop">
+                <div onclick="openprodlist('fan2')" class="well promo" id="people-webshop">
                     <div class="people-webshop-open">
                         <b>egyedi gyártások</b>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="well promo" id="gallery">
+                <div onclick="openprodlist('fan4')" class="well promo" id="gallery">
                     <div class="gallery-open"><b>serlegek, kupák</b>
                     </div>
                 </div>
