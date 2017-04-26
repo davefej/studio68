@@ -11,6 +11,7 @@
 <?php
 	if($mobile){
 ?>
+	<link rel="stylesheet" href="res/mobile-css/styles.css?v=<?php echo $version;?>">
 	<link rel="stylesheet" href="res/mobile-css/reference-styles.css?v=<?php echo $version;?>">
 	<link rel="stylesheet" href="res/mobile-css/team-style.css?v=<?php echo $version;?>">
 <?php 
@@ -18,6 +19,7 @@
 ?>
 
 	<script type="text/javascript" src="res/js/jquery.simplyscroll.js"></script>
+	<link rel="stylesheet" href="res/css/styles.css?v=<?php echo $version;?>">
 	<link rel="stylesheet" href="res/css/jquery.simplyscroll.css" media="all" type="text/css">
 	<link rel="stylesheet" href="res/css/reference-styles.css?v=<?php echo $version;?>">
 	<link rel="stylesheet" href="res/css/team-style.css?v=<?php echo $version;?>">

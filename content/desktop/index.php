@@ -16,12 +16,8 @@
     <div class="navhider">
         
     </div>
-    <?php
-    if(isset($page) && $page == "home"){
-    echo '<div class="title-block2">
-	</div>';
-    }
-    ?>
+    <div class="title-block">
+	</div>
 </div>
 
 <!--DEPARTMENT SEGMENT-->
@@ -340,7 +336,7 @@
 
 <!--TEAM SEGMENT-->
 <div class="team_segment container-fluid segmentoverflow" id="team">
-    <div class="title-block">
+    <div class="title-block2">
      <h1 class="teamsegmenttitle">Csapat</h1>
      <ul id="scroller">
 			<li>

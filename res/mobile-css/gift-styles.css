@@ -1,3 +1,4 @@
+/*MOBIL*/
 body{
 	margin:0 auto;
     color:white;
@@ -49,8 +50,8 @@ div.container{
 
 .well.describe{
     min-height: 300px;
-    background-color: #777;
-    border-width: 0 5 0 0;
+    background-color: white;
+    color: black;
     border-color: #A52;
     padding: 10px;
     padding-top: 15px;
@@ -111,8 +112,8 @@ div.container{
 }
 
 #custom-gift{
-    background-image: url("../img/ajandek1.jpg");
-    background-size: 75%;
+    background-image: url("../img/gift.jpg");
+    background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
     height: 350px;
@@ -147,7 +148,7 @@ div.container{
     margin-top: 10%;
     font-family: Muli, 'sans-serif';
     font-size: 4vh;
-    color: #777;
+    color: white;
 }
 
 #custom-gift:hover .custom-gift-open{
@@ -207,15 +208,21 @@ div.container{
     display: block;
 }
 
+#textile-describe{
+    border-width: 1 1 5 1;
+    border-color: #e00901;
+}
+
 #people-webshop{
     text-align: center;
-    background-image: url("../img/.jpg");
-    background-size: 100% 120%;
+    background-image: url("../img/ÉNA.jpg");
+    background-size: auto 100%;
     background-repeat: no-repeat;
+    background-position: center;
     color: #333;
     
-    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
-    filter: grayscale(0%);
+    -webkit-filter: grayscale(30%); /* Chrome, Safari, Opera */
+    filter: grayscale(30%);
     
     position: relative;
     border-radius: 5px;
@@ -236,12 +243,11 @@ div.container{
 
 .people-webshop-open{
     padding-top: 2em;
+    color: white;
 }
 
 #people-webshop:hover {
     transform: scale(1.02, 1.02);
-    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-    filter: grayscale(100%);
     cursor: pointer;
 }
 
@@ -253,50 +259,9 @@ div.container{
     display: block;
 }
 
-#gallery{
-    text-align: center;
-    background-image: url("../img/.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    color: #333;
-    
-    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
-    filter: grayscale(0%);
-    
-    position: relative;
-    border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-    transition: all 0.3s ease-in-out;
-}
-
-#gallery:after{
-    content: '';
-    position: absolute;
-    opacity: 0;
-    z-index: -1;
-    border-radius: 5px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    transition: opacity 0.3s ease-in-out;
-}
-
-#gallery:hover {
-    transform: scale(1.02, 1.02);
-    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-    filter: grayscale(100%);
-    cursor: pointer;
-}
-
-#gallery:hover::after {
-  opacity: 1;
-}
-
-.gallery-open{
-    padding-top: 2em;
-}
-
-#gallery.well.promo:hover .gallery-open{
-    display: block;
+#people-webshop-describe{
+    border-width: 1 1 5 1;
+    border-color: #e00901;
 }
 
 .promo{

@@ -2,7 +2,6 @@
 <!--MAIN SEGMENT-->
 <div class="main_segment container-fluid" id="main">
 	<?php require "content/common/navbar.php" ?>
-		
 
     <div class="navhider">
         
@@ -68,19 +67,19 @@
 
 <!--LAKOSSÁGI WEBSHOP-->
 <div class="webshop_segment" id="webshop">
-    Van lakossági webshopunk is!
+   Lakossági Webshop
 </div>
 
 <!--TIMELINE SEGMENT-->
 <div class="timeline_segment container-fluid segmentoverflow" id="timeline">
 	<div class="timeline-segment-title">
-        Vállalkozásunk
+		 Stúdió<font color="#e00901">68</font>
     </div>
     <div class="summary-block">
-        <b>Egy név - ami kötelez, több üzletág - ami összehoz.<br/></b>
+         <b>Egy név - ami kötelez. Több üzletág - ami összehoz.<br></b>
         Ajándéktárgy? Textil? Emblémázás? ÖKO termékek? Páratlan promóciós finomságok?
-        Nyomda? Saját, dolgozói vagy partner Web shop? Merchandise termékek?
-        Kitelepülés? Egyedi gyártások? Szurkolói kellékek? Konszignációs rendelési lehetőségek?<br/>
+        Nyomda? Saját, dolgozói vagy partner Web shop?<br>Merchandise termékek?
+        Kitelepülés? Egyedi gyártások? Szurkolói kellékek?<br>Konszignációs rendelési lehetőségek?<br/>
         A válaszunk az, hogy <b>IGEN, VAN!</b><br/>
         2001 óta dolgozunk „mások örömére…”<br/>
         Célunk, hogy folytassuk a munkát, amit elkezdtünk, amihez értünk, amit szeretünk.

@@ -106,7 +106,7 @@ div.container{
 
 #lollypop{
     background-image: url("../img/lollypops.jpg");
-    background-position: center;
+    background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
     height: 620px;
@@ -200,7 +200,12 @@ div.container{
     display: block;
 }
 
-#custom-describe{
+#bonbon-describe{
+    border-width: 1 1 5 1;
+    border-color: #A52;
+}
+
+#custom{
     text-align: center;
     background-image: url("../img/flatchocolate.jpg");
     background-size: 150%;
@@ -218,7 +223,7 @@ div.container{
     transition: all 0.3s ease-in-out;
 }
 
-#custom-describe:after{
+#custom:after{
     content: '';
     position: absolute;
     opacity: 0;
@@ -228,23 +233,28 @@ div.container{
     transition: opacity 0.3s ease-in-out;
 }
 
-#custom-describe:hover {
+#custom:hover {
     transform: scale(1.02, 1.02);
     -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
     filter: grayscale(100%);
     cursor: pointer;
 }
 
-#custom-describe:hover::after {
+#custom:hover::after {
   opacity: 1;
 }
 
-#custom-describe.well.promo:hover .custom-desc-open{
+#custom.well.promo:hover .custom-desc-open{
     display: block;
 }
 
-.custom-desc-open{
+.custom-open{
     padding-top: 2em;
+}
+
+#custom-describe{
+    border-width: 1 1 5 1;
+    border-color: #A52;
 }
 
 #gallery{

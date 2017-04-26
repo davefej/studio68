@@ -1,3 +1,4 @@
+/*DESKTOP*/
 /*FIXED ELEMENTS*/
 body{
 	margin:0 auto;
@@ -25,6 +26,7 @@ body{
     width:100%;
     height:100%;
     text-align: center;
+    padding-top: 55px;
 }
 
 .title-block2{

@@ -62,7 +62,7 @@
                 <div class="col-md-4">
                 <div onclick="openprodlist('eco2')" class="well" id="textil">
                     <div class="textil-open">
-                        <b>Öko Textil termékek</b>
+                        <b>Újrahasznosított Termékek</b>
                     </div>
                 </div>
             </div>
@@ -77,13 +77,12 @@
         <div class="row">
             <div class="col-md-6">
                 <div onclick="openprodlist('eco3')" class="well promo" id="eco-gifts">
-                    <div class="eco-gifts-open"><b>Öko Ajándékok</b></div>
+                    <div class="eco-gifts-open"><b>Környezetbarát Ötletek</b></div>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="well promo" id="gallery">
-                    <div class="gallery-open"><b>Tekintse meg termékeinket</b>
-                    </div>
+                <div class="well describe" id="eco-gift-describe">
+                    Lorem ipsum dolor sit amet, lobortis ligula tellus. Eget at volutpat, in orci leo gravida wisi. Quam parturient feugiat in mauris, rhoncus montes pretium viverra volutpat, justo mauris metus sit, ad neque in eu at in donec, nullam tristique at et morbi. Eget convallis magna nibh quis, mi dapibus, rhoncus in viverra egestas aut turpis.
                 </div>
             </div>
         </div>

@@ -22,7 +22,6 @@
 		echo '<link rel="stylesheet" href="res/'.$css.'/nav-style.css?v='.$version.'">';
 
         if(isset($page) && $page == "home"){
-            echo '<link rel="stylesheet" href="res/'.$css.'/styles.css?v='.$version.'">';
             echo '<link rel="stylesheet" href="res/'.$css.'/departments-style.css?v= '.$version.'">';
 		}
         if(isset($page) && $page == "eco")

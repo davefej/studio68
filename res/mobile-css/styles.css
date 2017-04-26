@@ -1,3 +1,4 @@
+/*MOBIL*/
 /*FIXED ELEMENTS*/
 body{
 	margin:0 auto;
@@ -245,8 +246,6 @@ body{
 /*RESPONSIVE SETTINGS*/
 
 @media (max-width:1034px){
-    .timeline_segment{ padding-left: 10px; padding-right: 10px;}
-    .summary-block{ padding-left: 10px; padding-right: 10px;}
     .counter_segment{ min-height: 200px;}
     #dot-nav{ display: none;}
 }

@@ -139,7 +139,7 @@
 
             // Wrapper with content
             if (!isBody) {
-                this.$elmt.css('height', this.$elmt.css('height'));
+                //this.$elmt.css('height', this.$elmt.css('height'));
 
                 $wrapper = $('<div class="vegas-wrapper">')
                     .css('overflow', this.$elmt.css('overflow'))
