@@ -1,10 +1,19 @@
 .refimg{
-	width:50%;
-	margin:auto;
+	width: 50%;
+    margin: auto;
+    min-width: 50px;
 }
 
 #scroller2{
 	height:100%;
+}
+
+.hor-scroll {
+    -ms-overflow-style: none;  // IE 10+
+    overflow: -moz-scrollbars-none;  // Firefox
+}
+.hor-scroll::-webkit-scrollbar { 
+    display: none;  // Safari and Chrome
 }
 
 .refli{

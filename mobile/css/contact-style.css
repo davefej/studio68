@@ -15,8 +15,8 @@
 .segment_title{
     width:100%;
     font-family: 'Muli', sans-serif;
-    font-size: 4vw;
-    margin-top: 55px;
+    font-size: 2em;
+    margin-top: 30px;
     margin-bottom: 2%;
     padding: 0;
     color: white;
@@ -71,6 +71,7 @@
 .address{
     text-align: center;
     color: #777777;
+    font-size: 2em;
 }
 
 .well.well-contact{
@@ -143,7 +144,7 @@ textarea.form-control{
 }
 
 @media only screen and (max-width: 375px) {
-    .segment_title{ font-size: 20;}
+    .segment_title{ font-size: 2em;}
     
     .contact_us{ font-size: 18;}
     
