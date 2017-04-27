@@ -1,17 +1,12 @@
 
 <!--MAIN SEGMENT-->
 <div class="main_segment container-fluid" id="main">
-	<?php require "content/common/navbar.php" ?>
-
+	
     <div class="navhider">
         
     </div>
-    <?php
-    if(isset($page) && $page == "home"){
-    echo '<div class="title-block2">
-	</div>';
-    }
-    ?>
+   <div class="title-block2">
+	</div>
 </div>
 
 

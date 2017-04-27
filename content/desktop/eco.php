@@ -2,7 +2,7 @@
 <div class="main_segment container-fluid" id="main">
 
     <div class="eco-title">
-        Partnereink örömére...
+        Környezetünk örömére...
         
         <hr style="width: 10%; border-color:#333;">
         
