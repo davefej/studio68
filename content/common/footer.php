@@ -36,7 +36,7 @@
                     var department_height = document.getElementById('departments').clientHeight + main_height;
                     var webshop_height = department_height + document.getElementById('webshop').clientHeight;
                     var timeline_height = document.getElementById('timeline').clientHeight + webshop_height;
-                    
+
                     var $element = $(this).eq(0),
                         $win = $(window),
 
@@ -48,7 +48,7 @@
 
                     if (elemBottom < winTop) {
                         return false;
-                    
+
                     } else if (elemTop > winBottom) {
                         return false;}
                         else {

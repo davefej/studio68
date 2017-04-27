@@ -1,42 +1,6 @@
 function init() {
     $('#main-nav').addClass('active');
     
-    $('.title-block').vegas({
-        delay: 7000,
-        timer: false,
-        shuffle: true,
-        firstTransition: 'fade',
-        firstTransitionDuration: 5000,
-        transitionDuration: 2000,
-        slides: [
-            { src: "res/img/main.jpg" }
-        ]
-    });
-    
-    $('.printing-block').vegas({
-        delay: 7000,
-        timer: false,
-        shuffle: true,
-        firstTransition: 'fade',
-        transitionDuration: 2000,
-        slides: [
-            { src: "res/img/printing1.jpg" },
-            { src: "res/img/printing2.jpg"},
-            { src: "res/img/printing3.jpg"}
-        ],
-        animation: 'kenburns'
-    });
-    
-    $("#down_navigator_button").click(function () {
-        $('html, body').animate({
-            scrollTop: $("#timeline").offset().top
-        }, 800);
-        
-        $('.nav_element').animate({
-            color: "#000000"
-        }, 800);
-    });
-    
     window.addEventListener('scroll', function(e) {
         var distanceY = window.pageYOffset || document.documentElement.scrollTop;
         var nav_heigth = document.getElementById("navbar").offsetHeight;
@@ -128,114 +92,36 @@ function init() {
             $('#dot-nav li.active').css("background-color", 'black');
         }
         
+        
      });
-}
-
-window.onload = init();
-
-/*$(document).ready(function () {
-    var window_width = window.screen.availWidth;
-    if(window_width > 1076){
-        $("#eco").hover(function () {
-            $("head").append('<style>#eco{width:69%;}</style>');
-            $("head").append('<style>#food{width:6%;}</style>');
-            $("head").append('<style>#gifts{width:6%;}</style>');
-            $("head").append('<style>#fan{width:6%;}</style>');
-            $("head").append('<style>#printing{width:6%;}</style>');
-            $("head").append('<style>#custom{width:6%;}</style>');
-        });
-        $("#eco").mouseleave(function () {
-            $("head").append('<style>#custom{width:16.6%;}</style>');
-            $("head").append('<style>#eco{width:16.6%;}</style>');
-            $("head").append('<style>#food{width:16.6%;}</style>');
-            $("head").append('<style>#gifts{width:16.6%;}</style>');
-            $("head").append('<style>#fan{width:16.6%;}</style>');
-            $("head").append('<style>#printing{width:16.6%;}</style>');
-        });
-        $("#food").hover(function () {
-            $("head").append('<style>#food{width:69%;}</style>');
-            $("head").append('<style>#eco{width:6%;}</style>');
-            $("head").append('<style>#gifts{width:6%;}</style>');
-            $("head").append('<style>#fan{width:6%;}</style>');
-            $("head").append('<style>#printing{width:6%;}</style>');
-            $("head").append('<style>#custom{width:6%;}</style>');
-        });
-        $("#food").mouseleave(function () {
-            $("head").append('<style>#custom{width:16.6%;}</style>');
-            $("head").append('<style>#eco{width:16.6%;}</style>');
-            $("head").append('<style>#food{width:16.6%;}</style>');
-            $("head").append('<style>#gifts{width:16.6%;}</style>');
-            $("head").append('<style>#fan{width:16.6%;}</style>');
-            $("head").append('<style>#printing{width:16.6%;}</style>');
-        });
-        $("#gifts").hover(function () {
-            $("head").append('<style>#gifts{width:69%;}</style>');
-            $("head").append('<style>#food{width:6%;}</style>');
-            $("head").append('<style>#eco{width:6%;}</style>');
-            $("head").append('<style>#fan{width:6%;}</style>');
-            $("head").append('<style>#printing{width:6%;}</style>');
-            $("head").append('<style>#custom{width:6%;}</style>');
-        });
-        $("#gifts").mouseleave(function () {
-            $("head").append('<style>#custom{width:16.6%;}</style>');
-            $("head").append('<style>#eco{width:16.6%;}</style>');
-            $("head").append('<style>#food{width:16.6%;}</style>');
-            $("head").append('<style>#gifts{width:16.6%;}</style>');
-            $("head").append('<style>#fan{width:16.6%;}</style>');
-            $("head").append('<style>#printing{width:16.6%;}</style>');
-        });
-        $("#fan").hover(function () {
-            $("head").append('<style>#fan{width:69%;}</style>');
-            $("head").append('<style>#food{width:6%;}</style>');
-            $("head").append('<style>#gifts{width:6%;}</style>');
-            $("head").append('<style>#eco{width:6%;}</style>');
-            $("head").append('<style>#printing{width:6%;}</style>');
-            $("head").append('<style>#custom{width:6%;}</style>');
-        });
-        $("#fan").mouseleave(function () {
-            $("head").append('<style>#custom{width:16.6%;}</style>');
-            $("head").append('<style>#eco{width:16.6%;}</style>');
-            $("head").append('<style>#food{width:16.6%;}</style>');
-            $("head").append('<style>#gifts{width:16.6%;}</style>');
-            $("head").append('<style>#fan{width:16.6%;}</style>');
-            $("head").append('<style>#printing{width:16.6%;}</style>');
-        });
-        $("#printing").hover(function () {
-            $("head").append('<style>#printing{width:69%;}</style>');
-            $("head").append('<style>#food{width:6%;}</style>');
-            $("head").append('<style>#gifts{width:6%;}</style>');
-            $("head").append('<style>#fan{width:6%;}</style>');
-            $("head").append('<style>#eco{width:6%;}</style>');
-            $("head").append('<style>#custom{width:6%;}</style>');
-        });
-        $("#printing").mouseleave(function () {
-            $("head").append('<style>#custom{width:16.6%;}</style>');
-            $("head").append('<style>#eco{width:16.6%;}</style>');
-            $("head").append('<style>#food{width:16.6%;}</style>');
-            $("head").append('<style>#gifts{width:16.6%;}</style>');
-            $("head").append('<style>#fan{width:16.6%;}</style>');
-            $("head").append('<style>#printing{width:16.6%;}</style>');
-        });
-        $("#custom").hover(function () {
-            $("head").append('<style>#custom{width:69%;}</style>');
-            $("head").append('<style>#food{width:6%;}</style>');
-            $("head").append('<style>#gifts{width:6%;}</style>');
-            $("head").append('<style>#fan{width:6%;}</style>');
-            $("head").append('<style>#printing{width:6%;}</style>');
-            $("head").append('<style>#eco{width:6%;}</style>');
-        });
-        $("#custom").mouseleave(function () {
-            $("head").append('<style>#custom{width:16.6%;}</style>');
-            $("head").append('<style>#eco{width:16.6%;}</style>');
-            $("head").append('<style>#food{width:16.6%;}</style>');
-            $("head").append('<style>#gifts{width:16.6%;}</style>');
-            $("head").append('<style>#fan{width:16.6%;}</style>');
-            $("head").append('<style>#printing{width:16.6%;}</style>');
-        });
-    }
-});*/
-
-$(document).ready(function(){
+    
+    $('.title-block').vegas({
+        delay: 7000,
+        timer: false,
+        shuffle: true,
+        
+        transitionDuration: 2000,
+        slides: [
+            { src: "res/img/main.jpg" }
+        ]
+    });
+    
+    $('.printing-block').vegas({
+        delay: 7000,
+        timer: false,
+        shuffle: true,
+        firstTransition: 'fade',
+        transitionDuration: 2000,
+        slides: [
+            { src: "res/img/printing1.jpg" },
+            { src: "res/img/printing2.jpg"},
+            { src: "res/img/printing3.jpg"}
+        ],
+        animation: 'kenburns'
+    });
+    
+    
+    /*SIDEBAR*/
     $('.awesome-tooltip').tooltip({
         placement: 'left'
     }); 
@@ -254,18 +140,7 @@ $(document).ready(function(){
       
         return false;
     });
-});
+}
 
-/*$(document).ready(function(){
-   var options = {
-      useEasing : true, 
-      useGrouping : true, 
-      separator : ',', 
-      decimal : '.', 
-      prefix : '', 
-      suffix : '' 
-    };
-    var demo = new CountUp("counter1", 0, 3497, 0, 2.5, options);
-    demo.start(); 
-});*/
+window.onload = init();
 
