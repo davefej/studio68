@@ -62,8 +62,9 @@ div.container{
 
 #box1{
     background-image: url("../img/printing1.jpg");
-    background-size: auto 100%;
+    background-size: auto 100%; 
     background-repeat: no-repeat;
+    background-position: center; 
     position: relative;
     border-radius: 5px;
     box-shadow: 0 1px 2px rgba(0,0,0,0.15);
@@ -91,8 +92,9 @@ div.container{
 
 #box2{
     background-image: url("../img/gift.jpg");
-    background-size: auto 100%;
+    background-size: 100% auto;
     background-repeat: no-repeat;
+    background-position: center;
     position: relative;
     border-radius: 5px;
     background-color: #fff;
@@ -121,8 +123,9 @@ div.container{
 
 #box3{
     background-image: url("../img/printing3.jpg");
-    background-size: auto 100%;
+    background-size:  100% auto;
     background-repeat: no-repeat;
+    background-position: center;
     position: relative;
     border-radius: 5px;
     background-color: #fff;
