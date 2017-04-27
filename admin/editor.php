@@ -13,9 +13,10 @@
 	<option value="eco1">Zöld Energia</option>
 	<option value="eco2">Újrahasznosított Termékek</option>
 	<option value="eco3">Környezetbarát Ötletek</option>
-	<option value="sweet1">Nassolni valók</option>
-	<option value="sweet2">Promóciós Édességek</option>
-	<option value="sweet3">Cukorkák, nyalókák</option>
+	<option value="sweet1">Csokoládék</option>
+	<option value="sweet2">Nassolnivalók</option>
+	<option value="sweet3">Promóciós Édességek</option>
+	<option value="sweet4">Cukorkák, nyalókák</option>
 	<option value="gift1">Webshop termékek</option>
 	<option value="gift2">Egyedi gyártások</option>
 	<option value="gift3">Textilek & Munkaruhák</option>

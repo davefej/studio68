@@ -125,14 +125,17 @@ function getCategoories($cat){
 			break;
 		case "eco3":
 			return "Környezetbarát Ötletek";
-			break;
+			break;		
 		case "sweet1":
-			return "Nassolni valók";
+			return "Csokoládék";
 			break;
 		case "sweet2":
-			return "Promóciós Édességek";
+			return "Nassolnivalók";
 			break;
 		case "sweet3":
+			return "Promóciós Édességek";
+			break;
+		case "sweet4":
 			return "Cukorkák, nyalókák";
 			break;
 		case "gift1":

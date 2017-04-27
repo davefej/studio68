@@ -14,7 +14,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <div class="well" id="gift-webshop">
+                <div onclick="openprodlist('gift1')" class="well" id="gift-webshop">
                     <div class="gift-webshop-open">
                         <b>Webshop</b>
                     </div>
@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="col-md-8">
-                <div class="well" id="custom-gift">
+                <div  onclick="openprodlist('gift2')" class="well" id="custom-gift">
                     <div class="custom-gift-open">
                         <b>Egyedi gyártású ajándékok</b>
                     </div>
@@ -44,13 +44,13 @@
         
         <div class="row">
             <div class="col-md-6">
-                <div class="well promo" id="textile">
+                <div onclick="openprodlist('gift3')" class="well promo" id="textile">
                     <div class="textile-open"><b>Textilek &amp; Munkaruhák</b>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="well promo" id="people-webshop">
+                <div onclick="openurl('http://www.enajandekom.hu')" class="well promo" id="people-webshop">
                     <div class="people-webshop-open">
                         <b>Lakossági webshopunk</b>
                     </div>

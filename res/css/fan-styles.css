@@ -60,7 +60,7 @@ div.container{
 }
 
 #gift-webshop{
-    background-image: url("../img/fan1.jpeg");
+    background-image: url("../img/fan1.jpg");
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -112,12 +112,12 @@ div.container{
 }
 
 #custom-gift{
-    background-image: url("../img/fan2.jpg");
+    background-image: url("../img/fan3.jpg");
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     height: 350px;
-    
+    color:white;
     position: relative;
     border-radius: 5px;
     background-color: #fff;
@@ -165,7 +165,7 @@ div.container{
 
 #textile{
     text-align: center;
-    background-image: url("../img/fan3.jpg");
+    background-image: url("../img/fan2.jpg");
     background-size: 150%;
     background-position: center;
     background-repeat: no-repeat;
@@ -258,10 +258,10 @@ div.container{
 
 #gallery{
     text-align: center;
-    background-image: url("../img/.jpg");
+    background-image: url("../img/fan5.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    color: #333;
+    color: white;
     
     -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
     filter: grayscale(0%);
@@ -309,4 +309,11 @@ div.container{
     font-family: Muli, 'sans-serif';
     font-size: 4vh;
     cursor: pointer;
+}
+
+#custom-cup-describe{
+	 background-color: white;
+    color: black;
+    border-width: 1 1 1 5;
+    border-color: rgb(255, 182, 56);
 }

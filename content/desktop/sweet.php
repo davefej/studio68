@@ -48,7 +48,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div onclick="openprodlist('sweet2')" class="well promo" id="bonbon">
-                    <div class="bonbon-open"><b>Nassolni valók</b></div>
+                    <div class="bonbon-open"><b>Nassolnivalók</b></div>
                 </div>
             </div>
             <div class="col-md-6">

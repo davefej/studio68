@@ -1,6 +1,10 @@
 function goto(url){
 	window.location = url;
 }
+function openurl(url){
+	var win = window.open(url, '_blank');
+	 win.focus();
+}
 
 $(document).ready(function () {
     if($(".well-contact").height() > $(".well-address").height())

@@ -41,7 +41,7 @@
             <div class="col-md-8">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="well" id="chocolate">
+                        <div onclick="openprodlist('sweet1')" class="well" id="chocolate">
                             <div class="chocolate-open">
                                 <b>Csokoládék</b>
                             </div>
@@ -55,7 +55,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="well promo" id="custom">
+                        <div onclick="openprodlist('sweet3')" class="well promo" id="custom">
                             <div class="custom-open">
                                 <b>Promóciós édességek</b>
                             </div>
@@ -71,8 +71,8 @@
         </div>
         <div class="row">
             <div class="col-md-4">
-                <div class="well promo" id="bonbon">
-                    <div class="bonbon-open"><b>Nassolni valók</b></div>
+                <div  onclick="openprodlist('sweet2')" class="well promo" id="bonbon">
+                    <div class="bonbon-open"><b>Nassolnivalók</b></div>
                 </div>
             </div>
             <div class="col-md-6">
@@ -81,7 +81,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="well promo" id="lollypop">
+                <div onclick="openprodlist('sweet4')" class="well promo" id="lollypop">
                     <div class="lollypop-open">
                         <b>Cukorkák, nyalókák</b>
                     </div>

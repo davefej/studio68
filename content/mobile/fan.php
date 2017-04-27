@@ -40,9 +40,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <div class="well" id="gift-webshop">
+                <div onclick="openprodlist('fan1')" class="well" id="gift-webshop">
                     <div class="gift-webshop-open">
-                        <b>Ajándék tárgyak</b>
+                        <b>Szurkolói kellélek</b>
                     </div>
                 </div>
             </div>
@@ -55,9 +55,9 @@
         
         <div class="row">
             <div class="col-md-8">
-                <div class="well" id="custom-gift">
+                <div onclick="openprodlist('fan2')" class="well" id="custom-gift">
                     <div class="custom-gift-open">
-                        <b>Textilek</b>
+                        <b>Egyedi gyártások</b>
                     </div>
                 </div>
             </div>
@@ -70,21 +70,19 @@
         
         <div class="row">
             <div class="col-md-4">
-                <div class="well promo" id="textile">
-                    <div class="textile-open"><b>Szurkolói kellékek</b>
+                <div onclick="openprodlist('fan3')" class="well promo" id="textile">
+                    <div class="textile-open"><b>Textilek</b>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="well promo" id="people-webshop">
-                    <div class="people-webshop-open">
-                        <b>Egyedi gyártás</b>
-                    </div>
+                <div class="well describe" id="custom-cup-describe">
+                    Lorem ipsum dolor sit amet, lobortis ligula tellus. Eget at volutpat, in orci leo gravida wisi. Quam parturient feugiat in mauris, rhoncus montes pretium viverra volutpat, justo mauris metus sit, ad neque in eu at in donec, nullam tristique at et morbi. Eget convallis magna nibh quis, mi dapibus, rhoncus in viverra egestas aut turpis.
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="well promo" id="gallery">
-                    <div class="gallery-open"><b>serlegek, kupák</b>
+                <div onclick="openprodlist('fan4')" class="well promo" id="gallery">
+                    <div class="gallery-open"><b>Serlegek, kupák</b>
                     </div>
                 </div>
             </div>
