@@ -77,9 +77,11 @@
 </div>
 
 <!--LAKOSSÁGI WEBSHOP-->
-<div class="webshop_segment" id="webshop">
-    Lakossági Webshop
-</div>
+<a target="_blank" href="http://www.enajandekom.hu" style="text-decoration: none;">
+    <div class="webshop_segment" id="webshop">
+        Lakossági Webshop
+    </div>
+</a>
 
 <!--TIMELINE SEGMENT-->
 <div class="timeline_segment container-fluid segmentoverflow" id="timeline">

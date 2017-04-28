@@ -5,10 +5,7 @@
     </div>
     
     <div class="gift-intro">
-        Célunk, hogy a hazai sportszakmai szervezetekkel közösen, tudatosítsuk a merchandise fogalmát Magyarországon.
-        Feladataink közé tartoznak jelenleg: Shop ellátás, szurkolói termékek gyártása, Clubok, Egyesületek portfóliójának bővítése.
-        Részt vettünk több hazai rendezésű Európa –ill. Világbajnokságon, mint promóciós partner, akár kitelepüléssel együtt.
-        Felkészülten várjuk jelentkezését, valósítsuk meg együtt sport promóciós terveit.
+        Célunk, hogy elősegítsük a Magyarországi sportszakmai szervezetek sport promóciós terveinek megvalósulását. Feladataink közé tartoznak jelenleg: shop ellátás, szurkolói termékek gyártása, Clubok, Egyesületek termékportfóliójának bővítése. Részt vettünk több hazai rendezésű Európa –ill. Világbajnokságon, mint promóciós partner. Vállaljuk továbbá, egy adott sportesemény, hivatalos promóciós termékeinek helyszíni megjelenéssel történő értékesítését is. Felkészült csapatunk várja jelentkezését, valósítsuk meg együtt elképzeléseit!
     </div>
     
     <div class="container">
@@ -44,7 +41,7 @@
         
         <div class="row">
             <div class="col-md-4">
-                <div onclick="openprodlist('fan3')" class="well promo" id="textile">
+                <div onclick="openurl('http://www.textileurope.com/hu/home/')" class="well promo" id="textile">
                     <div class="textile-open"><b>Textilek</b>
                     </div>
                 </div>
@@ -57,8 +54,8 @@
             	
             </div>
             <div class="col-md-4">
-                <div onclick="openprodlist('fan4')" class="well promo" id="gallery">
-                    <div class="gallery-open"><b>serlegek, kupák</b>
+                <div onclick="openurl('http://www.trophees-des-vainqueurs.com/TDV/TDVSP2016/index.html')" class="well promo" id="gallery">
+                    <div class="gallery-open"><b>Serlegek, kupák</b>
                     </div>
                 </div>
             </div>

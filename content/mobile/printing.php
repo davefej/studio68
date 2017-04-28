@@ -10,13 +10,7 @@
     </div>
         
     <div class="print-intro">
-            Full Client Service szolgáltatást szeretne?
-            Rendelje meg tőlünk nyomdai elképzeléseit.
-            Állunk rendelkezésére, ofset és digitális nyomással, valamint egyedi technológiákkal.
-            Molinó, roll-up és zászlónyomtatással.
-            Jegyzetfüzetekkel, szórólapokkal, önálló kiadványokkal.
-            Továbbá különleges és meghökkentő nyomdaipari termékekkel is állunk rendelkezésére.
-            A felsorolás korántsem teljes, hívjon vagy írjon nekünk, mindenre megtaláljuk a megoldást!
+            Full Client Service szolgáltatást szeretne? Rendelje meg tőlünk nyomdai elképzeléseit. Állunk rendelkezésére, ofset és digitális nyomással, valamint egyedi technológiákkal. Molinó, roll-up, beach flag és zászlónyomtatását is ránk bízhatja. Jegyzetfüzetekkel, szórólapokkal, önálló kiadványokkal, továbbá különleges és meghökkentő nyomdaipari ötletekkel és szolgáltatásokkal kapcsolatban is keressen bizalommal. A felsorolás korántsem teljes, hívjon vagy írjon nekünk, mindenre megtaláljuk a megoldást! Nyomda, nyomva, nyomott áron.
     </div>
 
      <div class="row">

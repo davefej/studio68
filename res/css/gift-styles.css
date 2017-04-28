@@ -93,7 +93,7 @@ div.container{
 }
 
 .gift-webshop-open{
-    margin-top: 10%;
+    margin-top: 5%;
     font-family: Muli, 'sans-serif';
     font-size: 4vh;
     padding-top: 2em;
@@ -123,6 +123,8 @@ div.container{
     background-color: #fff;
     box-shadow: 0 1px 2px rgba(0,0,0,0.15);
     transition: all 0.3s ease-in-out;
+    -webkit-filter: grayscale(30%); /* Chrome, Safari, Opera */
+    filter: grayscale(30%);
 }
 
 #custom-gift:after{
@@ -145,10 +147,10 @@ div.container{
 }
 
 .custom-gift-open{
-    margin-top: 10%;
+    margin-top: 5%;
     font-family: Muli, 'sans-serif';
     font-size: 4vh;
-    color: white;
+    color: black;
     padding-top: 2em;
 }
 
@@ -167,7 +169,7 @@ div.container{
 #textile{
     text-align: center;
     background-image: url("../img/textile.jpg");
-    background-size: 200%;
+    background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
     -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
@@ -192,8 +194,6 @@ div.container{
 
 #textile:hover {
     transform: scale(1.02, 1.02);
-    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-    filter: grayscale(100%);
     cursor: pointer;
 }
 
@@ -221,7 +221,7 @@ div.container{
 #people-webshop{
     text-align: center;
     background-image: url("../img/ÉNA.jpg");
-    background-size: auto 100%;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center;
     color: white;
@@ -248,12 +248,11 @@ div.container{
 
 .people-webshop-open{
     padding-top: 2em;
+    color: black;
 }
 
 #people-webshop:hover {
     transform: scale(1.02, 1.02);
-    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-    filter: grayscale(100%);
     cursor: pointer;
 }
 
@@ -276,7 +275,7 @@ div.container{
 
 .promo{
     height:300px;
-    padding-top: 8%;
+    padding-top: 5%;
     font-family: Muli, 'sans-serif';
     font-size: 4vh;
     cursor: pointer;

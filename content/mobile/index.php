@@ -18,21 +18,21 @@
                 <b>Öko</b>
 				<hr style="width: 10%">
 				<span class="desc" id="eco-desc">
-					Ha érdekelnek környezetbarát termékeink itt keresd!
+					Környezetbarát termékeinket itt találod!
 				</span>
 			</div>
 			<div onclick="goto('sweet.php')" class="col-xs-12 col-md-2 department" id="food">
                 <b>Édesség</b>
 				<hr style="width: 10%">
 				<span class="desc" id="sweet-desc">
-					Ha egy kis édességre éhezel ugorj bele!
+					Kattints a finomságokért!
 				</span>
 			</div>
 			<div onclick="goto('gift.php')" class="col-xs-12 col-md-2 department" id="gifts">
                 <b>Ajándék</b>
 				<hr style="width: 10%">
 				<span class="desc" id="gift-desc">
-					Meglepnél másokat? Itt inspirációt találhatsz!
+					Standard és egyedi ötletek várnak!
 				</span>
 			</div>
 			<div onclick="goto('fan.php')" class="col-xs-12 col-md-2 department" id="fan">
@@ -46,7 +46,7 @@
                 <b>Nyomda</b>
 				<hr style="width: 10%">
 				<span class="desc" id="print-desc">
-					Bármit kinyomtatunk neked, nézd meg mit kínálunk!
+					További információért NYOMDA-Z ujjad ide!
 				</span>
 			</div>
             <div onclick="goto('#contact')" class="col-xs-12 col-md-2 department" id="custom">

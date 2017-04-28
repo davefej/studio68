@@ -71,25 +71,6 @@ div.container{
     transition: all 0.3s ease-in-out;
 }
 
-#box1:after{
-    content: '';
-    position: absolute;
-    opacity: 0;
-    z-index: -1;
-    border-radius: 5px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    transition: opacity 0.3s ease-in-out;
-}
-
-#box1:hover {
-    transform: scale(1.02, 1.02);
-    cursor: pointer;
-}
-
-#box1:hover::after {
-  opacity: 1;
-}
-
 #box2{
     background-image: url("../img/gift.jpg");
     background-size: 100% auto;
@@ -102,25 +83,6 @@ div.container{
     transition: all 0.3s ease-in-out;
 }
 
-#box2:after{
-    content: '';
-    position: absolute;
-    opacity: 0;
-    z-index: -1;
-    border-radius: 5px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    transition: opacity 0.3s ease-in-out;
-}
-
-#box2:hover {
-    transform: scale(1.02, 1.02);
-    cursor: pointer;
-}
-
-#box2:hover::after {
-  opacity: 1;
-}
-
 #box3{
     background-image: url("../img/printing3.jpg");
     background-size:  100% auto;
@@ -131,25 +93,6 @@ div.container{
     background-color: #fff;
     box-shadow: 0 1px 2px rgba(0,0,0,0.15);
     transition: all 0.3s ease-in-out;
-}
-
-#box3:after{
-    content: '';
-    position: absolute;
-    opacity: 0;
-    z-index: -1;
-    border-radius: 5px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    transition: opacity 0.3s ease-in-out;
-}
-
-#box3:hover {
-    transform: scale(1.02, 1.02);
-    cursor: pointer;
-}
-
-#box3:hover::after {
-  opacity: 1;
 }
 
 .well{
