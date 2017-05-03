@@ -103,7 +103,7 @@ a[href^="https://www.google.com/maps"] {
     padding: 1;
     padding-left: 5;
     width: 50%;
-    color:#AAAAAA;
+    color:100;
     box-shadow: none;
     box-decoration-break: none;
 }
@@ -112,13 +112,13 @@ textarea.form-control{
     margin: 0;
     padding: 5;
     width: 100%;
-    color: #AAAAAA;
+   	color: #444;   
     resize: vertical;
 }
 
 .form-control{
     display: inline;
-    color: #AAAAAA;   
+    color: #444;   
 }
 
 .form-control.submit{
@@ -185,4 +185,24 @@ textarea.form-control{
     margin-top: 60px;
     width: 50%;
     float: left;
+}
+
+#loading_header{
+	display:none;
+}
+#contact_error{
+	display:none;
+}
+#contact_error_empty{
+	display:none;
+}
+#contact_error_mail{
+	display:none;
+}
+#contact_success{
+	display:none;
+}
+
+.contact_loading{
+	height: 1.5em;
 }

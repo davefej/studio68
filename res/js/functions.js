@@ -203,3 +203,56 @@ window.initMap = function() {
       map: map
   });
 }
+
+
+function sendMessage(){
+	$(".contact_us").hide();
+	
+    // Maybe show a loading indicator...
+	if(!validateEmail($("#email").val())){
+		$("#contact_error_mail").show();
+		return;
+	}
+	
+	if($("#lastname").val() == "" || $("#firstname").val() == "" || $("#message").val() == ""){
+		$("#contact_error_empty").show();
+		return;
+	}
+	
+	
+	
+	$("#loading_header").show();
+	var data = {};
+	data.email = $("#email").val();
+	data.lastname = $("#lastname").val()
+	data.firstname =  $("#firstname").val()
+	data.message =  $("#message").val()
+	data.pass = "123456_pass";
+    
+     	$.ajax({
+        type: 'POST',
+        cache: false,
+        url: "contact_us.php",
+        data: JSON.stringify(data), 
+        success: function(msg) {
+
+        	setTimeout(function(){ 
+        		$(".contact_us").hide();
+            	$("#contact_success").show();
+        	}, 1000);
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+        	setTimeout(function(){ 
+        		$(".contact_us").hide();
+        		$("#contact_error").show();
+        	}, 1000);
+        }
+    });
+
+
+}
+
+function validateEmail(email) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+}
