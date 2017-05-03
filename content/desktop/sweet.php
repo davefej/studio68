@@ -1,17 +1,17 @@
 
 <!--MAIN SEGMENT-->
 <div class="main_segment container-fluid" id="main">
-	
+
     <div class="sweet-title">
         Nassolásunk örömére...
         <hr style="width: 10%; border-color:#333;">
     </div>
-    
+
     <div class="sweet-intro">
         Minőségi, belga alapanyagból készült táblás –és kocka csokik, bonbonok, egyedi kivitelezésű és megjelenésű csokoládék, cukorkák, rágógumik, ostyák, nápolyik, minden mi szem-szájnak ingere.
         Partnerei pozitív visszajelzésére bizton számíthat, ami így kezdődik majd: Hmmmmm…
     </div>
-    
+
     <div class="container">
         <div class="row">
             <div class="col-md-8">
@@ -25,14 +25,26 @@
                     </div>
                     <div class="col-md-6">
                         <div class="well describe" id="chocolate-describe">
-                            Lorem ipsum dolor sit amet, lobortis ligula tellus. Eget at volutpat, in orci leo gravida wisi. Quam parturient feugiat in mauris, rhoncus montes pretium viverra volutpat, justo mauris metus sit, ad neque in eu at in donec, nullam tristique at et morbi. Eget convallis magna nibh quis, mi dapibus, rhoncus in viverra egestas aut turpis.
+													Amikor meghallja ezt a szót, csokoládé, mi jut először eszébe róla?
+													<br>Akarom! Energia. Finom. Boldogság hormon. Jókedv. Mogyorós. Vágy.
+													<br>Nos, másoknak is ez jut eszébe!
+													<br>Akkor ezt meg is beszéltük. Már csak arról kellene egyeztetnünk, hogy milyen legyen!?
+													<br>Kocka? Tej? Keserű? Töltött? Táblás? Egyedileg csomagolt? Saját grafikával ellátott?
+													<br>Érdemes lenne róla személyesen is beszélnünk, nemde?
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="well describe" id="lollypop-describe">
-                            Lorem ipsum dolor sit amet, lobortis ligula tellus. Eget at volutpat, in orci leo gravida wisi. Quam parturient feugiat in mauris, rhoncus montes pretium viverra volutpat, justo mauris metus sit, ad neque in eu at in donec, nullam tristique at et morbi. Eget convallis magna nibh quis, mi dapibus, rhoncus in viverra egestas aut turpis.
+													Amikor az ember azt hallja, hogy reklámédesség, akkor arra gondol általában, hogy ezzel biztos nem szeretne beégni az Ügyfelei előtt.
+													<br>Előjönnek a régi emlékek a kakaómasszáról. A bevonatról. Az ehetetlen, de legalább olcsó minőségről.
+													<br>STOP! Most álljunk meg egy pillanatra, fontos bejelentés következik!
+													<br>Mi, azaz a Stúdió68 munkatársai, ezúton kijelentjük, hogy nem vállalunk semmilyen közösséget a kakaómasszával.
+													<br>Vállaljuk, hogy csakis kiváló minőségű belga csokoládéból gyártott termékekkel szolgáljuk ki Ügyfeleinket!
+													<br>Fogadjuk, hogy a kiváló minőségért, mindent megteszünk!
+													<br>Küldetésünk, hogy Ügyfeleink és Partnereik első gondolata csak ennyi legyen: Hmmmmm…
+													<br>Kijelentjük, hogy fentieknek rendeljük alá magunkat! Most már beléphet!
                         </div>
                     </div>
                 </div>
@@ -61,12 +73,19 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="well describe" id="bonbon-describe">
-                    Lorem ipsum dolor sit amet, lobortis ligula tellus. Eget at volutpat, in orci leo gravida wisi. Quam parturient feugiat in mauris, rhoncus montes pretium viverra volutpat, justo mauris metus sit, ad neque in eu at in donec, nullam tristique at et morbi. Eget convallis magna nibh quis, mi dapibus, rhoncus in viverra egestas aut turpis.
+									Ezt most elég nehéz lesz szavakba önteni anélkül, hogy ne keltsen felemás érzéseket.
+									<br>Ezért nem is teszünk rá kísérletet, mert magyarázkodni a legnehezebb…
+									<br>Mi arra gondoltunk, hogy ez alá a gyűjtőszó alá rendezzük azokat a ropogtatnivalókat, melyek kiváló promóciós célokat szolgálhatnak,
+									egy-egy rendezvény alkalmával, vagy például ügyfélfogadás apropójából.
+									<br>Ilyen jellegű termék lehet a ropi, a pattogatott kukorica, vagy a keksz.
+									<br>Amennyiben egyetért, lépjen beljebb.
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="well describe" id="custom-describe">
-                        Lorem ipsum dolor sit amet, lobortis ligula tellus. Eget at volutpat, in orci leo gravida wisi. Quam parturient feugiat in mauris, rhoncus montes pretium viverra volutpat, justo mauris metus sit, ad neque in eu at in donec, nullam tristique at et morbi. Eget convallis magna nibh quis, mi dapibus, rhoncus in viverra egestas aut turpis.
+									Felhívjuk kedves látogatóink figyelmét, hogy a belépés, a nyugalom megzavarására alkalmas képi - és ízhatásokat tartalmazhat.
+									<br>Ennek megfelelően, és ennek érdekében mindenki saját felelősségére lépjen tovább.
+									<br>Köszönjük.
                 </div>
             </div>
         </div>

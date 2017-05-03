@@ -13,7 +13,7 @@ body{
     width: 100%;
     background-color: #fff;
     text-align: center;
-    
+
     padding:100px;
 }
 
@@ -65,7 +65,7 @@ div.container{
     background-position: center;
     background-repeat: no-repeat;
     height: 350px;
-    
+
     position: relative
     border-radius: 5px;
     background-color: #fff;
@@ -117,7 +117,7 @@ div.container{
     background-position: center;
     background-repeat: no-repeat;
     height: 350px;
-    
+
     position: relative;
     border-radius: 5px;
     background-color: #fff;
@@ -169,12 +169,12 @@ div.container{
 #textile{
     text-align: center;
     background-image: url("../img/textile.jpg");
-    background-size: 100% auto;
+    background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
     -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
     filter: grayscale(0%);
-    
+
     position: relative;
     border-radius: 5px;
     background-color: #fff;
@@ -221,14 +221,14 @@ div.container{
 #people-webshop{
     text-align: center;
     background-image: url("../img/ÉNA.jpg");
-    background-size: 100% auto;
+    background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
     color: white;
-    
-    -webkit-filter: grayscale(30%); /* Chrome, Safari, Opera */
-    filter: grayscale(30%);
-    
+
+    -webkit-filter: grayscale(60%); /* Chrome, Safari, Opera */
+    filter: grayscale(60%);
+
     position: relative;
     border-radius: 5px;
     background-color: #fff;
@@ -248,7 +248,6 @@ div.container{
 
 .people-webshop-open{
     padding-top: 2em;
-    color: black;
 }
 
 #people-webshop:hover {

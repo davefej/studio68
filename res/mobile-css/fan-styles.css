@@ -63,7 +63,7 @@ div.container{
     background-position: center;
     background-repeat: no-repeat;
     height: 150px;
-    
+
     position: relative;
     border-radius: 5px;
     background-color: #fff;
@@ -94,7 +94,7 @@ div.container{
     margin-top: 3.2em;
     font-family: Muli, 'sans-serif';
     font-size: 4vh;
-    
+
 }
 
 #gift-webshop:hover .gift-webshop-open{
@@ -115,7 +115,7 @@ div.container{
     background-position: center;
     background-repeat: no-repeat;
     height: 150px;
-    
+
     position: relative;
     border-radius: 5px;
     background-color: #fff;
@@ -168,7 +168,7 @@ div.container{
     background-repeat: no-repeat;
     -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
     filter: grayscale(0%);
-    
+
     position: relative;
     border-radius: 5px;
     background-color: #fff;
@@ -209,10 +209,10 @@ div.container{
     background-size: 100% 120%;
     background-repeat: no-repeat;
     color: #333;
-    
+
     -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
     filter: grayscale(0%);
-    
+
     position: relative;
     border-radius: 5px;
     background-color: #fff;
@@ -253,10 +253,10 @@ div.container{
     background-size: 100% auto;
     background-repeat: no-repeat;
     color: #333;
-    
+
     -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
     filter: grayscale(0%);
-    
+
     position: relative;
     border-radius: 5px;
     background-color: #fff;
@@ -303,6 +303,13 @@ div.container{
 #custom-cup-describe{
 	 background-color: white;
     color: black;
-    border-width: 1 1 1 5;
+    border-width: 1 1 5 1;
+    border-color: rgb(255, 182, 56);
+}
+
+#textile-describe{
+	 background-color: white;
+    color: black;
+    border-width: 1 1 5 1;
     border-color: rgb(255, 182, 56);
 }

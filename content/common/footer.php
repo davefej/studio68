@@ -1,13 +1,20 @@
 	<!--FOOTER-->
-        <div class="footer container-fluid" id="footer">
-            <div class="sk-folding-cube">
-              <div class="sk-cube1 sk-cube"></div>
-              <div class="sk-cube2 sk-cube"></div>
-              <div class="sk-cube4 sk-cube"></div>
-              <div class="sk-cube3 sk-cube"></div>
-            </div>
-            <div class="sign">©David&amp;David<br>2017</div>
-        </div> 
+      <div class="container-fluid">
+        <div class="row">
+        </div>
+      </div>
+
+      <div class="footer container-fluid" id="footer">
+          <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+          </div>
+          <div class="sign">©David&amp;David<br>2017</div>
+      </div>
+
+
         <!-- Bootstrap core JavaScript
 	    ================================================== -->
 	    <!-- Placed at the end of the document so the pages load faster -->
@@ -15,18 +22,18 @@
         <script src="res/js/jquery-ui.min.js"></script>
 	    <script src="res/bootstrap/js/bootstrap.min.js"></script>
         <script src="res/js/prodlist.js"></script>
-        <?php 
+        <?php
         if($mobile == false && $page == "home"){
         	echo '<script src="res/js/vegas.js"></script>';
         	echo '<script src="res/js/animations.js"></script>';
-        }  
+        }
         ?>
 
         <script src="res/js/functions.js"></script>
         <script src="res/js/bootbox.js"></script>
 
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgpGS138e-2Fd5AMMV8TdA5JoKbmxx9zw&callback=initMap"></script>
-       
+
         <script>
             (function ($) {
 
@@ -53,7 +60,7 @@
                         return false;}
                         else {
                         return true;
-                    }        
+                    }
                 };
 
             })(jQuery);
@@ -127,15 +134,15 @@
                 });
             });
         </script>
-        
-        
-        <?php 
+
+
+        <?php
        if($mobile){
        	echo "<script>var usemobileview = true;</script>";
        }else{
        	echo "<script>var usemobileview = false;</script>";
        }
-        
+
         ?>
 	</body>
 </html>
