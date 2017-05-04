@@ -51,6 +51,16 @@ a[href^="https://www.google.com/maps"] {
     text-align: center;
 }
 
+.contact_us1{
+	width:100%;
+    font-family: 'Muli', sans-serif;
+    font-size:3vw;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    color: #777777;
+    text-align: center;
+}
+
 .address>b>a{
     color: #777;
 }
@@ -126,6 +136,7 @@ textarea.form-control{
     background-color: #e00901;
     padding: 5;
     color: white;
+    width:50%;
     border-width: 0 0 4 0;
     border-bottom-color: #a81f15;
 }
