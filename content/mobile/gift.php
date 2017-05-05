@@ -15,7 +15,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <div onclick="openprodlist('gift1')" class="well" id="gift-webshop">
+                <div onclick="openurl('http://giftworld.yourpromotionalshop.com')" class="well" id="gift-webshop">
                     <div class="gift-webshop-open">
                         <b>Webshop</b>
                     </div>

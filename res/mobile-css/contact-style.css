@@ -42,7 +42,7 @@
 .contact_us1{
 	width:100%;
     font-family: 'Muli', sans-serif;
-    font-size:3vw;
+    font-size:1.2em;
     margin-top: 1%;
     margin-bottom: 2%;
     color: #777777;
@@ -112,7 +112,7 @@ textarea.form-control{
     padding: 5;
     width: 100%;
     color: #444;
-    resize: vertical;
+    resize: none;
 }
 
 .form-control{

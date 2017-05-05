@@ -26,10 +26,10 @@
                     <div class="col-md-6">
                         <div class="well describe" id="chocolate-describe">
 													Amikor meghallja ezt a szót, csokoládé, mi jut először eszébe róla?
-													<br>Akarom! Energia. Finom. Boldogság hormon. Jókedv. Mogyorós. Vágy.
-													<br>Nos, másoknak is ez jut eszébe!
-													<br>Akkor ezt meg is beszéltük. Már csak arról kellene egyeztetnünk, hogy milyen legyen!?
-													<br>Kocka? Tej? Keserű? Töltött? Táblás? Egyedileg csomagolt? Saját grafikával ellátott?
+													Akarom! Energia. Finom. Boldogság hormon. Jókedv. Mogyorós. Vágy.
+													Nos, másoknak is ez jut eszébe!
+													Akkor ezt meg is beszéltük. Már csak arról kellene egyeztetnünk, hogy milyen legyen!?
+													Kocka? Tej? Keserű? Töltött? Táblás? Egyedileg csomagolt? Saját grafikával ellátott?
 													<br>Érdemes lenne róla személyesen is beszélnünk, nemde?
                         </div>
                     </div>
@@ -41,8 +41,8 @@
 													<br>Előjönnek a régi emlékek a kakaómasszáról. A bevonatról. Az ehetetlen, de legalább olcsó minőségről.
 													<br>STOP! Most álljunk meg egy pillanatra, fontos bejelentés következik!
 													<br>Mi, azaz a Stúdió68 munkatársai, ezúton kijelentjük, hogy nem vállalunk semmilyen közösséget a kakaómasszával.
-													<br>Vállaljuk, hogy csakis kiváló minőségű belga csokoládéból gyártott termékekkel szolgáljuk ki Ügyfeleinket!
-													<br>Fogadjuk, hogy a kiváló minőségért, mindent megteszünk!
+													Vállaljuk, hogy csakis kiváló minőségű belga csokoládéból gyártott termékekkel szolgáljuk ki Ügyfeleinket!
+													Fogadjuk, hogy a kiváló minőségért, mindent megteszünk!
 													<br>Küldetésünk, hogy Ügyfeleink és Partnereik első gondolata csak ennyi legyen: Hmmmmm…
 													<br>Kijelentjük, hogy fentieknek rendeljük alá magunkat! Most már beléphet!
                         </div>

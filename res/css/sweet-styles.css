@@ -97,7 +97,7 @@ div.container{
     padding: 10px;
     padding-top: 15px;
     font-family: Raleway, 'sans-serif';
-    font-size: 2vh;
+    font-size: 2.5vh
 }
 
 #chocolate-describe{
@@ -260,4 +260,5 @@ div.container{
     font-family: Muli, 'sans-serif';
     font-size: 4vh;
     cursor: pointer;
+    text-shadow: 0px 0 black, 0 3px #222, 4px 0 #222, 0 0px black;
 }
