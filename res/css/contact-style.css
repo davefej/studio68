@@ -217,3 +217,25 @@ textarea.form-control{
 .contact_loading{
 	height: 1.5em;
 }
+
+.red_footer{
+	/*background-color:#e00901;*/
+	background-color:#181819;
+	color:white;
+}
+.company_details{
+	height:4em;
+
+	text-align:center;
+	margin:auto;
+	width:90%;
+}
+
+.company_details1{
+	width:50%;
+	float:left;
+}
+.company_details2{
+	width:50%;
+	float:left;
+}

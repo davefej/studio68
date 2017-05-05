@@ -1,4 +1,20 @@
 	<!--FOOTER-->
+	
+	<div class="container-fluid red_footer" id="footer">
+          <div class="company_details">
+	          	 <div class="company_details1">
+			           Stúdió 68 Reklámajándék Kft.<br/>
+			           Adatkezelési azonosító: 40090<br/>
+			           Cégjegyzékszám: 01-09-724274<br/>
+	          	 </div>
+	             <div class="company_details2">
+		           Adószám: 13219947-2-43<br/>
+		           Közösségi Adószám: HU 0001679810<br/>
+		           Pénzforgalmi számlaszám: 10400164-01609664-00000000
+	             </div>
+          </div>
+      </div>
+	
       <div class="container-fluid">
         <div class="row">
         </div>
@@ -11,7 +27,7 @@
             <div class="sk-cube4 sk-cube"></div>
             <div class="sk-cube3 sk-cube"></div>
           </div>
-          <div class="sign">©David&amp;David<br>2017</div>
+          <div class="sign"><a  target="_blank" class="sign" href="http://davidanddavid.hu">©David&amp;David</a><br>2017</div>
       </div>
 
 
