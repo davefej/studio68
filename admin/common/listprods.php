@@ -33,7 +33,7 @@ if(isset($_GET['admin']) && $_GET['admin'] == true){
 			<?php } ?>
 			<td class='prodtd'>
 			<div class="prodtddiv">
-			<div class='prodtitle'><?php echo $jsonintem['txt']; ?> </div>
+			
 				<div class='proditem'>
 				<?php if($admin){?>
 					<button class="editprodbutton" onclick="deleteprodbutton('<?php echo $jsonintem['name'];?>','<?php echo $uploadtype;?>')">Töröl</button>
@@ -42,6 +42,7 @@ if(isset($_GET['admin']) && $_GET['admin'] == true){
 					
 					<img class='prodimgbg' src='<?php echo $currpath.$jsonintem['name']; ?>'></img>					
 				</div>
+				<div class='prodtitle'><?php echo $jsonintem['txt']; ?> </div>
 				<div class='proddesc'><?php echo $jsonintem['desc']; ?> </div>
 				</div>
 			</td>
@@ -57,7 +58,7 @@ if(isset($_GET['admin']) && $_GET['admin'] == true){
 			if($num <= 3){
 				while($num <= 3){
 					?>
-					<td class='prodtd'>
+					<td class='prodtd_empty'>
 						
 					</td>
 					<?php 

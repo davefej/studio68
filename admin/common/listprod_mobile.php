@@ -30,11 +30,11 @@ if(isset($_GET['admin']) && $_GET['admin'] == true){
 			?> 
 			<tr>
 			<td class='prodtd'>
-			<div class="prodtddiv">
-				<div class='prodtitle'><?php echo $jsonintem['txt']; ?> </div>
+			<div class="prodtddiv">	
 					<div class='proditem'>
 						<img class='prodimgbg' src='<?php echo $currpath.$jsonintem['name']; ?>'></img>					
 					</div>
+				<div class='prodtitle'><?php echo $jsonintem['txt']; ?> </div>
 				<div class='proddesc'><?php echo $jsonintem['desc']; ?> </div>
 			</div>
 			</td>
