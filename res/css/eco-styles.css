@@ -93,7 +93,7 @@ div.container{
 }
 
 #energy-describe{
-    min-height: 400px;
+    
     background-color: white;
     color: black;
     border-width: 1 1 5 1;
@@ -146,7 +146,7 @@ div.container{
 }
 
 #textil-describe{
-    min-height: 400px;
+    
     background-color: white;
     color: black;
     border-width: 1 1 5 1;
@@ -287,11 +287,15 @@ div.container{
 }
 
 .well.describe{
-    min-height: 400px;
+   
     padding: 10px;
     padding-top: 15px;
     font-family: Raleway, 'sans-serif';
     font-size: 2.5vh
+}
+
+.describe{
+	height: 400px;
 }
 
 .promo{

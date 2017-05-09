@@ -25,26 +25,14 @@
                     </div>
                     <div class="col-md-6">
                         <div class="well describe" id="chocolate-describe">
-													Amikor meghallja ezt a szót, csokoládé, mi jut először eszébe róla?
-													Akarom! Energia. Finom. Boldogság hormon. Jókedv. Mogyorós. Vágy.
-													Nos, másoknak is ez jut eszébe!
-													Akkor ezt meg is beszéltük. Már csak arról kellene egyeztetnünk, hogy milyen legyen!?
-													Kocka? Tej? Keserű? Töltött? Táblás? Egyedileg csomagolt? Saját grafikával ellátott?
-													<br>Érdemes lenne róla személyesen is beszélnünk, nemde?
+								#étcsokikocka #csokitallér #tábláscsoki #egyedicsoki #finomcsokoládé #üregescsokoládé #dobozosbonbon #magvascsoki #kockacsoki #fadobozoscsokibonbon
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="well describe" id="lollypop-describe">
-													Amikor az ember azt hallja, hogy reklámédesség, akkor arra gondol általában, hogy ezzel biztos nem szeretne beégni az Ügyfelei előtt.
-													<br>Előjönnek a régi emlékek a kakaómasszáról. A bevonatról. Az ehetetlen, de legalább olcsó minőségről.
-													<br>STOP! Most álljunk meg egy pillanatra, fontos bejelentés következik!
-													<br>Mi, azaz a Stúdió68 munkatársai, ezúton kijelentjük, hogy nem vállalunk semmilyen közösséget a kakaómasszával.
-													Vállaljuk, hogy csakis kiváló minőségű belga csokoládéból gyártott termékekkel szolgáljuk ki Ügyfeleinket!
-													Fogadjuk, hogy a kiváló minőségért, mindent megteszünk!
-													<br>Küldetésünk, hogy Ügyfeleink és Partnereik első gondolata csak ennyi legyen: Hmmmmm…
-													<br>Kijelentjük, hogy fentieknek rendeljük alá magunkat! Most már beléphet!
+									#egyedigrafikáscsomagolás #megtervezzükcsoki #díszdobozbanminden #nyomjukafóliát #emblémázottédesség #csakfinomlehet #68lehetőség #logórajta #mindenamifinom #ügyfélkínáló
                         </div>
                     </div>
                 </div>
@@ -73,19 +61,12 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="well describe" id="bonbon-describe">
-									Ezt most elég nehéz lesz szavakba önteni anélkül, hogy ne keltsen felemás érzéseket.
-									<br>Ezért nem is teszünk rá kísérletet, mert magyarázkodni a legnehezebb…
-									<br>Mi arra gondoltunk, hogy ez alá a gyűjtőszó alá rendezzük azokat a ropogtatnivalókat, melyek kiváló promóciós célokat szolgálhatnak,
-									egy-egy rendezvény alkalmával, vagy például ügyfélfogadás apropójából.
-									<br>Ilyen jellegű termék lehet a ropi, a pattogatott kukorica, vagy a keksz.
-									<br>Amennyiben egyetért, lépjen beljebb.
+						#rágcsáldaropit #kekszetneki #roppanjránkmost #nemkukoricázunk #almaszirom #hajdinapromo #nasiznijó #szezámmagossüti #desszertneked #harapdálom
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="well describe" id="custom-describe">
-									Felhívjuk kedves látogatóink figyelmét, hogy a belépés, a nyugalom megzavarására alkalmas képi - és ízhatásokat tartalmazhat.
-									<br>Ennek megfelelően, és ennek érdekében mindenki saját felelősségére lépjen tovább.
-									<br>Köszönjük.
+						#mentoloscukor #gyümölcsíz #minicuki #tejkaramell #gumicuki #nembánodmeg #logódapapíron #ennivalóanédes #jégcukor #élvezdazízt
                 </div>
             </div>
         </div>

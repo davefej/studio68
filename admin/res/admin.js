@@ -15,6 +15,31 @@ function deleteprodbutton(name,type){
 		}
 	});
 }
+function showedit(name){
+	$("#prod_"+name).show();
+	
+}
+function editprodbutton(iter_id){
+	var name = $("#new_name_"+iter_id).val();
+	var desc = $("#new_desc_"+iter_id).val();
+	var id = $("#id_"+iter_id).val();
+	var type = $("#type_"+iter_id).val();
+	jQuery.ajax({
+		type: 'POST',
+		url: "common/editprod.php",
+		cache:false,
+		data:JSON.stringify({
+			name:name,
+			desc:desc,
+			id:id,
+			type:type
+		}),
+		success: function(data) {
+			alert("szerkesztve "+data);
+			location.reload();
+		}
+	});
+}
 
 function imgchage(type){
 	var list = $('.changecb:checkbox:checked');

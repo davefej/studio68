@@ -113,6 +113,23 @@ function changeOrder($type,$name1,$name2){
 	}
 }
 
+function editById($type,$id,$txt,$desc){
+	$data = readJSON($type);
+	$ret =  false;
+	for($i=0; $i < count($data); $i++){
+		if($data[$i]["name"] == $id){
+			$data[$i]["txt"] = $txt;
+			$data[$i]["desc"] = $desc;
+			$ret =  true;
+			break;
+		}
+	}
+	
+	if($ret){
+		writeJSON($data,$type);
+	}
+	return $ret;
+}
 
 function getCategoories($cat){
 

@@ -44,29 +44,17 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="well describe" id="energy-describe">
-                  Zöld energia. Amikor ezt a két szót olvassa, gondoljon arra, hogy mennyi energiát spórolhat meg velünk!
-                  Komolyra fordítva a szót, végre a promóciós piacon is megjelentek olyan műszaki termékek,
-                  melyek természetes energiával képesek működésbe hozni különféle eszközöket. Nincs szükség sem elektromos áramra,
-                  sem elemre, mert a természetes energia, elegendő ahhoz, hogy ezek a termékek „életre keljenek.”
-                  Néhány ötlet kínálatunkból.<br>
-                  Dinamós elemlámpa. Vízzel működő asztali óra. Napelemmel tölthető power bank.<br>
-                  Az ökológiai lábnyom csökkentésének érdekében, kérjük lépjen beljebb…
+                  #dinamóslámpa #napelemesszámológép #vízenergiásóra #napelemespowerbank #bambuszpendrive #kartonfalióra #ökotöltő #nemkellelem #napenergianeked #solar4you
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="well describe" id="textil-describe">
-                  Tudta Ön, hogy megvalósultak azon törekvések, melyek szerint kizárólag erre a célra ültetett fából készülhetnek használati tárgyak?
-                  <br>Tudta Ön, hogy a műanyag tálca, amit étkezést követően visszavisz a tálcatartó kocsira, lehet, hogy golyóstollként végzi?
-                  <br>Tudta Ön, hogy egy elhasznált és kikopott farmernadrágja tolltartónak is kiváló?
-                  <br>Tudta Ön, hogy a lecserélt, elkopott gumiabroncsból egyébként remek egérpad válhat?
-                  <br>A bizonyítékok csak egy kattintásra vannak.
+                  #farmertoll #gumiabroncsegérpad #papírmappa #ökotudatos #ceruzabankjegyből #bambuszkészlet #gondoldújra #nebántsdafát #kukoricaalapúműanyag #mindenamiöko
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="well describe" id="textil-describe">
-                  Ez alá a menüpont alá, összegyűjtöttünk minden olyan terméket, melyek bármilyen módon, de kapcsolódnak a környezettudatos gondolkodáshoz.
-                  <br>Amennyiben Ön is fontosnak tartja környezetünk védelmét, és úgy érzi azonosulni tud ilyen irányú törekvéseinkkel, kérjük nézzen körbe.
-                  <br>Bizonyára talál majd olyan terméket a kínálatban, mellyel kézzelfoghatóan is azt üzeni majd Partnerei számára, hogy „ÖKO vagyok!”
+                 #vászontáska #bionövény #organikuspóló #fafejtörőjáték #madárodúmásképp #környzetbarátkulacs #ökobevásárlótáska #használdújra #ökostúdió68 #atermészetmentők
                 </div>
             </div>
         </div>

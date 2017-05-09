@@ -108,9 +108,10 @@
 }
 
 .proddesc{
-	height: 2.6em;
+	min-height: 3.6em;
     color: black;
     background: #f9eaea;
+    overflow:hidden;
 }
 .prodtddiv{
 	width:100%;

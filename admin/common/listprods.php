@@ -3,6 +3,7 @@ require_once 'adminhelper.php';
 $uploadtype = $_GET["type"];
 $typename = getCategoories($uploadtype);
 $data = getJSON($uploadtype);
+$mycount=0;
 if(isset($_GET['admin']) && $_GET['admin'] == true){
 	$admin=true;
 	$currpath =  "../dinamic/".$uploadtype."/";
@@ -35,15 +36,24 @@ if(isset($_GET['admin']) && $_GET['admin'] == true){
 			<div class="prodtddiv">
 			
 				<div class='proditem'>
-				<?php if($admin){?>
-					<button class="editprodbutton" onclick="deleteprodbutton('<?php echo $jsonintem['name'];?>','<?php echo $uploadtype;?>')">Töröl</button>
-					<input type="checkbox" class="changecb" id="<?php echo $jsonintem['name'];?>" />
-				<?php }?>
-					
 					<img class='prodimgbg' src='<?php echo $currpath.$jsonintem['name']; ?>'></img>					
 				</div>
 				<div class='prodtitle'><?php echo $jsonintem['txt']; ?> </div>
 				<div class='proddesc'><?php echo $jsonintem['desc']; ?> </div>
+				
+				<?php if($admin){?>
+					<button class="editprodbutton" onclick="deleteprodbutton('<?php echo $jsonintem['name'];?>','<?php echo $uploadtype;?>')">Töröl</button>
+					<button class="editprodbutton" onclick="showedit('<?php echo $mycount;?>')">Szerkeszt</button>
+					<input type="checkbox" class="changecb" id="<?php echo $jsonintem['name'];?>" />
+					<div class="myhidden" id="prod_<?php echo $mycount;?>" >
+						<input id="new_name_<?php echo $mycount;?>" type="text" name="new_name" value="<?php echo $jsonintem['txt']; ?>"/>
+						<textarea id="new_desc_<?php echo $mycount;?>" name="newdesc"><?php echo $jsonintem['desc']; ?></textarea><br/>
+						<input type="hidden" id="id_<?php echo $mycount;?>" value="<?php echo $jsonintem['name'];?>">
+						<input type="hidden" id="type_<?php echo $mycount;?>" value="<?php echo $uploadtype;?>">
+						<button type="button" onclick="editprodbutton('<?php echo $mycount;?>')" >Save</button>
+					</div>
+					
+				<?php $mycount++; }?>
 				</div>
 			</td>
 			<?php if(($i % 4) == 3){ ?>		

@@ -25,11 +25,7 @@
             </div>
             <div class="col-md-4">
                 <div class="well describe" id="gift-webshop-describe">
-									Fújhatja. Lengetheti. Ütheti.
-									<br>A lényeg, hogy sportszerűen tegye.
-									<br>Ahhoz, hogy megtehesse, először be kell lépnie és ki kell választania.
-									<br>Amennyiben nem találta meg, amit keresett, szánjon ránk még néhány percet és írjon nekünk,
-									<br>vagy hívjon bennünket, megtaláljuk a megoldást.
+					szurkoljszenvedéllyel #mindentacsapatért #síppaldobbalkereplővel #miadjukakelléket #asportlegyenaszenvedélyed #hajrálépjbe #merchandising #teremtshangulatot #asportnapisittkezdődik #szurkolóikellékhakell
                 </div>
             </div>
         </div>
@@ -44,10 +40,7 @@
             </div>
             <div class="col-md-4">
                 <div class="well describe" id="custom-gift-describe">
-									Igyekszünk a sport promócióban maradandót alkotni.
-									<br>Ezért foglalkozunk többek között szurkolói sál gyártással, zászlókészítéssel, Shop ellátással,
-									<br>Egyesületi címer feliratozással, egyedi varrással, különféle emblémázási technológiákkal,
-									<br>egyedi gyártású klub címeres ajándéktárgyak gyártásával. Hajrá, Belépés!
+					#kötöttsálatanyakba #viseldbüszkén #szeretjükakihívásokat #közönségkedvenc #mutasdmegmagad #sohaneaddfel #címerezzükisneked #lengesdazászlót #fesdkimagad #telitorokból
                 </div>
             </div>
         </div>
@@ -61,9 +54,7 @@
             </div>
 						<div class="col-md-4">
 	              <div class="well describe" id="textile-describe">
-	                Textilkínálatunk abszolút mértékig Önre szabott. Nincs más dolga, mint felvenni velünk a kapcsolatot,
-	                és elmondani elképzelését. Akár az Utánpótlásnak szeretne címeres pólókat, akár egységes Csapatmegjelenés az álma,
-	                igyekszünk minden elképzelését megvalósítani. Kezdésnek tekintse meg standard kínálatunkat.
+	               #szublimációsmegoldások #feliratozzukamezt #csapatmegjelenés #öltöztesdfel #egyenmegjelenés #megkülönböztetőmez #címerespólótedzésre #veddfelaversenyt #bujjbeleakínálatba #mindenmegoldásjátszik
 	              </div>
 	          </div>
             <div class="col-md-4">
@@ -74,8 +65,7 @@
             </div>
 						<div class="col-md-4">
                 <div class="well describe" id="custom-cup-describe">
-									Előkészület. Felkészülés. Verseny. Izgalom. Szervezés. Hajrá. Díjátadás. Siker.
-									Gravírozva. Emblémázva. Kicsiben. Nagyban. Szalaggal. Biztosítva. Számukra.
+					 #teddanyakába #dobogórafel #aranyezüstbronzszépencsillog #örökemlékmarad #nevesítveislehet #örömatetőfokon #asikerzáloga #kitartásésszorgalom #díjazzukahűséget #szervezlebonyolítátadörül
                 </div>
             </div>
         </div>
