@@ -234,3 +234,26 @@ textarea.form-control{
 	float:left;
 	min-width: 300px;
 }
+.whitehref{
+	color:white;
+}
+
+.whitehref:active{
+	color:red;
+}
+
+.whitehref:hover{
+	color:red;
+}
+.fbicon{
+	margin-top:10px;
+	height:50px;
+	filter: grayscale(100%);
+}
+
+.fbicon:hover{
+	margin-top:10px;
+	
+	filter: grayscale(0%);
+	cursor:pointer;
+}

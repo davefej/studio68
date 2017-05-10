@@ -185,5 +185,8 @@ function getCategoories($cat){
 	}
 }
 
+function getDivisionFromCategory($cat){
+	return substr($cat, 0,-1);
+}
 
 ?>

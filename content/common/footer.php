@@ -3,14 +3,18 @@
 	<div class="container-fluid red_footer" id="footer">
           <div class="company_details">
 	          	 <div class="company_details1">
+	          	 	   <a class="whitehref" href="res/files/rendelesi_feltetelek.pdf" target="_blank">Rendelési Feltételek</a><br/>
 			           Stúdió 68 Reklámajándék Kft.<br/>
 			           Adatkezelési azonosító: 40090<br/>
 			           Cégjegyzékszám: 01-09-724274<br/>
+			           
 	          	 </div>
 	             <div class="company_details2">
+	             	<a class="whitehref" href="res/files/elismeresek.pdf" target="_blank">Elismerések</a><br/>
 		           Adószám: 13219947-2-43<br/>
 		           Közösségi Adószám: HU 0001679810<br/>
-		           Pénzforgalmi számlaszám: 10400164-01609664-00000000
+		           Pénzforgalmi számlaszám: 10400164-01609664-00000000<br/>
+		           
 	             </div>
           </div>
       </div>

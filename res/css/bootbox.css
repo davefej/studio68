@@ -45,9 +45,8 @@
 
 .prodtd{
     width: 22%;
-    border: 1px solid #deb0b9;
     vertical-align: top;
-    box-shadow: 0 7px 2px -2px #e00901;
+   
 }
 
 .proditem{
@@ -85,11 +84,11 @@
     overflow: hidden;
     font-family: Tahoma;
     color: black;
-    background: #f9eaea;
+   
    
 }
 .prodtd_empty{
-	 padding-bottom: 10px;
+	padding-bottom: 10px;
     width: 22%;
     border: 1px solid white;
     vertical-align: top;
@@ -102,7 +101,7 @@
     padding: 0px 5px;
     margin-left: 20px;
     border-radius: 2px;
-    border-bottom: 2px solid #e00901;
+   
     color: black;
     font-size: 2em;
 }
@@ -110,9 +109,74 @@
 .proddesc{
 	min-height: 3.6em;
     color: black;
-    background: #f9eaea;
+    
     overflow:hidden;
 }
 .prodtddiv{
 	width:100%;
+}
+
+.ecobbheadercolor{
+	 border-bottom: 2px solid rgb(48, 130, 55);
+}
+
+.ecoprodtdcolor{
+	border: 1px solid rgb(48, 130, 55);
+    box-shadow: 0 7px 2px -2px rgb(48, 130, 55);
+}
+.ecoprodtitlecolor{
+	 background: rgb(227, 251, 230);
+}
+
+.ecoproddesccolor{
+	background: rgb(227, 251, 230);
+}
+
+.sweetbbheadercolor{
+	 border-bottom: 2px solid rgb(163, 107, 70);
+}
+
+.sweetprodtdcolor{
+	border: 1px solid rgb(163, 107, 70);
+    box-shadow: 0 7px 2px -2px rgb(163, 107, 70);
+}
+.sweetprodtitlecolor{
+	 background: rgb(255, 231, 214);
+}
+
+.sweetproddesccolor{
+	background: rgb(255, 231, 214);
+}
+
+.giftbbheadercolor{
+	 border-bottom: 2px solid #e00901;
+}
+
+.giftprodtdcolor{
+	border: 1px solid #deb0b9;
+    box-shadow: 0 7px 2px -2px #e00901;
+}
+.giftprodtitlecolor{
+	 background: #f9eaea;
+}
+
+.giftproddesccolor{
+	background: #f9eaea;
+}
+
+.fanbbheadercolor{
+	border-bottom: 2px solid rgb(255, 175, 57);
+}
+
+.fanprodtdcolor{
+	
+    border: 1px solid rgb(255, 175, 57);
+    box-shadow: 0 7px 2px -2px rgb(255, 175, 57);
+}
+.fanprodtitlecolor{
+	 background:rgb(247, 232, 210);
+}
+
+.fanproddesccolor{
+	background: rgb(247, 232, 210);
 }

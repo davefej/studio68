@@ -16,6 +16,7 @@
                                 <div class="contact_us1">Elérhetőségek</div>
                                 1119<br>Budapest<br>Boglárka utca 32.<br><br><b><a href="mailto:info@studio68.hu">info@studio68.hu</a></b><br>
                                 <br><b><a href="tel:+36-1-203-2420">(06)-1-203-2420</a></b><br>
+                                <a href="http://facebook.com/reklamtargyak" target="_blank"><img src="res/img/fb_icon.png" class="fbicon"/></a>
                             </div>
                         </div>
                     </div>
