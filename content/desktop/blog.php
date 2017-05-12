@@ -30,36 +30,12 @@
 				<a id="next_page_button"></a>
 				<a id="prev_page_button"></a>
 				<div id="loading" class="loading">Loading pages...</div>
-				<div id="mybook" style="display:none;">
-					<div class="b-load">
-						<div>
-							<img src="res/blog/images/1.jpg" alt=""/>
-							<h1>Első poszt</h1>
-							<p>Hello!<br/>
-							Ez az elso poszt ebben a blogban.<br/>
-							....<br/>
-							......<br/>
-							Studio
-							</p>
-						</div>
-						<div>
-							<img src="res/blog/images/2.jpg" alt="" />
-							<h1>Szurkoloi Uzletag</h1>
-							<p>
-								Sziasztok Megnyitott aszurkoloi uzletagunk.
-								......
-								.....
-							</p>
-							
-						</div>
-						<div>
-							<img src="res/blog/images/3.jpg" alt="" />
-							<h1>Csokolade</h1>
-							<p>
-							Nyami<br/>Nyami<br/>Nyami<br/>Nyami<br/>Nyami<br/>
-							</p>
-						</div>
-					</div>
+				<div id="mybook" style="display:none;">					
+					<?php 
+					$admin = false;
+					require_once 'admin/common/renderblog.php';
+					
+					?>
 				</div>
 			</div>
 	        <div>

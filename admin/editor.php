@@ -74,7 +74,10 @@
 require_once 'common/footer.php';
 
 if(isset($_GET['type'])){
-	
+	if($_GET['type'] == "blog"){
+		header("Location: blog.php");
+		exit;
+	}
 	?>
 	<script>
 	var mychange  = true;

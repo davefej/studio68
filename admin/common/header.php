@@ -12,5 +12,6 @@
 			<div class="adminheader">
 			<a href="hirlevel.php">HÍRLEVÉL</a>
 			<a href="editor.php" >TERMÉKEK</a>
+			<a href="blog.php" >BLOG</a>
 			</div>
 		</div>

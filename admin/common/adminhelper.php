@@ -1,8 +1,15 @@
 <?php 
 function readJSON($type){
 	$jsonstr = "";
-	if(file_exists("../../dinamic/".$type.".json")){
-		if ($file = fopen("../../dinamic/".$type.".json", "r")) {
+	
+	if(file_exists("dinamic/".$type.".json")){
+		$path = "dinamic/".$type.".json";
+	}else{
+		$path ="../../dinamic/".$type.".json";
+	}
+	
+	if(file_exists($path)){
+		if ($file = fopen($path, "r")) {
 			while(!feof($file)) {
 				$line = fgets($file);
 				$jsonstr .= $line."\n";
