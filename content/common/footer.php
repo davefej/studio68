@@ -38,9 +38,13 @@
         <!-- Bootstrap core JavaScript
 	    ================================================== -->
 	    <!-- Placed at the end of the document so the pages load faster -->
+	    <?php if(!isset($page) || $page != "blog"){?>
+	    
         <script src="res/js/jquery1.12.4.js"></script>
-        <script src="res/js/jquery-ui.min.js"></script>
+        <script src="res/js/jquery-ui.min.js"></script>       
 	    <script src="res/bootstrap/js/bootstrap.min.js"></script>
+	    
+	    <?php } ?>
         <script src="res/js/prodlist.js?v=1"></script>
         <?php
         if($mobile == false && $page == "home"){
