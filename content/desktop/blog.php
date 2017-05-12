@@ -37,8 +37,8 @@
 							<h1>Első poszt</h1>
 							<p>Hello!<br/>
 							Ez az elso poszt ebben a blogban.<br/>
-							Szerintem egesz jo.<br/>
-							Ekezetek bugosak....<br/>
+							....<br/>
+							......<br/>
 							Studio
 							</p>
 						</div>
@@ -47,8 +47,8 @@
 							<h1>Szurkoloi Uzletag</h1>
 							<p>
 								Sziasztok Megnyitott aszurkoloi uzletagunk.
-								Tetszik??
-								Szerintünk eleg jo :D
+								......
+								.....
 							</p>
 							
 						</div>

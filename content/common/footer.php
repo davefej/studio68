@@ -53,7 +53,7 @@
         }
         ?>
 
-        <script src="res/js/functions.js?v=1"></script>
+        <script src="res/js/functions.js?v=2"></script>
         <script src="res/js/bootbox.js"></script>
 
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgpGS138e-2Fd5AMMV8TdA5JoKbmxx9zw&callback=initMap"></script>
