@@ -1,0 +1,15 @@
+.bookpagediv{
+	text-align:center;
+}
+
+.title{
+	font-size:2em;
+}
+
+hr{
+	 border: 1px solid #ccc;
+}
+
+.articletitle{
+	font-size:1.8em;
+}

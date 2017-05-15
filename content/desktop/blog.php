@@ -2,9 +2,27 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="UTF-8">
+		
+		
+		<link rel="stylesheet" href="res/css/nav-style.css">
 		<link href="res/blog/booklet/jquery.booklet.1.1.0.css" type="text/css" rel="stylesheet" media="screen" />
 		<link rel="stylesheet" href="res/blog/css/style.css" type="text/css" media="screen"/>
-		<title>Stúdió68 Kft.</title>
+		<title>Stúdió68 Blog</title>
+		<style>
+		.nav li{
+				display: inline;
+			    float: left;
+			        margin-bottom: 10px;
+			}
+			
+			
+				.navbar-toggle {
+				    display: none;
+				    
+				}
+			
+		</style>
+		
 	</head>
 	<body>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>  
@@ -25,7 +43,16 @@
 		Cufon.replace('.reference a', {textShadow: '1px 1px #C59471', fontFamily:'ChunkFive'});
 		Cufon.replace('.loading', {textShadow: '1px 1px #000', fontFamily:'ChunkFive'});
 	</script>
-	<h1 class="title">Stúdió68 blog</h1>
+	
+	
+	<?php 
+		
+	require_once "content/common/navbar.php";
+	
+	?>
+	
+	
+	<h1 class="title">Köszöntjük blogunkon!</h1>
 			<div class="book_wrapper">
 				<a id="next_page_button"></a>
 				<a id="prev_page_button"></a>

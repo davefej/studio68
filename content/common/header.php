@@ -34,6 +34,8 @@
             echo '<link rel="stylesheet" href="res/'.$css.'/sweet-styles.css?v='.$version.'">';
         if(isset($page) && $page == "printing")
             echo '<link rel="stylesheet" href="res/'.$css.'/printing-styles.css?v='.$version.'">';
+        if(isset($page) && $page == "eshop")
+          	echo '<link rel="stylesheet" href="res/'.$css.'/eshop-styles.css?v='.$version.'">';
     ?>
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
