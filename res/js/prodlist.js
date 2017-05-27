@@ -1,4 +1,5 @@
 function openprodlist(type){
+
 	if(usemobileview){
 		jQuery.ajax({
 			type: 'GET',
@@ -16,6 +17,6 @@ function openprodlist(type){
 			}
 		});
 	}
-	
+
 
 }

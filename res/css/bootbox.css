@@ -39,14 +39,15 @@
 .prodtable{
 	width:100%;
 	border-collapse: separate;
-    border-spacing: 10px 30px;
+    border-spacing: 20px 30px;
     text-align:center;
 }
 
 .prodtd{
     width: 22%;
     vertical-align: top;
-   
+   	border: 1px solid rgb(196, 197, 196);
+    box-shadow: 1px 5px 2px -2px rgb(179, 181, 180);
 }
 
 .proditem{
@@ -84,7 +85,7 @@
     overflow: hidden;
     font-family: Tahoma;
     color: black;
-   
+    background: rgb(249, 249, 249);
    
 }
 .prodtd_empty{
@@ -101,15 +102,19 @@
     padding: 0px 5px;
     margin-left: 20px;
     border-radius: 2px;
-   
-    color: black;
     font-size: 2em;
+    width: 96%;
+    margin-left: 0px;    
+    box-shadow: 0px 2px 5px 0px black;
+    margin-left: 10px;
+    color: white;
+    font-weight: 400;
 }
 
 .proddesc{
 	min-height: 3.6em;
     color: black;
-    
+    background: rgb(249, 249, 249);
     overflow:hidden;
 }
 .prodtddiv{
@@ -118,65 +123,76 @@
 
 .ecobbheadercolor{
 	 border-bottom: 2px solid rgb(48, 130, 55);
+	 background-color: rgb(48, 130, 55);
 }
 
 .ecoprodtdcolor{
+	/*
 	border: 1px solid rgb(48, 130, 55);
     box-shadow: 0 7px 2px -2px rgb(48, 130, 55);
+    */
 }
 .ecoprodtitlecolor{
-	 background: rgb(227, 251, 230);
+	 /*background: rgb(227, 251, 230); */
 }
 
 .ecoproddesccolor{
-	background: rgb(227, 251, 230);
+	/*background: rgb(227, 251, 230); */
 }
 
 .sweetbbheadercolor{
 	 border-bottom: 2px solid rgb(163, 107, 70);
+	 background-color: rgb(163, 107, 70);
 }
 
 .sweetprodtdcolor{
+	/*
 	border: 1px solid rgb(163, 107, 70);
     box-shadow: 0 7px 2px -2px rgb(163, 107, 70);
+     */
 }
 .sweetprodtitlecolor{
-	 background: rgb(255, 231, 214);
+	/* background: rgb(255, 231, 214); */
 }
 
 .sweetproddesccolor{
-	background: rgb(255, 231, 214);
+	/*background: rgb(255, 231, 214); */
 }
 
 .giftbbheadercolor{
-	 border-bottom: 2px solid #e00901;
+	 border-bottom: 2px solid rgb(244, 67, 54);;
+	 background-color:rgb(244, 67, 54);
 }
 
 .giftprodtdcolor{
+	/*
 	border: 1px solid #deb0b9;
     box-shadow: 0 7px 2px -2px #e00901;
+     */
 }
 .giftprodtitlecolor{
-	 background: #f9eaea;
+	/* background: #f9eaea; */
 }
 
 .giftproddesccolor{
-	background: #f9eaea;
+	/*background: #f9eaea; */
 }
 
 .fanbbheadercolor{
 	border-bottom: 2px solid rgb(255, 175, 57);
+	background-color: rgb(255, 175, 57);
 }
 
 .fanprodtdcolor{
-	
+	/*
     border: 1px solid rgb(255, 175, 57);
     box-shadow: 0 7px 2px -2px rgb(255, 175, 57);
+     */
 }
 .fanprodtitlecolor{
-	 background:rgb(247, 232, 210);
+	/* background:rgb(247, 232, 210); */
 }
 
 .fanproddesccolor{
-	background: rgb(247, 232, 210);
+	/* background: rgb(247, 232, 210); */
 }
