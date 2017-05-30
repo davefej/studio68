@@ -1,5 +1,307 @@
+body{
+	margin:0 auto;
+    color:white;
+    background-color: #181819;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+}
+
+.main_segment.container-fluid{
+    min-height: 100%;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    float:none;
+
+    padding:100px;
+}
+
 div.container{
-	margin: 0;
+    margin: 0;
     padding: 0;
     width: 100%;
+    text-align: center;
+}
+
+.eshop-title{
+    width:100%;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 5vh;
+    color: #333;
+    text-align: center;
+}
+
+.eshop-intro{
+    min-height: 20%;
+    margin: 0;
+    padding-right: 15%;
+    padding-left: 15%;
+    float: none;
+    text-align: center;
+    color: #777;
+    font-size: 3vh;
+    margin-bottom: 40px;
+}
+
+.well{
+    padding: 0;
+}
+
+#energy{
+    background-image: url("../img/eshop7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 620px;
+
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+#energy:after{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#energy:hover {
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
+}
+
+#energy:hover:after {
+  opacity: 1;
+}
+
+.energy-open{
+    margin-top: 40%;
+    font-family: Muli, 'sans-serif';
+    font-size: 4vh;
+    padding-top: 2em;
+}
+
+#energy:hover .energy-open{
+    display: block;
+}
+
+#energy-describe{
+    
+    background-color: white;
+    color: black;
+    border-width: 1 1 5 1;
+    border-color: #3A3;
+}
+
+#textil{
+    background-image: url("../img/eshop1.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 620px;
+
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+#textil:after{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#textil:hover {
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
+}
+
+#textil:hover:after {
+  opacity: 1;
+}
+
+.textil-open{
+    margin-top: 40%;
+    font-family: Muli, 'sans-serif';
+    font-size: 4vh;
+    color: #333;
+    padding-top: 2em;
+}
+
+#textil:hover .textil-open{
+    display: block;
+}
+
+#textil-describe{
+    
+    background-color: white;
+    color: black;
+    border-width: 1 1 5 1;
+    border-color: #3A3;
+}
+
+#ideas{
+    background-image: url("../img/eshop6.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 620px;
+
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+#ideas:after{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#ideas:hover {
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
+}
+
+#ideas:hover:after {
+  opacity: 1;
+}
+
+.ideas-open{
+    margin-top: 40%;
+    font-family: Muli, 'sans-serif';
+    font-size: 4vh;
+    color: white;
+    padding-top: 2em;
+    text-shadow: 0px 0 black, 0 3px #222, 4px 0 #222, 0 0px black;
+}
+
+#eshop-gifts{
+    text-align: center;
+    background-image: url("../img/eshop5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    -webkit-transition : -webkit-filter 250ms linear;
+
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+#eshop-gifts:after{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#eshop-gifts:hover {
+    transform: scale(1.02, 1.02);
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+#eshop-gifts:hover:after {
+  opacity: 1;
+}
+
+.eshop-gifts-open{
+    padding-top: 2em;
+}
+
+#eshop-gifts.well.promo:hover .eshop-gifts-open{
+    padding-top: 2em;
+    display: block;
+}
+
+#gallery{
+    text-align: center;
+    background-image: url("../img/eshop4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+#gallery:after{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#gallery:hover {
+    transform: scale(1.02, 1.02);
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+#gallery:hover:after {
+  opacity: 1;
+}
+
+.gallery-open{
+    padding-top: 2em;
+}
+
+#gallery.well.promo:hover .gallery-open{
+    padding-top: 2em;
+    display: block;
+}
+
+.well.describe{
+   
+    padding: 10px;
+    padding-top: 15px;
+    font-family: Raleway, 'sans-serif';
+    font-size: 2.5vh
+}
+
+.describe{
+	height: 400px;
+}
+
+.promo{
+    min-height:300px;
+    padding-top: 2%;
+    font-family: Muli, 'sans-serif';
+    font-size: 4vh;
+    cursor: pointer;
 }
