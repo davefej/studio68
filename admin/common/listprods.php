@@ -41,7 +41,10 @@ if(isset($_GET['admin']) && $_GET['admin'] == true){
 					<img class='prodimgbg' src='<?php echo $currpath.$jsonintem['name']; ?>'></img>					
 				</div>
 				<div class='prodtitle <?php  echo $css."prodtitlecolor" ?>'><?php echo $jsonintem['txt']; ?> </div>
-				<div class='proddesc <?php  echo $css."proddesccolor" ?>'><?php echo $jsonintem['desc']; ?> </div>
+				<div class='proddesc <?php  echo $css."proddesccolor" ?>'>
+				<div class="proddescdotdot">...</div>
+				<div class="proddescdetails"><?php echo $jsonintem['desc']; ?></div> 
+				</div>
 				
 				<?php if($admin){?>
 					<button class="editprodbutton" onclick="deleteprodbutton('<?php echo $jsonintem['name'];?>','<?php echo $uploadtype;?>')">Töröl</button>

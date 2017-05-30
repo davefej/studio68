@@ -72,6 +72,7 @@
     left: 0;
     right: 0;
     margin: auto;
+    cursor:pointer;
 }
 
 .prodtitle {
@@ -112,7 +113,7 @@
 }
 
 .proddesc{
-	min-height: 3.6em;
+	min-height: 2.6em;
     color: black;
     background: rgb(249, 249, 249);
     overflow:hidden;
@@ -196,3 +197,37 @@
 .fanproddesccolor{
 	/* background: rgb(247, 232, 210); */
 }
+
+.proddescdetails{
+	display:none;
+	margin-top:10px;
+	cursor:pointer;
+}
+
+.proddescdotdot{
+	font-size:2em;
+	cursor:pointer;
+}
+
+.imgshow{
+	margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+    display: block;
+    height: 90%;
+}
+
+.imgshowimg{
+	
+    max-width: 100%;
+    margin: auto;
+    max-height: 90%;
+}
+
+.imgshowtitle{	
+    
+    margin-top: 10px;
+    max-height: 100%;
+    font-size: 3em;
+}
+

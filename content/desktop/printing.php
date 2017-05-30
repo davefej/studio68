@@ -1,7 +1,7 @@
 
 <div class="main_segment container-fluid" id="main">
     <div class="print-title">
-        Partenereink örömére...
+        Partnereink örömére...
         
         <hr style="width: 10%; border-color:#333;">
         

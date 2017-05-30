@@ -28,7 +28,7 @@
 	                                <div class="contact_us" id="contact_header">Írjon nekünk!</div>
 	                                <div class="contact_us" id="contact_error_mail">Hibás Email</div>
 	                                <div class="contact_us" id="contact_error_empty">Üres Mező!</div>
-	                                <div class="contact_us" id="contact_success">Hamarosan válaszolunk! :)</div>
+	                                <div class="contact_us" id="contact_success">Hamarosan válaszolunk!</div>
 	                                <div class="contact_us" id="contact_error">Sikertelen küldés :(</div>
 	                                <div class="contact_us" id="loading_header"><img class="contact_loading" src="res/img/loading.gif"></img></div>
 	                                <input class="form-control name" type="text" id="lastname" name="lastname" placeholder="Vezetéknév"><input class="form-control name" type="text" id="firstname" name="firstname" placeholder="Keresztnév"><br>
