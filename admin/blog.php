@@ -3,7 +3,7 @@
 	
 <h1 align="center">Blog</h1>
 
-<form action="common/upload.php" method="POST" enctype="multipart/form-data">
+<form action="common/upload.php" method="POST" id="blogform" enctype="multipart/form-data">
 			
 			<table class="blogtable" align="center">
 			
@@ -12,24 +12,23 @@
 					</td>
 				</tr>
 				<tr>	
-					<td><input type="file" name="img">
+					<td><input type="file" name="img" id="imgupload">
 		  				<br/>
 		  			</td>
-		  			<td><input type="text" name="name" placeholder="Név">
+		  			<td><input type="text" name="name" placeholder="Név" id="name">
 		  				<br/>
 		  			</td>
 		  		</tr>
 		  		<tr>	
 					
 		  			<td colspan="2">
-		  				<textarea  name="desc" placeholder="Leírás" >
-		  				</textarea>		  			
+		  				<textarea  class="blogtexytarea" name="desc" placeholder="Leírás" id="desc"></textarea>		  			
 		  			</td>
 		  		</tr>
 				<tr>
 					<td colspan="2">
 					<input type="hidden" name="type" value="blog">
-					<input type="submit" value="feltölt">
+					<input type="button" onclick="upload()" value="feltölt">
 					<span class="imguploadresp"><?php if(isset($_GET["success"]) && $_GET["success"]=="true"){ echo "SIKERES FELTÖLTÉS";}?></span>
 					</td>
 				</tr>	
@@ -39,6 +38,7 @@
 <div class="adminblogcontainter" id="adminblogcontainter">
 	
 </div>
+
 	
 <?php require_once 'common/footer.php';?>
 

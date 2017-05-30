@@ -171,3 +171,7 @@ a#prev_page_button:hover{
 	border-radius:20px;
 	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
 }
+
+.bookpagediv{
+	font-size:14px;
+}

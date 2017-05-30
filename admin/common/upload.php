@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 		//if there was an error uploading the file
 		if ($_FILES["img"]["error"] > 0) {
-			$msg =  "Hibás feltöltés Hiba kód: " . $_FILES["img"]["error"];
+			$msg =  "Hibás feltöltés, képet nem sikerült feltölteni, Hiba kód: " . $_FILES["img"]["error"];
 
 		}else{
 			if(isset($_POST["name"]) && isset($_POST["type"]) && $_POST['desc']){
@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
 if($hiba){
-	echo "HIBA";
+	echo "HIBA<br/>";
 	echo $msg;
 	exit;
 }
@@ -56,6 +56,10 @@ if (!file_exists("../../dinamic/".$_POST['type'])) {
 $path = "../../dinamic/".$_POST['type']."/" . $fname;
 move_uploaded_file($_FILES["img"]["tmp_name"],$path );
 $msg =  "OK";
+
+$_POST['desc'] = str_replace(array("\r\n", "\n", "\r"),"<br/>",$_POST['desc']);
+
+
 addElement($_POST['type'],$_POST['name'],$_POST['desc'],$fname,"1");
 header("Location: ../editor.php?type=".$_POST['type']."&success=true");
 

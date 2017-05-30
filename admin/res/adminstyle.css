@@ -128,4 +128,30 @@ td{
     margin:auto;
     border:2px solid black;
     margin-top:20px;
+    font-size:14px;
+	overflow:hidden;
+}
+
+.blogtexytarea{
+    min-height: 200px;
+    min-width: 350px;
+}
+
+.blogtestcontainer{
+	width:95%;
+	text-align: center;
+}
+
+.blogtest{
+	width:400px;
+	height:500px;
+	border: 2px solid brown;
+	margin:auto;
+	font-size:14px;
+	
+}
+
+.blogtestimg{
+	width:310px;
+	margin-top:10px;
 }

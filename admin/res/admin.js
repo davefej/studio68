@@ -77,3 +77,46 @@ function loadProdList(){
 
 	window.location.href = str+"?type="+$("#editorselect").val();
 }
+
+
+function upload(){
+	var str = "<div class='blogtestcontainer'><h1>Megfelel így? </h1>Ha kilóg a szöveg akkor két cikkben kell feltölteni! Ha jó kattints az OK gombra<div  class='blogtest'>"+
+	"<img class='blogtestimg' src='imgsrc'><h1>title</h1>description</img></div></div>";
+	
+	str = str.replace("imgsrc",imgsrc)
+	str = str.replace("title",$("#name").val())
+	str = str.replace("description",$("#desc").val())
+	bootbox.confirm(str,function(result){ 
+		
+		if(result == true){
+			$("#blogform").submit();
+		}
+		
+	});
+	$(".modal-body").css("height", "650px");
+	$(".modal-content").css("height", "700px");
+	
+	$(".modal-footer").show();
+	
+	
+	
+}
+
+var imgsrc = "Nincs feltöltve";
+
+function readURL(input) {
+
+    if (input.files && input.files[0]) {
+        var reader = new FileReader();
+
+        reader.onload = function (e) {
+        	imgsrc = e.target.result;
+        }
+
+        reader.readAsDataURL(input.files[0]);
+    }
+}
+
+$("#imgupload").change(function(){
+    readURL(this);
+});
