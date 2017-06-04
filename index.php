@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="res/mobile-css/reference-styles.css?v=<?php echo $version;?>">
 		<link rel="stylesheet" href="res/mobile-css/team-style.css?v=<?php echo $version;?>">
 <?php 
+        require_once 'content/common/navbar-mobile.php';
 	}else{
 ?>
 		<link rel="stylesheet" href="res/css/styles.css?v=<?php echo $version;?>">
@@ -16,8 +17,8 @@
 		<link rel="stylesheet" href="res/css/reference-styles.css?v=<?php echo $version;?>">
 		<link rel="stylesheet" href="res/css/team-style.css?v=<?php echo $version;?>">
 <?php
+          require_once 'content/common/navbar.php';
 	}
-	require_once 'content/common/navbar.php';
 	require_once "content/".$selector."/index.php";
 	require_once 'content/common/contact.php';
 	require_once 'content/common/footer.php';

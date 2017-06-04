@@ -18,7 +18,7 @@
 
 <?php
 
-require_once "content/common/navbar.php";
+require_once "content/common/navbar-mobile.php";
 
 ?>
 	

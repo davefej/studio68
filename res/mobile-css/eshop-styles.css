@@ -1,5 +1,60 @@
-.div.container{
-	margin: 0;
+body{
+	margin:0 auto;
+    color:white;
+    background-color: #181819;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+}
+
+.main_segment.container-fluid{
+    min-height: 100%;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    float:none;
+    padding-top: 55px;
+}
+
+div.container{
+    margin: 0;
     padding: 0;
     width: 100%;
+    text-align: center;
+}
+
+.eshop-title{
+    width:100%;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 5vh;
+    color: #333;
+    text-align: center;
+}
+
+.eshop-intro{
+    min-height: 20%;
+    margin: 0;
+    float: none;
+    text-align: center;
+    color: #777;
+    font-size: 3vh;
+    margin-bottom: 40px;
+}
+
+.well{
+    padding: 0;
+}
+
+#eshop{
+    background-image: url("../img/E-bolt68.jpg");
+    background-size: 120% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
 }
