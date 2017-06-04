@@ -1,7 +1,7 @@
 .refimg{
 	width:50%;
 	margin:auto;
-	filter: grayscale(100%);
+	filter: grayscale(100%) brightness(120%);
 }
 .refimg:hover{
 	width:50%;
@@ -27,16 +27,4 @@
 
 .references_segment>.container>.row{
     margin-bottom: 20px;
-}
-
-img.logos{
-    filter: grayscale(100%);
-}
-
-img.logos:hover{
-    filter: grayscale(0%);
-}
-
-.title-block3{
-	marrgin-top:20px;
 }

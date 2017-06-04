@@ -8,53 +8,62 @@
     </div>
 
     <div class="eshop-intro">
-        Környezettudatos termékeink nem pusztán divatból kerültek be kínálatunkba.
-        Valljuk, hogy természetünk drága kincs, melyet óvni kell, nemcsak beszélni róla.
-        Amennyiben Ön is elkötelezett a természetvédelem területén, itt a lehetőség, hogy együtt forradalmasíthassuk meg az öko tudatos gondolkodást.
-        Rendeljen promóciós céljaihoz zöld termékeket.
-        Itt minden újrahasznosított. Vagy vízzel működik. Illetve napelemmel. Esetleg dinamóval.
-        Görget. És…
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="panel panel-danger">
+              <div class="panel-heading">Vállalati, dolgozói webshop kialakítása üzemeltetése</div>
+              <div class="panel-body">
+                Lehetőséget kínálunk vállalatok belső webáruházának kialakítására.<br>
+                Célja, hogy a cégcsoportok vállalatai, dolgozói, értékesítői könnyen és gyorsan hozzá
+                juthassanak saját cégük arculatára kialakított promóciós termékekhez.<br>
+                Ezek az eszközök segítséget nyújtanak a vállalati imázs népszerűsítéséhez, az értékesítők és
+                ügyfelek ösztönzéséhez.
+              </div>
+              <div class="panel-heading">Amit kínálunk</div>
+              <div class="panel-body" style="text-align: left; padding-left: 15%;">
+                - zártkörű webes felület létrehozása, egyedi arculatra alakítása<br>
+                - adatbiztos regisztráció, pontos nyomonkövetés<br>
+                - webshop üzemeltetése, kezelése, karbantartása<br>
+                - cégre szabott termékek legyártása, raktározása<br>
+                - postai kézbesítés, csomagküldés, személyes átvétel biztosítása<br>
+                - ügyintézés, adminisztráció, problémák kezelése<br>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="panel panel-danger">
+              <div class="panel-heading">Vevői, viszonteladói ösztönző program – Pontgyűjtő platform</div>
+              <div class="panel-body">
+                Minden felelős vállalat számára fontos az érintettek folyamatos ösztönzése.<br>
+                Ehhez nyújtunk segítséget és egy pontgyűjtő, ösztönző webes felületet kínálunk gyártók,
+                nagykereskedők, nagyvállalatok számára.<br>
+                A platform biztosítja a meglévő inaktív és aktív partnerek ösztönzését, lehetőséget ad új
+                ügyfelek szerzéséhez B2B vagy akár B2C területen is.
+              </div>
+              <div class="panel-heading">Amit kínálunk</div>
+              <div class="panel-body" style="text-align: left; padding-left: 15%;">
+                - zártkörű webes felület létrehozása, egyedi arculatra alakítása<br>
+                - adatbiztos regisztráció, pontos nyomonkövetés<br>
+                - webshop üzemeltetése, kezelése, karbantartása<br>
+                - a felületen lehetőség van pontok gyűjtésére, és annak beváltására ajándékokért cserében<br>
+                - cégre szabott termékek legyártása, raktározása<br>
+                - postai kézbesítés, csomagküldés, személyes átvétel biztosítása<br>
+                - ügyintézés, adminisztráció, problémák kezelése<br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div onclick="" class="well" id="energy">
-                    <div class="energy-open">
-                        <b >Zöld Energia</b>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div onclick="" class="well" id="textil">
-                    <div class="textil-open">
-                        <b>Újrahasznosított Termékek</b>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div onclick="" class="well" id="ideas">
-                    <div class="ideas-open">
-                        <b>Környezetbarát Ötletek</b>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="well describe" id="energy-describe">
-                  #dinamóslámpa #napelemesszámológép #vízenergiásóra #napelemespowerbank #bambuszpendrive #kartonfalióra #ökotöltő #nemkellelem #napenergianeked #solar4you
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="well describe" id="textil-describe">
-                  #farmertoll #gumiabroncsegérpad #papírmappa #ökotudatos #ceruzabankjegyből #bambuszkészlet #gondoldújra #nebántsdafát #kukoricaalapúműanyag #mindenamiöko
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="well describe" id="textil-describe">
-                 #vászontáska #bionövény #organikuspóló #fafejtörőjáték #madárodúmásképp #környzetbarátkulacs #ökobevásárlótáska #használdújra #ökostúdió68 #atermészetmentők
-                </div>
+        <div class="row" style="padding-right: 5%; padding-left: 5%;">
+            <div class="col-md-12">
+              <div class="well" id="eshop">
+
+              </div>
             </div>
         </div>
     </div>
