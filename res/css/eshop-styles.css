@@ -1,5 +1,5 @@
 body{
-	margin:0 auto;
+		margin:0 auto;
     color:white;
     background-color: #181819;
     background-repeat: no-repeat;
@@ -13,8 +13,6 @@ body{
     background-color: white;
     text-align: center;
     float:none;
-
-    padding:100px;
 }
 
 div.container{
@@ -31,10 +29,11 @@ div.container{
     font-size: 5vh;
     color: #333;
     text-align: center;
+		padding-top: 100px;
+		padding-bottom: 15%;
 }
 
 .eshop-intro{
-    min-height: 20%;
     margin: 0;
     padding-right: 15%;
     padding-left: 15%;
@@ -65,25 +64,6 @@ div.container{
     background-color: #fff;
     box-shadow: 0 1px 2px rgba(0,0,0,0.15);
     transition: all 0.3s ease-in-out;
-}
-
-#eshop:after{
-    content: '';
-    position: absolute;
-    opacity: 0;
-    z-index: -1;
-    border-radius: 5px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    transition: opacity 0.3s ease-in-out;
-}
-
-#eshop:hover {
-    transform: scale(1.02, 1.02);
-    cursor: pointer;
-}
-
-#eshop:hover:after {
-  opacity: 1;
 }
 
 .well.describe{

@@ -20,6 +20,7 @@
 	            <li><a href="sweet.php" class="nav_element"><b>ÉDESSÉG</b></a></li>
 	            <li><a href="gift.php" class="nav_element"><b>AJÁNDÉK</b></a></li>
 	            <li><a href="fan.php" class="nav_element"><b>SPORT</b></a></li>
+							<li><a href="printing.php" class="nav_element"><b>NYOMDA</b></a></li>
 	          </ul>
 						<style>
 						<?php
@@ -69,7 +70,6 @@
 						</style>
           </li>
 
-					<li><a href="printing.php" class="nav_element">NYOMDA</a></li>
 					<li><a href="eshop.php" class="nav_element">E-BOLT</a></li>
 					<li><a href="blog.php" class="nav_element">BLOG</a></li>
 					<?php if(isset($page) && $page=="blog"){?>
