@@ -31,6 +31,7 @@ div.container{
     font-size: 5vh;
     color: #333;
     text-align: center;
+    padding-bottom:5%;
 }
 
 .eshop-intro{
@@ -56,8 +57,7 @@ div.container{
 
 #eshop{
     background-image: url("../img/E-bolt68.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: 100% auto;
     height: 620px;
 
     position: relative;
