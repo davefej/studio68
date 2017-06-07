@@ -8,4 +8,5 @@ if(editById($data["type"],$data["id"],$data["name"],$data['desc'])){
 }else{
 	echo "hiba";
 }
+createBackupIfNotDev($data["type"]);
 ?>

@@ -6,4 +6,5 @@ if(deleteById($_GET["type"],$_GET["id"])){
 }else{
 	echo "hiba";
 }
+createBackupIfNotDev($_GET["type"]);
 ?>
