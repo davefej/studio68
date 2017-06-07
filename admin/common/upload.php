@@ -61,6 +61,8 @@ $_POST['desc'] = str_replace(array("\r\n", "\n", "\r"),"<br/>",$_POST['desc']);
 
 
 addElement($_POST['type'],$_POST['name'],$_POST['desc'],$fname,"1");
+createBackupIfNotDev($_POST['type']);
+
 header("Location: ../editor.php?type=".$_POST['type']."&success=true");
 
 

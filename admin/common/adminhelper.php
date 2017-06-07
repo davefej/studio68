@@ -196,4 +196,17 @@ function getDivisionFromCategory($cat){
 	return substr($cat, 0,-1);
 }
 
+function createBackupIfNotDev($type){
+	if(strpos($_SERVER['SERVER_NAME'],"localhost") === false && strpos($_SERVER['SERVER_NAME'],"127.0.0.1") === false){
+		if(file_exists("dinamic/".$type.".json")){
+			$src = "dinamic/".$type.".json";
+			$dst = "dinamic/".$type."_backup.json";
+		}else{
+			$src ="../../dinamic/".$type.".json";
+			$dst = "../../dinamic/".$type."_backup.json";
+		}
+		copy($src,$dst);
+	}
+}
+
 ?>

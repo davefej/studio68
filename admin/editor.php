@@ -51,8 +51,7 @@
 		  		<tr>	
 					
 		  			<td colspan="2">
-		  				<textarea  name="desc" placeholder="Leírás" >
-		  				</textarea>		  			
+		  				<textarea  name="desc" placeholder="Leírás" ></textarea>		  			
 		  			</td>
 		  		</tr>
 				<tr>
