@@ -23,7 +23,7 @@
 
 .teamname{
 	font-family: 'Muli', sans-serif;
-	font-size: 30px;	
+	font-size: 28px	
 }
 
 .teamtitle{
@@ -44,8 +44,8 @@
     font-family: 'Muli', sans-serif;
 	text-align:center;
 	color:white;
-	margin-top: 55px;
-    margin-bottom: 45px;
+	margin-top: 2vh;
+    margin-bottom: 5vh;
 	font-size: 60px;
 	
 }
