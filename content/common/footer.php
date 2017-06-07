@@ -103,8 +103,8 @@
 
             // Scrolling Functions
             $(window).scroll(function (event) {
-                var first = 268; // Count up to 25x for first
-                var second = 21268; // Count up to 4x for second
+                var first = 196; // Count up to 25x for first
+                var second = 21654; // Count up to 4x for second
 
                 function countStuffUp(points, selector, duration) {
                     //Animate count

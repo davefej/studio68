@@ -3,7 +3,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="UTF-8">
 
-
+		
 		<link rel="stylesheet" href="res/css/nav-style.css">
 		<link href="res/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link href="res/blog/booklet/jquery.booklet.1.1.0.css" type="text/css" rel="stylesheet" media="screen" />
@@ -23,6 +23,9 @@
 			.navbar-toggle {
 			    display: none;
 			}
+			
+			
+			
 		</style>
 
 	</head>

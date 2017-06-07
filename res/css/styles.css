@@ -132,12 +132,13 @@ body{
 }
 
 .timeline-segment-title{
-    font-family: 'Muli', sans-serif;
-	text-align:center;
-	color:black;
-	margin-top:60px;
-	margin-bottom:35px;
-	font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: black;
+    margin-top: 60px;
+    margin-bottom: 35px;
+    font-size: 60px;
+    font-weight: bold;
 }
 
 /*TEAM SEGMENT IS IN team.css*/
