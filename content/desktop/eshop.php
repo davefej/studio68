@@ -4,7 +4,16 @@
         Promóciónk örömére...
 
         <hr style="width: 10%; border-color:#333;">
+    </div>
 
+    <div class="container">
+        <div class="row" style="padding-right: 5%; padding-left: 5%;">
+            <div class="col-md-12">
+              <div class="well" id="eshop">
+
+              </div>
+            </div>
+        </div>
     </div>
 
     <div class="eshop-intro">
@@ -56,15 +65,5 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="container">
-        <div class="row" style="padding-right: 5%; padding-left: 5%;">
-            <div class="col-md-12">
-              <div class="well" id="eshop">
-
-              </div>
-            </div>
-        </div>
     </div>
 </div>
