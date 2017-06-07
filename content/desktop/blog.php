@@ -5,7 +5,7 @@
 
 		
 		<link rel="stylesheet" href="res/css/nav-style.css">
-		<link href="res/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="res/css/blog.css">
 		<link href="res/blog/booklet/jquery.booklet.1.1.0.css" type="text/css" rel="stylesheet" media="screen" />
 		<link rel="stylesheet" href="res/blog/css/style.css" type="text/css" media="screen"/>
 		<title>Stúdió68 Blog</title>
@@ -29,7 +29,7 @@
 		</style>
 
 	</head>
-	<body style="padding-top:55px">
+	<body>
 			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 			<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></sc‌​ript>
 
