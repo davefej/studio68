@@ -8,6 +8,31 @@
 					<span class="icon-bar"></span>
 				</button>
 			</div>
+			<a class="navbar-brand" style="pointer-events: none; cursor: default; color: white;">
+				<?php
+				if($page == "home"){
+					echo '';
+				}
+				if($page == "eco"){
+					echo 'Öko';
+				}
+				if($page == "gift"){
+					echo 'Ajándék';
+				}
+				if($page == "sweet"){
+					echo 'Édesség';
+				}
+				if($page == "fan"){
+					echo 'Sport';
+				}
+				if($page == "printing"){
+					echo 'Nyomda';
+				}
+				if($page == "eshop"){
+					echo 'E-bolt';
+				}
+				?>
+			</a>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li>
