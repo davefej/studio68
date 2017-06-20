@@ -106,8 +106,8 @@
 		                	<li>#válogasskedvedre</li>		                	
 		                	<li>#lépjbeljebbés</li>
 		                	<li>#ittmindenatiéd</li>
-		                	<li>#ajándéknekemnekedneki</li>
-		                	<li>#azajándékozásörömemindenkié</li>
+		                	<li>#örömedöröme</li>
+		                	<li>#nekemnekedneki</li>
 		                </ul>		
                 </div>
             </div>

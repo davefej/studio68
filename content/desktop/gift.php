@@ -103,13 +103,13 @@
 		                	<li>#egydarabotis</li>
 		                	<li>#sajátörömödre</li>		                	
 		                	<li>#lepdmegőt</li>
-		                	<li>#énajándékomateajándékod</li>
+		                	<li>#énajándékom</li>
 		                	<li>#sokmindenvan</li>
 		                	<li>#válogasskedvedre</li>		                	
 		                	<li>#lépjbeljebbés</li>
 		                	<li>#ittmindenatiéd</li>
-		                	<li>#ajándéknekemnekedneki</li>
-		                	<li>#azajándékozásörömemindenkié</li>
+		                	<li>#örömedöröme </li>
+		                	<li>#nekemnekedneki</li>
 		                </ul>		
                 </div>
             </div>

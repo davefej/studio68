@@ -6,7 +6,8 @@
         <hr style="width: 10%; border-color:#333;">
     </div>
     <div class="gift-intro-top">
-    Tervezze meg önálló, dolgozói, vagy vásárlói online webáruházát!
+    Tervezze meg önálló, dolgozói, vagy vásárlói online webáruházát! <br/>
+    A K&H Bank és a Bonafarm Csoport ajánlásával
     </div>
 
     <div class="container">

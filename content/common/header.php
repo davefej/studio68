@@ -23,10 +23,10 @@
 
         if(isset($page) && $page == "home"){
             echo '<link rel="stylesheet" href="res/'.$css.'/departments-style.css?v= '.$version.'">';
-            echo '<meta name="description" content="Minőségi céges ajándéktárgyak és egyedi reklámajándékok, rövid határidővel. Szóróajándékok logózása, feliratozása. céges ajándék, reklámajándék">';
+            echo '<meta name="description" content="Minőségi céges ajándéktárgyak és egyedi reklámajándékok. Ajándéktárgy, Öko, Édesség, Sport, Nyomda, Webshop">';
 		}else if(isset($page) && $page == "eco"){
         	echo '<link rel="stylesheet" href="res/'.$css.'/eco-styles.css?v='.$version.'">';
-        	echo '<meta name="description" content="Környezettudatos, öko reklámajándékok, kütyük. Mgújuló energiával, napelemmel működö öko termékek.">';
+        	echo '<meta name="description" content="Környezettudatos, öko reklámajándékok, kütyük. Megújuló energiával, napelemmel működö öko termékek.">';
         }else if(isset($page) && $page == "gift"){
         	echo '<link rel="stylesheet" href="res/'.$css.'/gift-styles.css?v='.$version.'">';
         	echo '<meta name="description" content="Egyedi ajándéktárgyak, Személyre szabott ajándékok, Lakossági webshop, Énajándékom.">';

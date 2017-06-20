@@ -91,7 +91,7 @@
     <div class="summary-block">
         <b>Egy név - ami kötelez. Több üzletág - ami összehoz.<br></b>
         Ajándéktárgy? Textil? Emblémázás? ÖKO termékek? Páratlan promóciós finomságok?
-        Nyomda? Saját, dolgozói vagy partner Web shop?<br>Merchandise termékek?
+        Nyomda? Saját, dolgozói vagy partner Webshop?<br>Merchandise termékek?
         Kitelepülés? Egyedi gyártások? Szurkolói kellékek?<br>Konszignációs rendelési lehetőségek?<br/>
         A válaszunk az, hogy <b>IGEN, VAN!</b><br/>
         2001 óta dolgozunk „mások örömére…”<br/>

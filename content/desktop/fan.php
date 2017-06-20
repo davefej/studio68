@@ -63,7 +63,7 @@
 
         <div class="row">
             <div class="col-md-6">
-                <div onclick="openurl('http://www.textileurope.com/hu/home/')" class="well promo" id="textile">
+                <div onclick="openurl('http://www.tshirteurope.com/hu')" class="well promo" id="textile">
                     <div class="textile-open"><b>Textilek</b>
                     </div>
                 </div>
