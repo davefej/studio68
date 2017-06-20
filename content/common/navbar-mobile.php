@@ -17,7 +17,7 @@
 					<li><a href="fan.php" class="nav_element">SPORT</a></li>
 					<li><a href="printing.php" class="nav_element">NYOMDA</a></li>
 					<li><a href="eshop.php" class="nav_element">E-BOLT</a></li>
-					<li><a href="blog.php" class="nav_element">BLOG</a></li>
+					
 					<?php if(isset($page) && $page=="blog"){?>					
 					<li><a href="index.php#contact" class="nav_element">KAPCSOLAT</a></li>
 					<?php }else{?>

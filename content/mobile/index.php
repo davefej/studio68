@@ -230,7 +230,7 @@
 			<img class="refimg" src="res/img/logok/logo37.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo38.png">
+			<img class="refimg" src="res/img/logok/logo38.jpg">
 			</td>
 			<td>
 			<img class="refimg" src="res/img/logok/logo39.jpg">

@@ -44,17 +44,50 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="well describe" id="energy-describe">
-                  #dinamóslámpa #napelemesszámológép #vízenergiásóra #napelemespowerbank #bambuszpendrive #kartonfalióra #ökotöltő #nemkellelem #napenergianeked #solar4you
+                <ul class="hashmarkul">
+                	<li>#dinamóslámpa</li>
+                	<li>#napelemesszámológép</li>
+                	<li>#vízenergiásóra</li>
+                	<li>#napelemespowerbank</li>
+                	<li>#bambuszpendrive</li>
+                	<li>#kartonfalióra</li>
+                	<li>#ökotöltő</li>
+                	<li>#nemkellelem</li>
+                	<li>#napenergianeked</li>
+                	<li>#solar4you</li>
+                </ul>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="well describe" id="textil-describe">
-                  #farmertoll #gumiabroncsegérpad #papírmappa #ökotudatos #ceruzabankjegyből #bambuszkészlet #gondoldújra #nebántsdafát #kukoricaalapúműanyag #mindenamiöko
+                <ul class="hashmarkul">
+                	<li>#farmertoll</li>
+                	<li>#gumiabroncsegérpad</li>
+                	<li>#papírmappa</li>
+                	<li>#ökotudatos</li>
+                	<li>#ceruzabankjegyből</li>
+                	<li>#bambuszkészlet</li>
+                	<li>#gondoldújra</li>
+                	<li>#nebántsdafát</li>
+                	<li>#kukoricaalapúműanyag</li>
+                	<li>#mindenamiöko</li>
+                </ul>                 
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="well describe" id="textil-describe">
-                 #vászontáska #bionövény #organikuspóló #fafejtörőjáték #madárodúmásképp #környzetbarátkulacs #ökobevásárlótáska #használdújra #ökostúdió68 #atermészetmentők
+                 <ul class="hashmarkul">
+                	<li>#vászontáska</li>
+                	<li>#bionövény</li>
+                	<li>#organikuspóló</li>
+                	<li>#fafejtörőjáték</li>
+                	<li>#madárodúmásképp</li>
+                	<li>#környzetbarátkulacs</li>
+                	<li>#ökobevásárlótáska</li>
+                	<li>#használdújra</li>
+                	<li>#ökostúdió68</li>
+                	<li>#atermészetmentők</li>
+                </ul>                        
                 </div>
             </div>
         </div>

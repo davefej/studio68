@@ -25,7 +25,7 @@
 	<div class="container">
 		<div class="row">
 			<div onclick="goto('eco.php')" class="col-xs-12 col-md-2 department " id="eco">
-                <b>Öko</b>
+                Öko
                 <div class="eco-opened">
                     <br>
                     Portfóliónkhoz kattintson
@@ -33,7 +33,7 @@
                 </div>
 			</div>
 			<div onclick="goto('sweet.php')" class="col-xs-12 col-md-2 department" id="food">
-                <b>Édesség</b>
+                Édesség
                 <div class="food-opened">
                     <br>
                     Portfóliónkhoz kattintson
@@ -41,7 +41,7 @@
                 </div>
 			</div>
 			<div onclick="goto('gift.php')" class="col-xs-12 col-md-2 department" id="gifts">
-                <b>Ajándék</b>
+                Ajándék
                 <div class="gifts-opened">
                     <br>
                     Portfóliónkhoz kattintson
@@ -49,7 +49,7 @@
                 </div>
 			</div>
 			<div onclick="goto('fan.php')" class="col-xs-12 col-md-2 department" id="fan">
-                <b>Sport</b>
+                Sport
                 <div class="fan-opened">
                     <br>
                     Portfóliónkhoz kattintson
@@ -57,7 +57,7 @@
                 </div>
 			</div>
 			<div onclick="goto('printing.php')" class="col-xs-12 col-md-2 department" id="printing">
-                <b>Nyomda</b>
+                Nyomda
                 <div class="printing-opened">
                     <br>
                     Portfóliónkhoz kattintson
@@ -65,7 +65,7 @@
                 </div>
 			</div>
             <div onclick="goto('#contact')" class="col-xs-12 col-md-2 department" id="custom">
-                <b>Kapcsolat</b>
+                Kapcsolat
                 <div class="custom-opened">
                     <br>
                     Írjon nekünk!
@@ -253,7 +253,7 @@
 			<img class="refimg" src="res/img/logok/logo37.jpg">
 			</div>
 			<div  class="refli">
-			<img class="refimg" src="res/img/logok/logo38.png">
+			<img class="refimg" src="res/img/logok/logo38.jpg">
 			</div>
 			<div  class="refli">
 			<img class="refimg" src="res/img/logok/logo39.jpg">

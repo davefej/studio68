@@ -49,7 +49,7 @@ div.container{
 }
 
 .well.describe{
-    min-height: 300px;
+    height: 200px;
     background-color: #777;
     border-width: 0 5 0 0;
     border-color: #A52;
@@ -276,4 +276,19 @@ div.container{
     color: black;
     border-width: 1 1 5 1;
     border-color: rgb(255, 182, 56);
+}
+
+.hashmarkul{
+	color:black;
+	font-size:22px;
+	
+}
+
+.hashmarkul2{
+	color:black;
+	font-size:20px;
+	columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  
 }

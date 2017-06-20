@@ -5,6 +5,10 @@
         <hr style="width: 10%; border-color:#333;">
     </div>
 
+ 	<div class="gift-intro-top">
+    Tervezze meg önálló, dolgozói, vagy vásárlói online webáruházát!
+    </div>
+
     <div class="container">
         <div class="row" style="padding-right: 5%; padding-left: 5%;">
             <div class="col-md-12">

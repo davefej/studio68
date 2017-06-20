@@ -6,7 +6,7 @@ ul{
     float: none;
     color: white;
     text-align: center;
-    font-weight: bold;
+ 	
 }
 
 button.navbar-toggle collapsed button.navbar-toggle:hover{
@@ -28,7 +28,8 @@ button.navbar-toggle collapsed button.navbar-toggle:active{
     margin-right: 25px;
     padding: 0;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Raleway', sans-serif;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     position: relative;
     font-size: 16px;
 }
@@ -42,7 +43,8 @@ button.navbar-toggle collapsed button.navbar-toggle:active{
     margin-right: 25px;
     padding: 0;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Raleway', sans-serif;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-shadow: none;
 }
 
@@ -168,12 +170,15 @@ button.navbar-toggle collapsed button.navbar-toggle:active{
 
 .dropdown-menu>li>a{
   color: white;
-  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
+ 
 }
 
 .dropdown-menu>li>a:hover{
-  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
 }
 

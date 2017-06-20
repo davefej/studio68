@@ -25,7 +25,18 @@
                     </div>
                     <div class="col-md-6">
                         <div class="well describe" id="chocolate-describe">
-							#étcsokikocka #csokitallér #tábláscsoki #egyedicsoki #finomcsokoládé #üregescsokoládé #dobozosbonbon #magvascsoki #kockacsoki #fadobozoscsokibonbon
+							<ul class="hashmarkul">
+		                	<li>#étcsokikocka</li>
+		                	<li>#csokitallér</li>
+		                	<li>#tábláscsoki</li>
+		                	<li>#egyedicsoki</li>
+		                	<li>#finomcsokoládé</li>
+		                	<li>#üregescsokoládé</li>
+		                	<li>#dobozosbonbon</li>
+		                	<li>#magvascsoki</li>
+		                	<li>#kockacsoki</li>
+		                	<li>#fadobozoscsokibonbon</li>
+		                </ul>			
                         </div>
                     </div>
                 </div>
@@ -41,7 +52,18 @@
             </div>
             <div class="col-md-12">
                 <div class="well describe" id="custom-describe">
-					#egyedigrafikáscsomagolás #megtervezzükcsoki #díszdobozbanminden #nyomjukafóliát #emblémázottédesség #csakfinomlehet #68lehetőség #logórajta #mindenamifinom #ügyfélkínáló
+					 <ul class="hashmarkul">
+		                	<li>#egyedigrafikáscsomagolás</li>
+		                	<li>#megtervezzükcsoki</li>
+		                	<li>#díszdobozbanminden</li>
+		                	<li>#nyomjukafóliát</li>
+		                	<li>#emblémázottédesség</li>
+		                	<li>#csakfinomlehet</li>
+		                	<li>#68lehetőség</li>
+		                	<li>#logórajta</li>
+		                	<li>#mindenamifinom</li>
+		                	<li>#ügyfélkínáló</li>
+		                </ul>		
                 </div>
             </div>
         </div>
@@ -53,7 +75,18 @@
             </div>
             <div class="col-md-6">
                 <div class="well describe" id="bonbon-describe">
-				 #rágcsáldaropit #kekszetneki #roppanjránkmost #nemkukoricázunk #almaszirom #hajdinapromo #nasiznijó #szezámmagossüti #desszertneked #harapdálom
+				 <ul class="hashmarkul">
+		                	<li>#rágcsáldaropit</li>
+		                	<li>#kekszetneki</li>
+		                	<li>#roppanjránkmost</li>
+		                	<li>#nemkukoricázunk</li>
+		                	<li>#almaszirom</li>
+		                	<li>#hajdinapromo</li>
+		                	<li>#nasiznijó</li>
+		                	<li>#szezámmagossüti</li>
+		                	<li>#desszertneked</li>
+		                	<li>#harapdálom</li>
+		                </ul>	
                 </div>
             </div>
             <div class="col-md-4">
@@ -65,7 +98,18 @@
             </div>
             <div class="col-md-6">
                 <div class="well describe" id="lollypop-describe">
-					#mentoloscukor #gyümölcsíz #minicuki #tejkaramell #gumicuki #nembánodmeg #logódapapíron #ennivalóanédes #jégcukor #élvezdazízt
+					<ul class="hashmarkul">
+		                	<li>#mentoloscukor</li>
+		                	<li>#gyümölcsíz</li>
+		                	<li>#minicuki</li>
+		                	<li>#tejkaramell</li>
+		                	<li>#gumicuki</li>
+		                	<li>#nembánodmeg</li>
+		                	<li>#logódapapíron</li>
+		                	<li>#ennivalóanédes</li>
+		                	<li>#jégcukor</li>
+		                	<li>#élvezdazízt</li>
+		                </ul>		
                 </div>
             </div>
         </div>

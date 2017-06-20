@@ -32,6 +32,17 @@ div.container{
     text-align: center;
 }
 
+.gift-intro-top{
+    margin: 0;
+    padding-right: 15%;
+    padding-left: 15%;
+    float: none;
+    text-align: center;
+    color: #777;
+    font-size: 3vh;
+    margin-bottom: 40px;
+}
+
 .eshop-intro{
     min-height: 20%;
     margin: 0;

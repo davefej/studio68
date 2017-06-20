@@ -25,7 +25,18 @@
             </div>
             <div class="col-md-4">
                 <div class="well describe" id="gift-webshop-describe">
-					szurkoljszenvedéllyel #mindentacsapatért #síppaldobbalkereplővel #miadjukakelléket #asportlegyenaszenvedélyed #hajrálépjbe #merchandising #teremtshangulatot #asportnapisittkezdődik #szurkolóikellékhakell
+					<ul class="hashmarkul">		                	
+	                	<li>#szurkoljszenvedéllyel</li>
+	                	<li>#mindentacsapatért</li>		                	
+	                	<li>#síppaldobbalkereplővel</li>
+	                	<li>#miadjukakelléket</li>
+	                	<li>#asportaszenvedélyed</li>
+	                	<li>#hajrálépjbe</li>		                	
+	                	<li>#merchandising</li>
+	                	<li>#teremtshangulatot</li>
+	                	<li>#asportnapisittkezdődik</li>
+	                	<li>#szurkolóikellékhakell</li>
+	                </ul>		
                 </div>
             </div>
         </div>
@@ -40,7 +51,18 @@
             </div>
             <div class="col-md-4">
                 <div class="well describe" id="custom-gift-describe">
-					#kötöttsálatanyakba #viseldbüszkén #szeretjükakihívásokat #közönségkedvenc #mutasdmegmagad #sohaneaddfel #címerezzükisneked #lengesdazászlót #fesdkimagad #telitorokból
+					<ul class="hashmarkul">		                	
+	                	<li>#kötöttsálatanyakba</li>
+	                	<li>#viseldbüszkén</li>		                	
+	                	<li>#szeretjükakihívásokat</li>
+	                	<li>#közönségkedvenc</li>
+	                	<li>#mutasdmegmagad</li>
+	                	<li>#sohaneaddfel</li>		                	
+	                	<li>#címerezzükisneked</li>
+	                	<li>#lengesdazászlót</li>
+	                	<li>#fesdkimagad</li>
+	                	<li>#telitorokból</li>
+	                </ul>		
                 </div>
             </div>
         </div>
@@ -54,7 +76,18 @@
             </div>
 						<div class="col-md-4">
 	              <div class="well describe" id="textile-describe">
-	               #szublimációsmegoldások #feliratozzukamezt #csapatmegjelenés #öltöztesdfel #egyenmegjelenés #megkülönböztetőmez #címerespólótedzésre #veddfelaversenyt #bujjbeleakínálatba #mindenmegoldásjátszik
+	               <ul class="hashmarkul">		                	
+	                	<li>#szublimációsmegoldások</li>
+	                	<li>#feliratozzukamezt</li>		                	
+	                	<li>#csapatmegjelenés</li>
+	                	<li>#öltöztesdfel</li>
+	                	<li>#egyenmegjelenés</li>
+	                	<li>#megkülönböztetőmez</li>		                	
+	                	<li>#címerespólótedzésre</li>
+	                	<li>#veddfelaversenyt</li>
+	                	<li>#bujjbeleakínálatba</li>
+	                	<li>#mindenmegoldásjátszik</li>
+	                </ul>
 	              </div>
 	          </div>
             <div class="col-md-4">
@@ -65,7 +98,18 @@
             </div>
 						<div class="col-md-4">
                 <div class="well describe" id="custom-cup-describe">
-					 #teddanyakába #dobogórafel #aranyezüstbronzszépencsillog #örökemlékmarad #nevesítveislehet #örömatetőfokon #asikerzáloga #kitartásésszorgalom #díjazzukahűséget #szervezlebonyolítátadörül
+					 <ul class="hashmarkul">		                	
+	                	<li>#teddanyakába</li>
+	                	<li>#dobogórafel</li>		                	
+	                	<li>#aranyezüstbronzszépencsillog</li>
+	                	<li>#örökemlékmarad</li>
+	                	<li>#nevesítveislehet</li>
+	                	<li>#örömatetőfokon</li>		                	
+	                	<li>#asikerzáloga</li>
+	                	<li>#kitartásésszorgalom</li>
+	                	<li>#díjazzukahűséget</li>
+	                	<li>#szervezlebonyolítátadörül</li>
+	                </ul>
                 </div>
             </div>
         </div>

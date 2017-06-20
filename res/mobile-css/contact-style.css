@@ -32,7 +32,7 @@
 .contact_us{
     width:100%;
     font-family: 'Muli', sans-serif;
-    font-size:3vw;
+    font-size: 5vh;
     margin-top: 1%;
     margin-bottom: 2%;
     color: #777777;
@@ -42,7 +42,7 @@
 .contact_us1{
 	width:100%;
     font-family: 'Muli', sans-serif;
-    font-size:1.2em;
+    font-size:1.5em;
     margin-top: 1%;
     margin-bottom: 2%;
     color: #777777;
@@ -81,7 +81,7 @@
 .address{
     text-align: center;
     color: #777777;
-    font-size: 2em;
+   font-size: 1.5em;
 }
 
 .well.well-contact{
@@ -221,16 +221,16 @@ textarea.form-control{
 
 	text-align:center;
 	margin:auto;
-	width:90%;
+	width:99%;
 }
 
 .company_details1{
-	width:50%;
+	width:99%;
 	float:left;
 	min-width: 300px;
 }
 .company_details2{
-	width:50%;
+	width:99%;
 	float:left;
 	min-width: 300px;
 }

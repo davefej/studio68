@@ -155,7 +155,7 @@ div.container{
 
 #bonbon{
     text-align: center;
-    background-image: url("../img/bonbon.jpg");
+    background-image: url("../img/nassolnivalok.jpg");
     background-size: 150%;
     background-position: center;
     background-repeat: no-repeat;
@@ -310,4 +310,10 @@ div.container{
     font-family: Muli, 'sans-serif';
     font-size: 4vh;
     cursor: pointer;
+}
+
+.hashmarkul{
+	color:black;
+	font-size:20px;
+	font-weight:normal;
 }

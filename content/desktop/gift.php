@@ -22,7 +22,19 @@
             </div>
             <div class="col-md-4">
                 <div class="well describe" id="gift-webshop-describe">
-                 #ittmindentmegtalálsz #ajándéközön #válaszdkineki #ajándékmindenalkalomra #töltsdfelalogód #tervezdmegneki #ajándékozzvelünk #tollaktáskákbögrék #hanemtalálodhívjfel #örülünkhogyittvagyvelünk
+                  <ul class="hashmarkul">
+		                	
+		                	<li>#ajándéközön</li>
+		                	<li>#válaszdkineki</li>		                	
+		                	<li>#töltsdfelalogód</li>
+		                	<li>#tervezdmegneki</li>
+		                	<li>#ajándékozzvelünk</li>
+		                	<li>#tollaktáskákbögrék</li>		                	
+		                	<li>#hanemtalálodhívjfel</li>
+		                	<li>#ittmindentmegtalálsz</li>
+		                	<li>#ajándékmindenalkalomra</li>
+		                	<li>#örülünkhogyittvagyvelünk</li>
+		                </ul>			
                 </div>
             </div>
         </div>
@@ -30,7 +42,18 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="well describe" id="custom-gift-describe">
-                   #találjukkiegyütt #egyediötletekmegvalósítva #csakaképzelet #tűnjkivele #légyegyedi #gondolatbólvalóság #tarkabarkaféleforma #speciálisgyártások #cégreszabva #önállóarculatotneki
+                <ul class="hashmarkul">		                
+		                	<li>#találjukkiegyütt</li>
+		                	<li>#ötletekmegvalósítva</li>		                	
+		                	<li>#csakaképzelet</li>
+		                	<li>#tűnjkivele</li>
+		                	<li>#légyegyedi</li>
+		                	<li>#gondolatbólvalóság</li>		                	
+		                	<li>#tarkabarkaféleforma</li>
+		                	<li>#speciálisgyártások</li>
+		                	<li>#cégreszabva</li>
+		                	<li>#önállóarculatotneki</li>
+		                </ul>			
                 </div>
             </div>
             <div class="col-md-8">
@@ -44,7 +67,7 @@
 
         <div class="row">
             <div class="col-md-6">
-                <div onclick="openurl('http://www.textileurope.com/hu/home/')" class="well promo" id="textile">
+                <div onclick="openurl('http://www.tshirteurope.com/hu')" class="well promo" id="textile">
                     <div class="textile-open"><b>Textilek &amp; Munkaruhák</b>
                     </div>
                 </div>
@@ -60,12 +83,34 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="well describe" id="textile-describe">
-                 #mindenamitextil #levarrjukneked #pólóspulcsiskabátos #emblémarajta #promotextil4you #rövidujjukörnyaku #pamutésorganikus #bujjbele #cégesviselet #felöltöztetvejó
+                <ul class="hashmarkul2">		                
+		                	<li>#mindenamitextil</li>
+		                	<li>#levarrjukneked</li>		                	
+		                	<li>#pólóspulcsiskabátos</li>
+		                	<li>#emblémarajta</li>
+		                	<li>#promotextil4you</li>
+		                	<li>#rövidujjukörnyaku</li>		                	
+		                	<li>#pamutésorganikus</li>
+		                	<li>#bujjbele</li>
+		                	<li>#cégesviselet</li>
+		                	<li>#felöltöztetvejó</li>
+		                </ul>		
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="well describe" id="people-webshop-describe">
-                   #egydarabotis #sajátörömödre #lepdmegőt #énajándékomateajándékod #sokmindenvan #válogasskedvedre #lépjbeljebbés #ittmindenatiéd #ajándéknekemnekedneki #azajándékozásörömemindenkié
+                <ul class="hashmarkul2">		                
+		                	<li>#egydarabotis</li>
+		                	<li>#sajátörömödre</li>		                	
+		                	<li>#lepdmegőt</li>
+		                	<li>#énajándékomateajándékod</li>
+		                	<li>#sokmindenvan</li>
+		                	<li>#válogasskedvedre</li>		                	
+		                	<li>#lépjbeljebbés</li>
+		                	<li>#ittmindenatiéd</li>
+		                	<li>#ajándéknekemnekedneki</li>
+		                	<li>#azajándékozásörömemindenkié</li>
+		                </ul>		
                 </div>
             </div>
         </div>

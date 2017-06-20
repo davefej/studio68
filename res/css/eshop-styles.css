@@ -30,7 +30,18 @@ div.container{
     color: #333;
     text-align: center;
 	padding-top: 100px;
-    padding-bottom:5%;
+    padding-bottom:2%;
+}
+
+.gift-intro-top{
+    margin: 0;
+    padding-right: 15%;
+    padding-left: 15%;
+    float: none;
+    text-align: center;
+    color: #777;
+    font-size: 3vh;
+    margin-bottom: 40px;
 }
 
 .eshop-intro{

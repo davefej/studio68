@@ -27,7 +27,7 @@ body{
 }
 
 .gift-intro{
-    min-height: 20%;
+    min-height: 10%;
     margin: 0;
     padding-right: 15%;
     padding-left: 15%;
@@ -49,7 +49,7 @@ div.container{
 }
 
 .well.describe{
-    min-height: 300px;
+    min-height: 200px;
     background-color: #777;
     border-width: 0 5 0 0;
     border-color: #A52;
@@ -213,7 +213,7 @@ div.container{
 }
 
 #textile-describe{
-    height: 350px;
+    height: 200px;
     background-color: white;
     color: black;
     border-width: 1 1 5 1;
@@ -267,7 +267,7 @@ div.container{
 }
 
 #people-webshop-describe{
-    height: 350px;
+    height: 200px;
     background-color: white;
     color: black;
     border-width: 1 1 5 1;
@@ -281,4 +281,20 @@ div.container{
     font-size: 4vh;
     cursor: pointer;
     text-shadow: 0px 0 black, 0 3px #222, 4px 0 #222, 0 0px black;
+}
+
+
+.hashmarkul{
+	color:black;
+	font-size:22px;
+	
+}
+
+.hashmarkul2{
+	color:black;
+	font-size:22px;
+	columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  
 }
