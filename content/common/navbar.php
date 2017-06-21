@@ -14,22 +14,22 @@
 					echo '';
 				}
 				if($page == "eco"){
-					echo 'Öko';
+					echo 'ÖKO';
 				}
 				if($page == "gift"){
-					echo 'Ajándék';
+					echo 'AJÁNDÉK';
 				}
 				if($page == "sweet"){
-					echo 'Édesség';
+					echo 'ÉDESSÉG';
 				}
 				if($page == "fan"){
-					echo 'Sport';
+					echo 'SPORT';
 				}
 				if($page == "printing"){
-					echo 'Nyomda';
+					echo 'NYOMDA';
 				}
 				if($page == "eshop"){
-					echo 'E-bolt';
+					echo 'E-BOLT';
 				}
 				?>
 			</a>
