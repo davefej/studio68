@@ -105,8 +105,8 @@
 					<li class="dropdown">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WEBSHOP<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a target="blank" href="http://giftworld.yourpromotionalshop.com/home.mvc" class="nav_element">ÜZLETI WEBSHOP</a></li>
-							<li><a target="blank" href="http://enajandekom.hu" class="nav_element">LAKOSSÁGI WEBSHOP</a></li>
+							<li><a target="blank" href="http://giftworld.yourpromotionalshop.com/home.mvc" class="nav_element">ÜZLETI</a></li>
+							<li><a target="blank" href="http://enajandekom.hu" class="nav_element">LAKOSSÁGI</a></li>
 						</ul>
 						<style>
 						<?php
