@@ -102,7 +102,59 @@
 					<?php }else{?>
 					<li><a href="#contact" class="nav_element">KAPCSOLAT</a></li>
 					<?php }?>
-					<li><a target="blank" href="http://giftworld.yourpromotionalshop.com/home.mvc" class="nav_element">WEBSHOP</a></li>
+					<li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WEBSHOP<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a target="blank" href="http://giftworld.yourpromotionalshop.com/home.mvc" class="nav_element">ÜZLETI WEBSHOP</a></li>
+							<li><a target="blank" href="http://enajandekom.hu" class="nav_element">LAKOSSÁGI WEBSHOP</a></li>
+						</ul>
+						<style>
+						<?php
+							if($page == "home"){
+								echo '.dropdown-menu{
+								  background: black;
+								  text-align: center;
+								}';
+							}
+							if($page == "eco"){
+								echo '.dropdown-menu{
+								  background-color: rgba(48, 130, 55, 1);
+								  text-align: center;
+								}';
+							}
+							if($page == "gift"){
+								echo '.dropdown-menu{
+								  background-color: rgba(244, 67, 54, 1);
+								  text-align: center;
+								}';
+							}
+							if($page == "sweet"){
+								echo '.dropdown-menu{
+								  background-color: rgba(163, 107, 70, 1);
+								  text-align: center;
+								}';
+							}
+							if($page == "fan"){
+								echo '.dropdown-menu{
+								  background-color: rgba(255, 175, 57, 1);
+								  text-align: center;
+								}';
+							}
+							if($page == "printing"){
+								echo '.dropdown-menu{
+								  background-color: rgba(83, 115, 114, 1);
+								  text-align: center;
+								}';
+							}
+							if($page == "eshop"){
+								echo '.dropdown-menu{
+								  background-color: black;
+								  text-align: center;
+								}';
+							}
+						?>
+						</style>
+          </li>
 				</ul>
 			</div>
 		</div>
