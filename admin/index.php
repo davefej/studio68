@@ -8,8 +8,11 @@ if(isset($_GET["logout"])){
 	$msg = "Kilépés Sikeres<br/> Bejelentkezés <br/>";
 }
 ?>
-	
-	
+<html>
+<head>
+<meta charset="UTF-8">
+</head>	
+<body>
 	<div style="width:100%;text-align:center;margin-top:50px;font-size:2em;">
 		<?php echo $msg;?>
 		<div  style="width:50%;text-align:center;margin:auto;">
@@ -20,6 +23,6 @@ if(isset($_GET["logout"])){
 			</form>
 		</div>
 	</div>
-	
-	
+</body>	
+	</html>	
 	
