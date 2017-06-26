@@ -89,7 +89,7 @@ ul{
 }
 
 
- 
+
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
@@ -101,7 +101,7 @@ ul{
 
 /*SIDE NAVIGATION*/
 
-#dot-nav{    
+#dot-nav{
 	right: 10px;
 	top: 50%;
 	margin-top: -50px;
@@ -137,9 +137,9 @@ ul{
 	top:-5px;
 }
 .awesome-tooltip + .tooltip > .tooltip-inner {
-    background-color: #e00901; 
-    color: white; 
-    border: 1px solid #e00901; 
+    background-color: #e00901;
+    color: white;
+    border: 1px solid #e00901;
 }
 .awesome-tooltip + .tooltip.left > .tooltip-arrow{
     top:50%;
@@ -165,7 +165,7 @@ ul{
 .department_icon{
 	width: 30px;
     margin-left: 10px;
-    
+
 }
 
 .department_icon2{
@@ -177,4 +177,9 @@ ul{
     position: relative;
     font-size: 16px;
     font-weight:bold;
+}
+
+.row{
+  margin-right: 0;
+  margin-left: 0;
 }

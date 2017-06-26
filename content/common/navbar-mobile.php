@@ -8,7 +8,12 @@
 					}
 					if($page == "eco"){
 						//echo 'ÖKO';
-						echo '<img class="department_icon" src="res/img/icons/eco_icon.svg">';
+						echo '<img class="department_icon" src="res/img/icons/eco_icon.svg" style="text-align:center;">';
+						echo '<style>
+						.container-fluid>.navbar-header {
+						  margin-right: 0;
+						}
+						</style>';
 					}
 					if($page == "gift"){
 						echo '<img class="department_icon2" src="res/img/icons/gift_icon.svg">';
@@ -23,7 +28,7 @@
 						echo '<img class="department_icon2" src="res/img/icons/fan_icon.svg">';
 					}
 					if($page == "printing"){
-						echo '<img class="department_icon2" src="res/img/icons/print_icon.svg">';
+						echo '<img class="department_icon2" src="res/img/icons/print_icon.svg" style="text-align:center;">';
 						//echo 'NYOMDA';
 					}
 					if($page == "eshop"){
@@ -38,7 +43,7 @@
 					<span class="icon-bar"></span>
 				</button>
 			</div>
-			
+
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li><a href="index.php" class="nav_element">STÚDIÓ <?php if($page=="gift"){?><font color="black"> <?php }else{ ?> <font color="#e00901"><?php } ?>68</font></a></li>
@@ -48,8 +53,8 @@
 					<li><a href="fan.php" class="nav_element">SPORT</a></li>
 					<li><a href="printing.php" class="nav_element">NYOMDA</a></li>
 					<li><a href="eshop.php" class="nav_element">E-BOLT</a></li>
-					
-					<?php if(isset($page) && $page=="blog"){?>					
+
+					<?php if(isset($page) && $page=="blog"){?>
 					<li><a href="index.php#contact" class="nav_element">KAPCSOLAT</a></li>
 					<?php }else{?>
 					<li><a href="#contact" class="nav_element">KAPCSOLAT</a></li>
