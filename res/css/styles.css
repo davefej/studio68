@@ -123,12 +123,20 @@ body{
 .summary-block{
 	font-family: 'Muli', sans-serif;
     font-weight: 300;
-    font-size:4vh;
+    font-size: 3.7vh;
     text-align:center;
     padding-top:20px;
     padding-left: 10%;
     padding-right:10%;
     width:100%;
+}
+
+.timeline-segment-header{
+	font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
 }
 
 .timeline-segment-title{
@@ -226,4 +234,10 @@ body{
     .summary-block{ padding-left: 10px; padding-right: 10px;}
     .counter_segment{ min-height: 200px;}
     #dot-nav{ display: none;}
+}
+
+.reference-title{
+	color: #e00901;
+	font-size: 4vw;
+
 }

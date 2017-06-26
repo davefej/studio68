@@ -1,7 +1,7 @@
 <!--CONTACT SEGMENT-->
         <div class="contact_segment container-fluid" id="contact">
             <div class="segment_title">
-                Kapcsolat
+               <h1 class="contact-title-header"> Kapcsolat</h1>
             </div>
             
             <div class="map-frame" id="map-frame">

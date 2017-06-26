@@ -14,19 +14,24 @@
 					echo '';
 				}
 				if($page == "eco"){
-					echo 'ÖKO';
+					//echo 'ÖKO';
+					echo '<img class="department_icon" src="res/img/icons/eco_icon.svg">';
 				}
 				if($page == "gift"){
-					echo 'AJÁNDÉK';
+					echo '<img class="department_icon" src="res/img/icons/gift_icon.svg">';
+					//echo 'AJÁNDÉK';
 				}
 				if($page == "sweet"){
-					echo 'ÉDESSÉG';
+					//echo 'ÉDESSÉG';
+					echo '<img class="department_icon" src="res/img/icons/sweet_icon.svg">';
 				}
 				if($page == "fan"){
-					echo 'SPORT';
+					//echo 'SPORT';
+					echo '<img class="department_icon" src="res/img/icons/fan_icon.svg">';
 				}
 				if($page == "printing"){
-					echo 'NYOMDA';
+					echo '<img class="department_icon" src="res/img/icons/print_icon.svg">';
+					//echo 'NYOMDA';
 				}
 				if($page == "eshop"){
 					echo 'E-BOLT';
@@ -41,11 +46,11 @@
 					<li class="dropdown">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ÜZLETÁGAK<span class="caret"></span></a>
 	          <ul class="dropdown-menu">
-	            <li><a href="eco.php" class="nav_element">ÖKO</a></li>
-	            <li><a href="sweet.php" class="nav_element">ÉDESSÉG</a></li>
-	            <li><a href="gift.php" class="nav_element">AJÁNDÉK</a></li>
-	            <li><a href="fan.php" class="nav_element">SPORT</a></li>
-							<li><a href="printing.php" class="nav_element">NYOMDA</a></li>
+	            <li><a href="eco.php" class="nav_element department_icon_container">ÖKO <img class="department_icon_gray" src="res/img/icons/eco_icon.svg"></a></li>
+	            <li><a href="sweet.php" class="nav_element department_icon_container">ÉDESSÉG  <img class="department_icon_gray" src="res/img/icons/sweet_icon.svg"></a></li>
+	            <li><a href="gift.php" class="nav_element department_icon_container">AJÁNDÉK  <img class="department_icon_gray" src="res/img/icons/gift_icon.svg"></a></li>
+	            <li><a href="fan.php" class="nav_element department_icon_container">SPORT  <img class="department_icon_gray" src="res/img/icons/fan_icon.svg"></a></li>
+				<li><a href="printing.php" class="nav_element department_icon_container">NYOMDA  <img class="department_icon_gray" src="res/img/icons/print_icon.svg"></a></li>
 	          </ul>
 						<style>
 						<?php
@@ -103,10 +108,12 @@
 					<li><a href="#contact" class="nav_element">KAPCSOLAT</a></li>
 					<?php }?>
 					<li class="dropdown">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WEBSHOP<span class="caret"></span></a>
+	         		 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WEBSHOP<span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a target="blank" href="http://giftworld.yourpromotionalshop.com/home.mvc" class="nav_element">ÜZLETI</a></li>
 							<li><a target="blank" href="http://enajandekom.hu" class="nav_element">LAKOSSÁGI</a></li>
+							<li><a target="blank" href="http://hajra-magyarok.hu" class="nav_element">RIA RIA HUNGÁRIA</a></li>
+							
 						</ul>
 						<style>
 						<?php
@@ -159,3 +166,11 @@
 			</div>
 		</div>
 	</nav>
+
+<!-- icons for departments
+<img class="department_icon" src="res/img/icons/eco_icon.svg">
+<img class="department_icon" src="res/img/icons/sweet_icon.svg">
+<img class="department_icon" src="res/img/icons/gift_icon.svg">
+<img class="department_icon" src="res/img/icons/fan_icon.svg">
+<img class="department_icon" src="res/img/icons/print_icon.svg">
+ -->

@@ -12,6 +12,13 @@
     padding-left: 100px;
 }
 
+.contact-title-header{
+	    font-size: 4vw;
+	    margin-top:0px;
+	colot:white;
+}
+
+
 .segment_title{
     width:100%;
     font-family: 'Muli', sans-serif;

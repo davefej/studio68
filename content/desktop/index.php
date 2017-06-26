@@ -86,14 +86,14 @@
 <!--TIMELINE SEGMENT-->
 <div class="timeline_segment container-fluid segmentoverflow" id="timeline">
 	<div class="timeline-segment-title">
-        Stúdió<font color="#e00901">68</font>
+       <h1 class="timeline-segment-header">Stúdió<font color="#e00901">68</font></h1>
     </div>
     <div class="summary-block">
         <b>Egy név - ami kötelez. Több üzletág - ami összehoz.<br></b>
         Ajándéktárgy? Textil? Emblémázás? ÖKO termékek? Páratlan promóciós finomságok?
         Nyomda? Saját, dolgozói vagy partner Webshop?<br>Merchandise termékek?
         Kitelepülés? Egyedi gyártások? Szurkolói kellékek?<br>Konszignációs rendelési lehetőségek?<br/>
-        A válaszunk az, hogy <b>IGEN, VAN!</b><br/>
+        A válaszunk az, hogy<br/> <b>IGEN, VAN!</b><br/>
         2001 óta dolgozunk „mások örömére…”<br/>
         Célunk, hogy folytassuk a munkát, amit elkezdtünk, amihez értünk, amit szeretünk.
         Sikereink záloga, nem más, mint maga az ÜGYFÉL, azaz ÖN!<br/>Reméljük történetünk, Önnel közösen íródik tovább!
@@ -117,8 +117,8 @@
       
 <!--REFERENCES SEGMENT-->
 <div class="references_segment container-fluid segmentoverflow" id="references">
-    <div class="segment_title" style="color: #e00901; margin-bottom: 50px;">
-        Referenciák
+    <div class="segment_title" style="margin-bottom: 50px;">
+        <h1 class='reference-title'>Referenciák</h1>
     </div>
     <div class="title-block3">
      <ul id="scroller2">

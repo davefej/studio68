@@ -25,11 +25,12 @@ if(isset($_GET['admin']) && $_GET['admin'] == true){
 		<table class='prodtable'>
 		<?php 
 		$i=0;
+		$empty = true;
 		foreach ($data as $jsonintem) { 
 			if(!isset($jsonintem['desc'])){
 				$jsonintem['desc'] = "";
 			}
-			
+			$empty = false;
 			?> 
 			<?php if(($i % 4) == 0){ ?>		
 				<tr>
@@ -82,6 +83,10 @@ if(isset($_GET['admin']) && $_GET['admin'] == true){
 				?>
 				</tr>
 				<?php 
+			}
+			
+			if($empty){
+				echo "<tr><td><h1 style='color:black'>Hamarosan...</h1></td></tr>";
 			}
 		?>
 		</table>

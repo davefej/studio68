@@ -52,5 +52,8 @@
 		<meta charset="UTF-8">
 		
 		<title>Stúdió68 Reklámajándék Kft.</title>
+		
+<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
+		
 	</head>
 	<body>

@@ -142,49 +142,49 @@ function getCategoories($cat){
 
 	switch($cat){
 		case "eco1":
-			return "Zöld Energia";
+			return "Öko - Zöld Energia";
 			break;
 		case "eco2":
-			return "Újrahasznosított Termékek";
+			return "Öko - Újrahasznosított Termékek";
 			break;
 		case "eco3":
-			return "Környezetbarát Ötletek";
+			return "Öko - Környezetbarát Ötletek";
 			break;		
 		case "sweet1":
-			return "Csokoládék";
+			return "Édesség - Csokoládék";
 			break;
 		case "sweet2":
-			return "Nassolnivalók";
+			return "Édesség - Nassolnivalók";
 			break;
 		case "sweet3":
-			return "Promóciós Édességek";
+			return "Édesség - Promóciós Édességek";
 			break;
 		case "sweet4":
-			return "Cukorkák, nyalókák";
+			return "Édesség - Cukorkák, nyalókák";
 			break;
 		case "gift1":
-			return "Webshop termékek";
+			return "Ajándék - Webshop termékek";
 			break;
 		case "gift2":
-			return "Egyedi gyártások";
+			return "Ajándék - Egyedi gyártások";
 			break;
 		case "gift3":
-			return "Textilek & Munkaruhák";
+			return "Ajándék - Textilek & Munkaruhák";
 			break;
 		case "gift4":
-			return "Lakossági Webshop";
+			return "Ajándék - Lakossági Webshop";
 			break;
 		case "fan1":
-			return "Szurkolói kellékek";
+			return "Sport - Szurkolói kellékek";
 			break;
 		case "fan2":
-			return "Egyedi gyártások";
+			return "Sport - Egyedi gyártások";
 			break;
 		case "fan3":
-			return "Textilek";
+			return "Sport - Textilek";
 			break;
 		case "fan4":
-			return "Serlegek, kupák";
+			return "Sport - Serlegek, kupák";
 			break;
 		default:
 			return "";

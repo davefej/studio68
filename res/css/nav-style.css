@@ -219,3 +219,27 @@ button.navbar-toggle collapsed button.navbar-toggle:active{
     top: 11px;
     left: -6px;
 }
+
+.department_icon{
+	width:30px;
+}
+.department_icon_gray{
+	width:20px;
+	float: right;
+}
+
+.department_icon_gray:hover{
+	width:20px;
+	
+}
+
+.department_icon_container{
+	filter: grayscale(100%);
+}
+
+.department_icon_container:hover{
+	filter:none;
+}
+
+
+

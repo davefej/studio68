@@ -1,3 +1,14 @@
+<?php 
+session_start();
+if(isset($_SESSION['auth']) && $_SESSION['auth'] == true){
+	
+}else{
+	header("Location: index.php?login=fail");
+	exit;
+}
+
+?>
+
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -13,5 +24,6 @@
 			<a href="hirlevel.php">HÍRLEVÉL</a>
 			<a href="editor.php" >TERMÉKEK</a>
 			<a href="blog.php" >BLOG</a>
+			<a href="logout.php" >Kilépés</a>
 			</div>
 		</div>

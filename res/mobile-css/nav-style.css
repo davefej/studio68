@@ -161,3 +161,20 @@ ul{
 .navbar-default .navbar-toggle:hover{
     background-color: rgba(0,0,0,0);
 }
+
+.department_icon{
+	width: 30px;
+    margin-left: 10px;
+    
+}
+
+.department_icon2{
+	width: 30px;
+}
+
+.nav_text_span{
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    font-size: 16px;
+    font-weight:bold;
+}

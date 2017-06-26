@@ -1,12 +1,14 @@
 <?php
-
-
-if(mailLimit()){
-	exit;
-}
-
 $entityBody = file_get_contents('php://input');
 $data = json_decode($entityBody,True);
+
+if(mailLimit()){	
+	$myfile = fopen("maillimit.txt", "a") or die("Unable to open file!");
+	$txt = date("now")."\r\n".$message."\r\n\r\n-------------------\r\n\r\n";
+	fwrite($myfile, $txt);
+	fclose($myfile);
+	exit;
+}
 
 
 if( !isset($data['email']) || !filter_var($data['email'], FILTER_VALIDATE_EMAIL) || !isset($data['message']) 
@@ -15,24 +17,26 @@ if( !isset($data['email']) || !filter_var($data['email'], FILTER_VALIDATE_EMAIL)
 	return true;
 }
 
+$data['message'] = htmlspecialchars($data['message'], ENT_QUOTES, 'UTF-8');
+$data['firstname'] = htmlspecialchars($data['firstname'], ENT_QUOTES, 'UTF-8');
+$data['lastname'] = htmlspecialchars($data['lastname'], ENT_QUOTES, 'UTF-8');
+
+
 $to      = 'david@davidanddavid.hu';
 $subject = 'Weblap - Üzenet';
 $message = "Kedves Studio68!\r\n\r\n".$data['message']."\r\n\r\n".$data['lastname']." ".$data['firstname']."\r\n"."\r\n";
-$headers = 'From: webmaster@example.com' . "\r\n";
+$headers = 'From: '.$data['email']."\r\n";
+$headers .= "Content-Type: text/plain;charset=utf-8\r\n";
 
-
-
-//TODO
-/*
-if(mail("david@davidanddavid.hu","Weblap - Üzenet",$message,$headers)){
+if(mail($to,$subject,$message,$headers)){
 	
 }else{
-*/
+
 	$myfile = fopen("mailerror.txt", "a") or die("Unable to open file!");
 	$txt = date("now")."\r\n".$message;
 	fwrite($myfile, $txt);
 	fclose($myfile);
-//}
+}
 
 
 

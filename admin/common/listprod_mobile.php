@@ -27,7 +27,7 @@ if(isset($_GET['admin']) && $_GET['admin'] == true){
 			if(!isset($jsonintem['desc'])){
 				$jsonintem['desc'] = "";
 			}
-			
+			$i++;
 			?> 
 			<tr>
 			<td class='prodtd <?php  echo $css."prodtdcolor" ?>'>
@@ -44,6 +44,10 @@ if(isset($_GET['admin']) && $_GET['admin'] == true){
 			 
 
 		<?php 
+			}
+			
+			if($i == 0){
+				echo "<tr><td>Hamarosan...</td></tr>";
 			}
 		?>
 		</table>

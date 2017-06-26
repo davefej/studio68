@@ -97,7 +97,7 @@
               <ul class="hashmarkul2">		                	
 	                	<li>#teddanyakába</li>
 	                	<li>#dobogórafel</li>		                	
-	                	<li>#aranyezüstbronzszépencsillog</li>
+	                	<li>#aranyezüstbronz</li>
 	                	<li>#örökemlékmarad</li>
 	                	<li>#nevesítveislehet</li>
 	                	<li>#örömatetőfokon</li>		                	
