@@ -61,6 +61,7 @@
 					<?php }?>
 					<li><a target="blank" href="http://enajandekom.hu" class="nav_element">LAKOSSÁGI WEBSHOP</a></li>
 					<li><a target="blank" href="http://giftworld.yourpromotionalshop.com/home.mvc" class="nav_element">ÜZLETI WEBSHOP</a></li>
+					<li><a target="blank" href="http://hajra-magyarok.hu" class="nav_element">RIA RIA HUNGÁRIA</a></li>
 				</ul>
 			</div>
 		</div>
