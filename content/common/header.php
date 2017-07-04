@@ -2,7 +2,8 @@
 	<head>
 	
 	<?php 
-		$version = rand();
+	//TODO UPDATE VERSION WHEN RELEASE!!
+		$version = 2;
 		if($mobile == true){
 			$css = "mobile-css";
 		}else{
