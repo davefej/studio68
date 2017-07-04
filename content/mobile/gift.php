@@ -17,7 +17,7 @@
             <div class="col-md-8">
                 <div onclick="openurl('http://giftworld.yourpromotionalshop.com')" class="well" id="gift-webshop">
                     <div class="gift-webshop-open">
-                        <b>Webshop</b>
+                        <b>Üzleti webshop</b>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@
             <div class="col-md-4">
                 <div onclick="openurl('http://www.enajandekom.hu')" class="well promo" id="people-webshop">
                     <div class="people-webshop-open">
-                        <b>Lakossági webshopunk</b>
+                        <b>Lakossági webshop</b>
                     </div>
                 </div>
             </div>

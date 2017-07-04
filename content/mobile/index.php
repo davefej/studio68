@@ -11,7 +11,7 @@
 
 
 <!--DEPARTMENT SEGMENT-->
-<div class="departments_segment container-fluid " id="departments">
+<div class="departments_segment container-fluid nopadding" id="departments">
 	<div class="container">
 		<div class="row">
 			<div onclick="goto('eco.php')" class="col-xs-12 col-md-2 department " id="eco">

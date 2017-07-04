@@ -17,9 +17,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <div onclick="openprodlist('fan1')" class="well" id="gift-webshop">
+                <div onclick="openprodlist('fan2')" class="well" id="gift-webshop">
                     <div class="gift-webshop-open">
-                        <b>Szurkolói kellélek</b>
+                        <b>Szurkolói ajándékok</b>
                     </div>
                 </div>
             </div>
@@ -43,9 +43,9 @@
 
         <div class="row">
             <div class="col-md-8">
-                <div onclick="openprodlist('fan2')" class="well" id="custom-gift">
+                <div onclick="openurl('http://www.hajra-magyarok.hu')" class="well" id="custom-gift">
                     <div class="custom-gift-open">
-                        <b>Egyedi gyártások</b>
+                        <b>RIA RIA HUNGARIA</b>
                     </div>
                 </div>
             </div>

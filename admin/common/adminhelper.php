@@ -178,7 +178,7 @@ function getCategoories($cat){
 			return "Sport - Szurkolói kellékek";
 			break;
 		case "fan2":
-			return "Sport - Egyedi gyártások";
+			return "Sport - Szurkolói Ajándékok";
 			break;
 		case "fan3":
 			return "Sport - Textilek";
