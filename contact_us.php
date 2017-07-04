@@ -22,8 +22,9 @@ $data['firstname'] = htmlspecialchars($data['firstname'], ENT_QUOTES, 'UTF-8');
 $data['lastname'] = htmlspecialchars($data['lastname'], ENT_QUOTES, 'UTF-8');
 
 
-//$to      = 'david@davidanddavid.hu';
-$to      = 'info@studio68.hu';
+//TODO
+$to      = 'david@davidanddavid.hu';
+//$to      = 'info@studio68.hu';
 
 
 $subject = 'Weblap - Üzenet';
