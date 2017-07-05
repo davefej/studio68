@@ -13,9 +13,7 @@
     <div class="container">
         <div class="row" style="padding-right: 5%; padding-left: 5%;">
             <div class="col-md-12">
-              <div class="well" id="eshop">
-				
-              </div>
+               <img class="eshopbig" src='res/img/eshop_big.jpg'/>
             </div>
         </div>
     </div>

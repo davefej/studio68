@@ -71,14 +71,15 @@
 		 Stúdió<font color="#e00901">68</font>
     </div>
     <div class="summary-block">
-         <b>Egy név - ami kötelez. Több üzletág - ami összehoz.<br></b>
-        Ajándéktárgy? Textil? Emblémázás? ÖKO termékek? Páratlan promóciós finomságok?
-        Nyomda? Saját, dolgozói vagy partner Web shop?<br>Merchandise termékek?
-        Kitelepülés? Egyedi gyártások? Szurkolói kellékek?<br>Konszignációs rendelési lehetőségek?<br/>
-        A válaszunk az, hogy <b>IGEN, VAN!</b><br/>
-        2001 óta dolgozunk „mások örömére…”<br/>
-        Célunk, hogy folytassuk a munkát, amit elkezdtünk, amihez értünk, amit szeretünk.
-        Sikereink záloga, nem más, mint maga az ÜGYFÉL, azaz ÖN!<br/>Reméljük történetünk, Önnel közösen íródik tovább!
+        <b>Szeretjük a munkánkat és a kihívásokat!</b><br>
+		Hittel, szakértelemmel, innovációval és örömmel tesszük a dolgunk.<br>
+		Szakmailag teljes mértékben elhivatottak vagyunk, e téren nem ismerünk kompromisszumokat!<br>
+		Nevünk alá, több üzletág csoportosul, hogy minél szélesebb ügyféligényeket elégíthessünk ki.<br>
+		Sikereink záloga, nem más, mint maga az ÜGYFÉL, azaz ÖN!<br>
+		Reméljük történetünk, Önnel közösen íródik tovább!<br>
+		<b>Mi ezért dolgozunk 2001 óta „mások örömére…”*</b><br>
+		*mások örömére = szlogenünk hűen tükrözi, hogy kizárólag akkor vagyunk elégedettek a ránk bízott munkákkal,
+		ha mindaz Aki adja és mindaz Aki kapja mosolyog a végén.
     </div>
 </div>
 
