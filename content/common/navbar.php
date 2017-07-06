@@ -112,7 +112,7 @@
 						<ul class="dropdown-menu">
 							<li><a target="blank" href="http://giftworld.yourpromotionalshop.com/home.mvc" class="nav_element">ÜZLETI</a></li>
 							<li><a target="blank" href="http://enajandekom.hu" class="nav_element">LAKOSSÁGI</a></li>
-							<li><a target="blank" href="http://hajra-magyarok.hu" class="nav_element">RIA RIA HUNGÁRIA</a></li>
+							<li><a target="blank" href="http://hajra-magyarok.hu" class="nav_element">RIA RIA HUNGARIA</a></li>
 							
 						</ul>
 						<style>

@@ -8,10 +8,10 @@
     </div>
 
     <div class="gift-intro">
-        Célunk, hogy a hazai sportszakmai szervezetekkel közösen, tudatosítsuk a merchandise fogalmát Magyarországon.
-        Feladataink közé tartoznak jelenleg: Shop ellátás, szurkolói termékek gyártása, Clubok, Egyesületek portfóliójának bővítése.
-        Részt vettünk több hazai rendezésű Európa –ill. Világbajnokságon, mint promóciós partner, akár kitelepüléssel együtt.
-        Felkészülten várjuk jelentkezését, valósítsuk meg együtt sport promóciós terveit.
+        Célunk, hogy elősegítsük a Magyarországi sportszakmai szervezetek sport promóciós terveinek megvalósulását. 
+        Feladataink közé tartoznak jelenleg: shop ellátás, szurkolói termékek gyártása, Clubok, Egyesületek termékportfóliójának bővítése. 
+        Részt vettünk több hazai rendezésű Európa –ill. Világbajnokságon, mint promóciós partner. Vállaljuk továbbá, egy adott sportesemény, hivatalos promóciós termékeinek helyszíni megjelenéssel történő értékesítését is. 
+        Felkészült csapatunk várja jelentkezését, valósítsuk meg együtt elképzeléseit!
     </div>
 
     <div class="container">
