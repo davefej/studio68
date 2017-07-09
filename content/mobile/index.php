@@ -332,7 +332,8 @@
 	                   <span class="teamname">Lőrincz András</span><br/> 
 	                   <span class="teamtitle">kereskedelmi igazgató</span> <br/>
 	                   <a class="teammail" href="mailto:andras@studio68.hu">andras@studio68.hu</a>
-	                    <br/><br/><span class="teamtext">Először tedd meg amit kell, aztán tedd meg amit lehet, utána a lehetetlen is sikerülni fog!</span>                 </div>
+	                   <br/><a class="teammail" href="tel:+36202507103">+36202507103</a>	                   
+	                   <br/><br/><span class="teamtext">Először tedd meg amit kell, aztán tedd meg amit lehet, utána a lehetetlen is sikerülni fog!</span>                 </div>
 				</td>
 				<td>
 					<img class="teamimg" src="res/img/deni_profil.png" width="250" height="250">
@@ -340,7 +341,8 @@
 						 <span class="teamname">Droszt Denisa</span><br/> 
 	                     <span class="teamtitle">promóciós vezető</span>
 	                     <br/><a class="teammail" href="mailto:deni@studio68.hu">deni@studio68.hu</a>
-	                     <br/><br/><span class="teamtext">A minőségre törekszem, és akkor is próbálok jó munkát végezni, ha éppen nincs szem előtt!</span>
+	                     <br/><a class="teammail" href="tel:+36303310248">+36303310248</a>
+                     	 <br/><br/><span class="teamtext">A minőségre törekszem, és akkor is próbálok jó munkát végezni, ha éppen nincs szem előtt!</span>
 	                </div>
 				</td>
 	            <td>
@@ -349,7 +351,8 @@
 						  <span class="teamname">Ádám Renáta</span><br/> 
 	                      <span class="teamtitle">promóciós szakértő</span>
 	                      <br/><a class="teammail" href="mailto:reni@studio68.hu">reni@studio68.hu</a>
-	                      <br/><br/><span class="teamtext" >A lehetőségeket nem csak megkapni kell, hanem élni is tudni kell velük!</span>
+	                      <br/><a class="teammail" href="tel:+36305401501">+36305401501</a>
+                      	  <br/><br/><span class="teamtext" >A lehetőségeket nem csak megkapni kell, hanem élni is tudni kell velük!</span>
 	                </div>
 				</td>
 				<td>
@@ -358,7 +361,8 @@
 						 <span class="teamname">Szabó Éva</span><br/> 
 	                     <span class="teamtitle">promóciós asszisztens</span>
 	                     <br/><a class="teammail" href="mailto:eva@studio68.hu">eva@studio68.hu</a>
-	                     <br/><br/><span class="teamtext" >Semmi sem fontosabb a szenvedélynél. Nem számít, mit csinálsz az életedben, azt szenvedéllyel tedd!</span>                                
+	                     <br/><a class="teammail" href="tel:+36306590826">+36306590826</a>                     
+                     	 <br/><br/><span class="teamtext" >Semmi sem fontosabb a szenvedélynél. Nem számít, mit csinálsz az életedben, azt szenvedéllyel tedd!</span>                                
 	                 </div>
 				</td>
 				<td>
@@ -367,6 +371,7 @@
 						 <span class="teamname">Lutze Róbert</span><br/> 
 	                     <span class="teamtitle">logisztikai vezető</span>
 	                     <br/><a class="teammail" href="mailto:logisztika@studio68.hu">logisztika@studio68.hu</a> 
+	                     <br/><a class="teammail" href="tel:+36304056748">+36304056748</a>                     
 	                     <br/><br/><span class="teamtext">Kiemelten figyelek arra, hogy mindig, minden időben és épségben célba érjen!</span>     
 	                 </div>
 				</td>
