@@ -3,7 +3,7 @@
 <div class="main_segment container-fluid" id="main">
 	
     <div class="navhider">
-        
+         <h1 style="color:#181819;color: #181819;height: 20px;display: inline-block;font-size: 16px;">Stúdió68  Reklámajándék Kft</h1>
     </div>
    <div class="title-block2">
 	</div>
@@ -108,202 +108,202 @@
     <table>
      	<tr>
      		<td>
-			<img class="refimg" src="res/img/logok/logo1.jpg" >
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo1.jpg" >
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo2.jpg" >
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo2.jpg" >
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo3.jpg" >
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo3.jpg" >
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo4.jpg" >
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo4.jpg" >
 			</td>
      	
      		<td>
-			<img class="refimg" src="res/img/logok/logo5.jpg" >
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo5.jpg" >
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo6.jpg" >
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo6.jpg" >
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo7.jpg" >
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo7.jpg" >
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo8.jpg" >
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo8.jpg" >
 			</td>
      	
      		<td>
-			<img class="refimg" src="res/img/logok/logo9.jpg" >
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo9.jpg" >
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo10.jpg" >
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo10.jpg" >
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo11.jpg" >
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo11.jpg" >
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo12.jpg" >
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo12.jpg" >
 			</td>
      	</tr>
      	<tr>
      		<td>
-			<img class="refimg" src="res/img/logok/logo13.jpg" >
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo13.jpg" >
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo14.jpg" >
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo14.jpg" >
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo15.jpg" >
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo15.jpg" >
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo16.jpg" >
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo16.jpg" >
 			</td>
      	
      		<td>
-			<img class="refimg" src="res/img/logok/logo17.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo17.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo18.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo18.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo19.png">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo19.png">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo20.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo20.jpg">
 			</td>
      	
      		<td>
-			<img class="refimg" src="res/img/logok/logo21.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo21.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo22.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo22.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo23.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo23.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo24.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo24.jpg">
 			</td>
      	</tr>
      	<tr>
      		<td>
-			<img class="refimg" src="res/img/logok/logo25.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo25.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo26.gif">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo26.gif">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo27.bmp">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo27.bmp">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo28.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo28.jpg">
 			</td>
      	
      		<td>
-			<img class="refimg" src="res/img/logok/logo29.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo29.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo30.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo30.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo31.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo31.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo32.bmp">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo32.bmp">
 			</td>
      	
      		<td>
-			<img class="refimg" src="res/img/logok/logo33.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo33.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo34.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo34.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo35.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo35.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo36.png">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo36.png">
 			</td>
      	</tr>
      	<tr>
      		<td>
-			<img class="refimg" src="res/img/logok/logo37.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo37.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo38.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo38.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo39.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo39.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo40.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo40.jpg">
 			</td>
      	
      		<td>
-			<img class="refimg" src="res/img/logok/logo41.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo41.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo42.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo42.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo43.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo43.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo44.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo44.jpg">
 			</td>
      	
      		<td>
-			<img class="refimg" src="res/img/logok/logo45.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo45.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo46.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo46.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo47.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo47.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo48.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo48.jpg">
 			</td>
      	</tr>
      	<tr>
      		<td>
-			<img class="refimg" src="res/img/logok/logo49.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo49.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo50.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo50.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo51.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo51.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo52.gif">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo52.gif">
 			</td>
      	
      		<td>
-			<img class="refimg" src="res/img/logok/logo53.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo53.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo54.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo54.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo55.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo55.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo56.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo56.jpg">
 			</td>
      	
      		<td>
-			<img class="refimg" src="res/img/logok/logo57.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo57.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo58.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo58.jpg">
 			</td>
 			<td>
-			<img class="refimg" src="res/img/logok/logo59.jpg">
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo59.jpg">
 			</td>
 			<td>
-			<img class="refimg" >
+			<img class="refimg" alt="referencia logó">
 			</td>
 	</table>
 	</div>
@@ -317,7 +317,7 @@
 	    	<table>
 				<tr>
 				<td>
-					<img class="teamimg" src="res/img/zoli_profil.png" width="250" height="250">
+					<img class="teamimg" alt="profilkép" src="res/img/zoli_profil.png" width="250" height="250">
 					  <div class="teamitemdiv">
 						 <span class="teamname">Plicher Zoltán</span><br/>
 		                 <span class="teamtitle">ügyvezető igazgató</span><br/>
@@ -327,7 +327,7 @@
 	                 </div>
 				</td>
 				<td>
-					<img class="teamimg" src="res/img/andras_profil.png" width="250" height="250">
+					<img class="teamimg" alt="profilkép" src="res/img/andras_profil.png" width="250" height="250">
 					<div class="teamitemdiv">
 	                   <span class="teamname">Lőrincz András</span><br/> 
 	                   <span class="teamtitle">kereskedelmi igazgató</span> <br/>
@@ -336,7 +336,7 @@
 	                   <br/><br/><span class="teamtext">Először tedd meg amit kell, aztán tedd meg amit lehet, utána a lehetetlen is sikerülni fog!</span>                 </div>
 				</td>
 				<td>
-					<img class="teamimg" src="res/img/deni_profil.png" width="250" height="250">
+					<img class="teamimg" alt="profilkép" src="res/img/deni_profil.png" width="250" height="250">
 					<div class="teamitemdiv">
 						 <span class="teamname">Droszt Denisa</span><br/> 
 	                     <span class="teamtitle">promóciós vezető</span>
@@ -346,7 +346,7 @@
 	                </div>
 				</td>
 	            <td>
-					<img class="teamimg" src="res/img/reni_profil.png" width="250" height="250">
+					<img class="teamimg" alt="profilkép" src="res/img/reni_profil.png" width="250" height="250">
 					<div class="teamitemdiv">
 						  <span class="teamname">Ádám Renáta</span><br/> 
 	                      <span class="teamtitle">promóciós szakértő</span>
@@ -356,7 +356,7 @@
 	                </div>
 				</td>
 				<td>
-					<img class="teamimg" src="res/img/evi_profil.png" width="250" height="250">
+					<img class="teamimg" alt="profilkép" src="res/img/evi_profil.png" width="250" height="250">
 					<div class="teamitemdiv">
 						 <span class="teamname">Szabó Éva</span><br/> 
 	                     <span class="teamtitle">promóciós asszisztens</span>
@@ -366,7 +366,7 @@
 	                 </div>
 				</td>
 				<td>
-					<img class="teamimg" src="res/img/robi_profil.png" width="250" height="250">
+					<img class="teamimg" alt="profilkép" src="res/img/robi_profil.png" width="250" height="250">
 					<div class="teamitemdiv">
 						 <span class="teamname">Lutze Róbert</span><br/> 
 	                     <span class="teamtitle">logisztikai vezető</span>
@@ -376,7 +376,7 @@
 	                 </div>
 				</td>
 				<td>
-					<img class="teamimg" src="res/img/magdi_profil.png" width="250" height="250">
+					<img class="teamimg" alt="profilkép" src="res/img/magdi_profil.png" width="250" height="250">
 					<div class="teamitemdiv">
 						 <span class="teamname">Csorba Magdolna</span><br/>
 	                     <span class="teamtitle">pénzügy / könyvelés</span>

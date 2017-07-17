@@ -15,22 +15,22 @@
 				}
 				if($page == "eco"){
 					//echo 'ÖKO';
-					echo '<img class="department_icon" src="res/img/icons/eco_icon.svg">';
+					echo '<img alt="öko-reklámajándékok" class="department_icon" src="res/img/icons/eco_icon.svg">';
 				}
 				if($page == "gift"){
-					echo '<img class="department_icon" src="res/img/icons/gift_icon.svg">';
+					echo '<img alt="ajándéktárgy-reklámajándékok" class="department_icon" src="res/img/icons/gift_icon.svg">';
 					//echo 'AJÁNDÉK';
 				}
 				if($page == "sweet"){
 					//echo 'ÉDESSÉG';
-					echo '<img class="department_icon" src="res/img/icons/sweet_icon.svg">';
+					echo '<img alt="édesség-csoki" class="department_icon" src="res/img/icons/sweet_icon.svg">';
 				}
 				if($page == "fan"){
 					//echo 'SPORT';
-					echo '<img class="department_icon" src="res/img/icons/fan_icon.svg">';
+					echo '<img alt="szurkolói-sport" class="department_icon" src="res/img/icons/fan_icon.svg">';
 				}
 				if($page == "printing"){
-					echo '<img class="department_icon" src="res/img/icons/print_icon.svg">';
+					echo '<img alt="nyomda-szórólap" class="department_icon" src="res/img/icons/print_icon.svg">';
 					//echo 'NYOMDA';
 				}
 				if($page == "eshop"){

@@ -17,7 +17,27 @@
 		           Pénzforgalmi számlaszám: 10400164-01609664-00000000<br/>
 		           
 	             </div>
+	             
           </div>
+           <div class="company_details">
+           		<div class="company_details1" style="color:#181819;">	                  
+		            reklámajándék 
+					ajándéktárgy<br/>
+					cégesajándék 
+					üzletiajándék<br/>
+					egyediajándék
+					nálunkmegtalálodmertVAN
+		           
+	             </div>
+	             <div class="company_details2" style="color:#181819;">	                  
+					reklámajándék
+					karácsonyiajándék 
+					promócióstextil<br/>
+					reklámtárgy 
+					emblémázottajándék<br/>					 
+		            ajándéktárgy
+	             </div>
+             </div>
       </div>
 	
       <div class="container-fluid">
