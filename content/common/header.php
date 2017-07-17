@@ -10,7 +10,7 @@
 			$css = "css";
 		}
 	?>
-	
+		<link rel="icon" type="image/png" href="res/img/favicon.png">
 		<!-- COMMON CSS -->
 		<link rel="stylesheet" href="res/css/fonts.css">
 		<link href="res/bootstrap/css/bootstrap.min.css" rel="stylesheet">

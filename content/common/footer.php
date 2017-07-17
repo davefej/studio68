@@ -187,6 +187,14 @@
        }else{
        	echo "<script>var usemobileview = false;</script>";
        }
+       
+       if(isset($_GET['hash']) && $_GET['hash'] == "contact"){
+       	echo "<script>document.getElementById('contact').scrollIntoView()</script>";
+       }
+       
+       if(isset($_GET['hash']) && $_GET['hash'] == "references"){
+       	echo "<script>document.getElementById('references').scrollIntoView()</script>";
+       }
 
         ?>
         
@@ -200,7 +208,7 @@
 		
 		  ga('create', 'UA-89902614-2', 'auto');
 		  ga('send', 'pageview');
-		
+
 		</script>
 	</body>
 </html>
