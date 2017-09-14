@@ -68,12 +68,17 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div onclick="openprodlist('sweet2')" class="well promo" id="bonbon">
                     <div class="bonbon-open"><b>Nassolnivalók</b></div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
+                <div onclick="openprodlist('sweet5')" class="well promo" id="collections">
+                    <div class="bonbon-open"><b>Ajándékcsomagok</b></div>
+                </div>
+            </div>
+            <div class="col-md-4">
                 <div onclick="openprodlist('sweet4')" class="well promo" id="lollypop">
                     <div class="lollypop-open"><b>Cukorkák, nyalókák</b>
                     </div>
@@ -81,7 +86,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="well describe2" id="bonbon-describe">
                 	<ul class="hashmarkul2">
 		                	<li>#rágcsáldaropit</li>
@@ -97,7 +102,14 @@
 		                </ul>								
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
+                <div class="well describe2" id="custom-describe">
+               	 	<ul class="hashmarkul2">
+		                	Hashtagek
+		                </ul>		
+                </div>
+            </div>
+            <div class="col-md-4">
                 <div class="well describe2" id="custom-describe">
                	 	<ul class="hashmarkul2">
 		                	<li>#mentoloscukor</li>

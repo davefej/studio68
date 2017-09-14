@@ -173,8 +173,8 @@ div.container{
     background-repeat: no-repeat;
     background-position: center;
     
-    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
-    filter: grayscale(0%);
+     /* Chrome, Safari, Opera */
+    
     
     position: relative;
     border-radius: 5px;
@@ -199,8 +199,8 @@ div.container{
 
 #bonbon:hover {
     transform: scale(1.02, 1.02);
-    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-    filter: grayscale(100%);
+     /* Chrome, Safari, Opera */
+    
     cursor: pointer;
 }
 
@@ -209,6 +209,54 @@ div.container{
 }
 
 #bonbon.well.promo:hover .bonbon-open{
+    padding-top: 2em;
+    display: block;
+}
+
+#collections{
+    text-align: center;
+    background-image: url("../img/csomagok.jpg");
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+     /* Chrome, Safari, Opera */
+    
+    
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+.collections-open{
+    padding-top: 2em;
+}
+
+#collections:after{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#collections:hover {
+    transform: scale(1.02, 1.02);
+     /* Chrome, Safari, Opera */
+    
+    cursor: pointer;
+}
+
+#collections:hover::after {
+  opacity: 1;
+}
+
+#collections.well.promo:hover .collections-open{
     padding-top: 2em;
     display: block;
 }
@@ -222,8 +270,8 @@ div.container{
     background-repeat: no-repeat;
     background-position: center;
     
-    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
-    filter: grayscale(0%);
+     /* Chrome, Safari, Opera */
+    
     
     position: relative;
     border-radius: 5px;
@@ -244,8 +292,8 @@ div.container{
 
 #custom:hover {
     transform: scale(1.02, 1.02);
-    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-    filter: grayscale(100%);
+     /* Chrome, Safari, Opera */
+    
     cursor: pointer;
 }
 

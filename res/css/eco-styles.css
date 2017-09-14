@@ -223,8 +223,8 @@ div.container{
 
 #eco-gifts:hover {
     transform: scale(1.02, 1.02);
-    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-    filter: grayscale(100%);
+    
+    
     cursor: pointer;
 }
 
@@ -268,8 +268,8 @@ div.container{
 
 #gallery:hover {
     transform: scale(1.02, 1.02);
-    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-    filter: grayscale(100%);
+    
+    
     cursor: pointer;
 }
 
