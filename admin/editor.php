@@ -17,6 +17,7 @@
 	<option value="sweet2">Nassolnivalók</option>
 	<option value="sweet3">Promóciós Édességek</option>
 	<option value="sweet4">Cukorkák, nyalókák</option>
+	<option value="sweet5">Ajándékcsomagok</option>
 	<option value="gift1">Webshop termékek</option>
 	<option value="gift2">Egyedi gyártások</option>
 	<option value="gift3">Textilek & Munkaruhák</option>

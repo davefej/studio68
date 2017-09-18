@@ -158,9 +158,12 @@ function getCategoories($cat){
 			break;
 		case "sweet3":
 			return "Édesség - Promóciós Édességek";
-			break;
+			break;		
 		case "sweet4":
 			return "Édesség - Cukorkák, nyalókák";
+			break;
+		case "sweet5":
+			return "Édesség - Ajándékcsomagok";
 			break;
 		case "gift1":
 			return "Ajándék - Webshop termékek";
