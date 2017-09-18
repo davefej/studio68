@@ -88,7 +88,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="well describe2" id="bonbon-describe">
-                	<ul class="hashmarkul2">
+                	<ul class="hashmarkul3">
 		                	<li>#rágcsáldaropit</li>
 		                	<li>#kekszetneki</li>
 		                	<li>#roppanjránkmost</li>
@@ -96,7 +96,7 @@
 		                	<li>#almaszirom</li>
 		                	<li>#hajdinapromo</li>
 		                	<li>#nasiznijó</li>
-		                	<li>#szezámmagossüti</li>
+		                	<li>#szezámmagos</li>
 		                	<li>#desszertneked</li>
 		                	<li>#harapdálom</li>
 		                </ul>								
@@ -104,14 +104,24 @@
             </div>
             <div class="col-md-4">
                 <div class="well describe2" id="custom-describe">
-               	 	<ul class="hashmarkul2">
-		                	Hashtagek
+               	 	<ul class="hashmarkul3">
+		                	<li>#ajándékcsomag</li>
+							<li>#ateválasztásod</li>
+							<li>#gourmet</li>
+							<li>#collection</li>
+							<li>#finomságok</li>
+							
+							<li>#milegyenbenne</li>
+							<li>#mindentbele</li>
+							<li>#díszdobozos</li>
+							<li>#mézesakalács</li>
+							<li>#szeretettelneki</li>
 		                </ul>		
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="well describe2" id="custom-describe">
-               	 	<ul class="hashmarkul2">
+               	 	<ul class="hashmarkul3">
 		                	<li>#mentoloscukor</li>
 		                	<li>#gyümölcsíz</li>
 		                	<li>#minicuki</li>
