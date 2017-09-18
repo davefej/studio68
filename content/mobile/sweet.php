@@ -89,6 +89,32 @@
 		                </ul>	
                 </div>
             </div>
+
+            <div class="col-md-4">
+                <div onclick="openprodlist('sweet5')" class="well promo" id="collection">
+                    <div class="collection-open">
+                        <b>Ajándékcsomagok</b>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="well describe" id="collection-describe">
+					<ul class="hashmarkul">
+		                	<li>#ajándékcsomag</li>
+							<li>#ateválasztásod</li>
+							<li>#gourmet</li>
+							<li>#collection</li>
+							<li>#finomságok</li>
+							
+							<li>#milegyenbenne</li>
+							<li>#mindentbele</li>
+							<li>#díszdobozos</li>
+							<li>#mézesakalács</li>
+							<li>#szeretettelneki</li>
+		                </ul>		
+                </div>
+            </div>
+
             <div class="col-md-4">
                 <div onclick="openprodlist('sweet4')" class="well promo" id="lollypop">
                     <div class="lollypop-open">
