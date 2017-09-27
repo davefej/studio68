@@ -310,85 +310,9 @@
 </div>
 
 <!--TEAM SEGMENT-->
-<div class="team_segment container-fluid segmentoverflow" id="team">
-    <div class="title-block">
-     <h1 class="teamsegmenttitle">Csapat</h1>
-     <div class="teamtable-container">
-	    	<table>
-				<tr>
-				<td>
-					<img class="teamimg" alt="profilkép" src="res/img/zoli_profil.png" width="250" height="250">
-					  <div class="teamitemdiv">
-						 <span class="teamname">Plicher Zoltán</span><br/>
-		                 <span class="teamtitle">ügyvezető igazgató</span><br/>
-		                 <a class="teammail" href="mailto:zoltan@studio68.hu">zoltan@studio68.hu</a>
-	                     <br/><br/><span class="teamtext">Vallom, hogy a megalkuvást nem ismerő, alázatos hivatás gyakorlása, kimunkálja azt a bizalmat, amely reménységet és hitet adhat a jövő célkitűzéseihez.</span>
-	                    
-	                 </div>
-				</td>
-				<td>
-					<img class="teamimg" alt="profilkép" src="res/img/andras_profil.png" width="250" height="250">
-					<div class="teamitemdiv">
-	                   <span class="teamname">Lőrincz András</span><br/> 
-	                   <span class="teamtitle">kereskedelmi igazgató</span> <br/>
-	                   <a class="teammail" href="mailto:andras@studio68.hu">andras@studio68.hu</a>
-	                   <br/><a class="teammail" href="tel:+36202507103">+36202507103</a>	                   
-	                   <br/><br/><span class="teamtext">Először tedd meg amit kell, aztán tedd meg amit lehet, utána a lehetetlen is sikerülni fog!</span>                 </div>
-				</td>
-				<td>
-					<img class="teamimg" alt="profilkép" src="res/img/deni_profil.png" width="250" height="250">
-					<div class="teamitemdiv">
-						 <span class="teamname">Droszt Denisa</span><br/> 
-	                     <span class="teamtitle">promóciós vezető</span>
-	                     <br/><a class="teammail" href="mailto:deni@studio68.hu">deni@studio68.hu</a>
-	                     <br/><a class="teammail" href="tel:+36303310248">+36303310248</a>
-                     	 <br/><br/><span class="teamtext">A minőségre törekszem, és akkor is próbálok jó munkát végezni, ha éppen nincs szem előtt!</span>
-	                </div>
-				</td>
-	            <td>
-					<img class="teamimg" alt="profilkép" src="res/img/reni_profil.png" width="250" height="250">
-					<div class="teamitemdiv">
-						  <span class="teamname">Ádám Renáta</span><br/> 
-	                      <span class="teamtitle">promóciós szakértő</span>
-	                      <br/><a class="teammail" href="mailto:reni@studio68.hu">reni@studio68.hu</a>
-	                      <br/><a class="teammail" href="tel:+36305401501">+36305401501</a>
-                      	  <br/><br/><span class="teamtext" >A lehetőségeket nem csak megkapni kell, hanem élni is tudni kell velük!</span>
-	                </div>
-				</td>
-				<td>
-					<img class="teamimg" alt="profilkép" src="res/img/evi_profil.png" width="250" height="250">
-					<div class="teamitemdiv">
-						 <span class="teamname">Szabó Éva</span><br/> 
-	                     <span class="teamtitle">promóciós asszisztens</span>
-	                     <br/><a class="teammail" href="mailto:eva@studio68.hu">eva@studio68.hu</a>
-	                     <br/><a class="teammail" href="tel:+36306590826">+36306590826</a>                     
-                     	 <br/><br/><span class="teamtext" >Semmi sem fontosabb a szenvedélynél. Nem számít, mit csinálsz az életedben, azt szenvedéllyel tedd!</span>                                
-	                 </div>
-				</td>
-				<td>
-					<img class="teamimg" alt="profilkép" src="res/img/robi_profil.png" width="250" height="250">
-					<div class="teamitemdiv">
-						 <span class="teamname">Lutze Róbert</span><br/> 
-	                     <span class="teamtitle">logisztikai vezető</span>
-	                     <br/><a class="teammail" href="mailto:logisztika@studio68.hu">logisztika@studio68.hu</a> 
-	                     <br/><a class="teammail" href="tel:+36304056748">+36304056748</a>                     
-	                     <br/><br/><span class="teamtext">Kiemelten figyelek arra, hogy mindig, minden időben és épségben célba érjen!</span>     
-	                 </div>
-				</td>
-				<td>
-					<img class="teamimg" alt="profilkép" src="res/img/magdi_profil.png" width="250" height="250">
-					<div class="teamitemdiv">
-						 <span class="teamname">Csorba Magdolna</span><br/>
-	                     <span class="teamtitle">pénzügy / könyvelés</span>
-	                    <br/><a class="teammail" href="mailto:magdi@studio68.hu">magdi@studio68.hu</a>
-	                    <br/><br/><span class="teamtext">Szeretem a munkám. Hivatásomnak tekintem.
-							Bár látszólag „csak” papírmunka és számok tengere, én mégis örömmel végzem.
-							Érzem, hogy számítanak rám, és ez kellő motivációt ad a mindennapokhoz.</span>                 
-				</div>
-				</td>
-			</tr>
-		</table>
-	 </div>
-    </div>
+<a style="display:block" href="http://online.fliphtml5.com/ohnj/gnag/" target="_blank">
+<div href="http://online.fliphtml5.com/ohnj/gnag/" class="team_segment container-fluid segmentoverflow" id="team">
+	<!-- SZEZONÁLIS UPDATE. KÖNNYŰ VISSZATÉRÉSHEZ A b4bf9f5f76937bac1174fe8ba3b5c1772fe91629 HASH-ű COMMITHOZ ROLLBACK--> 
 </div>
+</a>
 

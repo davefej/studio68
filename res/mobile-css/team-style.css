@@ -1,8 +1,10 @@
 .team_segment{
-    min-height: 100%;
+    min-height: 65%;
     width: 100%;
     
-    background: #181819 no-repeat center center; 
+    background-image: url("../img/68_karibanner.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
