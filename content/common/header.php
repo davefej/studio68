@@ -3,7 +3,7 @@
 	
 	<?php 
 	//TODO UPDATE VERSION WHEN RELEASE!!
-		$version = 5;
+		$version = 8;
 		if($mobile == true){
 			$css = "mobile-css";
 		}else{
@@ -64,4 +64,8 @@
 <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
 		
 	</head>
-	<body>
+
+<?php 
+//require 'googleuat.php';
+?>
+<body>

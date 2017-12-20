@@ -1,0 +1,25 @@
+1020175
+{"email":"a@a.hu","lastname":"dsa","firstname":"da","message":"Kedves Stúdió 68!\n\nSzeretnék ajánlatot kérni a Napelemes Powerbank, MO9075-16  termékre.\n\nDarabszám: \nGrafikai kivitelezés / színek száma: \nKért szállítási határidő: \nEgyéb információ: \n","pass":"123456_pass"}
+
+-------------------
+
+1020175
+{"email":"dsa@sa.hu","lastname":"dsa","firstname":"dsa","message":"Kedves Stúdió 68!\n\nSzeretnék ajánlatot kérni a Napelemes Powerbank, MO9075-16  termékre.\n\nDarabszám: \nGrafikai kivitelezés / színek száma: \nKért szállítási határidő: \nEgyéb információ: \n","pass":"123456_pass"}
+
+-------------------
+
+1020175
+{"email":"a@a.hu","lastname":"dsa","firstname":"dsa","message":"Kedves Stúdió 68!\n\nSzeretnék ajánlatot kérni a Napelemes Powerbank, MO9075-16  termékre.\n\nDarabszám: \nGrafikai kivitelezés / színek száma: \nKért szállítási határidő: \nEgyéb információ: \n","pass":"123456_pass"}
+
+-------------------
+
+1020175
+{"email":"a@a.hu","lastname":"dsa","firstname":"dsa","message":"Kedves Stúdió 68!\n\nSzeretnék ajánlatot kérni a Napelemes Powerbank, MO9075-16  termékre.\n\nDarabszám: \nGrafikai kivitelezés / színek száma: \nKért szállítási határidő: \nEgyéb információ: \n","pass":"123456_pass"}
+
+-------------------
+
+1020175
+{"email":"a@a.hu","lastname":"a","firstname":"a","message":"Kedves Stúdió 68!\n\nSzeretnék ajánlatot kérni a Napelemes Powerbank, MO9075-03  termékre.\n\nDarabszám: \nGrafikai kivitelezés / színek száma: \nKért szállítási határidő: \nEgyéb információ: \n","pass":"123456_pass"}
+
+-------------------
+

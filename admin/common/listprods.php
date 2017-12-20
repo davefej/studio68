@@ -41,10 +41,11 @@ if(isset($_GET['admin']) && $_GET['admin'] == true){
 				<div class='proditem'>
 					<img class='prodimgbg' src='<?php echo $currpath.$jsonintem['name']; ?>'></img>					
 				</div>
-				<div class='prodtitle <?php  echo $css."prodtitlecolor" ?>'><?php echo $jsonintem['txt']; ?> </div>
+				<div id='prodtitle_<?php echo $i;?>' class='prodtitle <?php  echo $css."prodtitlecolor" ?>'><?php echo $jsonintem['txt']; ?> </div>
 				<div class='proddesc <?php  echo $css."proddesccolor" ?>'>
+				<div class="offer" onclick='offer(<?php echo $i;?>)'><button id="offerbutton_<?php echo $i?>">Ajánlatkérés</button></div>
 				<div class="proddescdotdot">...</div>
-				<div class="proddescdetails"><?php echo $jsonintem['desc']; ?></div> 
+				<div id='proddesc_<?php echo $i;?>' class="proddescdetails"><?php echo $jsonintem['desc']; ?></div> 
 				</div>
 				
 				<?php if($admin){?>

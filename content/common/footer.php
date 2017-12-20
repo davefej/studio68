@@ -66,7 +66,7 @@
 	    <script src="res/bootstrap/js/bootstrap.min.js"></script>
 	    
 	    <?php } ?>
-        <script src="res/js/prodlist.js?v=2"></script>
+        <script src="res/js/prodlist.js?v=9"></script>
         <?php
         if($mobile == false && $page == "home"){
         	echo '<script src="res/js/vegas.js"></script>';

@@ -69,7 +69,7 @@
 
         <div class="row">
             <div class="col-md-4">
-                <div onclick="openprodlist('http://www.tshirteurope.com/hu')" class="well promo" id="textile">
+                <div onclick="openurl('http://www.tshirteurope.com/hu')" class="well promo" id="textile">
                     <div class="textile-open"><b>Textilek</b>
                     </div>
                 </div>
@@ -91,7 +91,7 @@
 	              </div>
 	          </div>
             <div class="col-md-4">
-                <div onclick="openprodlist('http://www.trophees-des-vainqueurs.com/TDV/TDVSP2016/index.html')" class="well promo" id="gallery">
+                <div onclick="openurl('http://www.trophees-des-vainqueurs.com/TDV/TDVSP2016/index.html')" class="well promo" id="gallery">
                     <div class="gallery-open"><b>Serlegek, Kupák, Érmek</b>
                     </div>
                 </div>

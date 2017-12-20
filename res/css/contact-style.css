@@ -58,6 +58,16 @@ a[href^="https://www.google.com/maps"] {
     text-align: center;
 }
 
+.offer_contact_us{
+    width:100%;
+    font-family: 'Muli', sans-serif;
+    font-size:3vw;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    color: #777777;
+    text-align: center;
+}
+
 .contact_us1{
 	width:100%;
     font-family: 'Muli', sans-serif;

@@ -35,8 +35,9 @@ if(isset($_GET['admin']) && $_GET['admin'] == true){
 					<div class='proditem'>
 						<img class='prodimgbg' src='<?php echo $currpath.$jsonintem['name']; ?>'></img>					
 					</div>
-				<div class='prodtitle <?php  echo $css."prodtitlecolor" ?>'><?php echo $jsonintem['txt']; ?> </div>
-				<div class='proddesc <?php  echo $css."proddesccolor" ?>'><?php echo $jsonintem['desc']; ?> </div>
+				<div id='prodtitle_<?php echo $i;?>' class='prodtitle <?php  echo $css."prodtitlecolor" ?>'><?php echo $jsonintem['txt']; ?> </div>
+				<div class="offer" onclick='offer(<?php echo $i;?>)'><button style="color:black" id="offerbutton_<?php echo $i?>">Ajánlatkérés</button></div>				
+				<div id='proddesc_<?php echo $i;?>' class='proddesc <?php  echo $css."proddesccolor" ?>'><?php echo $jsonintem['desc']; ?> </div>
 			</div>
 			</td>
 			

@@ -97,3 +97,74 @@ function validateEmail(email) {
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
 }
+
+function offersendMessage(id){
+	$(".offer_contact_us").hide();
+	
+    // Maybe show a loading indicator...
+	if(!validateEmail($("#offeremail").val())){
+		$("#offer_error_mail").show();
+		return;
+	}
+	
+	if($("#offerlastname").val() == "" || $("#offerfirstname").val() == "" || $("#offermessage").val() == ""){
+		$("#offer_error_empty").show();
+		return;
+	}
+	
+	
+	
+	$("#offer_loading_header").show();
+	var data = {};
+	data.email = $("#offeremail").val();
+	data.lastname = $("#offerlastname").val()
+	data.firstname =  $("#offerfirstname").val()
+	data.message =  $("#offermessage").val()
+	data.pass = "123456_pass";
+    
+     	$.ajax({
+        type: 'POST',
+        cache: false,
+        url: "contact_us.php",
+        data: JSON.stringify(data), 
+        success: function(msg) {
+
+        	setTimeout(function(){ 
+        		$(".offer_contact_us").hide();
+            	$("#offer_success").show();
+            	if(offerbb){
+            		debugger;
+            		setTimeout(function(){
+            			offerbb.modal('hide'); 
+                		offerbb = null;
+            		},1000);
+            		
+            	}
+        	}, 1000);
+        	
+        	
+        	$("#offerbutton_"+id).html("Elküldve");
+        	$("#offerbutton_"+id).attr("disabled", true);
+        	$("#offerbutton_"+id).css({
+        		background: "gray",
+        		color: "white"
+        	});
+        	
+        	
+        	
+        	
+        	ga('send', 'event', 'ajanlatkeres', 'katt');
+        	
+        	
+        	
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+        	setTimeout(function(){ 
+        		$(".offer_contact_us").hide();
+        		$("#offer_error").show();
+        	}, 1000);
+        }
+    });
+     	
+     	
+}

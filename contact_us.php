@@ -1,18 +1,17 @@
 <?php
+
 $entityBody = file_get_contents('php://input');
 $data = json_decode($entityBody,True);
 
 if(mailLimit()){	
-	$myfile = fopen("maillimit.txt", "a") or die("Unable to open file!");
-	$txt = date("now")."\r\n".$message."\r\n\r\n-------------------\r\n\r\n";
-	fwrite($myfile, $txt);
-	fclose($myfile);
+	saveEmail($entityBody);
 	exit;
 }
 
 
 if( !isset($data['email']) || !filter_var($data['email'], FILTER_VALIDATE_EMAIL) || !isset($data['message']) 
 		|| !isset($data['firstname']) || !isset($data['lastname'])){
+	saveEmail($entityBody);
 	header("HTTP/1.1 400 Bad Request");
 	return true;
 }
@@ -23,23 +22,19 @@ $data['lastname'] = htmlspecialchars($data['lastname'], ENT_QUOTES, 'UTF-8');
 
 
 //TODO
-$to      = 'david@davidanddavid.hu';
-//$to      = 'info@studio68.hu';
+//$to      = 'david@davidanddavid.hu';
+$to      = 'info@studio68.hu';
 
 
 $subject = 'Weblap - Üzenet';
-$message = "Kedves Studio68!\r\n\r\n".$data['message']."\r\n\r\n".$data['lastname']." ".$data['firstname']."\r\n"."\r\n";
+$message = "".$data['message']."\r\n\r\n".$data['lastname']." ".$data['firstname']."\r\n"."WEBLAP ÜZENET!\r\n";
 $headers = 'From: '.$data['email']."\r\n";
 $headers .= "Content-Type: text/plain;charset=utf-8\r\n";
 
 if(mail($to,$subject,$message,$headers)){
 	
 }else{
-
-	$myfile = fopen("mailerror.txt", "a") or die("Unable to open file!");
-	$txt = date("now")."\r\n".$message;
-	fwrite($myfile, $txt);
-	fclose($myfile);
+	saveEmail($entityBody);
 }
 
 
@@ -89,6 +84,13 @@ function mailLimit(){
 		return false;
 	}
 	
+}
+
+function saveEmail($msg){
+	$myfile = fopen("maillimit.txt", "a") or die("Unable to open file!");
+	$txt = date("now")."\r\n".$msg."\r\n\r\n-------------------\r\n\r\n";
+	fwrite($myfile, $txt);
+	fclose($myfile);
 }
 
 ?>
