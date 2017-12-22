@@ -254,3 +254,26 @@ body{
 	padding-left:0px;
 	padding-right:0px;
 }
+
+.closed_segment{
+	    min-height: 65%;
+    width: 100%;
+    
+    background: #86001f;
+    text-align:center;
+    font-size:1.2em; 
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-right: 5%;
+    padding-left: 5%;
+
+    cursor: pointer;
+}
+
+.specfont-closed{
+	    font-family: fantasy;
+}

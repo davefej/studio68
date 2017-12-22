@@ -9,6 +9,21 @@
 	</div>
 </div>
 
+<!-- CLOSED -->
+
+<div class="closed_segment container-fluid segmentoverflow" id="closed">
+<br/>
+<br/>
+	<b style="font-size:1.5em;">Cégünk 2017. december 22.<br/> és 2018 január 2. között ZÁRVA tart.</b><br/>
+	<br/>
+	<font>
+	Ezen időszak alatt sem e-mail-ben,<br/> sem telefonon nem vagyunk elérhetőek!<br/>
+	2018-ban megújult erővel állunk ismét rendelkezésükre!<br/>
+	Keressenek mindket bizalommal!<br/>
+	</font>
+	<font class="specfont-closed">Áldott Békés Meghitt ünnepeket kívánunk!</font>
+</div>
+
 
 <!--DEPARTMENT SEGMENT-->
 <div class="departments_segment container-fluid nopadding" id="departments">

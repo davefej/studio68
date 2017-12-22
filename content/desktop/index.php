@@ -27,7 +27,7 @@
 <div class="closed_segment container-fluid segmentoverflow" id="closed">
 <br/>
 <br/>
-	<b style="font-size:1.5em;">Cégünk 2017. december 22.<br/> és 2018 január 2 között ZÁRVA tart.</b><br/>
+	<b style="font-size:1.5em;">Cégünk 2017. december 22.<br/> és 2018 január 2. között ZÁRVA tart.</b><br/>
 	<br/>
 	<font>
 	Ezen időszak alatt sem e-mail-ben,<br/> sem telefonon nem vagyunk elérhetőek!<br/>
