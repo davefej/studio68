@@ -10,7 +10,7 @@
 </div>
 
 <!-- CLOSED -->
-
+<!--  
 <div class="closed_segment container-fluid segmentoverflow" id="closed">
 <br/>
 <br/>
@@ -23,7 +23,7 @@
 	</font>
 	<font class="specfont-closed">Áldott Békés Meghitt ünnepeket kívánunk!</font>
 </div>
-
+-->
 
 <!--DEPARTMENT SEGMENT-->
 <div class="departments_segment container-fluid nopadding" id="departments">
