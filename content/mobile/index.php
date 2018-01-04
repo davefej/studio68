@@ -325,9 +325,10 @@
 </div>
 
 <!--TEAM SEGMENT-->
+<!-- SZEZONÁLIS UPDATE. KÖNNYŰ VISSZATÉRÉSHEZ A b4bf9f5f76937bac1174fe8ba3b5c1772fe91629 HASH-ű COMMITHOZ ROLLBACK--> 
+<!-- 
 <a style="display:block" href="http://online.fliphtml5.com/ohnj/gnag/" target="_blank" id="christmas" >
-<div href="http://online.fliphtml5.com/ohnj/gnag/" class="team_segment container-fluid segmentoverflow" id="team">
-	<!-- SZEZONÁLIS UPDATE. KÖNNYŰ VISSZATÉRÉSHEZ A b4bf9f5f76937bac1174fe8ba3b5c1772fe91629 HASH-ű COMMITHOZ ROLLBACK--> 
-</div>
+	<div href="http://online.fliphtml5.com/ohnj/gnag/" class="team_segment container-fluid segmentoverflow" id="team">
+	</div>
 </a>
-
+ -->
