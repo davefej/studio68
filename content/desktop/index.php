@@ -7,7 +7,7 @@
 			<li class="awesome-tooltip" title="Kezdőoldal" id="main-nav"><a href="#main"></a></li>
 			<li class="awesome-tooltip" title="Cégünkről" id="timeline-nav"><a href="#timeline"></a></li>
 			<li class="awesome-tooltip" title="Referenciák" id="reference-nav"><a href="#references"></a></li>
-            <li class="awesome-tooltip" title="Karácsony" id="team-nav"><a href="#team"></a></li>          
+            <li class="awesome-tooltip" title="Katalógus" id="team-nav"><a href="#team"></a></li>          
 			<li class="awesome-tooltip" title="Kapcsolat" id="contact-nav"><a href="#contact"></a></li>
 			</ul>
 		</div>
@@ -362,9 +362,9 @@
 <!--TEAM SEGMENT-->
 <!-- SZEZONÁLIS UPDATE. KÖNNYŰ VISSZATÉRÉSHEZ A b4bf9f5f76937bac1174fe8ba3b5c1772fe91629 HASH-ű COMMITHOZ ROLLBACK--> 
 
-<!-- 
-<a style="display:block" href="http://online.fliphtml5.com/ohnj/gnag/" target="_blank" id="christmas">
-	<div href="http://online.fliphtml5.com/ohnj/gnag/" class="team_segment container-fluid segmentoverflow" id="team">
+
+<a style="display:block" href="http://online.fliphtml5.com/ohnj/mkje/" target="_blank" id="christmas">
+	<div href="http://online.fliphtml5.com/ohnj/mkje/" class="catalog_segment container-fluid segmentoverflow" id="team">
 	</div>
 </a>
--->
+

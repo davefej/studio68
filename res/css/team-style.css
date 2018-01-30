@@ -15,6 +15,22 @@
     cursor: pointer;
 }
 
+.catalog_segment{
+    height: 75%;
+    width: 100%;
+    
+    background-image: url("../img/giftcatalog.png"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-right: 5%;
+    padding-left: 5%;
+    cursor: pointer;
+}
+
 
 .teamtable{
 	width:100%;
