@@ -23,6 +23,8 @@ if(isset($_SESSION['auth']) && $_SESSION['auth'] == true){
 			<div class="adminheader">
 			<a href="hirlevel.php">HÍRLEVÉL</a>
 			<a href="editor.php" >TERMÉKEK</a>
+			
+			<a href="content.php" >TARTALOM</a>
 			<a href="blog.php" >BLOG</a>
 			<a href="logout.php" >Kilépés</a>
 			</div>

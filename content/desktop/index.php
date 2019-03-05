@@ -142,264 +142,31 @@
       
 <!--REFERENCES SEGMENT-->
 <div class="references_segment container-fluid segmentoverflow" id="references">
-    <div class="segment_title" style="margin-bottom: 50px;">
+    <div class="segment_title references_segment_title" style="margin-bottom: 50px;">
         <h1 class='reference-title'>Referenciák</h1>
     </div>
-    <div class="title-block3">
-     <ul id="scroller2">
-     	<li>
-     		<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo1.jpg" >
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo2.jpg" >
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo3.jpg" >
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo4.jpg" >
-			</div>
-     	</li>
-     	<li>
-     		<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo5.jpg" >
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo6.jpg" >
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo7.jpg" >
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo8.jpg" >
-			</div>
-     	</li>
-     	<li>
-     		<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo9.jpg" >
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo10.jpg" >
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo11.jpg" >
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo12.jpg" >
-			</div>
-     	</li>
-     	<li>
-     		<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo13.jpg" >
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo14.jpg" >
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo15.jpg" >
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo16.jpg" >
-			</div>
-     	</li>
-     	<li>
-     		<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo17.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo18.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo19.png">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo20.jpg">
-			</div>
-     	</li>
-     	<li>
-     		<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo21.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo22.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo23.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo24.jpg">
-			</div>
-     	</li>
-     	<li>
-     		<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo25.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo26.gif">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo27.bmp">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo28.jpg">
-			</div>
-     	</li>
-     	<li>
-     		<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo29.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo30.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo31.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo32.bmp">
-			</div>
-     	</li>
-     	<li>
-     		<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo33.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo34.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo35.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo36.png">
-			</div>
-     	</li>
-     	<li>
-     		<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo37.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo38.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo39.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo40.jpg">
-			</div>
-     	</li>
-     	<li>
-     		<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo41.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo42.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo43.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo44.jpg">
-			</div>
-     	</li>
-     	<li>
-     		<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo45.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo46.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo47.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo48.jpg">
-			</div>
-     	</li>
-     	<li>
-     		<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo49.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo50.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo51.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo52.gif">
-			</div>
-     	</li>
-     	<li>
-     		<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo53.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo54.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo55.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo56.jpg">
-			</div>
-     	</li>
-     	<li>
-     		<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo57.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo58.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo59.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo60.png">
-			</div>
-     	</li>
-     	<li>
-     		<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo61.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo62.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo63.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo64.png">
-			</div>
-     	</li>
-     	<li>
-     		<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo65.png">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo66.jpg">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo67.png">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo68.png">
-			</div>
-     	</li>
-     	<li>
-     		<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo69.png">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/emptylogo.png">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/emptylogo.png">
-			</div>
-			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" src="res/img/logok/emptylogo.png">
-			</div>
-     	</li>
-     </ul>
+
+     <div class="reference-list-container">
+     <?php 
+     	$img_count = 1;
+     	while($img_count < 70){
+     		?>
+     		<div class="reference-list-column">
+	     		<div  class="refli">
+					<img class="refimg"  alt="referencia logó" src="res/img/logok/logo<?php echo $img_count; ?>.jpg" >
+					
+				</div>
+				<div  class="refli">
+					<img class="refimg"  alt="referencia logó" src="res/img/logok/logo<?php echo $img_count+1; ?>.jpg" >
+					
+				</div>				
+     		</div>
+     		<?php      		     	
+     		$img_count++;
+     		$img_count++;
+     	}
+     
+     ?>
     </div>
 </div>
 

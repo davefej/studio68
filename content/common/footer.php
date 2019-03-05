@@ -75,6 +75,8 @@
         <script src="res/js/jquery1.12.4.js"></script>
         <script src="res/js/jquery-ui.min.js"></script>       
 	    <script src="res/bootstrap/js/bootstrap.min.js"></script>
+	     <script src="res/js/jquery-mousewheel.min.js"></script>       
+	   
 	    
 	    <?php } ?>
         <script src="res/js/prodlist.js?v=9"></script>

@@ -22,29 +22,11 @@
 	require_once "content/".$selector."/index.php";
 	require_once 'content/common/contact.php';
 	require_once 'content/common/footer.php';
+?>
 
-	if(!$mobile){
-?>
-	<script type="text/javascript" src="res/js/jquery.simplyscroll.js"></script>
-	<script type="text/javascript">
-		(function($) {
-			$(function() {
-				$("#scroller").simplyScroll();
-			});
-		})(jQuery);
-	
-		(function($) {
-			$(function() {
-				$("#scroller2").simplyScroll({
-					auto:true,
-					pauseOnHover:true,
-					reference_stop:true,
-					supportsTouch:false
-					});
-			});
-		})(jQuery);
-	
-	</script>
-<?php
-	} 
-?>
+<script>
+$('.reference-list-container').mousewheel(function(e, delta) {
+    $(this).scrollLeft(this.scrollLeft + (-delta * 40));
+    e.preventDefault();
+});
+</script>

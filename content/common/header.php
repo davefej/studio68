@@ -3,12 +3,13 @@
 	
 	<?php 
 	//TODO UPDATE VERSION WHEN RELEASE!!
-		$version = 15;
+		$version = 16;
 		if($mobile == true){
 			$css = "mobile-css";
 		}else{
 			$css = "css";
 		}
+		$NOTADMIN = true;
 	?>
 		<link rel="icon" type="image/png" href="res/img/favicon.png">
 		<!-- COMMON CSS -->

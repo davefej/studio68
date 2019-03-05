@@ -1,3 +1,4 @@
+<?php require_once 'common_helper.php';?>
 	<nav  class="navbar navbar-default navbar-fixed-top <?php echo "navbar-".$page;?>" id="navbar">
 		<div class="container-fluid">
 			<div class="navbar-header" >
@@ -101,14 +102,8 @@
 						?>
 						</style>
           </li>
-
-					<!-- <li><a href="eshop.php" class="nav_element">E-BOLT</a></li> -->
-					<!-- <li><a href="blog.php" class="nav_element">BLOG</a></li> -->
-					<?php if(isset($page) && $page=="blog"){?>
-					<li><a href="index.php#contact" class="nav_element">KAPCSOLAT</a></li>
-					<?php }else{?>
-					<li><a href="#contact" class="nav_element">KAPCSOLAT</a></li>
-					<?php }?>
+					
+					<li><a href="#contact" class="nav_element">KAPCSOLAT</a></li>					
 					<li class="dropdown">
 	         		 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WEBSHOP<span class="caret"></span></a>
 						<ul class="dropdown-menu">
@@ -163,21 +158,23 @@
 							}
 						?>
 						</style>
-          			</li>
-          			<li>          					          		
-	          				<a style="padding-left: 1.3em; background-image: url(res/img/new.png); background-size: 1.3em; background-repeat: no-repeat; background-position: left;" target="__blank" href="res/files/2018sweet.pdf">
-	          				ÉDESSÉG KATALÓGUS
-	          				</a>          				         			
-					</li>
+          			</li> 
+          			         			
+          			
+          			
+				<?php 
+					$news = get_ujdonsag();
+										
+					if($news != null && $news["new_header_text"] != null && $news["new_header_link"] != null){	
+						?>
+						<li>     
+						<a style="padding-left: 1.3em; background-image: url(res/img/new.png); background-size: 1.3em; background-repeat: no-repeat; background-position: left;" target="__blank" href="<?php echo $news["new_header_link"]; ?>">
+						<?php echo $news["new_header_text"]; ?>
+						</a>
+						</li> 
+				<?php }	?>     					          		          				    				         		
+					
 				</ul>
 			</div>
 		</div>
 	</nav>
-
-<!-- icons for departments
-<img class="department_icon" src="res/img/icons/eco_icon.svg">
-<img class="department_icon" src="res/img/icons/sweet_icon.svg">
-<img class="department_icon" src="res/img/icons/gift_icon.svg">
-<img class="department_icon" src="res/img/icons/fan_icon.svg">
-<img class="department_icon" src="res/img/icons/print_icon.svg">
- -->

@@ -236,12 +236,6 @@ body{
     #dot-nav{ display: none;}
 }
 
-.reference-title{
-	color: #e00901;
-	font-size: 4vw;
-
-}
-
 .closed_segment{
 	    min-height: 65%;
     width: 100%;
