@@ -34,6 +34,30 @@ body{
     margin-bottom: 40px;
 }
 
+
+.catalog-text{
+    margin: 0;
+    float: none;
+    text-align: center;
+    color: black;
+    font-size: 4vh;
+    margin-bottom: 10px;
+    color: #777;
+    color:rgba(163, 107, 70, 1);
+    cursor:pointer;
+}
+
+.catalog-new-icon{
+	width:6vh;
+	height:6vh;	
+	margin-top:-5px;
+}
+
+.catalog-container{
+	margin-bottom: 20px;
+}
+
+
 div.container{
     margin: 0;
     padding: 0;

@@ -1,8 +1,73 @@
 function emailView(){
-
-	var txt = tinyMCE.activeEditor.getContent();
-	bootbox.alert(txt)
+	var subject = document.getElementById("subject").value;
+	if(!subject){
+		alert("Tárgy megadása kötelező!")
+		return;
+	}
+	var txt =  window.HTMLEMAIL;
+	if(txt.indexOf("#nev#") == -1){
+		alert("Hiányzik a #nev# a szövegből! Ezt kell beírni a megnevezésben a szövegben, automatikusan felülírásra kerül az email törzsében a címzett nevére é sszemélyre szabott lesz az email");
+		return;
+	}
 	
+	if(txt.indexOf("#link#") == -1){
+		alert("Hiányzik a #link# a szövegből! Ez a személlyre szabott leiratkozási linkre fog cserélődni (ez minden emailben kötelező)")
+		return;
+	}
+	bootbox.alert("<iframe style='width:99%;height:99%;overflow:auto;' id='myframe'></iframe>");
+	var iframe = document.getElementById('myframe');
+    iframedoc = iframe.contentDocument || iframe.contentWindow.document;
+	iframedoc.open();
+	iframedoc.close();
+    iframedoc.documentElement.innerHTML = txt;    
+	window.preview = txt;
+}
+
+function sendNewsLetter(){
+	var msg =   window.HTMLEMAIL;
+	if(msg.indexOf("#nev#") == -1){
+		alert("Hiányzik a #nev# a szövegből! Ezt kell beírni a megnevezésben a szövegben, automatikusan felülírásra kerül az email törzsében a címzett nevére é sszemélyre szabott lesz az email");
+		return;
+	}
+	
+	if(msg.indexOf("#link#") == -1){
+		alert("Hiányzik a #link# a szövegből! Ez a személlyre szabott leiratkozási linkre fog cserélődni (ez minden emailben kötelező)")
+		return;
+	}
+	
+	
+	var subject = document.getElementById("subject").value;
+	if(!subject){
+		alert("Tárgy megadása kötelező!")
+		return;
+	}
+	if(!window.preview || msg != window.preview){
+		alert("Először ellenőrizze az előlnézetet!")
+		return;
+	}else{
+		window.preview = null;
+	}
+	if(confirm("Biztosan kiküldi a hírlevelet?!")){
+		jQuery.ajax({
+			type: 'POST',
+			url: 'save_newsletter.php',
+			data:JSON.stringify({
+				msg:msg,
+				subject:subject
+			}),
+			success: function(data) {
+				if(data == "ok"){
+					alert("Emailek kiküldése Folyamatban");
+				}else{
+					alert("Sikertelen hírlevélkiküldés: "+data);
+					window.newserror = data;
+				}			
+			},
+			error: function(){
+				alert("Hiba, Sikertelen Hírlevél kiküldés");
+			}
+		});
+	}
 }
 
 function deleteprodbutton(name,type){
@@ -22,6 +87,7 @@ function showedit(name){
 function editprodbutton(iter_id){
 	var name = $("#new_name_"+iter_id).val();
 	var desc = $("#new_desc_"+iter_id).val();
+	var price = $("#new_price_"+iter_id).val();
 	var id = $("#id_"+iter_id).val();
 	var type = $("#type_"+iter_id).val();
 	jQuery.ajax({
@@ -32,7 +98,8 @@ function editprodbutton(iter_id){
 			name:name,
 			desc:desc,
 			id:id,
-			type:type
+			type:type,
+			price:price
 		}),
 		success: function(data) {
 			alert("szerkesztve "+data);
@@ -120,3 +187,66 @@ function readURL(input) {
 $("#imgupload").change(function(){
     readURL(this);
 });
+
+function deleteUser(id){
+	
+	if(!confirm("Biztosan törli?")){
+		return;
+	}
+	
+	var str;
+	quest = window.location.href.indexOf("?");
+	if(quest > -1){
+		str = window.location.href.substring(0,quest);
+	}else{
+		str = window.location.href;
+	}
+	window.location.href = str+"?delete="+id;
+}
+
+function htmlupload(){
+	var x = document.getElementById("hirlevelhtml");
+	var txt = document.getElementById("uploadmsg");
+	if ('files' in x) {
+	    if (x.files.length == 0) {
+	        console.log("nincs file");
+	        txt.innerHTML = "Feltöltésre vár"
+	    } else {
+	    	txt.innerHTML = "feltöltés folyamatban!";	        
+	        var fileReader = new FileReader();
+	        fileReader.onload = function(fileLoadedEvent){
+	            var textFromFileLoaded = fileLoadedEvent.target.result;
+	            console.log("HTML CONTENT UPLOADED");
+	            try{
+	            	var str = html_beautify(textFromFileLoaded);
+	            	str = str.replace(/<!--[\s\S]*?(?:-->)/g, '');
+	            	lines = str.split("\n");
+	            	var str2 = "";
+	            	for(var i = 0; i < lines.length; i++){
+	            		str2 += lines[i].trim() +"\n";
+	            	}            	
+	            	window.HTMLEMAIL = str2;
+		            console.log(textFromFileLoaded);
+		            console.log(window.HTMLEMAIL);		            
+	            }catch(e){
+	            	alert("Sikertelen formázás!");
+	            	return;
+	            }
+	            txt.innerHTML = "feltöltés Kész!"
+	            	 document.getElementById("preview").style.display ="block";
+	            document.getElementById("send").style.display ="block";
+	        };
+	        fileReader.readAsText(x.files[0], "UTF-8");
+	        
+	    }
+	} 
+	
+}
+
+
+function attuploadfunc(){
+	document.getElementById("uploadbtnatt").style.display = "block";	
+}
+
+
+

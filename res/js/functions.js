@@ -7,6 +7,7 @@ function openurl(url){
 }
 
 $(document).ready(function () {
+	showdata_policy();
     if($(".well-contact").height() > $(".well-address").height())
         $(".well-address").height($(".well-contact").height());
     else
@@ -70,7 +71,7 @@ function sendMessage(){
 	data.message =  $("#message").val()
 	data.pass = "123456_pass";
     
-     	$.ajax({
+ 	$.ajax({
         type: 'POST',
         cache: false,
         url: "contact_us.php",
@@ -153,7 +154,16 @@ function offersendMessage(id){
         	
         	
         	
-        	ga('send', 'event', 'ajanlatkeres', 'katt');
+        	//ga('send', 'event', 'ajanlatkeres', 'katt');
+        	try{
+        		gtag('event', 'ajanlatkeres', {
+          		  'event_category' : 'ajanlatkeres',
+          		  'event_label' : 'katt'
+          		});
+        	}catch(e){
+        		
+        	}
+        	
         	
         	
         	
@@ -168,3 +178,236 @@ function offersendMessage(id){
      	
      	
 }
+
+function showdata_policy(){
+	if(typeof localStorage !== "undefined" && !Number(localStorage.data_policy)){
+		document.getElementById("data_policy").style.display="";		
+	}	
+}
+
+function hidedata_policy(){
+	if(typeof localStorage !== "undefined"){
+		localStorage.data_policy = 1;
+	}
+	document.getElementById("data_policy").style.display="none";
+	
+}
+
+if(typeof loadnewsletter != "undefined" && loadnewsletter){
+	subscribe_newsletter();
+}
+
+if(typeof unsubscribe_id != "undefined" && unsubscribe_id){
+	unsubscribe(unsubscribe_id);
+}
+
+if(typeof unsubscribe_mail != "undefined" && unsubscribe_mail){
+	unsubscribe_email();
+}
+
+if(typeof newsletter_counter != "undefined" && newsletter_counter){
+	call_newsletter_counter();
+}
+
+
+
+
+
+function subscribe_newsletter(){
+	var frommail = "";
+	try{
+		frommail = atob(decodeURIComponent(nlfrom));
+	}catch(e){
+		frommail = "";
+	}
+	
+	var divcontent ="";
+	divcontent += '<div class="newsletterok" id="newsletterok">Köszönjük, hogy feliratkozott hírlevelünkre!</div>'
+	divcontent += '<div class="newslettercontainer" id="newslettercontainer">'		
+	divcontent += '<div class="newslettertitle" id="newsletter_header">Hírlevél Feliratkozás</div>'
+	divcontent += '<div class="newsletterloading" id="newsletterloading"><img class="contact_loading" src="res/img/loading.gif"></img></div>'
+	divcontent += '<div class="newslettererr" id="newslettererr"></div>'
+	divcontent += '<div class="newsletteritem"><input class="form-control newsletterinput" type="text" id="newslettername" name="newslettername" placeholder="Név"><br>'
+	divcontent += '<input class="form-control newsletterinput" type="email" name="newsletteremail" id="newsletteremail" placeholder="Email cím" value="'+frommail+'" style="width:100%"><br>'
+	divcontent += '<div class="dataprot-container"><input type="checkbox" id="newsletter_datapolicy"><span class="dataprotection" >Hozzájárulok, hogy a Stúdió 68 Reklámajándék Kft, elektronikus hírlevelet küldjön e-mail címemre, valamint az <a target="_blank" href="res/files/adatkezeles.pdf"> adatkezelési Nyilatkozatot</a> elfogadom</span></div></div>';	 
+	divcontent += '<div class="dataprot2">A hozzájárulást bármikor visszavonhatja a hírlevelek alján található linken, vagy a honlapon keresztül.</div>';
+	
+	divcontent += '<div class="newsletteritem"><input class="form-control submit newsletterinput" type="button" onclick="subscribe()" value="Feliratkozom a hírlevélre"></div></div>'
+	bootbox.alert(divcontent)
+}
+
+function subscribe(){
+	try{
+		var container = document.getElementById("newslettercontainer");
+		var loadingnode = document.getElementById("newsletterloading");
+		var oknode = document.getElementById("newsletterok");
+		var errornode = document.getElementById("newslettererr");
+		
+		var name = document.getElementById("newslettername").value;
+		var mail = document.getElementById("newsletteremail").value;
+		var policy = document.getElementById("newsletter_datapolicy").checked;
+		if(!policy){
+			errornode.style.display = "block";
+			errornode.innerHTML = "Adatekezési nyilatkozat elfogadása kötelező";		
+		}else if(!validateEmail(mail)){
+			errornode.style.display = "block";
+			errornode.innerHTML = "Hibás Email cím";	
+		}else if(!name){
+			errornode.style.display = "block";
+			errornode.innerHTML = "Név megadása kötelező";
+		}else{
+			errornode.style.display = "none";
+			loadingnode.style.display = "block";
+			$.ajax({
+		        type: 'POST',
+		        cache: false,
+		        url: "newsletter.php",
+		        data: JSON.stringify({
+		        	email:mail,
+		        	name:name,
+		        	subscribe:1
+		        }),		        
+		        success: function(msg) {
+		        	if(msg.trim() == "ok"){
+		        		setTimeout(function(){ 
+			        		oknode.style.display = "block";
+			        		container.style.display = "none";
+			        		loadingnode.style.display = "none";
+			        	}, 500);
+		        		
+		        	}else if(msg.trim() == "exists"){
+		        		setTimeout(function(){ 
+			        		errornode.style.display = "block";
+			    			errornode.innerHTML = "Ezzel az e-mail címmel már feliratkoztak";
+			    			loadingnode.style.display = "none";
+			        	}, 500);
+		        	}else{
+		        		setTimeout(function(){ 
+			        		errornode.style.display = "block";
+			    			errornode.innerHTML = "Sikertelen Feliratkozás";
+			    			loadingnode.style.display = "none";
+			        	}, 500);
+		        	}
+		        	
+		        },
+		        error: function(jqXHR, textStatus, errorThrown) {
+		        	setTimeout(function(){ 
+		        		errornode.style.display = "block";
+		    			errornode.innerHTML = "Sikertelen Feliratkozás";
+		    			loadingnode.style.display = "none";
+		        	}, 500);
+		        }
+		    });
+			
+		}
+	}catch(e){
+		errornode.innerHTML = "Sikertelen Feliratkozás";
+		errornode.style.display = "block";
+	}
+
+	
+}
+
+function unsubscribe(id){
+	
+	var divcontent ="";
+	divcontent += '<div class="newslettercontainer" id="newslettercontainer">'		
+	divcontent += '<div class="unsubscibeloading" id="unsubscibeloading"><img class="contact_loading" src="res/img/loading.gif"></img></div></div>'
+		bootbox.alert(divcontent)
+	
+	$.ajax({
+        type: 'GET',
+        cache: false,
+        url: "unsubscribe.php?id="+id,	        
+        success: function(msg) {
+        	if(msg.trim() != "ok"){
+        		
+        		setTimeout(function(){ 
+        			if(msg.trim() == "noid"){
+        				var alertmsg = "Hibás leiratkozási link vagy már leiratkozott!";
+        			}else{
+        				var alertmsg = "Sikertelen leiratkozás!";
+        			}
+	        		document.getElementById("unsubscibeloading").innerHTML = alertmsg;
+	        	}, 500);
+        	}else{
+        		setTimeout(function(){ 
+        			document.getElementById("unsubscibeloading").innerHTML = "Sikeres Leiratkozás!";
+	        	}, 500);
+        	}
+        	
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+        	setTimeout(function(){ 
+        		document.getElementById("newslettercontainer").innerHTML = "Sikertelen Leiratkozás!";
+        	}, 500);
+        }
+    });
+}
+
+function unsubscribe_email(){
+
+	var divcontent ="";
+	divcontent += '<div class="newsletterok" id="newsletterok">Sikeres leiratkozás!</div>'
+	divcontent += '<div class="newslettercontainer" id="newslettercontainer">'		
+	divcontent += '<div class="newslettertitle" id="newsletter_header">Hírlevél Leiratkozás</div>'
+	divcontent += '<div class="newsletterloading" id="newsletterloading"><img class="contact_loading" src="res/img/loading.gif"></img></div>'
+	divcontent += '<div class="newslettererr" id="newslettererr"></div>'
+	divcontent += '<input class="form-control newsletterinput" type="email" name="newsletteremail" id="newsletteremail" placeholder="Email cím" style="width:100%"><br>'	 
+	divcontent += '<div class="newsletteritem"><input class="form-control submit newsletterinput" type="button" onclick="dounsubscribe_email()" value="Leiratkozom"></div></div>'
+	bootbox.alert(divcontent);	
+	
+}
+
+function dounsubscribe_email(){
+	var container = document.getElementById("newslettercontainer");
+	var loadingnode = document.getElementById("newsletterloading");
+	var oknode = document.getElementById("newsletterok");
+	var errornode = document.getElementById("newslettererr");
+	
+	var mail = document.getElementById("newsletteremail").value;
+	
+	$.ajax({
+        type: 'GET',
+        cache: false,
+        url: "unsubscribe.php?email="+mail,
+        success: function(msg) {
+        	if(msg.trim() != "ok"){
+        		setTimeout(function(){ 
+        			if(msg.trim() == "noid"){
+        				var alertmsg = "Nincs ilyen e-mail címmel feliratkozás!";
+        			}else{
+        				var alertmsg = "Sikertelen leiratkozás!";
+        			}
+	        		errornode.style.display = "block";
+	    			errornode.innerHTML = alertmsg;
+	    			loadingnode.style.display = "none";
+	        	}, 500);
+        	}else{
+        		setTimeout(function(){ 
+	        		oknode.style.display = "block";
+	        		container.style.display = "none";
+	        		loadingnode.style.display = "none";
+	        	}, 500);
+        	}
+        	
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+        	setTimeout(function(){ 
+        		errornode.style.display = "block";
+    			errornode.innerHTML = "Sikertelen Leiratkozás";
+    			loadingnode.style.display = "none";
+        	}, 500);
+        }
+    });
+	
+}
+
+function call_newsletter_counter(){
+	$.ajax({
+        type: 'GET',
+        cache: false,
+        url: "newscounter.php?type="+newsletter_counter
+    });
+}
+

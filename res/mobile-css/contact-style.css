@@ -267,3 +267,78 @@ textarea.form-control{
 	filter: grayscale(0%);
 	cursor:pointer;
 }
+
+
+
+.newslettercontainer{
+    margin: auto;
+    text-align: center;
+    min-height: 250px;
+    background-color: #EEEEEE;
+    border-width: 0 0 5 0;
+    border-bottom-color: #999999;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    overflow-y:scroll;
+}
+
+.newslettererr{
+	display:none;
+	    color: #e02d2c;
+    font-size: 1.2em;
+}
+
+.newsletterok{
+	display: none;
+    color: green;
+    font-size: 2em;
+    margin: auto;
+    text-align: center;
+    margin-top: 15vh;
+    background-color: #EEEEEE;
+    padding: 1em;
+}
+
+.newslettertitle{
+    width: 100%;
+    font-family: 'Muli', sans-serif;
+    font-size: 2.0em;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    color: #777777;
+    text-align: center;
+}
+
+.newsletteritem{
+	
+    flex: 1;
+}
+
+.newsletterinput{
+	margin-top:1em;
+	min-height:3em;
+}
+.dataprotection{
+	margin-left:1em;
+}
+.dataprot-container{
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+
+.newsletterloading{
+	display:none;
+}
+
+.unsubscibeloading{
+	    font-size: 2.5em;
+}
+
+.dataprot2{
+	font-size:0.8em;
+	color:grey;
+	margin:0.4em;
+}

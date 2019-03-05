@@ -2,7 +2,7 @@
 if(isset($_GET["login"])){
 	$msg = "Sikertelen belépés";
 }else{
-	$msg = "Stúdio68 andmin - Bejelentkezés<br/> ";
+	$msg = "Stúdio68 admin - Bejelentkezés<br/> ";
 }
 if(isset($_GET["logout"])){
 	$msg = "Kilépés Sikeres<br/> Bejelentkezés <br/>";

@@ -43,3 +43,29 @@
                 </div>
             </div>
         </div>
+<?php         
+if ( isset($_GET['newsletter']) && $_GET['newsletter'] == 1 ) {
+	
+    echo '<script>loadnewsletter = 1</script>';
+    if ( isset($_GET['from'])){
+    	echo '<script>nlfrom = "'.$_GET['from'].'"</script>';
+    }
+}
+
+if ( isset($_GET['unsubscribe']) &&  isset($_GET['id']) && $_GET['unsubscribe'] == 1 ) {
+	echo '<script>unsubscribe_id = "'.$_GET['id'].'";</script>';
+}
+
+if ( isset($_GET['unsubscribe']) &&  isset($_GET['email']) && $_GET['unsubscribe'] == 1 ) {
+	echo '<script>unsubscribe_mail = 1;</script>';
+}
+
+
+
+if ( isset($_GET['nl'])) {
+	echo '<script>newsletter_counter = "'.$_GET['nl'].'";</script>';
+}
+
+
+
+?>

@@ -97,12 +97,14 @@
 
 
 <!--LAKOSSÁGI WEBSHOP-->
-<a target="_blank" href="http://www.enajandekom.hu" style="text-decoration: none;">
+<!--<a target="_blank" href="http://www.enajandekom.hu" style="text-decoration: none;">
     <div class="webshop_segment" id="webshop">
         Lakossági Webshop
     </div>
-</a>
-
+</a>-->
+<div onclick="subscribe_newsletter()" class="webshop_segment" id="webshop">
+        Hírlevél Feliratkozás
+    </div>
 
 
 <!--TIMELINE SEGMENT-->
@@ -352,7 +354,49 @@
 			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo59.jpg">
 			</div>
 			<div  class="refli">
-			<img class="refimg"  alt="referencia logó" >
+			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo60.png">
+			</div>
+     	</li>
+     	<li>
+     		<div  class="refli">
+			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo61.jpg">
+			</div>
+			<div  class="refli">
+			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo62.jpg">
+			</div>
+			<div  class="refli">
+			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo63.jpg">
+			</div>
+			<div  class="refli">
+			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo64.png">
+			</div>
+     	</li>
+     	<li>
+     		<div  class="refli">
+			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo65.png">
+			</div>
+			<div  class="refli">
+			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo66.jpg">
+			</div>
+			<div  class="refli">
+			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo67.png">
+			</div>
+			<div  class="refli">
+			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo68.png">
+			</div>
+     	</li>
+     	<li>
+     		<div  class="refli">
+			<img class="refimg"  alt="referencia logó" src="res/img/logok/logo69.png">
+			</div>
+			<div  class="refli">
+			<img class="refimg"  alt="referencia logó" src="res/img/logok/emptylogo.png">
+			</div>
+			<div  class="refli">
+			<img class="refimg"  alt="referencia logó" src="res/img/logok/emptylogo.png">
+			</div>
+			<div  class="refli">
+			<img class="refimg"  alt="referencia logó" src="res/img/logok/emptylogo.png">
 			</div>
      	</li>
      </ul>
@@ -362,10 +406,10 @@
 <!--TEAM SEGMENT-->
 <!-- SZEZONÁLIS UPDATE. KÖNNYŰ VISSZATÉRÉSHEZ A b4bf9f5f76937bac1174fe8ba3b5c1772fe91629 HASH-ű COMMITHOZ ROLLBACK--> 
 <div id="catalog" style="background-color:white;text-align:center;font-size:3em;color:black;    font-family: 'Muli', sans-serif;">
-Lapozzon bele 2018-as ajándéktárgy katalógusunkba
+Lapozzon bele 2019-as ajándéktárgy katalógusunkba
 	
 </div>
-<a style="display:block;background-color:white;" href="http://online.fliphtml5.com/ohnj/mkje/" target="_blank" id="christmas">
+<a style="display:block;background-color:white;" href="http://online.fliphtml5.com/ohnj/xtwq/" target="_blank" id="christmas">
 	<div href="http://online.fliphtml5.com/ohnj/mkje/" class="catalog_segment container-fluid segmentoverflow" id="team">
 	</div>
 </a>

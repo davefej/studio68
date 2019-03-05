@@ -76,8 +76,15 @@
 </div>
 
 <!--LAKOSSÁGI WEBSHOP-->
+<!--
+<a target="_blank" href="http://www.enajandekom.hu" style="text-decoration: none;">
 <div class="webshop_segment" id="webshop">
    Lakossági Webshop
+</div>
+</a>
+-->
+<div onclick="subscribe_newsletter()" class="webshop_segment" id="webshop">
+        Hírlevél Feliratkozás
 </div>
 
 <!--TIMELINE SEGMENT-->
@@ -160,9 +167,7 @@
 			<td>
 			<img class="refimg" alt="referencia logó"src="res/img/logok/logo12.jpg" >
 			</td>
-     	</tr>
-     	<tr>
-     		<td>
+			<td>
 			<img class="refimg" alt="referencia logó"src="res/img/logok/logo13.jpg" >
 			</td>
 			<td>
@@ -170,6 +175,9 @@
 			</td>
 			<td>
 			<img class="refimg" alt="referencia logó"src="res/img/logok/logo15.jpg" >
+     	</tr>
+     	<tr>
+     		
 			</td>
 			<td>
 			<img class="refimg" alt="referencia logó"src="res/img/logok/logo16.jpg" >
@@ -200,9 +208,7 @@
 			<td>
 			<img class="refimg" alt="referencia logó"src="res/img/logok/logo24.jpg">
 			</td>
-     	</tr>
-     	<tr>
-     		<td>
+			<td>
 			<img class="refimg" alt="referencia logó"src="res/img/logok/logo25.jpg">
 			</td>
 			<td>
@@ -220,6 +226,9 @@
 			</td>
 			<td>
 			<img class="refimg" alt="referencia logó"src="res/img/logok/logo30.jpg">
+     	</tr>
+     	<tr>
+     		
 			</td>
 			<td>
 			<img class="refimg" alt="referencia logó"src="res/img/logok/logo31.jpg">
@@ -240,9 +249,7 @@
 			<td>
 			<img class="refimg" alt="referencia logó"src="res/img/logok/logo36.png">
 			</td>
-     	</tr>
-     	<tr>
-     		<td>
+			<td>
 			<img class="refimg" alt="referencia logó"src="res/img/logok/logo37.jpg">
 			</td>
 			<td>
@@ -270,6 +277,8 @@
      	
      		<td>
 			<img class="refimg" alt="referencia logó"src="res/img/logok/logo45.jpg">
+     	</tr>
+     	<tr>     		
 			</td>
 			<td>
 			<img class="refimg" alt="referencia logó"src="res/img/logok/logo46.jpg">
@@ -280,9 +289,7 @@
 			<td>
 			<img class="refimg" alt="referencia logó"src="res/img/logok/logo48.jpg">
 			</td>
-     	</tr>
-     	<tr>
-     		<td>
+			<td>
 			<img class="refimg" alt="referencia logó"src="res/img/logok/logo49.jpg">
 			</td>
 			<td>
@@ -318,8 +325,60 @@
 			<img class="refimg" alt="referencia logó"src="res/img/logok/logo59.jpg">
 			</td>
 			<td>
-			<img class="refimg" alt="referencia logó">
+			<img class="refimg" alt="referencia logó" src="res/img/logok/logo60.png">
 			</td>
+     	</tr>
+     	<tr>
+     		</td>
+			<td>
+			<img class="refimg" alt="referencia logó" src="res/img/logok/logo61.jpg">
+			</td>
+			<td>
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo62.jpg">
+			</td>
+			<td>
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo63.jpg">
+			</td>
+			<td>
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo64.png">
+			</td>
+			<td>
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo65.png">
+			</td>
+			<td>
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo66.jpg">
+			</td>
+			<td>
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo67.png">
+			</td>
+     	
+     		<td>
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo68.png">
+			</td>
+			<td>
+			<img class="refimg" alt="referencia logó"src="res/img/logok/logo69.png">
+			</td>
+			<td>
+			<img class="refimg" alt="referencia logó" src="res/img/logok/emptylogo.png">
+			</td>
+			<td>
+			<img class="refimg" alt="referencia logó" src="res/img/logok/emptylogo.png">
+			</td>
+     	
+     		<td>
+			<img class="refimg" alt="referencia logó" src="res/img/logok/emptylogo.png">
+			</td>
+			<td>
+			<img class="refimg" alt="referencia logó" src="res/img/logok/emptylogo.png">
+			</td>
+			<td>
+			<img class="refimg" alt="referencia logó" src="res/img/logok/emptylogo.png">
+			</td>
+			<td>
+			<img class="refimg" alt="referencia logó" src="res/img/logok/emptylogo.png">
+			</td>
+		</tr>
+		
 	</table>
 	</div>
 </div>
@@ -327,11 +386,11 @@
 <!--TEAM SEGMENT-->
 <!-- SZEZONÁLIS UPDATE. KÖNNYŰ VISSZATÉRÉSHEZ A b4bf9f5f76937bac1174fe8ba3b5c1772fe91629 HASH-ű COMMITHOZ ROLLBACK--> 
 <div style="background-color:white;text-align:center;font-size:2em;color:black;    font-family: 'Muli', sans-serif;">
-Lapozzon bele 2018-as ajándéktárgy katalógusunkba
+Lapozzon bele 2019-as ajándéktárgy katalógusunkba
 	
 </div>
 
-<a style="display:block" href="http://online.fliphtml5.com/ohnj/mkje/" target="_blank" id="christmas">
+<a style="display:block" href="http://online.fliphtml5.com/ohnj/xtwq/" target="_blank" id="christmas">
 	<div href="http://online.fliphtml5.com/ohnj/mkje/" class="catalog_segment container-fluid segmentoverflow" id="team">
 	</div>
 </a>

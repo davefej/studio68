@@ -43,13 +43,14 @@ function getJSON($type){
 	return $ret;
 }
 
-function addElement($type,$text,$desc,$imgname,$status){
+function addElement($type,$text,$desc,$imgname,$status,$price){
 	$data = readJSON($type);
 	$newimg = array();
 	$newimg['name'] = $imgname;
 	$newimg['txt'] = $text;
 	$newimg['status'] = $status;
 	$newimg['desc'] = $desc;
+	$newimg['price'] = $price;
 	$newimg['time'] = date("Y-m-d H:i:s");
 	$newimg['order'] = maxOrder($data);
 	array_push($data,$newimg);
@@ -120,13 +121,14 @@ function changeOrder($type,$name1,$name2){
 	}
 }
 
-function editById($type,$id,$txt,$desc){
+function editById($type,$id,$txt,$desc,$price){
 	$data = readJSON($type);
 	$ret =  false;
 	for($i=0; $i < count($data); $i++){
 		if($data[$i]["name"] == $id){
 			$data[$i]["txt"] = $txt;
 			$data[$i]["desc"] = $desc;
+			$data[$i]["price"] = $price;
 			$ret =  true;
 			break;
 		}

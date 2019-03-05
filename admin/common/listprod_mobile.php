@@ -27,11 +27,18 @@ if(isset($_GET['admin']) && $_GET['admin'] == true){
 			if(!isset($jsonintem['desc'])){
 				$jsonintem['desc'] = "";
 			}
+
+			if(!isset($jsonintem['price'])){
+				$jsonintem['price'] = "";
+			}
 			$i++;
 			?> 
 			<tr>
 			<td class='prodtd <?php  echo $css."prodtdcolor" ?>'>
 			<div class="prodtddiv">	
+				<?php if($jsonintem['price'] != ""){ ?>
+					<div class="  <?php  echo $css."prodtdcolor" ?>  pricetag"><?php echo $jsonintem['price']; ?> Ft+Áfa</div>
+				<?php } ?>
 					<div class='proditem'>
 						<img class='prodimgbg' src='<?php echo $currpath.$jsonintem['name']; ?>'></img>					
 					</div>

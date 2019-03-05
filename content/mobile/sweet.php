@@ -11,7 +11,9 @@
         Minőségi, belga alapanyagból készült táblás –és kocka csokik, bonbonok, egyedi kivitelezésű és megjelenésű csokoládék, cukorkák, rágógumik, ostyák, nápolyik, minden mi szem-szájnak ingere.
         Partnerei pozitív visszajelzésére bizton számíthat, ami így kezdődik majd: Hmmmmm…
     </div>
-
+	<div class="catalog-container">
+    	<a class="catalog-text" target="__blank" href="res/files/2018sweet.pdf">Édesség katalógus 2018 karácsony</a><img class="catalog-new-icon" src="res/img/new.png"/>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-md-8">

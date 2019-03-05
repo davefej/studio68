@@ -45,8 +45,8 @@
 					<td><input type="file" name="img">
 		  				<br/>
 		  			</td>
-		  			<td><input type="text" name="name" placeholder="Név">
-		  				<br/>
+		  			<td><input type="text" name="name" placeholder="Név"><br/>
+		  			<input  name="price" placeholder="Ár" type="number">		  				
 		  			</td>
 		  		</tr>
 		  		<tr>	

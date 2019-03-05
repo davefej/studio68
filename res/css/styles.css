@@ -265,3 +265,36 @@ body{
 	    font-family: fantasy;
 }
 
+.data_policy_container{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    min-height: 6vh;
+    background: #F5F5F5;
+    box-shadow: 0px -3px 9px #a2a0a0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+}
+
+.data_policy_text{
+	    color: #616161;
+    flex: 1;
+    text-align: center;
+}
+
+.data_policy_button{
+	    color: black;
+    margin-right: 2vw;
+    margin-left: 1vw;
+    background-color: #FFC107;
+    border: 0px;
+    padding: 0.4em;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-radius: 0.9em;
+}
+
+.data_policy_link{
+	cursor:pointer;
+}

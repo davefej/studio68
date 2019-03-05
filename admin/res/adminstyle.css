@@ -49,6 +49,8 @@ td{
 .hirleveltigth{
 	 width: 48%;
     float:right; /* add this */
+      max-height: 11em;
+    overflow-y: auto;
    
 }
 
@@ -61,6 +63,7 @@ td{
 .hirlevel2{
 	display:inline-block;
 	    width: 90%;
+	        overflow-y: auto;
 }
 
 .produpload{
@@ -154,4 +157,28 @@ td{
 .blogtestimg{
 	width:310px;
 	margin-top:10px;
+}
+
+.subject{
+	width:30%;
+	margin-bottom:1em;
+	margin:auto;
+}
+
+.upload-container{
+	margin:auto;
+	text-align:center;
+	display:flex;
+	flex-direction:column;
+	width:60%;	
+}
+
+.mailuploaditem{	
+	margin:auto;
+	margin-top:1em;
+	display: flex;
+}
+
+.attcontainer{
+	margin-top:5em;
 }

@@ -30,6 +30,11 @@ if(isset($_GET['admin']) && $_GET['admin'] == true){
 			if(!isset($jsonintem['desc'])){
 				$jsonintem['desc'] = "";
 			}
+			
+			if(!isset($jsonintem['price'])){
+				$jsonintem['price'] = "";
+			}
+			
 			$empty = false;
 			?> 
 			<?php if(($i % 4) == 0){ ?>		
@@ -37,9 +42,12 @@ if(isset($_GET['admin']) && $_GET['admin'] == true){
 			<?php } ?>
 			<td class='prodtd <?php  echo $css."prodtdcolor" ?>'>
 			<div class="prodtddiv">
-			
+			<?php if($jsonintem['price'] != ""){ ?>
+				<div class="  <?php echo $css."prodtdcolor"?>  pricetag"><?php echo $jsonintem['price']; ?> Ft+Áfa</div>
+			<?php } ?>
+						
 				<div class='proditem'>
-					<img class='prodimgbg' src='<?php echo $currpath.$jsonintem['name']; ?>'></img>					
+					<img class='prodimgbg' src='<?php echo $currpath.$jsonintem['name']; ?>'></img>							
 				</div>
 				<div id='prodtitle_<?php echo $i;?>' class='prodtitle <?php  echo $css."prodtitlecolor" ?>'><?php echo $jsonintem['txt']; ?> </div>
 				<div class='proddesc <?php  echo $css."proddesccolor" ?>'>
@@ -54,6 +62,8 @@ if(isset($_GET['admin']) && $_GET['admin'] == true){
 					<input type="checkbox" class="changecb" id="<?php echo $jsonintem['name'];?>" />
 					<div class="myhidden" id="prod_<?php echo $mycount;?>" >
 						<input id="new_name_<?php echo $mycount;?>" type="text" name="new_name" value="<?php echo $jsonintem['txt']; ?>"/>
+						
+						<input id="new_price_<?php echo $mycount;?>" type="text" name="new_price" value="<?php echo $jsonintem['price'];  ?>" placeholder="ár" />
 						<textarea id="new_desc_<?php echo $mycount;?>" name="newdesc"><?php echo $jsonintem['desc']; ?></textarea><br/>
 						<input type="hidden" id="id_<?php echo $mycount;?>" value="<?php echo $jsonintem['name'];?>">
 						<input type="hidden" id="type_<?php echo $mycount;?>" value="<?php echo $uploadtype;?>">

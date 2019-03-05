@@ -3,7 +3,7 @@
 	
 	<?php 
 	//TODO UPDATE VERSION WHEN RELEASE!!
-		$version = 10;
+		$version = 15;
 		if($mobile == true){
 			$css = "mobile-css";
 		}else{
@@ -66,6 +66,7 @@
 	</head>
 
 <?php 
+// NOT IN USE, CHECK FOOTER
 //require 'googleuat.php';
 ?>
 <body>

@@ -1,4 +1,13 @@
 	<!--FOOTER-->
+	<div style="display:none" id="data_policy" class="data_policy_container">
+		<div class="data_policy_text">
+		
+			Az adatvédelmi nyilatkozatot az alábbi linken elolvashatja. <a class="data_policy_link" href="res/files/adatkezeles.pdf" target="_blank">Adatvédelmi Tájékoztató</a> 
+		</div>
+		<button onclick="hidedata_policy()" class="data_policy_button">Rendben
+		</button>
+	</div>
+	
 	
 	<div class="container-fluid red_footer" id="footer">
           <div class="company_details">
@@ -12,7 +21,9 @@
 	          	 </div>
 	             <div class="company_details2">
 	               <a class="whitehref" href="res/files/elismeresek.pdf" target="_blank">Elismerések</a><br/>
-	               <a class="whitehref" href="res/files/rendelesi_feltetelek.pdf" target="_blank">Rendelési Feltételek</a><br/>			          	               
+	               <a class="whitehref" href="res/files/rendelesi_feltetelek.pdf" target="_blank">Rendelési Feltételek</a><br/>
+	               <a class="whitehref" href="res/files/adatkezeles.pdf" target="_blank">Adatkezelési Tájékoztató</a><br/>
+	               <a class="whitehref" href="?unsubscribe=1&email=1" >Hírlevél Leiratkozás</a><br/>			          	               
 		           Adatkezelési azonosító: 40090<br/>
 		           Pénzforgalmi számlaszám: 10400164-01609664-00000000<br/>
 		           
@@ -73,9 +84,10 @@
         	echo '<script src="res/js/animations.js?v=1"></script>';
         }
         ?>
-
-        <script src="res/js/functions.js?v=2"></script>
-        <script src="res/js/bootbox.js"></script>
+		
+		<script src="res/js/bootbox.js"></script>
+        <script src="res/js/functions.js?v=5"></script>
+        
 
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgpGS138e-2Fd5AMMV8TdA5JoKbmxx9zw&callback=initMap"></script>
 
@@ -123,8 +135,8 @@
 
             // Scrolling Functions
             $(window).scroll(function (event) {
-                var first = 312; // Count up to 25x for first
-                var second = 21654; // Count up to 4x for second
+                var first = 337; // Count up to 25x for first
+                var second = 22544; // Count up to 4x for second
 
                 function countStuffUp(points, selector, duration) {
                     //Animate count
@@ -200,6 +212,7 @@
         
         
         <!-- GOOGLE ANALYTICS -->
+        <!--  
         <script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -209,6 +222,17 @@
 		  ga('create', 'UA-89902614-2', 'auto');
 		  ga('send', 'pageview');
 
+		</script>
+		-->
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115769815-1"></script>
+		<script>	
+		  window.dataLayer = window.dataLayer || [];		
+		  function gtag(){dataLayer.push(arguments);}		
+		  gtag('js', new Date());		
+		  gtag('config', 'UA-115769815-1');		
 		</script>
 	</body>
 </html>

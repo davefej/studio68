@@ -91,7 +91,7 @@
 	              </div>
 	          </div>
             <div class="col-md-4">
-                <div onclick="openurl('http://www.trophees-des-vainqueurs.com/TDV/TDVSP2016/index.html')" class="well promo" id="gallery">
+                <div onclick="openurl('http://www.trophees-des-vainqueurs.com/node/8')" class="well promo" id="gallery">
                     <div class="gallery-open"><b>Serlegek, Kupák, Érmek</b>
                     </div>
                 </div>
