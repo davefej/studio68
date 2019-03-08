@@ -278,3 +278,62 @@ div.container{
 	font-size:20px;
 	font-weight:normal;
 }
+
+
+#permium-gift{
+	 background-image: url("../img/premium_gift.png");
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 330px;
+
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+    -webkit-filter: grayscale(30%); /* Chrome, Safari, Opera */
+    filter: grayscale(30%);
+}
+
+#permium-gift:after{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#permium-gift:hover {
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
+}
+
+#permium-gift:hover::after {
+  opacity: 1;
+}
+
+
+.hashmarkul3{
+	color:black;
+	font-size:18px;
+}
+
+.premium-advices{
+	font-weight:bold;
+	font-size:22px;
+	margin-bottom:22px;
+}
+
+.premium-comment{
+	    font-size: 14px;
+    font-style: italic;
+    
+}
+
+.hashmarkul3 > li{
+	margin-bottom:2px;
+	font-weight:normal;
+} 

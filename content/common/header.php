@@ -3,7 +3,7 @@
 	
 	<?php 
 	//TODO UPDATE VERSION WHEN RELEASE!!
-		$version = 16;
+		$version = 17;
 		if($mobile == true){
 			$css = "mobile-css";
 		}else{
