@@ -13,7 +13,7 @@
           <div class="company_details">
 	          	 <div class="company_details1">
 	          	 	   Stúdió 68 Reklámajándék Kft.<br/>
-	          	 	   1119 Budapest, Boglárka utca 32. <br>
+	          	 	   1119 Budapest, Than Károly utca 25.<br>
 			           Adószám: 13219947-2-43<br/>
 		           	   Közösségi Adószám: HU 0001679810<br/>			           
 			           Cégjegyzékszám: 01-09-724274<br/>
@@ -88,7 +88,7 @@
         ?>
 		
 		<script src="res/js/bootbox.js"></script>
-        <script src="res/js/functions.js?v=5"></script>
+        <script src="res/js/functions.js?v=8"></script>
         
 
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgpGS138e-2Fd5AMMV8TdA5JoKbmxx9zw&callback=initMap"></script>

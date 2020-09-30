@@ -17,7 +17,7 @@ $(document).ready(function () {
 window.initMap = function() {
   // Styles a map in night mode.
   var map = new google.maps.Map(document.getElementById('map-frame'), {
-    center: {lat: 47.459255, lng: 19.030968},
+    center: {lat: 47.4576154, lng: 19.0267669},
     zoom: 16,
     styles: [
     	  {
@@ -41,7 +41,7 @@ window.initMap = function() {
   });
   
   var marker = new google.maps.Marker({
-      position: {lat: 47.459255, lng: 19.030968},
+      position: {lat: 47.4576154, lng: 19.0267669},
       map: map
   });
 }

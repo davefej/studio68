@@ -2,8 +2,7 @@
 session_start();
 if(isset($_POST['username']) && isset($_POST['password'])){
 	
-	if($_POST['username'] == "admin" && md5($_POST['password']) == "f95a7edd2e66f5aba9b112c48d2900d7" || 
-			$_POST['username'] == "admin" && $_POST['password'] == "asdfgh"){//TODO		
+	if($_POST['username'] == "admin" && md5($_POST['password']) == "aa21ac96d0166f4865a019ad12e5204e"){	
 		$_SESSION['auth'] = true;
 		header("Location: editor.php");
 	}else{

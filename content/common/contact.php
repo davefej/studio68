@@ -15,7 +15,7 @@
                             <div class="address">
                                 <div class="contact_us1">Elérhetőségek</div>
                                 <b>Stúdió68 <h2 style="font-size: 100%;margin-top: 1%;margin-bottom: 2%;display: inline-block;font-weight:bold;">Reklámajándék</h2> Kft.</b><br/>
-                                1119, Budapest<br>Boglárka utca 32.<br><br><b><a href="mailto:info@studio68.hu">info@studio68.hu</a></b><br>
+                                1119 Budapest<br> Than Károly utca 25.<br><br><b><a href="mailto:info@studio68.hu">info@studio68.hu</a></b><br>
                                 <br><b><a href="tel:+36-1-203-2420">(06)-1-781-3204</a></b><br>
                                 <a href="http://facebook.com/reklamtargyak" target="_blank"><img src="res/img/fb_icon.png" class="fbicon"/></a>
                             </div>
