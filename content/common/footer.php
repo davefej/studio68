@@ -79,7 +79,7 @@
 	   
 	    
 	    <?php } ?>
-        <script src="res/js/prodlist.js?v=9"></script>
+        <script src="res/js/prodlist.js?v=10"></script>
         <?php
         if($mobile == false && $page == "home"){
         	echo '<script src="res/js/vegas.js"></script>';
@@ -88,7 +88,7 @@
         ?>
 		
 		<script src="res/js/bootbox.js"></script>
-        <script src="res/js/functions.js?v=8"></script>
+        <script src="res/js/functions.js?v=10"></script>
         
 
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgpGS138e-2Fd5AMMV8TdA5JoKbmxx9zw&callback=initMap"></script>
