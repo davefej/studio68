@@ -10,16 +10,19 @@
     <div class="gift-intro">
         Röviden és tömören: Aki keres, az talál! :)
     </div>
-
+	<div class="catalog-container">
+    <a class="catalog-text" target="__blank" href="res/files/2020_giftcatalog.pdf">Ajándék katalógus 2020</a>
+    </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <div onclick="openurl('https://www.morethangiftscatalogue.com/CentralEuropeanCatalog/hu/eur/HomePage')" class="well" id="gift-webshop">
                     <div class="gift-webshop-open">
-                        <b>Üzleti webshop</b>
+                        <b>Üzleti webshop<br/>Lépjen Beljebb</b>
                     </div>
                 </div>
             </div>
+            <!--  
             <div class="col-md-4">
                 <div class="well describe" id="gift-webshop-describe">
                   <ul class="hashmarkul">
@@ -37,12 +40,14 @@
 		                </ul>			
                 </div>
             </div>
+            -->
         </div>
 
         <div class="row">
             <div class="col-md-4">
+                <!-- 
                 <div class="well describe" id="custom-gift-describe">
-                <ul class="hashmarkul">		                
+                	<ul class="hashmarkul">		                
 		                	<li>#találjukkiegyütt</li>
 		                	<li>#ötletekmegvalósítva</li>		                	
 		                	<li>#csakaképzelet</li>
@@ -55,18 +60,25 @@
 		                	<li>#önállóarculatotneki</li>
 		                </ul>			
                 </div>
+                 -->
+                 
+                	<div onclick="openurl('https://viewer.xdcollection.com/xd/hu/studio-68/main/')" class="well promo" id="permium-gift">
+                    
+                
             </div>
+           </div>
             <div class="col-md-8">
                 <div  onclick="openprodlist('gift2')" class="well" id="custom-gift">
                     <div class="custom-gift-open">
-                        <b>Egyedi gyártású ajándékok</b>
+                        <b>Egyedi gyártású ajándékok<br/>Lépjen Beljebb</b>
                     </div>
                 </div>
             </div>
         </div>
+      <!-- 
       <div class="row">
             <div class="col-md-3">
-                <div onclick="openurl('https://viewer.xdcollection.com/xd/hu/studio-68/main-2019/#/')" class="well promo" id="permium-gift">
+                <div onclick="openurl('https://viewer.xdcollection.com/xd/hu/studio-68/main/')" class="well promo" id="permium-gift">
                     
                 </div>
             </div>
@@ -90,23 +102,23 @@
                 </div>
             </div>
         </div>
-        
+         -->
         <div class="row">
             <div class="col-md-6">
                 <div onclick="openurl('http://www.tshirteurope.com/hu')" class="well promo" id="textile">
-                    <div class="textile-open"><b>Textilek &amp; Munkaruhák</b>
+                    <div class="textile-open"><b>Textilek &amp; Munkaruhák<br/>Lépjen Beljebb</b>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div onclick="openurl('http://www.enajandekom.hu')" class="well promo" id="people-webshop">
                     <div class="people-webshop-open">
-                        <b>Lakossági webshop</b>
+                        <b>Lakossági webshop<br/>Lépjen Beljebb</b>
                     </div>
                 </div>
             </div>
         </div>
-   
+   <!-- 
         <div class="row">
             <div class="col-md-6">
                 <div class="well describe" id="textile-describe">
@@ -142,6 +154,7 @@
             </div>
              
         </div>
-       </div>
+         -->
+     </div>
 
 </div>

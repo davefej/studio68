@@ -2,7 +2,7 @@
 	<div style="display:none" id="data_policy" class="data_policy_container">
 		<div class="data_policy_text">
 		
-			Az adatvédelmi nyilatkozatot az alábbi linken elolvashatja. <a class="data_policy_link" href="res/files/adatkezeles.pdf" target="_blank">Adatvédelmi Tájékoztató</a> 
+			Az adatvédelmi nyilatkozatot az alábbi linken elolvashatja. <a class="data_policy_link" href="res/files/2020_adatkezeles.pdf" target="_blank">Adatvédelmi Tájékoztató</a> 
 		</div>
 		<button onclick="hidedata_policy()" class="data_policy_button">Rendben
 		</button>
@@ -21,8 +21,8 @@
 	          	 </div>
 	             <div class="company_details2">
 	               <a class="whitehref" href="res/files/elismeresek.pdf" target="_blank">Elismerések</a><br/>
-	               <a class="whitehref" href="res/files/rendelesi_feltetelek.pdf" target="_blank">Rendelési Feltételek</a><br/>
-	               <a class="whitehref" href="res/files/adatkezeles.pdf" target="_blank">Adatkezelési Tájékoztató</a><br/>
+	               <a class="whitehref" href="res/files/2020_rendelesi_feltetelek.pdf" target="_blank">Rendelési Feltételek</a><br/>
+	               <a class="whitehref" href="res/files/2020_adatkezeles.pdf" target="_blank">Adatkezelési Tájékoztató</a><br/>
 	               <a class="whitehref" href="?unsubscribe=1&email=1" >Hírlevél Leiratkozás</a><br/>			          	               
 		           Adatkezelési azonosító: 40090<br/>
 		           Pénzforgalmi számlaszám: 10400164-01609664-00000000<br/>

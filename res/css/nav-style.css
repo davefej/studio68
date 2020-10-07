@@ -222,6 +222,8 @@ button.navbar-toggle collapsed button.navbar-toggle:active{
 
 .department_icon{
 	width:30px;
+	margin-top: -5px;
+    filter: brightness(0) invert(1);
 }
 .department_icon_gray{
 	width:20px;
@@ -234,7 +236,6 @@ button.navbar-toggle collapsed button.navbar-toggle:active{
 }
 
 .department_icon_container{
-	filter: grayscale(100%);
 }
 
 .department_icon_container:hover{

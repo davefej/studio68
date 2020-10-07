@@ -12,20 +12,23 @@
         Partnerei pozitív visszajelzésére bizton számíthat, ami így kezdődik majd: Hmmmmm…
     </div>
 	<div class="catalog-container">
-    <a class="catalog-text" target="__blank" href="res/files/2018sweet.pdf">Édesség katalógus 2018 karácsony</a><img class="catalog-new-icon" src="res/img/new.png"/>
+    <a class="catalog-text" target="__blank" href="res/files/2020_sweet.pdf">Édesség katalógus 2020</a><img class="catalog-new-icon" src="res/img/new.png"/>
     </div>
 	
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <div class="row">
+            	
+                 <!-- <div class="row">
+                   
                     <div class="col-md-6">
                         <div onclick="openprodlist('sweet1')" class="well" id="chocolate">
                             <div class="chocolate-open">
-                                <b>Csokoládék</b>
+                                <b>Csokoládék<br/>Lépjen Beljebb!</b>
                             </div>
                         </div>
                     </div>
+                    
                     <div class="col-md-6">
                         <div class="well describe" id="chocolate-describe">
                          <ul class="hashmarkul">
@@ -42,6 +45,7 @@
 		                </ul>						
                         </div>
                     </div>
+                     
                 </div>
                 <div class="row">
                     <div class="col-md-12">
@@ -60,12 +64,18 @@
 		                </ul>		
                         </div>
                     </div>
-                </div>
+                </div>-->
+            	<div onclick="openprodlist('sweet1')" class="well" id="chocolate">
+            		<div class="chocolate-open">
+                		<b>Csokoládék<br/>Lépjen Beljebb!</b>
+                	</div>
+            	</div>
             </div>
+            
             <div class="col-md-4">
                 <div onclick="openprodlist('sweet3')" class="well promo" id="custom">
                     <div class="custom-open">
-                        <b>Promóciós édességek</b>
+                        <b>Promóciós édességek<br/>Lépjen Beljebb!</b>
                     </div>
                 </div>
             </div>
@@ -73,21 +83,22 @@
         <div class="row">
             <div class="col-md-4">
                 <div onclick="openprodlist('sweet2')" class="well promo" id="bonbon">
-                    <div class="bonbon-open"><b>Nassolnivalók</b></div>
+                    <div class="bonbon-open"><b>Nassolnivalók<br/>Lépjen Beljebb!</b></div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div onclick="openprodlist('sweet5')" class="well promo" id="collections">
-                    <div class="bonbon-open"><b>Ajándékcsomagok</b></div>
+                    <div class="bonbon-open"><b>Ajándékcsomagok<br/>Lépjen Beljebb!</b></div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div onclick="openprodlist('sweet4')" class="well promo" id="lollypop">
-                    <div class="lollypop-open"><b>Cukorkák, nyalókák</b>
+                    <div class="lollypop-open"><b>Cukorkák, nyalókák<br/>Lépjen Beljebb!</b>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- 
         <div class="row">
             <div class="col-md-4">
                 <div class="well describe2" id="bonbon-describe">
@@ -139,5 +150,6 @@
                 </div>
             </div>
         </div>
+         -->
     </div>
 </div>

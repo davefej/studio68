@@ -7,16 +7,28 @@
     <div class="gift-intro">
         Célunk, hogy elősegítsük a Magyarországi sportszakmai szervezetek sport promóciós terveinek megvalósulását. Feladataink közé tartoznak jelenleg: shop ellátás, szurkolói termékek gyártása, Clubok, Egyesületek termékportfóliójának bővítése. Részt vettünk több hazai rendezésű Európa –ill. Világbajnokságon, mint promóciós partner. Vállaljuk továbbá, egy adott sportesemény, hivatalos promóciós termékeinek helyszíni megjelenéssel történő értékesítését is. Felkészült csapatunk várja jelentkezését, valósítsuk meg együtt elképzeléseit!
     </div>
-
+	<div class="catalog-container">
+    <a class="catalog-text" target="__blank" href="res/files/2020_fancatalog.pdf">Katalógus 2020</a>
+    </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <div onclick="openprodlist('fan2')" class="well" id="gift-webshop">
                     <div class="gift-webshop-open">
-                        <b>Szurkolói ajándékok</b>
+                        <b>Szurkolói ajándékok<br/>Lépjen Beljebb</b>
                     </div>
                 </div>
             </div>
+             <!-- 
+            <div class="col-md-6">
+                <div onclick="openurl('http://www.hajra-magyarok.hu')" class="well" id="custom-gift">
+                    <div class="custom-gift-open">
+                        <b>RIA RIA HUNGARIA<br/>Lépjen Beljebb</b>
+                    </div>
+                </div>
+            </div>
+            -->
+            <!-- 
             <div class="col-md-4">
                 <div class="well describe" id="gift-webshop-describe">
                  <ul class="hashmarkul">		                	
@@ -33,8 +45,9 @@
 	                </ul>			
                 </div>
             </div>
+             -->
         </div>
-
+<!-- 
         <div class="row">
             <div class="col-md-4">
                 <div class="well describe" id="custom-gift-describe">
@@ -55,26 +68,27 @@
             <div class="col-md-8">
                 <div onclick="openurl('http://www.hajra-magyarok.hu')" class="well" id="custom-gift">
                     <div class="custom-gift-open">
-                        <b>RIA RIA HUNGARIA</b>
+                        <b>RIA RIA HUNGARIA<br/>Lépjen Beljebb</b>
                     </div>
                 </div>
             </div>
         </div>
-
+ -->
         <div class="row">
             <div class="col-md-6">
                 <div onclick="openurl('http://www.tshirteurope.com/hu')" class="well promo" id="textile">
-                    <div class="textile-open"><b>Textilek</b>
+                    <div class="textile-open"><b>Textilek<br/>Lépjen Beljebb</b>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div onclick="openurl('http://www.trophees-des-vainqueurs.com/node/8')" class="well promo" id="gallery">
-                    <div class="gallery-open"><b>Serlegek, Kupák, Érmek</b>
+                    <div class="gallery-open"><b>Serlegek, Kupák, Érmek<br/>Lépjen Beljebb</b>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- 
         <div class="row">
           <div class="col-md-6">
               <div class="well describe" id="textile-describe">
@@ -109,7 +123,7 @@
               </div>
           </div>
         </div>
-
+ -->
     </div>
 
 </div>

@@ -22,25 +22,26 @@
             <div class="col-md-4">
                 <div onclick="openprodlist('eco1')" class="well" id="energy">
                     <div class="energy-open">
-                        <b >Zöld Energia</b>
+                        <b >Zöld Energia <br/>Lépjen Beljebb!</b>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div onclick="openprodlist('eco2')" class="well" id="textil">
                     <div class="textil-open">
-                        <b>Újrahasznosított Termékek</b>
+                        <b>Újrahasznosított Termékek<br/>Lépjen Beljebb!</b>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div onclick="openprodlist('eco3')" class="well" id="ideas">
                     <div class="ideas-open">
-                        <b>Környezetbarát Ötletek</b>
+                        <b>Környezetbarát Ötletek<br/>Lépjen Beljebb!</b>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- 
         <div class="row">
             <div class="col-md-4">
                 <div class="well describe" id="energy-describe">
@@ -90,6 +91,7 @@
                 </ul>                        
                 </div>
             </div>
-        </div>
+        </div> 
+        -->
     </div>
 </div>

@@ -27,7 +27,7 @@ body{
 }
 
 .gift-intro{
-    min-height: 10%;
+
     margin: 0;
     padding-right: 15%;
     padding-left: 15%;
@@ -35,7 +35,7 @@ body{
     text-align: center;
     color: #777;
     font-size: 3vh;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 div.container{

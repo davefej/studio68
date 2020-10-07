@@ -24,12 +24,14 @@
             <div class="col-md-4">
                 <div onclick="openprodlist('eco1')" class="well" id="energy">
                     <div class="energy-open">
-                        <b >Zöld Energia</b>
+                        <b >Zöld Energia<br/>Lépjen Beljebb</b>
                     </div>
                 </div>
             </div>
+            
             <div class="col-md-4">
                 <div class="row">
+                <!-- 
                     <div class="col-md-12">
                         <div class="well describe" id="energy-describe">
 							 <ul class="hashmarkul">
@@ -47,13 +49,15 @@
                         </div>
                     </div>
                 </div>
+                -->
                 <div class="col-md-4">
                 <div onclick="openprodlist('eco2')" class="well" id="textil">
                     <div class="textil-open">
-                        <b>Újrahasznosított Termékek</b>
+                        <b>Újrahasznosított Termékek<br/>Lépjen Beljebb</b>
                     </div>
                 </div>
             </div>
+            <!-- 
             <div class="row">
                     <div class="col-md-12">
                         <div class="well describe" id="textil-describe">
@@ -72,13 +76,18 @@
                         </div>
                     </div>
             </div>
+            -->
         </div>
+         
         <div class="row">
+            
             <div class="col-md-6">
                 <div onclick="openprodlist('eco3')" class="well promo" id="eco-gifts">
-                    <div class="eco-gifts-open"><b>Környezetbarát Ötletek</b></div>
+                    <div class="eco-gifts-open"><b>Környezetbarát Ötletek<br/>Lépjen Beljebb</b></div>
                 </div>
             </div>
+            
+             <!--
             <div class="col-md-6">
                 <div class="well describe" id="eco-gift-describe">
 					<ul class="hashmarkul">
@@ -95,6 +104,7 @@
 	                </ul>        
             	</div>
             </div>
+              -->
         </div>
     </div>
 </div>

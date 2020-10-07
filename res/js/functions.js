@@ -129,7 +129,12 @@ function offersendMessage(id){
         url: "contact_us.php",
         data: JSON.stringify(data), 
         success: function(msg) {
-
+        	if(msg && typeof msg == "string" && (msg.toLowerCase().indexOf("warn") + msg.toLowerCase().indexOf("fail") +msg.toLowerCase().indexOf("error") > -3)){
+        		return setTimeout(function(){ 
+            		$(".offer_contact_us").hide();
+            		$("#offer_error").show();
+            	}, 1000);
+        	}
         	setTimeout(function(){ 
         		$(".offer_contact_us").hide();
             	$("#offer_success").show();
@@ -229,7 +234,7 @@ function subscribe_newsletter(){
 	divcontent += '<div class="newslettererr" id="newslettererr"></div>'
 	divcontent += '<div class="newsletteritem"><input class="form-control newsletterinput" type="text" id="newslettername" name="newslettername" placeholder="Név"><br>'
 	divcontent += '<input class="form-control newsletterinput" type="email" name="newsletteremail" id="newsletteremail" placeholder="Email cím" value="'+frommail+'" style="width:100%"><br>'
-	divcontent += '<div class="dataprot-container"><input type="checkbox" id="newsletter_datapolicy"><span class="dataprotection" >Hozzájárulok, hogy a Stúdió 68 Reklámajándék Kft, elektronikus hírlevelet küldjön e-mail címemre, valamint az <a target="_blank" href="res/files/adatkezeles.pdf"> adatkezelési Nyilatkozatot</a> elfogadom</span></div></div>';	 
+	divcontent += '<div class="dataprot-container"><input type="checkbox" id="newsletter_datapolicy"><span class="dataprotection" >Hozzájárulok, hogy a Stúdió 68 Reklámajándék Kft, elektronikus hírlevelet küldjön e-mail címemre, valamint az <a target="_blank" href="res/files/2020_adatkezeles.pdf"> adatkezelési Nyilatkozatot</a> elfogadom</span></div></div>';	 
 	divcontent += '<div class="dataprot2">A hozzájárulást bármikor visszavonhatja a hírlevelek alján található linken, vagy a honlapon keresztül.</div>';
 	
 	divcontent += '<div class="newsletteritem"><input class="form-control submit newsletterinput" type="button" onclick="subscribe()" value="Feliratkozom a hírlevélre"></div></div>'
@@ -411,3 +416,60 @@ function call_newsletter_counter(){
     });
 }
 
+function speialOffer(){
+	
+	
+		
+	var ptitle = "Kedves Stúdió 68!\n\nSzeretnék ajánlatot kérni az alábbi termékre.\n\n";
+	ptitle += "Termék: \n";
+	ptitle += "Darabszám: \n";
+	ptitle += "Grafikai kivitelezés / színek száma: \n";
+	ptitle += "Kért szállítási határidő: \n";
+	ptitle += "Cégnév: \n";
+	ptitle += "Egyéb információ: \n";
+
+	
+	var bbcontent = "";
+	if(typeof usemobileview !== 'undefined' && usemobileview){
+		bbcontent += '<div class="col-md-12 col-md-6"style="float: inherit;margin:0 auto;margin-top:2vh;">';
+	}else{
+		bbcontent += '<div class="col-md-12 col-md-6"style="float: inherit;margin:0 auto;margin-top:18vh;">';
+	}
+	bbcontent += '<div class="well well-contact">';
+	bbcontent += ' <div class="contact form-group">';
+         	
+	bbcontent += '<div class="offer_contact_us" id="offer_header">Várjuk ajánlatkérését!</div>';
+	bbcontent += '<div class="offer_contact_us" id="offer_error_mail">Hibás Email</div>';
+	bbcontent += '<div class="offer_contact_us" id="offer_error_empty">Üres Mező!</div>';
+	bbcontent += '<div class="offer_contact_us" id="offer_success">Hamarosan válaszolunk!</div>';
+	bbcontent += '<div class="offer_contact_us" id="offer_error">Sikertelen küldés :(</div>';
+	bbcontent += '<div class="offer_contact_us" id="offer_loading_header"><img class="contact_loading" src="res/img/loading.gif"></img></div>';
+	bbcontent += '<input class="form-control name" type="text" id="offerlastname" name="offerlastname" placeholder="Vezetéknév"><input class="form-control name" type="text" id="offerfirstname" name="offerfirstname" placeholder="Keresztnév"><br>';
+	bbcontent += '<input class="form-control" type="email" name="offeremail" id="offeremail" placeholder="Email cím" style="width:100%"><br>';
+	bbcontent += '<textarea class="form-control" rows="7" id="offermessage"  name="offermessage" placeholder="Egyéni ajánlat kérés.">'+ptitle+'</textarea>';
+	bbcontent += '<input class="form-control submit" type="button" onclick="offersendMessage(0)" value="Küldés">';
+         	
+	bbcontent += '</div>';
+	bbcontent += '</div>';
+	bbcontent += '</div>';
+	
+	offerbb = bootbox.alert("<div class='imgshow'>"+bbcontent+"<span class='imgshowtitle'></span></div>");
+	$(".offer_contact_us").hide();
+	$("#offer_header").show();
+}
+
+function waitforyou(){
+	var bbcontent = "";
+	if(typeof usemobileview !== 'undefined' && usemobileview){
+		bbcontent += '<div class="col-md-12 col-md-6"style="float: inherit;margin:0 auto;margin-top:2vh;">';
+	}else{
+		bbcontent += '<div class="col-md-12 col-md-6"style="float: inherit;margin:0 auto;margin-top:18vh;">';
+	}
+
+    bbcontent += "<h1>Várjuk Önt!</h1>";
+	bbcontent += '<video class="varjukvideo" controls="true" src="http://picture.studio68.hu/video/iroda.mp4"></video>'
+    bbcontent += "<br/><div>Zene: bensound.com</div>";
+	bbcontent += '</div>';
+	
+	offerbb = bootbox.alert("<div class='imgshow'>"+bbcontent+"<span class='imgshowtitle'></span></div>");
+}
