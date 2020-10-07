@@ -172,6 +172,7 @@
 
 <!--TEAM SEGMENT-->
 <!-- SZEZONÁLIS UPDATE. KÖNNYŰ VISSZATÉRÉSHEZ A b4bf9f5f76937bac1174fe8ba3b5c1772fe91629 HASH-ű COMMITHOZ ROLLBACK--> 
+<!--
 <div id="catalog" style="background-color:white;text-align:center;font-size:3em;color:black;    font-family: 'Muli', sans-serif;">
 Lapozzon bele 2019-as ajándéktárgy katalógusunkba
 	
@@ -181,3 +182,4 @@ Lapozzon bele 2019-as ajándéktárgy katalógusunkba
 	</div>
 </a>
 
+-->

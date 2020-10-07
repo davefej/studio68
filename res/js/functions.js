@@ -467,7 +467,7 @@ function waitforyou(){
 	}
 
     bbcontent += "<h1>Várjuk Önt!</h1>";
-	bbcontent += '<video class="varjukvideo" controls="true" src="http://picture.studio68.hu/video/iroda.mp4"></video>'
+	bbcontent += '<video class="varjukvideo" controls="true" src="res/video/iroda.mp4"></video>'
     bbcontent += "<br/><div>Zene: bensound.com</div>";
 	bbcontent += '</div>';
 	
